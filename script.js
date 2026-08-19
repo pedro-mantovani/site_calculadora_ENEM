@@ -345,7 +345,6 @@ function atualizarModoEntrada() {
 
 radioCascata.addEventListener('change', atualizarModoEntrada);
 radioCodigo.addEventListener('change', atualizarModoEntrada);
-atualizarModoEntrada();
 
 /* =========================================================
    Passo 1 — Identificação da prova
