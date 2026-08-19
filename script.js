@@ -38,8 +38,8 @@ const state = {
   ano: null,
   prova: null,
   area: null,
-  itens: [],      // itens já filtrados por prova (+ idioma) e ordenados por CO_POSICAO
-  respostas: [],  // array de letras, mesmo tamanho de itens
+  itens: [],      
+  respostas: [],  
 };
 
 /* =========================================================
@@ -246,6 +246,7 @@ const el = {
   inputProva: document.getElementById("input-prova"),
   btnCarregar: document.getElementById("btn-carregar"),
   hintIdentificacao: document.getElementById("hint-identificacao"),
+  selCor: document.getElementById("sel-cor"),
 
   stepIdioma: document.getElementById("step-idioma"),
   idiomaChoice: document.getElementById("idioma-choice"),
@@ -261,11 +262,13 @@ const el = {
   bubbleSheet: document.getElementById("bubble-sheet"),
   btnCalcular: document.getElementById("btn-calcular"),
   hintRespostas: document.getElementById("hint-respostas"),
+  checkCorrecao: document.getElementById("check-correcao"),
 
   stepResultado: document.getElementById("step-resultado"),
   scoreAreaLabel: document.getElementById("score-area-label"),
   scoreNota: document.getElementById("score-nota"),
-  scoreTheta: document.getElementById("score-theta"),
+  scoreAcertos: document.getElementById("score-acertos"),
+  totalQuestoesResultado: document.getElementById("total-questoes-resultado"),
   loadingDeltas: document.getElementById("loading-deltas"),
   deltaTable: document.getElementById("delta-table"),
   btnRefazer: document.getElementById("btn-refazer"),
@@ -287,36 +290,99 @@ function setHint(elemento, mensagem, tipo) {
 }
 
 /* =========================================================
+   Alternância de Modo de Seleção (Cascata vs Código)
+   ========================================================= */
+
+const radioCascata = document.querySelector('input[value="cascata"]');
+const radioCodigo = document.querySelector('input[value="codigo"]');
+const blocoCascata = document.getElementById('bloco-cascata');
+const blocoCodigo = document.getElementById('bloco-codigo');
+
+// Função auxiliar para recarregar as opções de Ano quando voltamos para a busca por características
+function restaurarCascataInicial() {
+  if (catalogoProvas.length === 0) return;
+  const anos = [...new Set(catalogoProvas.map(p => p.ano))].sort((a, b) => b - a);
+  popularSelect(selAno, anos.map(a => ({ value: a, text: a })), "Selecione o ano...");
+  resetSelect(selArea, "Selecione a área...");
+  resetSelect(selAplicacao, "Selecione a área antes...");
+  resetSelect(el.selCor, "Selecione a aplicação...");
+}
+
+function atualizarModoEntrada() {
+  if (radioCascata.checked) {
+    blocoCascata.style.opacity = '1';
+    blocoCascata.style.pointerEvents = 'auto';
+    blocoCodigo.style.opacity = '0.5';
+    blocoCodigo.style.pointerEvents = 'none';
+    
+    // Trava a edição via teclado na caixa de texto cinza
+    el.inputProva.readOnly = true;
+    el.inputProva.tabIndex = -1;
+    // Muda o texto de fundo quando está travado
+    el.inputProva.placeholder = "Aguardando seleção...";
+    
+    restaurarCascataInicial();
+    el.inputProva.value = ""; 
+    setHint(el.hintIdentificacao, "", null);
+    
+  } else {
+    blocoCascata.style.opacity = '0.5';
+    blocoCascata.style.pointerEvents = 'none';
+    blocoCodigo.style.opacity = '1';
+    blocoCodigo.style.pointerEvents = 'auto';
+    
+    // Destrava a caixa de texto
+    el.inputProva.readOnly = false;
+    el.inputProva.tabIndex = 0;
+    // Volta com o texto de exemplo quando está destravado
+    el.inputProva.placeholder = "Ex: 1201";
+    
+    // Força a atualização da cascata (que ficará cinza) para refletir o código digitado
+    el.inputProva.dispatchEvent(new Event('input'));
+    setHint(el.hintIdentificacao, "", null);
+  }
+}
+
+radioCascata.addEventListener('change', atualizarModoEntrada);
+radioCodigo.addEventListener('change', atualizarModoEntrada);
+atualizarModoEntrada();
+
+/* =========================================================
    Passo 1 — Identificação da prova
    ========================================================= */
 
 el.btnCarregar.addEventListener("click", async () => {
-  const provaStr = el.inputProva.value.trim();
+  let provaStr = "";
+  
+  if (radioCascata.checked) {
+    provaStr = el.selCor.value;
+  } else {
+    provaStr = el.inputProva.value.trim();
+  }
 
   if (!provaStr) {
-    setHint(el.hintIdentificacao, "Informe o código da prova.", "error");
+    setHint(el.hintIdentificacao, "Informe ou selecione o código da prova.", "error");
     return;
   }
+  
   const prova = parseInt(provaStr, 10);
   if (Number.isNaN(prova)) {
-    setHint(el.hintIdentificacao, "Código da prova deve ser um número.", "error");
+    setHint(el.hintIdentificacao, "Código da prova inválido.", "error");
     return;
   }
 
-  // Busca o ano automaticamente no nosso JSON (já que os códigos são únicos)
   const infoProva = catalogoProvas.find(p => p.codigo === prova);
   if (!infoProva) {
     setHint(el.hintIdentificacao, "Código de prova não reconhecido. Confira e tente de novo.", "error");
     return;
   }
 
-  const anoDaProva = infoProva.ano; // Pegamos o ano direto do JSON
+  const anoDaProva = infoProva.ano;
 
   el.btnCarregar.disabled = true;
   setHint(el.hintIdentificacao, "Carregando itens da prova...", null);
 
   try {
-    // Usamos o ano que o JSON nos deu para buscar o arquivo CSV correspondente
     const todos = await carregarItens(anoDaProva);
     const itensProva = todos.filter((it) => it.CO_PROVA === prova);
 
@@ -358,7 +424,7 @@ el.idiomaChoice.addEventListener("click", (ev) => {
   btn.classList.add("selected");
 
   const lingua = parseInt(btn.dataset.lingua, 10);
-  const excluir = lingua === 0 ? 1 : 0; // equivalente a int(not lingua)
+  const excluir = lingua === 0 ? 1 : 0; 
 
   const itensFiltrados = state.itensBrutos.filter((it) => it.TP_LINGUA !== excluir);
 
@@ -382,6 +448,11 @@ function finalizarSelecaoItens(itensFiltrados) {
 
   montarCartaoResposta(itens);
   setHint(el.hintRespostas, "", null);
+  
+  // Reseta o checkbox de correção
+  el.checkCorrecao.checked = false;
+  el.bubbleSheet.classList.remove('mostrar-gabarito');
+  
   mostrarPasso(el.stepRespostas);
 }
 
@@ -404,6 +475,9 @@ function montarCartaoResposta(itens) {
       bubble.className = "bubble";
       bubble.textContent = letra;
       bubble.dataset.letra = letra;
+      // Atributo adicionado para saber o acerto
+      bubble.dataset.isCorrect = (letra === item.TX_GABARITO);
+
       bubble.addEventListener("click", () => {
         state.respostas[pos] = letra;
         atualizarLinhaCartao(row, letra);
@@ -421,6 +495,14 @@ function atualizarLinhaCartao(row, letraSelecionada) {
     b.classList.toggle("filled", b.dataset.letra === letraSelecionada);
   });
 }
+
+el.checkCorrecao.addEventListener('change', (e) => {
+  if(e.target.checked) {
+    el.bubbleSheet.classList.add('mostrar-gabarito');
+  } else {
+    el.bubbleSheet.classList.remove('mostrar-gabarito');
+  }
+});
 
 el.btnColar.addEventListener("click", () => {
   const texto = el.inputColar.value.trim().toUpperCase().replace(/[^A-E]/g, "");
@@ -457,16 +539,21 @@ el.btnCalcular.addEventListener("click", async () => {
   el.btnCalcular.disabled = true;
   setHint(el.hintRespostas, "Calculando...", null);
 
-  // Cede o controle ao navegador para pintar o estado de "calculando"
-  // antes de rodar a estimação, que é síncrona e pode levar um instante.
   await new Promise((resolve) => setTimeout(resolve, 30));
 
   try {
-    const { theta, nota } = calcularNota(state.respostas, state.itens, state.area);
+    const { nota } = calcularNota(state.respostas, state.itens, state.area);
+
+    // Cálculo da quantidade de acertos
+    let qtdAcertos = 0;
+    state.respostas.forEach((resp, i) => {
+       if (resp === state.itens[i].TX_GABARITO) qtdAcertos++;
+    });
 
     el.scoreAreaLabel.textContent = SIGLAS[state.area] || state.area;
     el.scoreNota.textContent = nota.toFixed(1);
-    el.scoreTheta.textContent = theta.toFixed(4);
+    el.scoreAcertos.textContent = qtdAcertos;
+    el.totalQuestoesResultado.textContent = state.itens.length;
 
     esconderPasso(el.stepRespostas);
     mostrarPasso(el.stepResultado);
@@ -535,9 +622,7 @@ let catalogoProvas = [];
 const selAno = document.getElementById('sel-ano');
 const selArea = document.getElementById('sel-area');
 const selAplicacao = document.getElementById('sel-aplicacao');
-const selCor = document.getElementById('sel-cor');
 
-// Mapeamento visual das áreas para não mostrar apenas siglas
 const NOME_AREAS = {
   LC: "Linguagens",
   CH: "Ciências Humanas",
@@ -547,20 +632,17 @@ const NOME_AREAS = {
 
 async function iniciarFiltrosCascata() {
   try {
-    // Certifique-se de colocar o arquivo JSON na pasta 'dados/'
     const res = await fetch('dados/provas_mapeadas.json');
     if (!res.ok) throw new Error("JSON não encontrado");
     catalogoProvas = await res.json();
     
-    // 1. Popular Anos (do mais recente para o mais antigo)
     const anos = [...new Set(catalogoProvas.map(p => p.ano))].sort((a, b) => b - a);
     popularSelect(selAno, anos.map(a => ({ value: a, text: a })), "Selecione o ano...");
     
-    // 2. Evento: Mudança de Ano
     selAno.addEventListener('change', () => {
       resetSelect(selArea, "Selecione a área...");
       resetSelect(selAplicacao, "Selecione a área antes...");
-      resetSelect(selCor, "Selecione a aplicação...");
+      resetSelect(el.selCor, "Selecione a aplicação...");
       if (!selAno.value) return;
       
       const areas = [...new Set(catalogoProvas.filter(p => p.ano == selAno.value).map(p => p.area))];
@@ -568,10 +650,9 @@ async function iniciarFiltrosCascata() {
       popularSelect(selArea, areasObj, "Selecione a área...");
     });
     
-    // 3. Evento: Mudança de Área
     selArea.addEventListener('change', () => {
       resetSelect(selAplicacao, "Selecione a aplicação...");
-      resetSelect(selCor, "Selecione a aplicação antes...");
+      resetSelect(el.selCor, "Selecione a aplicação antes...");
       if (!selArea.value) return;
       
       const aplicacoes = [...new Set(catalogoProvas.filter(p => 
@@ -580,9 +661,8 @@ async function iniciarFiltrosCascata() {
       popularSelect(selAplicacao, aplicacoes.map(a => ({ value: a, text: a })), "Selecione a aplicação...");
     });
     
-    // 4. Evento: Mudança de Aplicação
     selAplicacao.addEventListener('change', () => {
-      resetSelect(selCor, "Selecione a cor/formato...");
+      resetSelect(el.selCor, "Selecione a cor/formato...");
       if (!selAplicacao.value) return;
       
       const opcoes = catalogoProvas.filter(p => 
@@ -591,58 +671,56 @@ async function iniciarFiltrosCascata() {
         p.aplicacao === selAplicacao.value
       );
       
-      // Aqui usamos o código da prova como o 'value' final
       const coresObj = opcoes.map(op => ({ value: op.codigo, text: op.descricao }));
-      popularSelect(selCor, coresObj, "Selecione a cor/formato...");
+      popularSelect(el.selCor, coresObj, "Selecione a cor/formato...");
     });
-    
-    // 5. Evento: Mudança de Cor (Preenche o input oficial)
-    selCor.addEventListener('change', () => {
-      if (selCor.value) {
-        // el.inputAno.value = selAno.value; <-- REMOVA ISSO
-        el.inputProva.value = selCor.value;
-        setHint(el.hintIdentificacao, "", null);
-      }
+// 1. Quando selecionar a cor na cascata, preenche a caixa de código (que estará cinza)
+    el.selCor.addEventListener('change', () => {
+      if (radioCodigo.checked) return;
+      el.inputProva.value = el.selCor.value || "";
     });
 
-    /* =========================================================
-       A "VOLTA": Do input digitado para os selects
-       ========================================================= */
-function sincronizarSelectsPeloCodigo() {
-      const codStr = el.inputProva.value.trim();
-      if (!codStr || catalogoProvas.length === 0) return;
-
-      const codNum = parseInt(codStr, 10);
+    // 2. Quando digitar o código diretamente, espelha as características na cascata (que estará cinza)
+    el.inputProva.addEventListener('input', () => {
+      if (radioCascata.checked) return; // Só ativa se o usuário estiver usando o modo Código
+      
+      const codNum = parseInt(el.inputProva.value.trim(), 10);
       const match = catalogoProvas.find(p => p.codigo === codNum);
 
       if (match) {
-        // el.inputAno.value = match.ano; <-- REMOVA ISSO
-
+        popularSelect(selAno, [{ value: match.ano, text: match.ano }], "");
         selAno.value = match.ano;
-        selAno.dispatchEvent(new Event('change'));
+        selAno.disabled = true; // Mantém visualmente bloqueado
 
+        popularSelect(selArea, [{ value: match.area, text: NOME_AREAS[match.area] || match.area }], "");
         selArea.value = match.area;
-        selArea.dispatchEvent(new Event('change'));
+        selArea.disabled = true;
 
+        popularSelect(selAplicacao, [{ value: match.aplicacao, text: match.aplicacao }], "");
         selAplicacao.value = match.aplicacao;
-        selAplicacao.dispatchEvent(new Event('change'));
+        selAplicacao.disabled = true;
 
-        selCor.value = match.codigo;
-        
-        setHint(el.hintIdentificacao, "", null);
+        popularSelect(el.selCor, [{ value: match.codigo, text: match.descricao }], "");
+        el.selCor.value = match.codigo;
+        el.selCor.disabled = true;
+      } else {
+        // Se o código estiver incompleto ou errado, exibe aguardando
+        resetSelect(selAno, "Aguardando código...");
+        resetSelect(selArea, "...");
+        resetSelect(selAplicacao, "...");
+        resetSelect(el.selCor, "...");
       }
-    }
+    });
 
-    // Monitora a digitação APENAS no campo do código da prova
-    el.inputProva.addEventListener('input', sincronizarSelectsPeloCodigo);
-    
+    // Força a validação inicial do layout depois que o JSON carregar
+    atualizarModoEntrada();
+
   } catch (e) {
     console.warn("Filtros em cascata não inicializados. Erro:", e);
     resetSelect(selAno, "Indisponível (use o código abaixo)");
   }
 }
 
-// Funções auxiliares para manipulação dos <select>
 function popularSelect(selectElem, arrayObjetos, placeholder) {
   selectElem.innerHTML = `<option value="">${placeholder}</option>`;
   arrayObjetos.forEach(obj => {
@@ -659,5 +737,4 @@ function resetSelect(selectElem, placeholder) {
   selectElem.disabled = true;
 }
 
-// Inicializa a interface de cascata quando a página carrega
 document.addEventListener('DOMContentLoaded', iniciarFiltrosCascata);

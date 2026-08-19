@@ -1,3 +1,10 @@
+<!--
+CÓDIGO GERADO COM CLOUDE AI COM BASE NOS CÓDIGOS ORIGINAIS EM PYTHON
+Os códigos originais foram intensamente testados e estão disponíveis em:
+https://github.com/pedro-mantovani/calculadora_ENEM
+O erro médio é de 0,03 pontos
+-->
+
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
@@ -28,32 +35,46 @@
   <section id="step-identificacao" class="card step">
     <div class="card-label"><span class="step-index">01</span> Identificação</div>
     <h2>Qual prova você fez?</h2>
-    <p class="card-desc">Selecione as características da sua prova para encontrar o código automaticamente, ou digite-o diretamente.</p>
+    <p class="card-desc">Selecione o método de busca da sua prova para encontrar o código.</p>
+
+    <!-- Alternador de Modos de Entrada -->
+    <div class="input-mode-toggle" style="margin-bottom: 22px;">
+      <label class="radio-label">
+        <input type="radio" name="input_mode" value="cascata" checked>
+        Buscar por características
+      </label>
+      <label class="radio-label">
+        <input type="radio" name="input_mode" value="codigo">
+        Digitar código da prova
+      </label>
+    </div>
 
     <!-- Novos filtros em cascata -->
-    <div class="field-grid" id="filtros-cascata">
-      <div class="field-row">
-        <label for="sel-ano">Ano</label>
-        <select id="sel-ano"><option value="">Carregando...</option></select>
-      </div>
-      <div class="field-row">
-        <label for="sel-area">Área</label>
-        <select id="sel-area" disabled><option value="">Selecione o ano...</option></select>
-      </div>
-      <div class="field-row">
-        <label for="sel-aplicacao">Aplicação</label>
-        <select id="sel-aplicacao" disabled><option value="">Selecione a área...</option></select>
-      </div>
-      <div class="field-row">
-        <label for="sel-cor">Cor / Formato</label>
-        <select id="sel-cor" disabled><option value="">Selecione a aplicação...</option></select>
+    <div id="bloco-cascata">
+      <div class="field-grid" id="filtros-cascata">
+        <div class="field-row">
+          <label for="sel-ano">Ano</label>
+          <select id="sel-ano"><option value="">Carregando...</option></select>
+        </div>
+        <div class="field-row">
+          <label for="sel-area">Área</label>
+          <select id="sel-area" disabled><option value="">Selecione o ano...</option></select>
+        </div>
+        <div class="field-row">
+          <label for="sel-aplicacao">Aplicação</label>
+          <select id="sel-aplicacao" disabled><option value="">Selecione a área...</option></select>
+        </div>
+        <div class="field-row">
+          <label for="sel-cor">Cor / Formato</label>
+          <select id="sel-cor" disabled><option value="">Selecione a aplicação...</option></select>
+        </div>
       </div>
     </div>
 
     <!-- Alternativa direta: digitar o código único -->
-    <div style="margin-top: 16px; margin-bottom: 22px; border-top: 1px dashed var(--paper-line); padding-top: 22px;">
+    <div id="bloco-codigo" style="margin-top: 16px; margin-bottom: 22px; border-top: 1px dashed var(--paper-line); padding-top: 22px; opacity: 0.5; pointer-events: none;">
       <div class="field-row">
-        <label for="input-prova">Ou digite diretamente o código da prova</label>
+        <label for="input-prova">Código direto da prova</label>
         <input type="text" id="input-prova" placeholder="Ex: 1201" inputmode="numeric">
       </div>
     </div>
@@ -86,6 +107,13 @@
       <input type="text" id="input-colar" placeholder="Colar respostas em sequência, ex: ABCDEABCDE...">
       <button id="btn-colar" class="btn-secondary">Preencher cartão</button>
     </div>
+    
+    <div class="correction-toggle" style="margin-bottom: 16px;">
+      <label class="radio-label">
+        <input type="checkbox" id="check-correcao">
+        Mostrar correção (acertos, erros e gabarito)
+      </label>
+    </div>
 
     <div id="bubble-sheet" class="bubble-sheet" role="group" aria-label="Cartão resposta"></div>
 
@@ -104,7 +132,7 @@
         <span class="score-unit">pontos</span>
       </div>
       <div class="score-theta">
-        θ (habilidade estimada) = <span id="score-theta">—</span>
+        Acertos = <span id="score-acertos">—</span> / <span id="total-questoes-resultado">—</span>
       </div>
     </div>
 
@@ -123,7 +151,7 @@
 </main>
 
 <footer>
-  <p>Os dados dos itens ficam na pasta <code>/dados</code>, em arquivos <code>ITENS_PROVA_&lt;ano&gt;.csv</code> no formato dos microdados do INEP. Nenhuma resposta ou dado pessoal é enviado a servidores — todo o cálculo (TRI, EAP e reamostragem por questão) roda localmente, no seu navegador.</p>
+  <p>Esse site foi feito pelo Cloude e Gemini com base no repositório <a href = "https://github.com/pedro-mantovani/calculadora_ENEM">pedro-mantovani/calculadora_ENEM</a>, acesse-o para entender a fundo como a nota é calculada.</p>
 </footer>
 
 <script src="script.js"></script>

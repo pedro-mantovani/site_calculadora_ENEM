@@ -1,3 +1,9 @@
+/*
+CÓDIGO GERADO COM CLOUDE AI COM BASE NOS CÓDIGOS ORIGINAIS EM PYTHON
+Os códigos originais foram intensamente testados e estão disponíveis em:
+https://github.com/pedro-mantovani/calculadora_ENEM
+O erro médio é de 0,03 pontos
+*/
 /* =========================================================
    Cartão de Notas — design tokens
    Palette:  paper #EEF1F6 · ink #142640 · graphite #3A3F47
@@ -153,7 +159,6 @@ main {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 16px;
-  margin-bottom: 22px;
 }
 
 @media (max-width: 520px) {
@@ -192,7 +197,6 @@ input:focus-visible {
   outline-offset: 2px;
 }
 
-/* COLOQUE O NOVO CÓDIGO AQUI: */
 select {
   font-family: var(--mono);
   font-size: 16px;
@@ -216,6 +220,22 @@ select:disabled {
 select:focus-visible {
   outline: 2px solid var(--stamp);
   outline-offset: 2px;
+}
+
+.radio-label {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+  margin-right: 16px;
+  font-family: var(--mono);
+  font-size: 13.5px;
+  font-weight: 600;
+  color: var(--ink);
+}
+.radio-label input[type="radio"],
+.radio-label input[type="checkbox"] {
+  cursor: pointer;
 }
 
 /* ---------- Buttons ---------- */
@@ -338,7 +358,7 @@ select:focus-visible {
   align-items: center;
   justify-content: center;
   flex-shrink: 0;
-  transition: background 0.1s ease, color 0.1s ease, transform 0.05s ease;
+  transition: background 0.1s ease, color 0.1s ease, transform 0.05s ease, border-color 0.1s ease;
 }
 
 .bubble:hover { background: var(--paper); }
@@ -351,6 +371,27 @@ select:focus-visible {
 }
 
 .bubble-row.answered .bubble-qnum { color: var(--ink); font-weight: 700; }
+
+/* ---------- Gabarito Visual ---------- */
+
+.mostrar-gabarito .bubble[data-is-correct="true"] {
+  border-color: var(--acerto);
+  color: var(--acerto);
+  background: var(--acerto-bg);
+}
+
+.mostrar-gabarito .bubble.filled[data-is-correct="true"] {
+  background: var(--acerto);
+  border-color: var(--acerto);
+  color: #fff;
+}
+
+.mostrar-gabarito .bubble.filled[data-is-correct="false"] {
+  background: var(--erro);
+  border-color: var(--erro);
+  color: #fff;
+}
+
 
 /* ---------- Score block ---------- */
 
@@ -399,6 +440,7 @@ select:focus-visible {
   font-family: var(--mono);
   font-size: 13.5px;
   color: var(--ink-soft);
+  font-weight: 600;
 }
 
 .impact-title { margin-top: 4px; }
