@@ -19,13 +19,24 @@ O erro médio é de 0,03 pontos
 </head>
 <body>
 
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W03G5R3L4E"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W03G5R3L4E');
+</script>
+
+
 <div class="grid-backdrop" aria-hidden="true"></div>
 
 <header class="masthead">
   <div class="masthead-inner">
     <span class="stamp">TRI · CÁLCULO LOCAL · SEM SERVIDOR</span>
     <h1>Cartão de Notas</h1>
-    <p class="subtitle">Preencha seu cartão-resposta e veja sua nota estimada pelo mesmo modelo do INEP — a Teoria de Resposta ao Item. Tudo roda aqui no seu navegador, nenhuma resposta sai da sua máquina.</p>
+    <p class="subtitle">Preencha seu cartão-resposta e veja quanto seria sua nota em qualquer prova antiga do ENEM. Tudo roda aqui no seu navegador, nenhuma resposta sai da sua máquina.</p>
   </div>
 </header>
 
@@ -137,7 +148,7 @@ O erro médio é de 0,03 pontos
     </div>
 
     <h3 class="impact-title">Impacto de cada questão</h3>
-    <p class="card-desc">Se essa questão tivesse ido diferente, sua nota mudaria assim. Ordenado da maior perda para o maior ganho protegido.</p>
+    <p class="card-desc">Se essa questão tivesse ido diferente, sua nota mudaria assim. Ordenado da maior perda para o maior ganho.</p>
 
     <div id="loading-deltas" class="loading hidden">
       <span class="spinner" aria-hidden="true"></span> Recalculando 1 questão de cada vez para medir o impacto...
