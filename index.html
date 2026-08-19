@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cartão de Notas — Calculadora TRI do ENEM</title>
+<meta name="description" content="Calcule sua nota do ENEM pela Teoria de Resposta ao Item e veja o impacto de cada questão, direto no navegador.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600;700&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="grid-backdrop" aria-hidden="true"></div>
+
+<header class="masthead">
+  <div class="masthead-inner">
+    <span class="stamp">TRI · CÁLCULO LOCAL · SEM SERVIDOR</span>
+    <h1>Cartão de Notas</h1>
+    <p class="subtitle">Preencha seu cartão-resposta e veja sua nota estimada pelo mesmo modelo do INEP — a Teoria de Resposta ao Item. Tudo roda aqui no seu navegador, nenhuma resposta sai da sua máquina.</p>
+  </div>
+</header>
+
+<main>
+
+  <!-- STEP 1: Identificação -->
+  <section id="step-identificacao" class="card step">
+    <div class="card-label"><span class="step-index">01</span> Identificação</div>
+    <h2>Qual prova você fez?</h2>
+    <p class="card-desc">Selecione as características da sua prova para encontrar o código automaticamente, ou digite-o diretamente.</p>
+
+    <!-- Novos filtros em cascata -->
+    <div class="field-grid" id="filtros-cascata">
+      <div class="field-row">
+        <label for="sel-ano">Ano</label>
+        <select id="sel-ano"><option value="">Carregando...</option></select>
+      </div>
+      <div class="field-row">
+        <label for="sel-area">Área</label>
+        <select id="sel-area" disabled><option value="">Selecione o ano...</option></select>
+      </div>
+      <div class="field-row">
+        <label for="sel-aplicacao">Aplicação</label>
+        <select id="sel-aplicacao" disabled><option value="">Selecione a área...</option></select>
+      </div>
+      <div class="field-row">
+        <label for="sel-cor">Cor / Formato</label>
+        <select id="sel-cor" disabled><option value="">Selecione a aplicação...</option></select>
+      </div>
+    </div>
+
+    <!-- Alternativa direta: digitar o código único -->
+    <div style="margin-top: 16px; margin-bottom: 22px; border-top: 1px dashed var(--paper-line); padding-top: 22px;">
+      <div class="field-row">
+        <label for="input-prova">Ou digite diretamente o código da prova</label>
+        <input type="text" id="input-prova" placeholder="Ex: 1201" inputmode="numeric">
+      </div>
+    </div>
+  
+    <button id="btn-carregar" class="btn-primary">Carregar prova →</button>
+    <p class="hint" id="hint-identificacao"></p>
+  </section>
+
+  <!-- STEP 2: Idioma (somente Linguagens) -->
+  <section id="step-idioma" class="card step hidden">
+    <div class="card-label"><span class="step-index">02</span> Língua estrangeira</div>
+    <h2>Inglês ou espanhol?</h2>
+    <p class="card-desc">Sua prova de Linguagens teve um caderno específico para a língua estrangeira escolhida no dia da prova.</p>
+
+    <div class="choice-row" id="idioma-choice">
+      <button class="choice-btn" data-lingua="0">Inglês</button>
+      <button class="choice-btn" data-lingua="1">Espanhol</button>
+    </div>
+
+    <p class="hint" id="hint-idioma"></p>
+  </section>
+
+  <!-- STEP 3: Cartão resposta -->
+  <section id="step-respostas" class="card step hidden">
+    <div class="card-label"><span class="step-index" id="step-respostas-index">02</span> Cartão-resposta</div>
+    <h2><span id="area-nome"></span></h2>
+    <p class="card-desc"><span id="num-questoes"></span> questões, posições <span id="pos-range"></span>. Marque cada bolha ou cole seu gabarito de uma vez.</p>
+
+    <div class="paste-row">
+      <input type="text" id="input-colar" placeholder="Colar respostas em sequência, ex: ABCDEABCDE...">
+      <button id="btn-colar" class="btn-secondary">Preencher cartão</button>
+    </div>
+
+    <div id="bubble-sheet" class="bubble-sheet" role="group" aria-label="Cartão resposta"></div>
+
+    <button id="btn-calcular" class="btn-primary">Calcular nota →</button>
+    <p class="hint" id="hint-respostas"></p>
+  </section>
+
+  <!-- STEP 4: Resultado -->
+  <section id="step-resultado" class="card step hidden">
+    <div class="card-label"><span class="step-index">03</span> Resultado</div>
+
+    <div class="score-block">
+      <div class="score-main">
+        <span class="score-label" id="score-area-label"></span>
+        <span class="score-number" id="score-nota">—</span>
+        <span class="score-unit">pontos</span>
+      </div>
+      <div class="score-theta">
+        θ (habilidade estimada) = <span id="score-theta">—</span>
+      </div>
+    </div>
+
+    <h3 class="impact-title">Impacto de cada questão</h3>
+    <p class="card-desc">Se essa questão tivesse ido diferente, sua nota mudaria assim. Ordenado da maior perda para o maior ganho protegido.</p>
+
+    <div id="loading-deltas" class="loading hidden">
+      <span class="spinner" aria-hidden="true"></span> Recalculando 1 questão de cada vez para medir o impacto...
+    </div>
+
+    <div id="delta-table" class="delta-table"></div>
+
+    <button id="btn-refazer" class="btn-secondary">Refazer com outro cartão</button>
+  </section>
+
+</main>
+
+<footer>
+  <p>Os dados dos itens ficam na pasta <code>/dados</code>, em arquivos <code>ITENS_PROVA_&lt;ano&gt;.csv</code> no formato dos microdados do INEP. Nenhuma resposta ou dado pessoal é enviado a servidores — todo o cálculo (TRI, EAP e reamostragem por questão) roda localmente, no seu navegador.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

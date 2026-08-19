@@ -1,0 +1,4804 @@
+[
+  {
+    "ano": 2024,
+    "area": "CN",
+    "aplicacao": "Regular",
+    "descricao": "Azul",
+    "codigo": 1419
+  },
+  {
+    "ano": 2024,
+    "area": "CN",
+    "aplicacao": "Regular",
+    "descricao": "Amarela",
+    "codigo": 1420
+  },
+  {
+    "ano": 2024,
+    "area": "CN",
+    "aplicacao": "Regular",
+    "descricao": "Verde",
+    "codigo": 1421
+  },
+  {
+    "ano": 2024,
+    "area": "CN",
+    "aplicacao": "Regular",
+    "descricao": "Cinza",
+    "codigo": 1422
+  },
+  {
+    "ano": 2024,
+    "area": "CN",
+    "aplicacao": "Regular",
+    "descricao": "Verde - Ampliada",
+    "codigo": 1423
+  },
+  {
+    "ano": 2024,
+    "area": "CN",
+    "aplicacao": "Regular",
+    "descricao": "Verde - Superampliada",
+    "codigo": 1424
+  },
+  {
+    "ano": 2024,
+    "area": "CN",
+    "aplicacao": "Regular",
+    "descricao": "Laranja - Adaptada Ledor",
+    "codigo": 1426
+  },
+  {
+    "ano": 2024,
+    "area": "CN",
+    "aplicacao": "Regular",
+    "descricao": "Roxa - Videoprova - Libras",
+    "codigo": 1427
+  },
+  {
+    "ano": 2024,
+    "area": "CN",
+    "aplicacao": "Regular",
+    "descricao": "Roxa - Videoprova - Libras - Ampliada",
+    "codigo": 1428
+  },
+  {
+    "ano": 2024,
+    "area": "CN",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Azul",
+    "codigo": 1373
+  },
+  {
+    "ano": 2024,
+    "area": "CN",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Amarela",
+    "codigo": 1374
+  },
+  {
+    "ano": 2024,
+    "area": "CN",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Cinza",
+    "codigo": 1375
+  },
+  {
+    "ano": 2024,
+    "area": "CN",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Verde",
+    "codigo": 1376
+  },
+  {
+    "ano": 2024,
+    "area": "CN",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Verde - Ampliada",
+    "codigo": 1377
+  },
+  {
+    "ano": 2024,
+    "area": "CN",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Verde - Superampliada",
+    "codigo": 1378
+  },
+  {
+    "ano": 2024,
+    "area": "CN",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Laranja - Adaptada Ledor",
+    "codigo": 1380
+  },
+  {
+    "ano": 2024,
+    "area": "CH",
+    "aplicacao": "Regular",
+    "descricao": "Azul",
+    "codigo": 1383
+  },
+  {
+    "ano": 2024,
+    "area": "CH",
+    "aplicacao": "Regular",
+    "descricao": "Amarela",
+    "codigo": 1384
+  },
+  {
+    "ano": 2024,
+    "area": "CH",
+    "aplicacao": "Regular",
+    "descricao": "Branca",
+    "codigo": 1385
+  },
+  {
+    "ano": 2024,
+    "area": "CH",
+    "aplicacao": "Regular",
+    "descricao": "Verde",
+    "codigo": 1386
+  },
+  {
+    "ano": 2024,
+    "area": "CH",
+    "aplicacao": "Regular",
+    "descricao": "Verde - Ampliada",
+    "codigo": 1387
+  },
+  {
+    "ano": 2024,
+    "area": "CH",
+    "aplicacao": "Regular",
+    "descricao": "Verde - Superampliada",
+    "codigo": 1388
+  },
+  {
+    "ano": 2024,
+    "area": "CH",
+    "aplicacao": "Regular",
+    "descricao": "Laranja - Adaptada Ledor",
+    "codigo": 1390
+  },
+  {
+    "ano": 2024,
+    "area": "CH",
+    "aplicacao": "Regular",
+    "descricao": "Roxa - Videoprova - Libras",
+    "codigo": 1391
+  },
+  {
+    "ano": 2024,
+    "area": "CH",
+    "aplicacao": "Regular",
+    "descricao": "Roxa - Videoprova - Libras - Ampliada",
+    "codigo": 1392
+  },
+  {
+    "ano": 2024,
+    "area": "CH",
+    "aplicacao": "Regular",
+    "descricao": "Roxa - Videoprova - Libras - Superampliada",
+    "codigo": 1393
+  },
+  {
+    "ano": 2024,
+    "area": "CH",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Azul",
+    "codigo": 1343
+  },
+  {
+    "ano": 2024,
+    "area": "CH",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Amarela",
+    "codigo": 1344
+  },
+  {
+    "ano": 2024,
+    "area": "CH",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Branca",
+    "codigo": 1345
+  },
+  {
+    "ano": 2024,
+    "area": "CH",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Verde",
+    "codigo": 1346
+  },
+  {
+    "ano": 2024,
+    "area": "CH",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Verde - Ampliada",
+    "codigo": 1347
+  },
+  {
+    "ano": 2024,
+    "area": "CH",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Verde - Superampliada",
+    "codigo": 1348
+  },
+  {
+    "ano": 2024,
+    "area": "CH",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Laranja - Adaptada Ledor",
+    "codigo": 1350
+  },
+  {
+    "ano": 2024,
+    "area": "LC",
+    "aplicacao": "Regular",
+    "descricao": "Azul",
+    "codigo": 1395
+  },
+  {
+    "ano": 2024,
+    "area": "LC",
+    "aplicacao": "Regular",
+    "descricao": "Amarela",
+    "codigo": 1396
+  },
+  {
+    "ano": 2024,
+    "area": "LC",
+    "aplicacao": "Regular",
+    "descricao": "Verde",
+    "codigo": 1397
+  },
+  {
+    "ano": 2024,
+    "area": "LC",
+    "aplicacao": "Regular",
+    "descricao": "Branca",
+    "codigo": 1398
+  },
+  {
+    "ano": 2024,
+    "area": "LC",
+    "aplicacao": "Regular",
+    "descricao": "Verde - Ampliada",
+    "codigo": 1399
+  },
+  {
+    "ano": 2024,
+    "area": "LC",
+    "aplicacao": "Regular",
+    "descricao": "Verde - Superampliada",
+    "codigo": 1400
+  },
+  {
+    "ano": 2024,
+    "area": "LC",
+    "aplicacao": "Regular",
+    "descricao": "Laranja - Adaptada Ledor",
+    "codigo": 1402
+  },
+  {
+    "ano": 2024,
+    "area": "LC",
+    "aplicacao": "Regular",
+    "descricao": "Roxa - Videoprova - Libras",
+    "codigo": 1403
+  },
+  {
+    "ano": 2024,
+    "area": "LC",
+    "aplicacao": "Regular",
+    "descricao": "Roxa - Videoprova - Libras - Ampliada",
+    "codigo": 1404
+  },
+  {
+    "ano": 2024,
+    "area": "LC",
+    "aplicacao": "Regular",
+    "descricao": "Roxa - Videoprova - Libras - Superampliada",
+    "codigo": 1405
+  },
+  {
+    "ano": 2024,
+    "area": "LC",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Azul",
+    "codigo": 1353
+  },
+  {
+    "ano": 2024,
+    "area": "LC",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Amarela",
+    "codigo": 1354
+  },
+  {
+    "ano": 2024,
+    "area": "LC",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Verde",
+    "codigo": 1355
+  },
+  {
+    "ano": 2024,
+    "area": "LC",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Branca",
+    "codigo": 1356
+  },
+  {
+    "ano": 2024,
+    "area": "LC",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Verde - Ampliada",
+    "codigo": 1357
+  },
+  {
+    "ano": 2024,
+    "area": "LC",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Verde - Superampliada",
+    "codigo": 1358
+  },
+  {
+    "ano": 2024,
+    "area": "LC",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Laranja - Adaptada Ledor",
+    "codigo": 1360
+  },
+  {
+    "ano": 2024,
+    "area": "MT",
+    "aplicacao": "Regular",
+    "descricao": "Azul",
+    "codigo": 1407
+  },
+  {
+    "ano": 2024,
+    "area": "MT",
+    "aplicacao": "Regular",
+    "descricao": "Amarela",
+    "codigo": 1408
+  },
+  {
+    "ano": 2024,
+    "area": "MT",
+    "aplicacao": "Regular",
+    "descricao": "Verde",
+    "codigo": 1409
+  },
+  {
+    "ano": 2024,
+    "area": "MT",
+    "aplicacao": "Regular",
+    "descricao": "Cinza",
+    "codigo": 1410
+  },
+  {
+    "ano": 2024,
+    "area": "MT",
+    "aplicacao": "Regular",
+    "descricao": "Verde - Ampliada",
+    "codigo": 1411
+  },
+  {
+    "ano": 2024,
+    "area": "MT",
+    "aplicacao": "Regular",
+    "descricao": "Verde - Superampliada",
+    "codigo": 1412
+  },
+  {
+    "ano": 2024,
+    "area": "MT",
+    "aplicacao": "Regular",
+    "descricao": "Laranja - Adaptada Ledor",
+    "codigo": 1414
+  },
+  {
+    "ano": 2024,
+    "area": "MT",
+    "aplicacao": "Regular",
+    "descricao": "Roxa - Videoprova - Libras",
+    "codigo": 1415
+  },
+  {
+    "ano": 2024,
+    "area": "MT",
+    "aplicacao": "Regular",
+    "descricao": "Roxa - Videoprova - Libras - Ampliada",
+    "codigo": 1416
+  },
+  {
+    "ano": 2024,
+    "area": "MT",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Azul",
+    "codigo": 1363
+  },
+  {
+    "ano": 2024,
+    "area": "MT",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Amarela",
+    "codigo": 1364
+  },
+  {
+    "ano": 2024,
+    "area": "MT",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Verde",
+    "codigo": 1365
+  },
+  {
+    "ano": 2024,
+    "area": "MT",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Cinza",
+    "codigo": 1366
+  },
+  {
+    "ano": 2024,
+    "area": "MT",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Verde - Ampliada",
+    "codigo": 1367
+  },
+  {
+    "ano": 2024,
+    "area": "MT",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Verde - Superampliada",
+    "codigo": 1368
+  },
+  {
+    "ano": 2024,
+    "area": "MT",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Laranja - Adaptada Ledor",
+    "codigo": 1370
+  },
+  {
+    "ano": 2023,
+    "area": "CN",
+    "aplicacao": "Regular",
+    "descricao": "Azul",
+    "codigo": 1221
+  },
+  {
+    "ano": 2023,
+    "area": "CN",
+    "aplicacao": "Regular",
+    "descricao": "Amarela",
+    "codigo": 1222
+  },
+  {
+    "ano": 2023,
+    "area": "CN",
+    "aplicacao": "Regular",
+    "descricao": "Rosa",
+    "codigo": 1223
+  },
+  {
+    "ano": 2023,
+    "area": "CN",
+    "aplicacao": "Regular",
+    "descricao": "Cinza",
+    "codigo": 1224
+  },
+  {
+    "ano": 2023,
+    "area": "CN",
+    "aplicacao": "Regular",
+    "descricao": "Rosa - Ampliada",
+    "codigo": 1225
+  },
+  {
+    "ano": 2023,
+    "area": "CN",
+    "aplicacao": "Regular",
+    "descricao": "Rosa - Superampliada",
+    "codigo": 1226
+  },
+  {
+    "ano": 2023,
+    "area": "CN",
+    "aplicacao": "Regular",
+    "descricao": "Laranja - Braile",
+    "codigo": 1227
+  },
+  {
+    "ano": 2023,
+    "area": "CN",
+    "aplicacao": "Regular",
+    "descricao": "Laranja - Adaptada Ledor",
+    "codigo": 1228
+  },
+  {
+    "ano": 2023,
+    "area": "CN",
+    "aplicacao": "Regular",
+    "descricao": "Verde - Videoprova - Libras",
+    "codigo": 1229
+  },
+  {
+    "ano": 2023,
+    "area": "CN",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Azul",
+    "codigo": 1301
+  },
+  {
+    "ano": 2023,
+    "area": "CN",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Amarela",
+    "codigo": 1302
+  },
+  {
+    "ano": 2023,
+    "area": "CN",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Cinza",
+    "codigo": 1303
+  },
+  {
+    "ano": 2023,
+    "area": "CN",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Rosa",
+    "codigo": 1304
+  },
+  {
+    "ano": 2023,
+    "area": "CH",
+    "aplicacao": "Regular",
+    "descricao": "Azul",
+    "codigo": 1191
+  },
+  {
+    "ano": 2023,
+    "area": "CH",
+    "aplicacao": "Regular",
+    "descricao": "Amarela",
+    "codigo": 1192
+  },
+  {
+    "ano": 2023,
+    "area": "CH",
+    "aplicacao": "Regular",
+    "descricao": "Branca",
+    "codigo": 1193
+  },
+  {
+    "ano": 2023,
+    "area": "CH",
+    "aplicacao": "Regular",
+    "descricao": "Rosa",
+    "codigo": 1194
+  },
+  {
+    "ano": 2023,
+    "area": "CH",
+    "aplicacao": "Regular",
+    "descricao": "Rosa - Ampliada",
+    "codigo": 1195
+  },
+  {
+    "ano": 2023,
+    "area": "CH",
+    "aplicacao": "Regular",
+    "descricao": "Rosa - Superampliada",
+    "codigo": 1196
+  },
+  {
+    "ano": 2023,
+    "area": "CH",
+    "aplicacao": "Regular",
+    "descricao": "Laranja - Braile",
+    "codigo": 1197
+  },
+  {
+    "ano": 2023,
+    "area": "CH",
+    "aplicacao": "Regular",
+    "descricao": "Laranja - Adaptada Ledor",
+    "codigo": 1198
+  },
+  {
+    "ano": 2023,
+    "area": "CH",
+    "aplicacao": "Regular",
+    "descricao": "Verde - Videoprova - Libras",
+    "codigo": 1199
+  },
+  {
+    "ano": 2023,
+    "area": "CH",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Azul",
+    "codigo": 1271
+  },
+  {
+    "ano": 2023,
+    "area": "CH",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Amarela",
+    "codigo": 1272
+  },
+  {
+    "ano": 2023,
+    "area": "CH",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Branca",
+    "codigo": 1273
+  },
+  {
+    "ano": 2023,
+    "area": "CH",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Rosa",
+    "codigo": 1274
+  },
+  {
+    "ano": 2023,
+    "area": "LC",
+    "aplicacao": "Regular",
+    "descricao": "Azul",
+    "codigo": 1201
+  },
+  {
+    "ano": 2023,
+    "area": "LC",
+    "aplicacao": "Regular",
+    "descricao": "Amarela",
+    "codigo": 1202
+  },
+  {
+    "ano": 2023,
+    "area": "LC",
+    "aplicacao": "Regular",
+    "descricao": "Rosa",
+    "codigo": 1203
+  },
+  {
+    "ano": 2023,
+    "area": "LC",
+    "aplicacao": "Regular",
+    "descricao": "Branca",
+    "codigo": 1204
+  },
+  {
+    "ano": 2023,
+    "area": "LC",
+    "aplicacao": "Regular",
+    "descricao": "Rosa - Ampliada",
+    "codigo": 1205
+  },
+  {
+    "ano": 2023,
+    "area": "LC",
+    "aplicacao": "Regular",
+    "descricao": "Rosa - Superampliada",
+    "codigo": 1206
+  },
+  {
+    "ano": 2023,
+    "area": "LC",
+    "aplicacao": "Regular",
+    "descricao": "Laranja - Braile",
+    "codigo": 1207
+  },
+  {
+    "ano": 2023,
+    "area": "LC",
+    "aplicacao": "Regular",
+    "descricao": "Laranja - Adaptada Ledor",
+    "codigo": 1208
+  },
+  {
+    "ano": 2023,
+    "area": "LC",
+    "aplicacao": "Regular",
+    "descricao": "Verde - Videoprova - Libras",
+    "codigo": 1209
+  },
+  {
+    "ano": 2023,
+    "area": "LC",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Azul",
+    "codigo": 1281
+  },
+  {
+    "ano": 2023,
+    "area": "LC",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Amarela",
+    "codigo": 1282
+  },
+  {
+    "ano": 2023,
+    "area": "LC",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Rosa",
+    "codigo": 1283
+  },
+  {
+    "ano": 2023,
+    "area": "LC",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Branca",
+    "codigo": 1284
+  },
+  {
+    "ano": 2023,
+    "area": "MT",
+    "aplicacao": "Regular",
+    "descricao": "Azul",
+    "codigo": 1211
+  },
+  {
+    "ano": 2023,
+    "area": "MT",
+    "aplicacao": "Regular",
+    "descricao": "Amarela",
+    "codigo": 1212
+  },
+  {
+    "ano": 2023,
+    "area": "MT",
+    "aplicacao": "Regular",
+    "descricao": "Rosa",
+    "codigo": 1213
+  },
+  {
+    "ano": 2023,
+    "area": "MT",
+    "aplicacao": "Regular",
+    "descricao": "Cinza",
+    "codigo": 1214
+  },
+  {
+    "ano": 2023,
+    "area": "MT",
+    "aplicacao": "Regular",
+    "descricao": "Rosa - Ampliada",
+    "codigo": 1215
+  },
+  {
+    "ano": 2023,
+    "area": "MT",
+    "aplicacao": "Regular",
+    "descricao": "Rosa - Superampliada",
+    "codigo": 1216
+  },
+  {
+    "ano": 2023,
+    "area": "MT",
+    "aplicacao": "Regular",
+    "descricao": "Laranja - Braile",
+    "codigo": 1217
+  },
+  {
+    "ano": 2023,
+    "area": "MT",
+    "aplicacao": "Regular",
+    "descricao": "Laranja - Adaptada Ledor",
+    "codigo": 1218
+  },
+  {
+    "ano": 2023,
+    "area": "MT",
+    "aplicacao": "Regular",
+    "descricao": "Verde - Videoprova - Libras",
+    "codigo": 1219
+  },
+  {
+    "ano": 2023,
+    "area": "MT",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Azul",
+    "codigo": 1291
+  },
+  {
+    "ano": 2023,
+    "area": "MT",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Amarela",
+    "codigo": 1292
+  },
+  {
+    "ano": 2023,
+    "area": "MT",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Rosa",
+    "codigo": 1293
+  },
+  {
+    "ano": 2023,
+    "area": "MT",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Cinza",
+    "codigo": 1294
+  },
+  {
+    "ano": 2022,
+    "area": "CN",
+    "aplicacao": "Regular",
+    "descricao": "Azul",
+    "codigo": 1085
+  },
+  {
+    "ano": 2022,
+    "area": "CN",
+    "aplicacao": "Regular",
+    "descricao": "Amarela",
+    "codigo": 1086
+  },
+  {
+    "ano": 2022,
+    "area": "CN",
+    "aplicacao": "Regular",
+    "descricao": "Cinza",
+    "codigo": 1087
+  },
+  {
+    "ano": 2022,
+    "area": "CN",
+    "aplicacao": "Regular",
+    "descricao": "Rosa",
+    "codigo": 1088
+  },
+  {
+    "ano": 2022,
+    "area": "CN",
+    "aplicacao": "Regular",
+    "descricao": "Laranja - Adaptada Ledor",
+    "codigo": 1092
+  },
+  {
+    "ano": 2022,
+    "area": "CN",
+    "aplicacao": "Regular",
+    "descricao": "Verde - Videoprova - Libras",
+    "codigo": 1093
+  },
+  {
+    "ano": 2022,
+    "area": "CN",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Azul",
+    "codigo": 1165
+  },
+  {
+    "ano": 2022,
+    "area": "CN",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Amarela",
+    "codigo": 1166
+  },
+  {
+    "ano": 2022,
+    "area": "CN",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Cinza",
+    "codigo": 1167
+  },
+  {
+    "ano": 2022,
+    "area": "CN",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Rosa",
+    "codigo": 1168
+  },
+  {
+    "ano": 2022,
+    "area": "CN",
+    "aplicacao": "Digital",
+    "descricao": "Azul",
+    "codigo": 1187
+  },
+  {
+    "ano": 2022,
+    "area": "CN",
+    "aplicacao": "Digital",
+    "descricao": "Amarela",
+    "codigo": 1188
+  },
+  {
+    "ano": 2022,
+    "area": "CN",
+    "aplicacao": "Digital",
+    "descricao": "Rosa",
+    "codigo": 1189
+  },
+  {
+    "ano": 2022,
+    "area": "CN",
+    "aplicacao": "Digital",
+    "descricao": "Cinza",
+    "codigo": 1190
+  },
+  {
+    "ano": 2022,
+    "area": "CH",
+    "aplicacao": "Regular",
+    "descricao": "Azul",
+    "codigo": 1055
+  },
+  {
+    "ano": 2022,
+    "area": "CH",
+    "aplicacao": "Regular",
+    "descricao": "Amarela",
+    "codigo": 1056
+  },
+  {
+    "ano": 2022,
+    "area": "CH",
+    "aplicacao": "Regular",
+    "descricao": "Branca",
+    "codigo": 1057
+  },
+  {
+    "ano": 2022,
+    "area": "CH",
+    "aplicacao": "Regular",
+    "descricao": "Rosa",
+    "codigo": 1058
+  },
+  {
+    "ano": 2022,
+    "area": "CH",
+    "aplicacao": "Regular",
+    "descricao": "Laranja - Adaptada Ledor",
+    "codigo": 1062
+  },
+  {
+    "ano": 2022,
+    "area": "CH",
+    "aplicacao": "Regular",
+    "descricao": "Verde - Videoprova - Libras",
+    "codigo": 1063
+  },
+  {
+    "ano": 2022,
+    "area": "CH",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Azul",
+    "codigo": 1135
+  },
+  {
+    "ano": 2022,
+    "area": "CH",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Amarela",
+    "codigo": 1136
+  },
+  {
+    "ano": 2022,
+    "area": "CH",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Branca",
+    "codigo": 1137
+  },
+  {
+    "ano": 2022,
+    "area": "CH",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Rosa",
+    "codigo": 1138
+  },
+  {
+    "ano": 2022,
+    "area": "CH",
+    "aplicacao": "Digital",
+    "descricao": "Azul",
+    "codigo": 1175
+  },
+  {
+    "ano": 2022,
+    "area": "CH",
+    "aplicacao": "Digital",
+    "descricao": "Amarela",
+    "codigo": 1176
+  },
+  {
+    "ano": 2022,
+    "area": "CH",
+    "aplicacao": "Digital",
+    "descricao": "Branca",
+    "codigo": 1177
+  },
+  {
+    "ano": 2022,
+    "area": "CH",
+    "aplicacao": "Digital",
+    "descricao": "Rosa",
+    "codigo": 1178
+  },
+  {
+    "ano": 2022,
+    "area": "LC",
+    "aplicacao": "Regular",
+    "descricao": "Azul",
+    "codigo": 1065
+  },
+  {
+    "ano": 2022,
+    "area": "LC",
+    "aplicacao": "Regular",
+    "descricao": "Amarela",
+    "codigo": 1066
+  },
+  {
+    "ano": 2022,
+    "area": "LC",
+    "aplicacao": "Regular",
+    "descricao": "Rosa",
+    "codigo": 1067
+  },
+  {
+    "ano": 2022,
+    "area": "LC",
+    "aplicacao": "Regular",
+    "descricao": "Branca",
+    "codigo": 1068
+  },
+  {
+    "ano": 2022,
+    "area": "LC",
+    "aplicacao": "Regular",
+    "descricao": "Laranja - Adaptada Ledor",
+    "codigo": 1072
+  },
+  {
+    "ano": 2022,
+    "area": "LC",
+    "aplicacao": "Regular",
+    "descricao": "Verde - Videoprova - Libras",
+    "codigo": 1073
+  },
+  {
+    "ano": 2022,
+    "area": "LC",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Azul",
+    "codigo": 1145
+  },
+  {
+    "ano": 2022,
+    "area": "LC",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Amarela",
+    "codigo": 1146
+  },
+  {
+    "ano": 2022,
+    "area": "LC",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Rosa",
+    "codigo": 1147
+  },
+  {
+    "ano": 2022,
+    "area": "LC",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Branca",
+    "codigo": 1148
+  },
+  {
+    "ano": 2022,
+    "area": "LC",
+    "aplicacao": "Digital",
+    "descricao": "Azul",
+    "codigo": 1179
+  },
+  {
+    "ano": 2022,
+    "area": "LC",
+    "aplicacao": "Digital",
+    "descricao": "Amarela",
+    "codigo": 1180
+  },
+  {
+    "ano": 2022,
+    "area": "LC",
+    "aplicacao": "Digital",
+    "descricao": "Branca",
+    "codigo": 1181
+  },
+  {
+    "ano": 2022,
+    "area": "LC",
+    "aplicacao": "Digital",
+    "descricao": "Rosa",
+    "codigo": 1182
+  },
+  {
+    "ano": 2022,
+    "area": "MT",
+    "aplicacao": "Regular",
+    "descricao": "Azul",
+    "codigo": 1075
+  },
+  {
+    "ano": 2022,
+    "area": "MT",
+    "aplicacao": "Regular",
+    "descricao": "Amarela",
+    "codigo": 1076
+  },
+  {
+    "ano": 2022,
+    "area": "MT",
+    "aplicacao": "Regular",
+    "descricao": "Rosa",
+    "codigo": 1077
+  },
+  {
+    "ano": 2022,
+    "area": "MT",
+    "aplicacao": "Regular",
+    "descricao": "Cinza",
+    "codigo": 1078
+  },
+  {
+    "ano": 2022,
+    "area": "MT",
+    "aplicacao": "Regular",
+    "descricao": "Laranja - Adaptada Ledor",
+    "codigo": 1082
+  },
+  {
+    "ano": 2022,
+    "area": "MT",
+    "aplicacao": "Regular",
+    "descricao": "Verde - Videoprova - Libras",
+    "codigo": 1083
+  },
+  {
+    "ano": 2022,
+    "area": "MT",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Azul",
+    "codigo": 1155
+  },
+  {
+    "ano": 2022,
+    "area": "MT",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Amarela",
+    "codigo": 1156
+  },
+  {
+    "ano": 2022,
+    "area": "MT",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Rosa",
+    "codigo": 1157
+  },
+  {
+    "ano": 2022,
+    "area": "MT",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Cinza",
+    "codigo": 1158
+  },
+  {
+    "ano": 2022,
+    "area": "MT",
+    "aplicacao": "Digital",
+    "descricao": "Azul",
+    "codigo": 1183
+  },
+  {
+    "ano": 2022,
+    "area": "MT",
+    "aplicacao": "Digital",
+    "descricao": "Amarela",
+    "codigo": 1184
+  },
+  {
+    "ano": 2022,
+    "area": "MT",
+    "aplicacao": "Digital",
+    "descricao": "Rosa",
+    "codigo": 1185
+  },
+  {
+    "ano": 2022,
+    "area": "MT",
+    "aplicacao": "Digital",
+    "descricao": "Cinza",
+    "codigo": 1186
+  },
+  {
+    "ano": 2021,
+    "area": "CN",
+    "aplicacao": "Regular",
+    "descricao": "Azul",
+    "codigo": 909
+  },
+  {
+    "ano": 2021,
+    "area": "CN",
+    "aplicacao": "Regular",
+    "descricao": "Amarela",
+    "codigo": 910
+  },
+  {
+    "ano": 2021,
+    "area": "CN",
+    "aplicacao": "Regular",
+    "descricao": "Cinza",
+    "codigo": 911
+  },
+  {
+    "ano": 2021,
+    "area": "CN",
+    "aplicacao": "Regular",
+    "descricao": "Rosa",
+    "codigo": 912
+  },
+  {
+    "ano": 2021,
+    "area": "CN",
+    "aplicacao": "Regular",
+    "descricao": "Laranja - Braille",
+    "codigo": 915
+  },
+  {
+    "ano": 2021,
+    "area": "CN",
+    "aplicacao": "Regular",
+    "descricao": "Laranja - Adaptada Ledor",
+    "codigo": 916
+  },
+  {
+    "ano": 2021,
+    "area": "CN",
+    "aplicacao": "Regular",
+    "descricao": "Verde - Videoprova - Libras",
+    "codigo": 917
+  },
+  {
+    "ano": 2021,
+    "area": "CN",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Azul",
+    "codigo": 989
+  },
+  {
+    "ano": 2021,
+    "area": "CN",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Amarela",
+    "codigo": 990
+  },
+  {
+    "ano": 2021,
+    "area": "CN",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Cinza",
+    "codigo": 991
+  },
+  {
+    "ano": 2021,
+    "area": "CN",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Rosa",
+    "codigo": 992
+  },
+  {
+    "ano": 2021,
+    "area": "CN",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Laranja - Adaptada Ledor",
+    "codigo": 996
+  },
+  {
+    "ano": 2021,
+    "area": "CN",
+    "aplicacao": "Digital",
+    "descricao": "Azul",
+    "codigo": 1011
+  },
+  {
+    "ano": 2021,
+    "area": "CN",
+    "aplicacao": "Digital",
+    "descricao": "Amarela",
+    "codigo": 1012
+  },
+  {
+    "ano": 2021,
+    "area": "CN",
+    "aplicacao": "Digital",
+    "descricao": "Rosa",
+    "codigo": 1013
+  },
+  {
+    "ano": 2021,
+    "area": "CN",
+    "aplicacao": "Digital",
+    "descricao": "Cinza",
+    "codigo": 1014
+  },
+  {
+    "ano": 2021,
+    "area": "CN",
+    "aplicacao": "2ª Oportunidade",
+    "descricao": "Azul",
+    "codigo": 1045
+  },
+  {
+    "ano": 2021,
+    "area": "CN",
+    "aplicacao": "2ª Oportunidade",
+    "descricao": "Amarela",
+    "codigo": 1046
+  },
+  {
+    "ano": 2021,
+    "area": "CN",
+    "aplicacao": "2ª Oportunidade",
+    "descricao": "Cinza",
+    "codigo": 1047
+  },
+  {
+    "ano": 2021,
+    "area": "CN",
+    "aplicacao": "2ª Oportunidade",
+    "descricao": "Rosa",
+    "codigo": 1048
+  },
+  {
+    "ano": 2021,
+    "area": "CN",
+    "aplicacao": "2ª Oportunidade",
+    "descricao": "Laranja - Adaptada Ledor",
+    "codigo": 1052
+  },
+  {
+    "ano": 2021,
+    "area": "CH",
+    "aplicacao": "Regular",
+    "descricao": "Azul",
+    "codigo": 879
+  },
+  {
+    "ano": 2021,
+    "area": "CH",
+    "aplicacao": "Regular",
+    "descricao": "Amarela",
+    "codigo": 880
+  },
+  {
+    "ano": 2021,
+    "area": "CH",
+    "aplicacao": "Regular",
+    "descricao": "Branca",
+    "codigo": 881
+  },
+  {
+    "ano": 2021,
+    "area": "CH",
+    "aplicacao": "Regular",
+    "descricao": "Rosa",
+    "codigo": 882
+  },
+  {
+    "ano": 2021,
+    "area": "CH",
+    "aplicacao": "Regular",
+    "descricao": "Laranja - Braille",
+    "codigo": 885
+  },
+  {
+    "ano": 2021,
+    "area": "CH",
+    "aplicacao": "Regular",
+    "descricao": "Laranja - Adaptada Ledor",
+    "codigo": 886
+  },
+  {
+    "ano": 2021,
+    "area": "CH",
+    "aplicacao": "Regular",
+    "descricao": "Verde - Videoprova - Libras",
+    "codigo": 887
+  },
+  {
+    "ano": 2021,
+    "area": "CH",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Azul",
+    "codigo": 959
+  },
+  {
+    "ano": 2021,
+    "area": "CH",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Amarela",
+    "codigo": 960
+  },
+  {
+    "ano": 2021,
+    "area": "CH",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Branca",
+    "codigo": 961
+  },
+  {
+    "ano": 2021,
+    "area": "CH",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Rosa",
+    "codigo": 962
+  },
+  {
+    "ano": 2021,
+    "area": "CH",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Laranja - Adaptada Ledor",
+    "codigo": 966
+  },
+  {
+    "ano": 2021,
+    "area": "CH",
+    "aplicacao": "Digital",
+    "descricao": "Azul",
+    "codigo": 999
+  },
+  {
+    "ano": 2021,
+    "area": "CH",
+    "aplicacao": "Digital",
+    "descricao": "Amarela",
+    "codigo": 1000
+  },
+  {
+    "ano": 2021,
+    "area": "CH",
+    "aplicacao": "Digital",
+    "descricao": "Branca",
+    "codigo": 1001
+  },
+  {
+    "ano": 2021,
+    "area": "CH",
+    "aplicacao": "Digital",
+    "descricao": "Rosa",
+    "codigo": 1002
+  },
+  {
+    "ano": 2021,
+    "area": "CH",
+    "aplicacao": "2ª Oportunidade",
+    "descricao": "Azul",
+    "codigo": 1015
+  },
+  {
+    "ano": 2021,
+    "area": "CH",
+    "aplicacao": "2ª Oportunidade",
+    "descricao": "Amarela",
+    "codigo": 1016
+  },
+  {
+    "ano": 2021,
+    "area": "CH",
+    "aplicacao": "2ª Oportunidade",
+    "descricao": "Branca",
+    "codigo": 1017
+  },
+  {
+    "ano": 2021,
+    "area": "CH",
+    "aplicacao": "2ª Oportunidade",
+    "descricao": "Rosa",
+    "codigo": 1018
+  },
+  {
+    "ano": 2021,
+    "area": "CH",
+    "aplicacao": "2ª Oportunidade",
+    "descricao": "Laranja - Adaptada Ledor",
+    "codigo": 1022
+  },
+  {
+    "ano": 2021,
+    "area": "LC",
+    "aplicacao": "Regular",
+    "descricao": "Azul",
+    "codigo": 889
+  },
+  {
+    "ano": 2021,
+    "area": "LC",
+    "aplicacao": "Regular",
+    "descricao": "Amarela",
+    "codigo": 890
+  },
+  {
+    "ano": 2021,
+    "area": "LC",
+    "aplicacao": "Regular",
+    "descricao": "Rosa",
+    "codigo": 891
+  },
+  {
+    "ano": 2021,
+    "area": "LC",
+    "aplicacao": "Regular",
+    "descricao": "Branca",
+    "codigo": 892
+  },
+  {
+    "ano": 2021,
+    "area": "LC",
+    "aplicacao": "Regular",
+    "descricao": "Laranja - Braille",
+    "codigo": 895
+  },
+  {
+    "ano": 2021,
+    "area": "LC",
+    "aplicacao": "Regular",
+    "descricao": "Laranja - Adaptada Ledor",
+    "codigo": 896
+  },
+  {
+    "ano": 2021,
+    "area": "LC",
+    "aplicacao": "Regular",
+    "descricao": "Verde - Videoprova - Libras",
+    "codigo": 897
+  },
+  {
+    "ano": 2021,
+    "area": "LC",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Azul",
+    "codigo": 969
+  },
+  {
+    "ano": 2021,
+    "area": "LC",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Amarela",
+    "codigo": 970
+  },
+  {
+    "ano": 2021,
+    "area": "LC",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Rosa",
+    "codigo": 971
+  },
+  {
+    "ano": 2021,
+    "area": "LC",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Branca",
+    "codigo": 972
+  },
+  {
+    "ano": 2021,
+    "area": "LC",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Laranja - Adaptada Ledor",
+    "codigo": 976
+  },
+  {
+    "ano": 2021,
+    "area": "LC",
+    "aplicacao": "Digital",
+    "descricao": "Azul",
+    "codigo": 1003
+  },
+  {
+    "ano": 2021,
+    "area": "LC",
+    "aplicacao": "Digital",
+    "descricao": "Amarela",
+    "codigo": 1004
+  },
+  {
+    "ano": 2021,
+    "area": "LC",
+    "aplicacao": "Digital",
+    "descricao": "Branca",
+    "codigo": 1005
+  },
+  {
+    "ano": 2021,
+    "area": "LC",
+    "aplicacao": "Digital",
+    "descricao": "Rosa",
+    "codigo": 1006
+  },
+  {
+    "ano": 2021,
+    "area": "LC",
+    "aplicacao": "2ª Oportunidade",
+    "descricao": "Azul",
+    "codigo": 1025
+  },
+  {
+    "ano": 2021,
+    "area": "LC",
+    "aplicacao": "2ª Oportunidade",
+    "descricao": "Amarela",
+    "codigo": 1026
+  },
+  {
+    "ano": 2021,
+    "area": "LC",
+    "aplicacao": "2ª Oportunidade",
+    "descricao": "Rosa",
+    "codigo": 1027
+  },
+  {
+    "ano": 2021,
+    "area": "LC",
+    "aplicacao": "2ª Oportunidade",
+    "descricao": "Branca",
+    "codigo": 1028
+  },
+  {
+    "ano": 2021,
+    "area": "LC",
+    "aplicacao": "2ª Oportunidade",
+    "descricao": "Laranja - Adaptada Ledor",
+    "codigo": 1032
+  },
+  {
+    "ano": 2021,
+    "area": "MT",
+    "aplicacao": "Regular",
+    "descricao": "Azul",
+    "codigo": 899
+  },
+  {
+    "ano": 2021,
+    "area": "MT",
+    "aplicacao": "Regular",
+    "descricao": "Amarela",
+    "codigo": 900
+  },
+  {
+    "ano": 2021,
+    "area": "MT",
+    "aplicacao": "Regular",
+    "descricao": "Rosa",
+    "codigo": 901
+  },
+  {
+    "ano": 2021,
+    "area": "MT",
+    "aplicacao": "Regular",
+    "descricao": "Cinza",
+    "codigo": 902
+  },
+  {
+    "ano": 2021,
+    "area": "MT",
+    "aplicacao": "Regular",
+    "descricao": "Laranja - Braille",
+    "codigo": 905
+  },
+  {
+    "ano": 2021,
+    "area": "MT",
+    "aplicacao": "Regular",
+    "descricao": "Laranja - Adaptada Ledor",
+    "codigo": 906
+  },
+  {
+    "ano": 2021,
+    "area": "MT",
+    "aplicacao": "Regular",
+    "descricao": "Verde - Videoprova - Libras",
+    "codigo": 907
+  },
+  {
+    "ano": 2021,
+    "area": "MT",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Azul",
+    "codigo": 979
+  },
+  {
+    "ano": 2021,
+    "area": "MT",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Amarela",
+    "codigo": 980
+  },
+  {
+    "ano": 2021,
+    "area": "MT",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Rosa",
+    "codigo": 981
+  },
+  {
+    "ano": 2021,
+    "area": "MT",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Cinza",
+    "codigo": 982
+  },
+  {
+    "ano": 2021,
+    "area": "MT",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Laranja - Adaptada Ledor",
+    "codigo": 986
+  },
+  {
+    "ano": 2021,
+    "area": "MT",
+    "aplicacao": "Digital",
+    "descricao": "Azul",
+    "codigo": 1007
+  },
+  {
+    "ano": 2021,
+    "area": "MT",
+    "aplicacao": "Digital",
+    "descricao": "Amarela",
+    "codigo": 1008
+  },
+  {
+    "ano": 2021,
+    "area": "MT",
+    "aplicacao": "Digital",
+    "descricao": "Rosa",
+    "codigo": 1009
+  },
+  {
+    "ano": 2021,
+    "area": "MT",
+    "aplicacao": "Digital",
+    "descricao": "Cinza",
+    "codigo": 1010
+  },
+  {
+    "ano": 2021,
+    "area": "MT",
+    "aplicacao": "2ª Oportunidade",
+    "descricao": "Azul",
+    "codigo": 1035
+  },
+  {
+    "ano": 2021,
+    "area": "MT",
+    "aplicacao": "2ª Oportunidade",
+    "descricao": "Amarela",
+    "codigo": 1036
+  },
+  {
+    "ano": 2021,
+    "area": "MT",
+    "aplicacao": "2ª Oportunidade",
+    "descricao": "Cinza",
+    "codigo": 1037
+  },
+  {
+    "ano": 2021,
+    "area": "MT",
+    "aplicacao": "2ª Oportunidade",
+    "descricao": "Rosa",
+    "codigo": 1038
+  },
+  {
+    "ano": 2021,
+    "area": "MT",
+    "aplicacao": "2ª Oportunidade",
+    "descricao": "Laranja - Adaptada Ledor",
+    "codigo": 1042
+  },
+  {
+    "ano": 2020,
+    "area": "CN",
+    "aplicacao": "Regular",
+    "descricao": "Azul",
+    "codigo": 597
+  },
+  {
+    "ano": 2020,
+    "area": "CN",
+    "aplicacao": "Regular",
+    "descricao": "Amarela",
+    "codigo": 598
+  },
+  {
+    "ano": 2020,
+    "area": "CN",
+    "aplicacao": "Regular",
+    "descricao": "Cinza",
+    "codigo": 599
+  },
+  {
+    "ano": 2020,
+    "area": "CN",
+    "aplicacao": "Regular",
+    "descricao": "Rosa",
+    "codigo": 600
+  },
+  {
+    "ano": 2020,
+    "area": "CN",
+    "aplicacao": "Regular",
+    "descricao": "Rosa - Ampliada",
+    "codigo": 601
+  },
+  {
+    "ano": 2020,
+    "area": "CN",
+    "aplicacao": "Regular",
+    "descricao": "Rosa - Superampliada",
+    "codigo": 602
+  },
+  {
+    "ano": 2020,
+    "area": "CN",
+    "aplicacao": "Regular",
+    "descricao": "Laranja - Adaptada Ledor",
+    "codigo": 604
+  },
+  {
+    "ano": 2020,
+    "area": "CN",
+    "aplicacao": "Regular",
+    "descricao": "Verde - Videoprova - Libras",
+    "codigo": 605
+  },
+  {
+    "ano": 2020,
+    "area": "CN",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Azul",
+    "codigo": 677
+  },
+  {
+    "ano": 2020,
+    "area": "CN",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Amarela",
+    "codigo": 678
+  },
+  {
+    "ano": 2020,
+    "area": "CN",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Cinza",
+    "codigo": 679
+  },
+  {
+    "ano": 2020,
+    "area": "CN",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Rosa",
+    "codigo": 680
+  },
+  {
+    "ano": 2020,
+    "area": "CN",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Laranja - Adaptada Ledor",
+    "codigo": 684
+  },
+  {
+    "ano": 2020,
+    "area": "CN",
+    "aplicacao": "Digital",
+    "descricao": "Azul",
+    "codigo": 699
+  },
+  {
+    "ano": 2020,
+    "area": "CN",
+    "aplicacao": "Digital",
+    "descricao": "Amarela",
+    "codigo": 700
+  },
+  {
+    "ano": 2020,
+    "area": "CN",
+    "aplicacao": "Digital",
+    "descricao": "Rosa",
+    "codigo": 701
+  },
+  {
+    "ano": 2020,
+    "area": "CN",
+    "aplicacao": "Digital",
+    "descricao": "Cinza",
+    "codigo": 702
+  },
+  {
+    "ano": 2020,
+    "area": "CH",
+    "aplicacao": "Regular",
+    "descricao": "Azul",
+    "codigo": 567
+  },
+  {
+    "ano": 2020,
+    "area": "CH",
+    "aplicacao": "Regular",
+    "descricao": "Amarela",
+    "codigo": 568
+  },
+  {
+    "ano": 2020,
+    "area": "CH",
+    "aplicacao": "Regular",
+    "descricao": "Branca",
+    "codigo": 569
+  },
+  {
+    "ano": 2020,
+    "area": "CH",
+    "aplicacao": "Regular",
+    "descricao": "Rosa",
+    "codigo": 570
+  },
+  {
+    "ano": 2020,
+    "area": "CH",
+    "aplicacao": "Regular",
+    "descricao": "Rosa - Ampliada",
+    "codigo": 571
+  },
+  {
+    "ano": 2020,
+    "area": "CH",
+    "aplicacao": "Regular",
+    "descricao": "Rosa - Superampliada",
+    "codigo": 572
+  },
+  {
+    "ano": 2020,
+    "area": "CH",
+    "aplicacao": "Regular",
+    "descricao": "Laranja - Adaptada Ledor",
+    "codigo": 574
+  },
+  {
+    "ano": 2020,
+    "area": "CH",
+    "aplicacao": "Regular",
+    "descricao": "Verde - Videoprova - Libras",
+    "codigo": 575
+  },
+  {
+    "ano": 2020,
+    "area": "CH",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Azul",
+    "codigo": 647
+  },
+  {
+    "ano": 2020,
+    "area": "CH",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Amarela",
+    "codigo": 648
+  },
+  {
+    "ano": 2020,
+    "area": "CH",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Branca",
+    "codigo": 649
+  },
+  {
+    "ano": 2020,
+    "area": "CH",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Rosa",
+    "codigo": 650
+  },
+  {
+    "ano": 2020,
+    "area": "CH",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Laranja - Adaptada Ledor",
+    "codigo": 654
+  },
+  {
+    "ano": 2020,
+    "area": "CH",
+    "aplicacao": "Digital",
+    "descricao": "Azul",
+    "codigo": 687
+  },
+  {
+    "ano": 2020,
+    "area": "CH",
+    "aplicacao": "Digital",
+    "descricao": "Amarela",
+    "codigo": 688
+  },
+  {
+    "ano": 2020,
+    "area": "CH",
+    "aplicacao": "Digital",
+    "descricao": "Branca",
+    "codigo": 689
+  },
+  {
+    "ano": 2020,
+    "area": "CH",
+    "aplicacao": "Digital",
+    "descricao": "Rosa",
+    "codigo": 690
+  },
+  {
+    "ano": 2020,
+    "area": "LC",
+    "aplicacao": "Regular",
+    "descricao": "Azul",
+    "codigo": 577
+  },
+  {
+    "ano": 2020,
+    "area": "LC",
+    "aplicacao": "Regular",
+    "descricao": "Amarela",
+    "codigo": 578
+  },
+  {
+    "ano": 2020,
+    "area": "LC",
+    "aplicacao": "Regular",
+    "descricao": "Rosa",
+    "codigo": 579
+  },
+  {
+    "ano": 2020,
+    "area": "LC",
+    "aplicacao": "Regular",
+    "descricao": "Branca",
+    "codigo": 580
+  },
+  {
+    "ano": 2020,
+    "area": "LC",
+    "aplicacao": "Regular",
+    "descricao": "Rosa - Ampliada",
+    "codigo": 581
+  },
+  {
+    "ano": 2020,
+    "area": "LC",
+    "aplicacao": "Regular",
+    "descricao": "Rosa - Superampliada",
+    "codigo": 582
+  },
+  {
+    "ano": 2020,
+    "area": "LC",
+    "aplicacao": "Regular",
+    "descricao": "Laranja - Adaptada Ledor",
+    "codigo": 584
+  },
+  {
+    "ano": 2020,
+    "area": "LC",
+    "aplicacao": "Regular",
+    "descricao": "Verde - Videoprova - Libras",
+    "codigo": 585
+  },
+  {
+    "ano": 2020,
+    "area": "LC",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Azul",
+    "codigo": 657
+  },
+  {
+    "ano": 2020,
+    "area": "LC",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Amarela",
+    "codigo": 658
+  },
+  {
+    "ano": 2020,
+    "area": "LC",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Rosa",
+    "codigo": 659
+  },
+  {
+    "ano": 2020,
+    "area": "LC",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Branca",
+    "codigo": 660
+  },
+  {
+    "ano": 2020,
+    "area": "LC",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Laranja - Adaptada Ledor",
+    "codigo": 664
+  },
+  {
+    "ano": 2020,
+    "area": "LC",
+    "aplicacao": "Digital",
+    "descricao": "Azul",
+    "codigo": 691
+  },
+  {
+    "ano": 2020,
+    "area": "LC",
+    "aplicacao": "Digital",
+    "descricao": "Amarela",
+    "codigo": 692
+  },
+  {
+    "ano": 2020,
+    "area": "LC",
+    "aplicacao": "Digital",
+    "descricao": "Branca",
+    "codigo": 693
+  },
+  {
+    "ano": 2020,
+    "area": "LC",
+    "aplicacao": "Digital",
+    "descricao": "Rosa",
+    "codigo": 694
+  },
+  {
+    "ano": 2020,
+    "area": "MT",
+    "aplicacao": "Regular",
+    "descricao": "Azul",
+    "codigo": 587
+  },
+  {
+    "ano": 2020,
+    "area": "MT",
+    "aplicacao": "Regular",
+    "descricao": "Amarela",
+    "codigo": 588
+  },
+  {
+    "ano": 2020,
+    "area": "MT",
+    "aplicacao": "Regular",
+    "descricao": "Rosa",
+    "codigo": 589
+  },
+  {
+    "ano": 2020,
+    "area": "MT",
+    "aplicacao": "Regular",
+    "descricao": "Cinza",
+    "codigo": 590
+  },
+  {
+    "ano": 2020,
+    "area": "MT",
+    "aplicacao": "Regular",
+    "descricao": "Rosa - Ampliada",
+    "codigo": 591
+  },
+  {
+    "ano": 2020,
+    "area": "MT",
+    "aplicacao": "Regular",
+    "descricao": "Rosa - Superampliada",
+    "codigo": 592
+  },
+  {
+    "ano": 2020,
+    "area": "MT",
+    "aplicacao": "Regular",
+    "descricao": "Laranja - Adaptada Ledor",
+    "codigo": 594
+  },
+  {
+    "ano": 2020,
+    "area": "MT",
+    "aplicacao": "Regular",
+    "descricao": "Verde - Videoprova - Libras",
+    "codigo": 595
+  },
+  {
+    "ano": 2020,
+    "area": "MT",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Azul",
+    "codigo": 667
+  },
+  {
+    "ano": 2020,
+    "area": "MT",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Amarela",
+    "codigo": 668
+  },
+  {
+    "ano": 2020,
+    "area": "MT",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Rosa",
+    "codigo": 669
+  },
+  {
+    "ano": 2020,
+    "area": "MT",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Cinza",
+    "codigo": 670
+  },
+  {
+    "ano": 2020,
+    "area": "MT",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Laranja - Adaptada Ledor",
+    "codigo": 674
+  },
+  {
+    "ano": 2020,
+    "area": "MT",
+    "aplicacao": "Digital",
+    "descricao": "Azul",
+    "codigo": 695
+  },
+  {
+    "ano": 2020,
+    "area": "MT",
+    "aplicacao": "Digital",
+    "descricao": "Amarela",
+    "codigo": 696
+  },
+  {
+    "ano": 2020,
+    "area": "MT",
+    "aplicacao": "Digital",
+    "descricao": "Rosa",
+    "codigo": 697
+  },
+  {
+    "ano": 2020,
+    "area": "MT",
+    "aplicacao": "Digital",
+    "descricao": "Cinza",
+    "codigo": 698
+  },
+  {
+    "ano": 2019,
+    "area": "CN",
+    "aplicacao": "Regular",
+    "descricao": "Azul",
+    "codigo": 503
+  },
+  {
+    "ano": 2019,
+    "area": "CN",
+    "aplicacao": "Regular",
+    "descricao": "Amarela",
+    "codigo": 504
+  },
+  {
+    "ano": 2019,
+    "area": "CN",
+    "aplicacao": "Regular",
+    "descricao": "Cinza",
+    "codigo": 505
+  },
+  {
+    "ano": 2019,
+    "area": "CN",
+    "aplicacao": "Regular",
+    "descricao": "Rosa",
+    "codigo": 506
+  },
+  {
+    "ano": 2019,
+    "area": "CN",
+    "aplicacao": "Regular",
+    "descricao": "Laranja - Adaptada Ledor",
+    "codigo": 519
+  },
+  {
+    "ano": 2019,
+    "area": "CN",
+    "aplicacao": "Regular",
+    "descricao": "Verde - Videoprova - Libras",
+    "codigo": 523
+  },
+  {
+    "ano": 2019,
+    "area": "CN",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Amarela",
+    "codigo": 543
+  },
+  {
+    "ano": 2019,
+    "area": "CN",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Cinza",
+    "codigo": 544
+  },
+  {
+    "ano": 2019,
+    "area": "CN",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Azul",
+    "codigo": 545
+  },
+  {
+    "ano": 2019,
+    "area": "CN",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Rosa",
+    "codigo": 546
+  },
+  {
+    "ano": 2019,
+    "area": "CH",
+    "aplicacao": "Regular",
+    "descricao": "Azul",
+    "codigo": 507
+  },
+  {
+    "ano": 2019,
+    "area": "CH",
+    "aplicacao": "Regular",
+    "descricao": "Amarela",
+    "codigo": 508
+  },
+  {
+    "ano": 2019,
+    "area": "CH",
+    "aplicacao": "Regular",
+    "descricao": "Branca",
+    "codigo": 509
+  },
+  {
+    "ano": 2019,
+    "area": "CH",
+    "aplicacao": "Regular",
+    "descricao": "Rosa",
+    "codigo": 510
+  },
+  {
+    "ano": 2019,
+    "area": "CH",
+    "aplicacao": "Regular",
+    "descricao": "Laranja - Adaptada Ledor",
+    "codigo": 520
+  },
+  {
+    "ano": 2019,
+    "area": "CH",
+    "aplicacao": "Regular",
+    "descricao": "Verde - Videoprova - Libras",
+    "codigo": 524
+  },
+  {
+    "ano": 2019,
+    "area": "CH",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Azul",
+    "codigo": 547
+  },
+  {
+    "ano": 2019,
+    "area": "CH",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Amarela",
+    "codigo": 548
+  },
+  {
+    "ano": 2019,
+    "area": "CH",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Branca",
+    "codigo": 549
+  },
+  {
+    "ano": 2019,
+    "area": "CH",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Rosa",
+    "codigo": 550
+  },
+  {
+    "ano": 2019,
+    "area": "CH",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Laranja - Adaptada Ledor",
+    "codigo": 564
+  },
+  {
+    "ano": 2019,
+    "area": "LC",
+    "aplicacao": "Regular",
+    "descricao": "Azul",
+    "codigo": 511
+  },
+  {
+    "ano": 2019,
+    "area": "LC",
+    "aplicacao": "Regular",
+    "descricao": "Amarela",
+    "codigo": 512
+  },
+  {
+    "ano": 2019,
+    "area": "LC",
+    "aplicacao": "Regular",
+    "descricao": "Rosa",
+    "codigo": 513
+  },
+  {
+    "ano": 2019,
+    "area": "LC",
+    "aplicacao": "Regular",
+    "descricao": "Branca",
+    "codigo": 514
+  },
+  {
+    "ano": 2019,
+    "area": "LC",
+    "aplicacao": "Regular",
+    "descricao": "Laranja - Adaptada Ledor",
+    "codigo": 521
+  },
+  {
+    "ano": 2019,
+    "area": "LC",
+    "aplicacao": "Regular",
+    "descricao": "Verde - Videoprova - Libras",
+    "codigo": 525
+  },
+  {
+    "ano": 2019,
+    "area": "LC",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Azul",
+    "codigo": 551
+  },
+  {
+    "ano": 2019,
+    "area": "LC",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Amarela",
+    "codigo": 552
+  },
+  {
+    "ano": 2019,
+    "area": "LC",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Branca",
+    "codigo": 553
+  },
+  {
+    "ano": 2019,
+    "area": "LC",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Rosa",
+    "codigo": 554
+  },
+  {
+    "ano": 2019,
+    "area": "LC",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Laranja - Adaptada Ledor",
+    "codigo": 565
+  },
+  {
+    "ano": 2019,
+    "area": "MT",
+    "aplicacao": "Regular",
+    "descricao": "Azul",
+    "codigo": 515
+  },
+  {
+    "ano": 2019,
+    "area": "MT",
+    "aplicacao": "Regular",
+    "descricao": "Amarela",
+    "codigo": 516
+  },
+  {
+    "ano": 2019,
+    "area": "MT",
+    "aplicacao": "Regular",
+    "descricao": "Rosa",
+    "codigo": 517
+  },
+  {
+    "ano": 2019,
+    "area": "MT",
+    "aplicacao": "Regular",
+    "descricao": "Cinza",
+    "codigo": 518
+  },
+  {
+    "ano": 2019,
+    "area": "MT",
+    "aplicacao": "Regular",
+    "descricao": "Laranja - Adaptada Ledor",
+    "codigo": 522
+  },
+  {
+    "ano": 2019,
+    "area": "MT",
+    "aplicacao": "Regular",
+    "descricao": "Verde - Videoprova - Libras",
+    "codigo": 526
+  },
+  {
+    "ano": 2019,
+    "area": "MT",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Amarela",
+    "codigo": 555
+  },
+  {
+    "ano": 2019,
+    "area": "MT",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Cinza",
+    "codigo": 556
+  },
+  {
+    "ano": 2019,
+    "area": "MT",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Azul",
+    "codigo": 557
+  },
+  {
+    "ano": 2019,
+    "area": "MT",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Rosa",
+    "codigo": 558
+  },
+  {
+    "ano": 2018,
+    "area": "CN",
+    "aplicacao": "Regular",
+    "descricao": "Azul",
+    "codigo": 447
+  },
+  {
+    "ano": 2018,
+    "area": "CN",
+    "aplicacao": "Regular",
+    "descricao": "Amarela",
+    "codigo": 448
+  },
+  {
+    "ano": 2018,
+    "area": "CN",
+    "aplicacao": "Regular",
+    "descricao": "Cinza",
+    "codigo": 449
+  },
+  {
+    "ano": 2018,
+    "area": "CN",
+    "aplicacao": "Regular",
+    "descricao": "Rosa",
+    "codigo": 450
+  },
+  {
+    "ano": 2018,
+    "area": "CN",
+    "aplicacao": "Regular",
+    "descricao": "Laranja - Adaptada Ledor",
+    "codigo": 463
+  },
+  {
+    "ano": 2018,
+    "area": "CN",
+    "aplicacao": "Regular",
+    "descricao": "Verde - Videoprova - Libras",
+    "codigo": 467
+  },
+  {
+    "ano": 2018,
+    "area": "CN",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Amarela",
+    "codigo": 487
+  },
+  {
+    "ano": 2018,
+    "area": "CN",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Cinza",
+    "codigo": 488
+  },
+  {
+    "ano": 2018,
+    "area": "CN",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Azul",
+    "codigo": 489
+  },
+  {
+    "ano": 2018,
+    "area": "CN",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Rosa",
+    "codigo": 490
+  },
+  {
+    "ano": 2018,
+    "area": "CH",
+    "aplicacao": "Regular",
+    "descricao": "Azul",
+    "codigo": 451
+  },
+  {
+    "ano": 2018,
+    "area": "CH",
+    "aplicacao": "Regular",
+    "descricao": "Amarela",
+    "codigo": 452
+  },
+  {
+    "ano": 2018,
+    "area": "CH",
+    "aplicacao": "Regular",
+    "descricao": "Branca",
+    "codigo": 453
+  },
+  {
+    "ano": 2018,
+    "area": "CH",
+    "aplicacao": "Regular",
+    "descricao": "Rosa",
+    "codigo": 454
+  },
+  {
+    "ano": 2018,
+    "area": "CH",
+    "aplicacao": "Regular",
+    "descricao": "Laranja - Adaptada Ledor",
+    "codigo": 464
+  },
+  {
+    "ano": 2018,
+    "area": "CH",
+    "aplicacao": "Regular",
+    "descricao": "Verde - Videoprova - Libras",
+    "codigo": 468
+  },
+  {
+    "ano": 2018,
+    "area": "CH",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Azul",
+    "codigo": 491
+  },
+  {
+    "ano": 2018,
+    "area": "CH",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Amarela",
+    "codigo": 492
+  },
+  {
+    "ano": 2018,
+    "area": "CH",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Branca",
+    "codigo": 493
+  },
+  {
+    "ano": 2018,
+    "area": "CH",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Rosa",
+    "codigo": 494
+  },
+  {
+    "ano": 2018,
+    "area": "LC",
+    "aplicacao": "Regular",
+    "descricao": "Azul",
+    "codigo": 455
+  },
+  {
+    "ano": 2018,
+    "area": "LC",
+    "aplicacao": "Regular",
+    "descricao": "Amarela",
+    "codigo": 456
+  },
+  {
+    "ano": 2018,
+    "area": "LC",
+    "aplicacao": "Regular",
+    "descricao": "Rosa",
+    "codigo": 457
+  },
+  {
+    "ano": 2018,
+    "area": "LC",
+    "aplicacao": "Regular",
+    "descricao": "Branca",
+    "codigo": 458
+  },
+  {
+    "ano": 2018,
+    "area": "LC",
+    "aplicacao": "Regular",
+    "descricao": "Laranja - Adaptada Ledor",
+    "codigo": 465
+  },
+  {
+    "ano": 2018,
+    "area": "LC",
+    "aplicacao": "Regular",
+    "descricao": "Verde - Videoprova - Libras",
+    "codigo": 469
+  },
+  {
+    "ano": 2018,
+    "area": "LC",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Azul",
+    "codigo": 495
+  },
+  {
+    "ano": 2018,
+    "area": "LC",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Amarela",
+    "codigo": 496
+  },
+  {
+    "ano": 2018,
+    "area": "LC",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Branca",
+    "codigo": 497
+  },
+  {
+    "ano": 2018,
+    "area": "LC",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Rosa",
+    "codigo": 498
+  },
+  {
+    "ano": 2018,
+    "area": "MT",
+    "aplicacao": "Regular",
+    "descricao": "Azul",
+    "codigo": 459
+  },
+  {
+    "ano": 2018,
+    "area": "MT",
+    "aplicacao": "Regular",
+    "descricao": "Amarela",
+    "codigo": 460
+  },
+  {
+    "ano": 2018,
+    "area": "MT",
+    "aplicacao": "Regular",
+    "descricao": "Rosa",
+    "codigo": 461
+  },
+  {
+    "ano": 2018,
+    "area": "MT",
+    "aplicacao": "Regular",
+    "descricao": "Cinza",
+    "codigo": 462
+  },
+  {
+    "ano": 2018,
+    "area": "MT",
+    "aplicacao": "Regular",
+    "descricao": "Laranja - Adaptada Ledor",
+    "codigo": 466
+  },
+  {
+    "ano": 2018,
+    "area": "MT",
+    "aplicacao": "Regular",
+    "descricao": "Verde - Videoprova - Libras",
+    "codigo": 470
+  },
+  {
+    "ano": 2018,
+    "area": "MT",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Amarela",
+    "codigo": 499
+  },
+  {
+    "ano": 2018,
+    "area": "MT",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Cinza",
+    "codigo": 500
+  },
+  {
+    "ano": 2018,
+    "area": "MT",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Azul",
+    "codigo": 501
+  },
+  {
+    "ano": 2018,
+    "area": "MT",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Rosa",
+    "codigo": 502
+  },
+  {
+    "ano": 2017,
+    "area": "CN",
+    "aplicacao": "Regular",
+    "descricao": "Azul",
+    "codigo": 391
+  },
+  {
+    "ano": 2017,
+    "area": "CN",
+    "aplicacao": "Regular",
+    "descricao": "Amarela",
+    "codigo": 392
+  },
+  {
+    "ano": 2017,
+    "area": "CN",
+    "aplicacao": "Regular",
+    "descricao": "Cinza",
+    "codigo": 393
+  },
+  {
+    "ano": 2017,
+    "area": "CN",
+    "aplicacao": "Regular",
+    "descricao": "Rosa",
+    "codigo": 394
+  },
+  {
+    "ano": 2017,
+    "area": "CN",
+    "aplicacao": "Regular",
+    "descricao": "Laranja - Adaptada Ledor",
+    "codigo": 407
+  },
+  {
+    "ano": 2017,
+    "area": "CN",
+    "aplicacao": "Regular",
+    "descricao": "Verde - Videoprova - Libras",
+    "codigo": 411
+  },
+  {
+    "ano": 2017,
+    "area": "CN",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Amarela",
+    "codigo": 431
+  },
+  {
+    "ano": 2017,
+    "area": "CN",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Cinza",
+    "codigo": 432
+  },
+  {
+    "ano": 2017,
+    "area": "CN",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Azul",
+    "codigo": 433
+  },
+  {
+    "ano": 2017,
+    "area": "CN",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Rosa",
+    "codigo": 434
+  },
+  {
+    "ano": 2017,
+    "area": "CH",
+    "aplicacao": "Regular",
+    "descricao": "Azul",
+    "codigo": 395
+  },
+  {
+    "ano": 2017,
+    "area": "CH",
+    "aplicacao": "Regular",
+    "descricao": "Amarela",
+    "codigo": 396
+  },
+  {
+    "ano": 2017,
+    "area": "CH",
+    "aplicacao": "Regular",
+    "descricao": "Branca",
+    "codigo": 397
+  },
+  {
+    "ano": 2017,
+    "area": "CH",
+    "aplicacao": "Regular",
+    "descricao": "Rosa",
+    "codigo": 398
+  },
+  {
+    "ano": 2017,
+    "area": "CH",
+    "aplicacao": "Regular",
+    "descricao": "Laranja - Adaptada Ledor",
+    "codigo": 408
+  },
+  {
+    "ano": 2017,
+    "area": "CH",
+    "aplicacao": "Regular",
+    "descricao": "Verde - Videoprova - Libras",
+    "codigo": 412
+  },
+  {
+    "ano": 2017,
+    "area": "CH",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Azul",
+    "codigo": 435
+  },
+  {
+    "ano": 2017,
+    "area": "CH",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Amarela",
+    "codigo": 436
+  },
+  {
+    "ano": 2017,
+    "area": "CH",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Branca",
+    "codigo": 437
+  },
+  {
+    "ano": 2017,
+    "area": "CH",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Rosa",
+    "codigo": 438
+  },
+  {
+    "ano": 2017,
+    "area": "LC",
+    "aplicacao": "Regular",
+    "descricao": "Azul",
+    "codigo": 399
+  },
+  {
+    "ano": 2017,
+    "area": "LC",
+    "aplicacao": "Regular",
+    "descricao": "Amarela",
+    "codigo": 400
+  },
+  {
+    "ano": 2017,
+    "area": "LC",
+    "aplicacao": "Regular",
+    "descricao": "Rosa",
+    "codigo": 401
+  },
+  {
+    "ano": 2017,
+    "area": "LC",
+    "aplicacao": "Regular",
+    "descricao": "Branca",
+    "codigo": 402
+  },
+  {
+    "ano": 2017,
+    "area": "LC",
+    "aplicacao": "Regular",
+    "descricao": "Laranja - Adaptada Ledor",
+    "codigo": 409
+  },
+  {
+    "ano": 2017,
+    "area": "LC",
+    "aplicacao": "Regular",
+    "descricao": "Verde - Videoprova - Libras",
+    "codigo": 413
+  },
+  {
+    "ano": 2017,
+    "area": "LC",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Azul",
+    "codigo": 439
+  },
+  {
+    "ano": 2017,
+    "area": "LC",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Amarela",
+    "codigo": 440
+  },
+  {
+    "ano": 2017,
+    "area": "LC",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Branca",
+    "codigo": 441
+  },
+  {
+    "ano": 2017,
+    "area": "LC",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Rosa",
+    "codigo": 442
+  },
+  {
+    "ano": 2017,
+    "area": "MT",
+    "aplicacao": "Regular",
+    "descricao": "Azul",
+    "codigo": 403
+  },
+  {
+    "ano": 2017,
+    "area": "MT",
+    "aplicacao": "Regular",
+    "descricao": "Amarela",
+    "codigo": 404
+  },
+  {
+    "ano": 2017,
+    "area": "MT",
+    "aplicacao": "Regular",
+    "descricao": "Rosa",
+    "codigo": 405
+  },
+  {
+    "ano": 2017,
+    "area": "MT",
+    "aplicacao": "Regular",
+    "descricao": "Cinza",
+    "codigo": 406
+  },
+  {
+    "ano": 2017,
+    "area": "MT",
+    "aplicacao": "Regular",
+    "descricao": "Laranja - Adaptada Ledor",
+    "codigo": 410
+  },
+  {
+    "ano": 2017,
+    "area": "MT",
+    "aplicacao": "Regular",
+    "descricao": "Verde - Videoprova - Libras",
+    "codigo": 414
+  },
+  {
+    "ano": 2017,
+    "area": "MT",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Amarela",
+    "codigo": 443
+  },
+  {
+    "ano": 2017,
+    "area": "MT",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Cinza",
+    "codigo": 444
+  },
+  {
+    "ano": 2017,
+    "area": "MT",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Azul",
+    "codigo": 445
+  },
+  {
+    "ano": 2017,
+    "area": "MT",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Rosa",
+    "codigo": 446
+  },
+  {
+    "ano": 2016,
+    "area": "CN",
+    "aplicacao": "Regular",
+    "descricao": "Azul",
+    "codigo": 291
+  },
+  {
+    "ano": 2016,
+    "area": "CN",
+    "aplicacao": "Regular",
+    "descricao": "Amarela",
+    "codigo": 292
+  },
+  {
+    "ano": 2016,
+    "area": "CN",
+    "aplicacao": "Regular",
+    "descricao": "Branca",
+    "codigo": 293
+  },
+  {
+    "ano": 2016,
+    "area": "CN",
+    "aplicacao": "Regular",
+    "descricao": "Rosa",
+    "codigo": 294
+  },
+  {
+    "ano": 2016,
+    "area": "CN",
+    "aplicacao": "Regular",
+    "descricao": "Branca - Adaptada",
+    "codigo": 307
+  },
+  {
+    "ano": 2016,
+    "area": "CN",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Azul",
+    "codigo": 331
+  },
+  {
+    "ano": 2016,
+    "area": "CN",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Amarela",
+    "codigo": 332
+  },
+  {
+    "ano": 2016,
+    "area": "CN",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Branca",
+    "codigo": 333
+  },
+  {
+    "ano": 2016,
+    "area": "CN",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Rosa",
+    "codigo": 334
+  },
+  {
+    "ano": 2016,
+    "area": "CN",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Azul",
+    "codigo": 351
+  },
+  {
+    "ano": 2016,
+    "area": "CN",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Amarela",
+    "codigo": 352
+  },
+  {
+    "ano": 2016,
+    "area": "CN",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Branca",
+    "codigo": 353
+  },
+  {
+    "ano": 2016,
+    "area": "CN",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Rosa",
+    "codigo": 354
+  },
+  {
+    "ano": 2016,
+    "area": "CN",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Branca - Adaptada",
+    "codigo": 355
+  },
+  {
+    "ano": 2016,
+    "area": "CH",
+    "aplicacao": "Regular",
+    "descricao": "Azul",
+    "codigo": 295
+  },
+  {
+    "ano": 2016,
+    "area": "CH",
+    "aplicacao": "Regular",
+    "descricao": "Amarela",
+    "codigo": 296
+  },
+  {
+    "ano": 2016,
+    "area": "CH",
+    "aplicacao": "Regular",
+    "descricao": "Branca",
+    "codigo": 297
+  },
+  {
+    "ano": 2016,
+    "area": "CH",
+    "aplicacao": "Regular",
+    "descricao": "Rosa",
+    "codigo": 298
+  },
+  {
+    "ano": 2016,
+    "area": "CH",
+    "aplicacao": "Regular",
+    "descricao": "Branca - Adaptada",
+    "codigo": 308
+  },
+  {
+    "ano": 2016,
+    "area": "CH",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Azul",
+    "codigo": 336
+  },
+  {
+    "ano": 2016,
+    "area": "CH",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Amarela",
+    "codigo": 337
+  },
+  {
+    "ano": 2016,
+    "area": "CH",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Branca",
+    "codigo": 338
+  },
+  {
+    "ano": 2016,
+    "area": "CH",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Rosa",
+    "codigo": 339
+  },
+  {
+    "ano": 2016,
+    "area": "CH",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Azul",
+    "codigo": 356
+  },
+  {
+    "ano": 2016,
+    "area": "CH",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Amarela",
+    "codigo": 357
+  },
+  {
+    "ano": 2016,
+    "area": "CH",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Branca",
+    "codigo": 358
+  },
+  {
+    "ano": 2016,
+    "area": "CH",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Rosa",
+    "codigo": 359
+  },
+  {
+    "ano": 2016,
+    "area": "CH",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Branca - Adaptada",
+    "codigo": 360
+  },
+  {
+    "ano": 2016,
+    "area": "LC",
+    "aplicacao": "Regular",
+    "descricao": "Azul",
+    "codigo": 299
+  },
+  {
+    "ano": 2016,
+    "area": "LC",
+    "aplicacao": "Regular",
+    "descricao": "Amarela",
+    "codigo": 300
+  },
+  {
+    "ano": 2016,
+    "area": "LC",
+    "aplicacao": "Regular",
+    "descricao": "Rosa",
+    "codigo": 301
+  },
+  {
+    "ano": 2016,
+    "area": "LC",
+    "aplicacao": "Regular",
+    "descricao": "Cinza",
+    "codigo": 302
+  },
+  {
+    "ano": 2016,
+    "area": "LC",
+    "aplicacao": "Regular",
+    "descricao": "Cinza - Adaptada",
+    "codigo": 309
+  },
+  {
+    "ano": 2016,
+    "area": "LC",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Azul",
+    "codigo": 341
+  },
+  {
+    "ano": 2016,
+    "area": "LC",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Amarela",
+    "codigo": 342
+  },
+  {
+    "ano": 2016,
+    "area": "LC",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Rosa",
+    "codigo": 343
+  },
+  {
+    "ano": 2016,
+    "area": "LC",
+    "aplicacao": "Regular",
+    "descricao": "Cinza - Adaptada",
+    "codigo": 344
+  },
+  {
+    "ano": 2016,
+    "area": "LC",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Azul",
+    "codigo": 361
+  },
+  {
+    "ano": 2016,
+    "area": "LC",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Amarela",
+    "codigo": 362
+  },
+  {
+    "ano": 2016,
+    "area": "LC",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Rosa",
+    "codigo": 363
+  },
+  {
+    "ano": 2016,
+    "area": "LC",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Cinza",
+    "codigo": 364
+  },
+  {
+    "ano": 2016,
+    "area": "LC",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Cinza - Adaptada",
+    "codigo": 365
+  },
+  {
+    "ano": 2016,
+    "area": "MT",
+    "aplicacao": "Regular",
+    "descricao": "Azul",
+    "codigo": 303
+  },
+  {
+    "ano": 2016,
+    "area": "MT",
+    "aplicacao": "Regular",
+    "descricao": "Amarela",
+    "codigo": 304
+  },
+  {
+    "ano": 2016,
+    "area": "MT",
+    "aplicacao": "Regular",
+    "descricao": "Rosa",
+    "codigo": 305
+  },
+  {
+    "ano": 2016,
+    "area": "MT",
+    "aplicacao": "Regular",
+    "descricao": "Cinza",
+    "codigo": 306
+  },
+  {
+    "ano": 2016,
+    "area": "MT",
+    "aplicacao": "Regular",
+    "descricao": "Cinza - Adaptada",
+    "codigo": 310
+  },
+  {
+    "ano": 2016,
+    "area": "MT",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Azul",
+    "codigo": 346
+  },
+  {
+    "ano": 2016,
+    "area": "MT",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Amarela",
+    "codigo": 347
+  },
+  {
+    "ano": 2016,
+    "area": "MT",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Rosa",
+    "codigo": 348
+  },
+  {
+    "ano": 2016,
+    "area": "MT",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Cinza",
+    "codigo": 349
+  },
+  {
+    "ano": 2016,
+    "area": "MT",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Azul",
+    "codigo": 366
+  },
+  {
+    "ano": 2016,
+    "area": "MT",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Amarela",
+    "codigo": 367
+  },
+  {
+    "ano": 2016,
+    "area": "MT",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Rosa",
+    "codigo": 368
+  },
+  {
+    "ano": 2016,
+    "area": "MT",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Cinza",
+    "codigo": 369
+  },
+  {
+    "ano": 2016,
+    "area": "MT",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Cinza - Adaptada",
+    "codigo": 370
+  },
+  {
+    "ano": 2015,
+    "area": "CN",
+    "aplicacao": "Regular",
+    "descricao": "Azul",
+    "codigo": 235
+  },
+  {
+    "ano": 2015,
+    "area": "CN",
+    "aplicacao": "Regular",
+    "descricao": "Amarela",
+    "codigo": 236
+  },
+  {
+    "ano": 2015,
+    "area": "CN",
+    "aplicacao": "Regular",
+    "descricao": "Branca",
+    "codigo": 237
+  },
+  {
+    "ano": 2015,
+    "area": "CN",
+    "aplicacao": "Regular",
+    "descricao": "Rosa",
+    "codigo": 238
+  },
+  {
+    "ano": 2015,
+    "area": "CN",
+    "aplicacao": "Regular",
+    "descricao": "Branco - adaptada (braile e ledor)",
+    "codigo": 252
+  },
+  {
+    "ano": 2015,
+    "area": "CN",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Azul",
+    "codigo": 275
+  },
+  {
+    "ano": 2015,
+    "area": "CN",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Amarela",
+    "codigo": 276
+  },
+  {
+    "ano": 2015,
+    "area": "CN",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Branca",
+    "codigo": 277
+  },
+  {
+    "ano": 2015,
+    "area": "CN",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Rosa",
+    "codigo": 278
+  },
+  {
+    "ano": 2015,
+    "area": "CH",
+    "aplicacao": "Regular",
+    "descricao": "Azul",
+    "codigo": 231
+  },
+  {
+    "ano": 2015,
+    "area": "CH",
+    "aplicacao": "Regular",
+    "descricao": "Amarela",
+    "codigo": 232
+  },
+  {
+    "ano": 2015,
+    "area": "CH",
+    "aplicacao": "Regular",
+    "descricao": "Branca",
+    "codigo": 233
+  },
+  {
+    "ano": 2015,
+    "area": "CH",
+    "aplicacao": "Regular",
+    "descricao": "Rosa",
+    "codigo": 234
+  },
+  {
+    "ano": 2015,
+    "area": "CH",
+    "aplicacao": "Regular",
+    "descricao": "Branco - adaptada (braile e ledor)",
+    "codigo": 251
+  },
+  {
+    "ano": 2015,
+    "area": "CH",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Azul",
+    "codigo": 271
+  },
+  {
+    "ano": 2015,
+    "area": "CH",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Amarela",
+    "codigo": 272
+  },
+  {
+    "ano": 2015,
+    "area": "CH",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Branca",
+    "codigo": 273
+  },
+  {
+    "ano": 2015,
+    "area": "CH",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Rosa",
+    "codigo": 274
+  },
+  {
+    "ano": 2015,
+    "area": "LC",
+    "aplicacao": "Regular",
+    "descricao": "Amarela",
+    "codigo": 239
+  },
+  {
+    "ano": 2015,
+    "area": "LC",
+    "aplicacao": "Regular",
+    "descricao": "Cinza",
+    "codigo": 240
+  },
+  {
+    "ano": 2015,
+    "area": "LC",
+    "aplicacao": "Regular",
+    "descricao": "Azul",
+    "codigo": 241
+  },
+  {
+    "ano": 2015,
+    "area": "LC",
+    "aplicacao": "Regular",
+    "descricao": "Rosa",
+    "codigo": 242
+  },
+  {
+    "ano": 2015,
+    "area": "LC",
+    "aplicacao": "Regular",
+    "descricao": "Cinza - adaptada (braile e ledor)",
+    "codigo": 253
+  },
+  {
+    "ano": 2015,
+    "area": "LC",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Amarela",
+    "codigo": 279
+  },
+  {
+    "ano": 2015,
+    "area": "LC",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Cinza",
+    "codigo": 280
+  },
+  {
+    "ano": 2015,
+    "area": "LC",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Azul",
+    "codigo": 281
+  },
+  {
+    "ano": 2015,
+    "area": "LC",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Rosa",
+    "codigo": 282
+  },
+  {
+    "ano": 2015,
+    "area": "MT",
+    "aplicacao": "Regular",
+    "descricao": "Amarela",
+    "codigo": 243
+  },
+  {
+    "ano": 2015,
+    "area": "MT",
+    "aplicacao": "Regular",
+    "descricao": "Cinza",
+    "codigo": 244
+  },
+  {
+    "ano": 2015,
+    "area": "MT",
+    "aplicacao": "Regular",
+    "descricao": "Azul",
+    "codigo": 245
+  },
+  {
+    "ano": 2015,
+    "area": "MT",
+    "aplicacao": "Regular",
+    "descricao": "Rosa",
+    "codigo": 246
+  },
+  {
+    "ano": 2015,
+    "area": "MT",
+    "aplicacao": "Regular",
+    "descricao": "Cinza - adaptada (braile e ledor)",
+    "codigo": 254
+  },
+  {
+    "ano": 2015,
+    "area": "MT",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Amarela",
+    "codigo": 283
+  },
+  {
+    "ano": 2015,
+    "area": "MT",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Cinza",
+    "codigo": 284
+  },
+  {
+    "ano": 2015,
+    "area": "MT",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Azul",
+    "codigo": 285
+  },
+  {
+    "ano": 2015,
+    "area": "MT",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Rosa",
+    "codigo": 286
+  },
+  {
+    "ano": 2014,
+    "area": "CN",
+    "aplicacao": "Regular",
+    "descricao": "Azul",
+    "codigo": 199
+  },
+  {
+    "ano": 2014,
+    "area": "CN",
+    "aplicacao": "Regular",
+    "descricao": "Amarela",
+    "codigo": 200
+  },
+  {
+    "ano": 2014,
+    "area": "CN",
+    "aplicacao": "Regular",
+    "descricao": "Branca",
+    "codigo": 201
+  },
+  {
+    "ano": 2014,
+    "area": "CN",
+    "aplicacao": "Regular",
+    "descricao": "Rosa",
+    "codigo": 202
+  },
+  {
+    "ano": 2014,
+    "area": "CN",
+    "aplicacao": "Regular",
+    "descricao": "Branco - adaptada (braile e ledor)",
+    "codigo": 216
+  },
+  {
+    "ano": 2014,
+    "area": "CH",
+    "aplicacao": "Regular",
+    "descricao": "Azul",
+    "codigo": 195
+  },
+  {
+    "ano": 2014,
+    "area": "CH",
+    "aplicacao": "Regular",
+    "descricao": "Amarela",
+    "codigo": 196
+  },
+  {
+    "ano": 2014,
+    "area": "CH",
+    "aplicacao": "Regular",
+    "descricao": "Branca",
+    "codigo": 197
+  },
+  {
+    "ano": 2014,
+    "area": "CH",
+    "aplicacao": "Regular",
+    "descricao": "Rosa",
+    "codigo": 198
+  },
+  {
+    "ano": 2014,
+    "area": "CH",
+    "aplicacao": "Regular",
+    "descricao": "Branco - adaptada (braile e ledor)",
+    "codigo": 215
+  },
+  {
+    "ano": 2014,
+    "area": "LC",
+    "aplicacao": "Regular",
+    "descricao": "Amarela",
+    "codigo": 203
+  },
+  {
+    "ano": 2014,
+    "area": "LC",
+    "aplicacao": "Regular",
+    "descricao": "Cinza",
+    "codigo": 204
+  },
+  {
+    "ano": 2014,
+    "area": "LC",
+    "aplicacao": "Regular",
+    "descricao": "Azul",
+    "codigo": 205
+  },
+  {
+    "ano": 2014,
+    "area": "LC",
+    "aplicacao": "Regular",
+    "descricao": "Rosa",
+    "codigo": 206
+  },
+  {
+    "ano": 2014,
+    "area": "LC",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Cinza",
+    "codigo": 213
+  },
+  {
+    "ano": 2014,
+    "area": "LC",
+    "aplicacao": "Regular",
+    "descricao": "Cinza - adaptada (braile e ledor)",
+    "codigo": 217
+  },
+  {
+    "ano": 2014,
+    "area": "MT",
+    "aplicacao": "Regular",
+    "descricao": "Amarela",
+    "codigo": 207
+  },
+  {
+    "ano": 2014,
+    "area": "MT",
+    "aplicacao": "Regular",
+    "descricao": "Cinza",
+    "codigo": 208
+  },
+  {
+    "ano": 2014,
+    "area": "MT",
+    "aplicacao": "Regular",
+    "descricao": "Azul",
+    "codigo": 209
+  },
+  {
+    "ano": 2014,
+    "area": "MT",
+    "aplicacao": "Regular",
+    "descricao": "Rosa",
+    "codigo": 210
+  },
+  {
+    "ano": 2014,
+    "area": "MT",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Cinza",
+    "codigo": 214
+  },
+  {
+    "ano": 2014,
+    "area": "MT",
+    "aplicacao": "Regular",
+    "descricao": "Cinza - adaptada (braile e ledor)",
+    "codigo": 218
+  },
+  {
+    "ano": 2013,
+    "area": "CN",
+    "aplicacao": "Regular",
+    "descricao": "Azul",
+    "codigo": 171
+  },
+  {
+    "ano": 2013,
+    "area": "CN",
+    "aplicacao": "Regular",
+    "descricao": "Amarela",
+    "codigo": 172
+  },
+  {
+    "ano": 2013,
+    "area": "CN",
+    "aplicacao": "Regular",
+    "descricao": "Branca",
+    "codigo": 173
+  },
+  {
+    "ano": 2013,
+    "area": "CN",
+    "aplicacao": "Regular",
+    "descricao": "Rosa",
+    "codigo": 174
+  },
+  {
+    "ano": 2013,
+    "area": "CN",
+    "aplicacao": "Regular",
+    "descricao": "Branco - prova especial (ledor)",
+    "codigo": 188
+  },
+  {
+    "ano": 2013,
+    "area": "CH",
+    "aplicacao": "Regular",
+    "descricao": "Azul",
+    "codigo": 167
+  },
+  {
+    "ano": 2013,
+    "area": "CH",
+    "aplicacao": "Regular",
+    "descricao": "Amarela",
+    "codigo": 168
+  },
+  {
+    "ano": 2013,
+    "area": "CH",
+    "aplicacao": "Regular",
+    "descricao": "Branca",
+    "codigo": 169
+  },
+  {
+    "ano": 2013,
+    "area": "CH",
+    "aplicacao": "Regular",
+    "descricao": "Rosa",
+    "codigo": 170
+  },
+  {
+    "ano": 2013,
+    "area": "CH",
+    "aplicacao": "Regular",
+    "descricao": "Branco - prova especial (ledor)",
+    "codigo": 187
+  },
+  {
+    "ano": 2013,
+    "area": "LC",
+    "aplicacao": "Regular",
+    "descricao": "Amarela",
+    "codigo": 175
+  },
+  {
+    "ano": 2013,
+    "area": "LC",
+    "aplicacao": "Regular",
+    "descricao": "Cinza",
+    "codigo": 176
+  },
+  {
+    "ano": 2013,
+    "area": "LC",
+    "aplicacao": "Regular",
+    "descricao": "Azul",
+    "codigo": 177
+  },
+  {
+    "ano": 2013,
+    "area": "LC",
+    "aplicacao": "Regular",
+    "descricao": "Rosa",
+    "codigo": 178
+  },
+  {
+    "ano": 2013,
+    "area": "LC",
+    "aplicacao": "Regular",
+    "descricao": "Cinza - prova especial (ledor)",
+    "codigo": 189
+  },
+  {
+    "ano": 2013,
+    "area": "MT",
+    "aplicacao": "Regular",
+    "descricao": "Amarela",
+    "codigo": 179
+  },
+  {
+    "ano": 2013,
+    "area": "MT",
+    "aplicacao": "Regular",
+    "descricao": "Cinza",
+    "codigo": 180
+  },
+  {
+    "ano": 2013,
+    "area": "MT",
+    "aplicacao": "Regular",
+    "descricao": "Azul",
+    "codigo": 181
+  },
+  {
+    "ano": 2013,
+    "area": "MT",
+    "aplicacao": "Regular",
+    "descricao": "Rosa",
+    "codigo": 182
+  },
+  {
+    "ano": 2013,
+    "area": "MT",
+    "aplicacao": "Regular",
+    "descricao": "Cinza - prova especial (ledor)",
+    "codigo": 190
+  },
+  {
+    "ano": 2012,
+    "area": "MT",
+    "aplicacao": "Regular",
+    "descricao": "Azul",
+    "codigo": 141
+  },
+  {
+    "ano": 2012,
+    "area": "MT",
+    "aplicacao": "Regular",
+    "descricao": "Amarela",
+    "codigo": 142
+  },
+  {
+    "ano": 2012,
+    "area": "MT",
+    "aplicacao": "Regular",
+    "descricao": "Branca",
+    "codigo": 143
+  },
+  {
+    "ano": 2012,
+    "area": "MT",
+    "aplicacao": "Regular",
+    "descricao": "Rosa",
+    "codigo": 144
+  },
+  {
+    "ano": 2012,
+    "area": "MT",
+    "aplicacao": "Regular",
+    "descricao": "Branca (ledor)",
+    "codigo": 153
+  },
+  {
+    "ano": 2012,
+    "area": "CH",
+    "aplicacao": "Regular",
+    "descricao": "Azul",
+    "codigo": 137
+  },
+  {
+    "ano": 2012,
+    "area": "CH",
+    "aplicacao": "Regular",
+    "descricao": "Amarela",
+    "codigo": 138
+  },
+  {
+    "ano": 2012,
+    "area": "CH",
+    "aplicacao": "Regular",
+    "descricao": "Branca",
+    "codigo": 139
+  },
+  {
+    "ano": 2012,
+    "area": "CH",
+    "aplicacao": "Regular",
+    "descricao": "Rosa",
+    "codigo": 140
+  },
+  {
+    "ano": 2012,
+    "area": "CH",
+    "aplicacao": "Regular",
+    "descricao": "Branca (ledor)",
+    "codigo": 154
+  },
+  {
+    "ano": 2012,
+    "area": "LC",
+    "aplicacao": "Regular",
+    "descricao": "Amarela",
+    "codigo": 145
+  },
+  {
+    "ano": 2012,
+    "area": "LC",
+    "aplicacao": "Regular",
+    "descricao": "Cinza",
+    "codigo": 146
+  },
+  {
+    "ano": 2012,
+    "area": "LC",
+    "aplicacao": "Regular",
+    "descricao": "Azul",
+    "codigo": 147
+  },
+  {
+    "ano": 2012,
+    "area": "LC",
+    "aplicacao": "Regular",
+    "descricao": "Rosa",
+    "codigo": 148
+  },
+  {
+    "ano": 2012,
+    "area": "LC",
+    "aplicacao": "Regular",
+    "descricao": "Cinza (ledor)",
+    "codigo": 155
+  },
+  {
+    "ano": 2012,
+    "area": "MT",
+    "aplicacao": "Regular",
+    "descricao": "Amarela",
+    "codigo": 149
+  },
+  {
+    "ano": 2012,
+    "area": "MT",
+    "aplicacao": "Regular",
+    "descricao": "Cinza",
+    "codigo": 150
+  },
+  {
+    "ano": 2012,
+    "area": "MT",
+    "aplicacao": "Regular",
+    "descricao": "Azul",
+    "codigo": 151
+  },
+  {
+    "ano": 2012,
+    "area": "MT",
+    "aplicacao": "Regular",
+    "descricao": "Rosa",
+    "codigo": 152
+  },
+  {
+    "ano": 2012,
+    "area": "MT",
+    "aplicacao": "Regular",
+    "descricao": "Cinza (ledor)",
+    "codigo": 156
+  },
+  {
+    "ano": 2011,
+    "area": "CN",
+    "aplicacao": "Regular",
+    "descricao": "Azul",
+    "codigo": 121
+  },
+  {
+    "ano": 2011,
+    "area": "CN",
+    "aplicacao": "Regular",
+    "descricao": "Amarela",
+    "codigo": 122
+  },
+  {
+    "ano": 2011,
+    "area": "CN",
+    "aplicacao": "Regular",
+    "descricao": "Branca",
+    "codigo": 123
+  },
+  {
+    "ano": 2011,
+    "area": "CN",
+    "aplicacao": "Regular",
+    "descricao": "Rosa",
+    "codigo": 124
+  },
+  {
+    "ano": 2011,
+    "area": "CH",
+    "aplicacao": "Regular",
+    "descricao": "Azul",
+    "codigo": 117
+  },
+  {
+    "ano": 2011,
+    "area": "CH",
+    "aplicacao": "Regular",
+    "descricao": "Amarela",
+    "codigo": 118
+  },
+  {
+    "ano": 2011,
+    "area": "CH",
+    "aplicacao": "Regular",
+    "descricao": "Branca",
+    "codigo": 119
+  },
+  {
+    "ano": 2011,
+    "area": "CH",
+    "aplicacao": "Regular",
+    "descricao": "Rosa",
+    "codigo": 120
+  },
+  {
+    "ano": 2011,
+    "area": "LC",
+    "aplicacao": "Regular",
+    "descricao": "Amarela",
+    "codigo": 125
+  },
+  {
+    "ano": 2011,
+    "area": "LC",
+    "aplicacao": "Regular",
+    "descricao": "Cinza",
+    "codigo": 126
+  },
+  {
+    "ano": 2011,
+    "area": "LC",
+    "aplicacao": "Regular",
+    "descricao": "Azul",
+    "codigo": 127
+  },
+  {
+    "ano": 2011,
+    "area": "LC",
+    "aplicacao": "Regular",
+    "descricao": "Rosa",
+    "codigo": 128
+  },
+  {
+    "ano": 2011,
+    "area": "MT",
+    "aplicacao": "Regular",
+    "descricao": "Amarela",
+    "codigo": 129
+  },
+  {
+    "ano": 2011,
+    "area": "MT",
+    "aplicacao": "Regular",
+    "descricao": "Cinza",
+    "codigo": 130
+  },
+  {
+    "ano": 2011,
+    "area": "MT",
+    "aplicacao": "Regular",
+    "descricao": "Azul",
+    "codigo": 131
+  },
+  {
+    "ano": 2011,
+    "area": "MT",
+    "aplicacao": "Regular",
+    "descricao": "Rosa",
+    "codigo": 132
+  },
+  {
+    "ano": 2010,
+    "area": "CN",
+    "aplicacao": "Regular",
+    "descricao": "Azul",
+    "codigo": 89
+  },
+  {
+    "ano": 2010,
+    "area": "CN",
+    "aplicacao": "Regular",
+    "descricao": "Amarela",
+    "codigo": 90
+  },
+  {
+    "ano": 2010,
+    "area": "CN",
+    "aplicacao": "Regular",
+    "descricao": "Branca",
+    "codigo": 91
+  },
+  {
+    "ano": 2010,
+    "area": "CN",
+    "aplicacao": "Regular",
+    "descricao": "Rosa",
+    "codigo": 92
+  },
+  {
+    "ano": 2010,
+    "area": "CN",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Azul",
+    "codigo": 105
+  },
+  {
+    "ano": 2010,
+    "area": "CN",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Amarela",
+    "codigo": 106
+  },
+  {
+    "ano": 2010,
+    "area": "CN",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Branca",
+    "codigo": 107
+  },
+  {
+    "ano": 2010,
+    "area": "CN",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Rosa",
+    "codigo": 108
+  },
+  {
+    "ano": 2010,
+    "area": "CH",
+    "aplicacao": "Regular",
+    "descricao": "Azul",
+    "codigo": 85
+  },
+  {
+    "ano": 2010,
+    "area": "CH",
+    "aplicacao": "Regular",
+    "descricao": "Amarela",
+    "codigo": 86
+  },
+  {
+    "ano": 2010,
+    "area": "CH",
+    "aplicacao": "Regular",
+    "descricao": "Branca",
+    "codigo": 87
+  },
+  {
+    "ano": 2010,
+    "area": "CH",
+    "aplicacao": "Regular",
+    "descricao": "Rosa",
+    "codigo": 88
+  },
+  {
+    "ano": 2010,
+    "area": "CH",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Azul",
+    "codigo": 101
+  },
+  {
+    "ano": 2010,
+    "area": "CH",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Amarela",
+    "codigo": 102
+  },
+  {
+    "ano": 2010,
+    "area": "CH",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Branca",
+    "codigo": 103
+  },
+  {
+    "ano": 2010,
+    "area": "CH",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Rosa",
+    "codigo": 104
+  },
+  {
+    "ano": 2010,
+    "area": "LC",
+    "aplicacao": "Regular",
+    "descricao": "Amarela",
+    "codigo": 93
+  },
+  {
+    "ano": 2010,
+    "area": "LC",
+    "aplicacao": "Regular",
+    "descricao": "Cinza",
+    "codigo": 94
+  },
+  {
+    "ano": 2010,
+    "area": "LC",
+    "aplicacao": "Regular",
+    "descricao": "Azul",
+    "codigo": 95
+  },
+  {
+    "ano": 2010,
+    "area": "LC",
+    "aplicacao": "Regular",
+    "descricao": "Rosa",
+    "codigo": 96
+  },
+  {
+    "ano": 2010,
+    "area": "LC",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Amarela",
+    "codigo": 109
+  },
+  {
+    "ano": 2010,
+    "area": "LC",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Cinza",
+    "codigo": 110
+  },
+  {
+    "ano": 2010,
+    "area": "LC",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Azul",
+    "codigo": 111
+  },
+  {
+    "ano": 2010,
+    "area": "LC",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Rosa",
+    "codigo": 112
+  },
+  {
+    "ano": 2010,
+    "area": "MT",
+    "aplicacao": "Regular",
+    "descricao": "Amarela",
+    "codigo": 97
+  },
+  {
+    "ano": 2010,
+    "area": "MT",
+    "aplicacao": "Regular",
+    "descricao": "Cinza",
+    "codigo": 98
+  },
+  {
+    "ano": 2010,
+    "area": "MT",
+    "aplicacao": "Regular",
+    "descricao": "Azul",
+    "codigo": 99
+  },
+  {
+    "ano": 2010,
+    "area": "MT",
+    "aplicacao": "Regular",
+    "descricao": "Rosa",
+    "codigo": 100
+  },
+  {
+    "ano": 2010,
+    "area": "MT",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Amarela",
+    "codigo": 113
+  },
+  {
+    "ano": 2010,
+    "area": "MT",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Cinza",
+    "codigo": 114
+  },
+  {
+    "ano": 2010,
+    "area": "MT",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Azul",
+    "codigo": 115
+  },
+  {
+    "ano": 2010,
+    "area": "MT",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Rosa",
+    "codigo": 116
+  },
+  {
+    "ano": 2009,
+    "area": "CN",
+    "aplicacao": "Regular",
+    "descricao": "Azul",
+    "codigo": 49
+  },
+  {
+    "ano": 2009,
+    "area": "CN",
+    "aplicacao": "Regular",
+    "descricao": "Amarela",
+    "codigo": 50
+  },
+  {
+    "ano": 2009,
+    "area": "CN",
+    "aplicacao": "Regular",
+    "descricao": "Branca",
+    "codigo": 51
+  },
+  {
+    "ano": 2009,
+    "area": "CN",
+    "aplicacao": "Regular",
+    "descricao": "Rosa",
+    "codigo": 52
+  },
+  {
+    "ano": 2009,
+    "area": "CN",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Azul",
+    "codigo": 65
+  },
+  {
+    "ano": 2009,
+    "area": "CN",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Amarela",
+    "codigo": 66
+  },
+  {
+    "ano": 2009,
+    "area": "CN",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Branca",
+    "codigo": 67
+  },
+  {
+    "ano": 2009,
+    "area": "CN",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Rosa",
+    "codigo": 68
+  },
+  {
+    "ano": 2009,
+    "area": "CN",
+    "aplicacao": "Regular",
+    "descricao": "Branca - adaptada ledor 9",
+    "codigo": 81
+  },
+  {
+    "ano": 2009,
+    "area": "CH",
+    "aplicacao": "Regular",
+    "descricao": "Azul",
+    "codigo": 53
+  },
+  {
+    "ano": 2009,
+    "area": "CH",
+    "aplicacao": "Regular",
+    "descricao": "Amarela",
+    "codigo": 54
+  },
+  {
+    "ano": 2009,
+    "area": "CH",
+    "aplicacao": "Regular",
+    "descricao": "Branca",
+    "codigo": 55
+  },
+  {
+    "ano": 2009,
+    "area": "CH",
+    "aplicacao": "Regular",
+    "descricao": "Rosa",
+    "codigo": 56
+  },
+  {
+    "ano": 2009,
+    "area": "CH",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Azul",
+    "codigo": 69
+  },
+  {
+    "ano": 2009,
+    "area": "CH",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Amarela",
+    "codigo": 70
+  },
+  {
+    "ano": 2009,
+    "area": "CH",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Branca",
+    "codigo": 71
+  },
+  {
+    "ano": 2009,
+    "area": "CH",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Rosa",
+    "codigo": 72
+  },
+  {
+    "ano": 2009,
+    "area": "CH",
+    "aplicacao": "Regular",
+    "descricao": "Branca - adaptada ledor 9",
+    "codigo": 82
+  },
+  {
+    "ano": 2009,
+    "area": "LC",
+    "aplicacao": "Regular",
+    "descricao": "Amarela",
+    "codigo": 57
+  },
+  {
+    "ano": 2009,
+    "area": "LC",
+    "aplicacao": "Regular",
+    "descricao": "Cinza",
+    "codigo": 58
+  },
+  {
+    "ano": 2009,
+    "area": "LC",
+    "aplicacao": "Regular",
+    "descricao": "Azul",
+    "codigo": 59
+  },
+  {
+    "ano": 2009,
+    "area": "LC",
+    "aplicacao": "Regular",
+    "descricao": "Rosa",
+    "codigo": 60
+  },
+  {
+    "ano": 2009,
+    "area": "LC",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Amarela",
+    "codigo": 73
+  },
+  {
+    "ano": 2009,
+    "area": "LC",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Cinza",
+    "codigo": 74
+  },
+  {
+    "ano": 2009,
+    "area": "LC",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Azul",
+    "codigo": 75
+  },
+  {
+    "ano": 2009,
+    "area": "LC",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Rosa",
+    "codigo": 76
+  },
+  {
+    "ano": 2009,
+    "area": "LC",
+    "aplicacao": "Regular",
+    "descricao": "Cinza - adaptada ledor 9",
+    "codigo": 83
+  },
+  {
+    "ano": 2009,
+    "area": "MT",
+    "aplicacao": "Regular",
+    "descricao": "Amarela",
+    "codigo": 61
+  },
+  {
+    "ano": 2009,
+    "area": "MT",
+    "aplicacao": "Regular",
+    "descricao": "Cinza",
+    "codigo": 62
+  },
+  {
+    "ano": 2009,
+    "area": "MT",
+    "aplicacao": "Regular",
+    "descricao": "Azul",
+    "codigo": 63
+  },
+  {
+    "ano": 2009,
+    "area": "MT",
+    "aplicacao": "Regular",
+    "descricao": "Rosa",
+    "codigo": 64
+  },
+  {
+    "ano": 2009,
+    "area": "MT",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Amarela",
+    "codigo": 77
+  },
+  {
+    "ano": 2009,
+    "area": "MT",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Cinza",
+    "codigo": 78
+  },
+  {
+    "ano": 2009,
+    "area": "MT",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Azul",
+    "codigo": 79
+  },
+  {
+    "ano": 2009,
+    "area": "MT",
+    "aplicacao": "Reaplicação / PPL",
+    "descricao": "Rosa",
+    "codigo": 80
+  },
+  {
+    "ano": 2009,
+    "area": "MT",
+    "aplicacao": "Regular",
+    "descricao": "Cinza - adaptada ledor 9",
+    "codigo": 84
+  }
+]
