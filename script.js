@@ -1,8 +1,8 @@
 /*
-CÓDIGO GERADO COM CLOUDE AI COM BASE NOS CÓDIGOS ORIGINAIS EM PYTHON
+CÓDIGO GERADO COM CLAUDE AI COM BASE NOS CÓDIGOS ORIGINAIS EM PYTHON
 Os códigos originais foram intensamente testados e estão disponíveis em:
 https://github.com/pedro-mantovani/calculadora_ENEM
-O erro médio é de 0,03 pontos
+O erro médio é inferior a presisão mostrada no ENEM (um décimo)
 */
 
 "use strict";
@@ -268,6 +268,7 @@ const el = {
   scoreAreaLabel: document.getElementById("score-area-label"),
   scoreNota: document.getElementById("score-nota"),
   scoreAcertos: document.getElementById("score-acertos"),
+  scoreTheta: document.getElementById("score-theta"),
   totalQuestoesResultado: document.getElementById("total-questoes-resultado"),
   loadingDeltas: document.getElementById("loading-deltas"),
   deltaTable: document.getElementById("delta-table"),
@@ -541,7 +542,7 @@ el.btnCalcular.addEventListener("click", async () => {
   await new Promise((resolve) => setTimeout(resolve, 30));
 
   try {
-    const { nota } = calcularNota(state.respostas, state.itens, state.area);
+    const { theta, nota } = calcularNota(state.respostas, state.itens, state.area);
 
     // Cálculo da quantidade de acertos
     let qtdAcertos = 0;
@@ -551,6 +552,7 @@ el.btnCalcular.addEventListener("click", async () => {
 
     el.scoreAreaLabel.textContent = SIGLAS[state.area] || state.area;
     el.scoreNota.textContent = nota.toFixed(1);
+    el.scoreTheta.textContent = theta.toFixed(4);
     el.scoreAcertos.textContent = qtdAcertos;
     el.totalQuestoesResultado.textContent = state.itens.length;
 
