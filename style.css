@@ -321,10 +321,11 @@ select:focus-visible {
 .bubble-sheet {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  grid-template-rows: repeat(15, auto); 
+  grid-auto-flow: column; 
   gap: 10px 18px;
   margin-bottom: 26px;
-  max-height: 480px;
-  overflow-y: auto;
+  height: auto; 
   padding: 4px 4px 4px 0;
 }
 
