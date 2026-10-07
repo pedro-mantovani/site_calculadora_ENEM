@@ -696,7 +696,7 @@ const NOME_AREAS = {
 
 async function iniciarFiltrosCascata() {
   try {
-    const res = await fetch('dados/provas_mapeadas.json');
+    const res = await fetch('./dados/provas_mapeadas.json');
     if (!res.ok) throw new Error("JSON não encontrado");
     catalogoProvas = await res.json();
     
