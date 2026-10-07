@@ -4,5319 +4,6839 @@
     "area": "CN",
     "aplicacao": "Regular",
     "descricao": "Azul",
-    "codigo": 1483
+    "codigo": 1483,
+    "erro_medio": 0.0037,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2025,
     "area": "CN",
     "aplicacao": "Regular",
     "descricao": "Amarela",
-    "codigo": 1484
+    "codigo": 1484,
+    "erro_medio": 0.004,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2025,
     "area": "CN",
     "aplicacao": "Regular",
     "descricao": "Verde",
-    "codigo": 1485
+    "codigo": 1485,
+    "erro_medio": 0.0027,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2025,
     "area": "CN",
     "aplicacao": "Regular",
     "descricao": "Cinza",
-    "codigo": 1486
+    "codigo": 1486,
+    "erro_medio": 0.0052,
+    "erro_maximo": 0.6
   },
   {
     "ano": 2025,
     "area": "CN",
     "aplicacao": "Regular",
     "descricao": "Laranja - Ampliada",
-    "codigo": 1487
+    "codigo": 1487,
+    "erro_medio": 0.0036,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2025,
     "area": "CN",
     "aplicacao": "Regular",
     "descricao": "Laranja - Superampliada",
-    "codigo": 1488
+    "codigo": 1488,
+    "erro_medio": 0.0035,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2025,
     "area": "CN",
     "aplicacao": "Regular",
     "descricao": "Laranja - Adaptada Ledor",
-    "codigo": 1490
+    "codigo": 1490,
+    "erro_medio": 0.0045,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2025,
     "area": "CN",
     "aplicacao": "Regular",
     "descricao": "Roxo - Videoprova - Libras",
-    "codigo": 1491
+    "codigo": 1491,
+    "erro_medio": 0.0055,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2025,
     "area": "CN",
     "aplicacao": "Regular",
     "descricao": "Laranja - Atendimento Especializado",
-    "codigo": 1498
+    "codigo": 1498,
+    "erro_medio": 0.0046,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2025,
     "area": "CN",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Azul",
-    "codigo": 1569
+    "codigo": 1569,
+    "erro_medio": 0.0078,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2025,
     "area": "CN",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Amarela",
-    "codigo": 1570
+    "codigo": 1570,
+    "erro_medio": 0.0036,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2025,
     "area": "CN",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Cinza",
-    "codigo": 1571
+    "codigo": 1571,
+    "erro_medio": 0.0051,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2025,
     "area": "CN",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Verde",
-    "codigo": 1572
+    "codigo": 1572,
+    "erro_medio": 0.0046,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2025,
     "area": "CN",
     "aplicacao": "Regular",
     "descricao": "Azul - BAM2",
-    "codigo": 1619
+    "codigo": 1619,
+    "erro_medio": null,
+    "erro_maximo": null
   },
   {
     "ano": 2025,
     "area": "CN",
     "aplicacao": "Regular",
     "descricao": "Amarela - BAM2",
-    "codigo": 1620
+    "codigo": 1620,
+    "erro_medio": null,
+    "erro_maximo": null
   },
   {
     "ano": 2025,
     "area": "CN",
     "aplicacao": "Regular",
     "descricao": "Verde - BAM2",
-    "codigo": 1621
+    "codigo": 1621,
+    "erro_medio": null,
+    "erro_maximo": null
   },
   {
     "ano": 2025,
     "area": "CN",
     "aplicacao": "Regular",
     "descricao": "Cinza - BAM2",
-    "codigo": 1622
+    "codigo": 1622,
+    "erro_medio": null,
+    "erro_maximo": null
   },
   {
     "ano": 2025,
     "area": "CN",
     "aplicacao": "Regular",
     "descricao": "Laranja - Ampliada - BAM2",
-    "codigo": 1623
+    "codigo": 1623,
+    "erro_medio": null,
+    "erro_maximo": null
   },
   {
     "ano": 2025,
     "area": "CN",
     "aplicacao": "Regular",
     "descricao": "Laranja - Atendimento Especializado - BAM2",
-    "codigo": 1634
+    "codigo": 1634,
+    "erro_medio": null,
+    "erro_maximo": null
   },
   {
     "ano": 2025,
     "area": "CH",
     "aplicacao": "Regular",
     "descricao": "Azul",
-    "codigo": 1447
+    "codigo": 1447,
+    "erro_medio": 0.0034,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2025,
     "area": "CH",
     "aplicacao": "Regular",
     "descricao": "Amarela",
-    "codigo": 1448
+    "codigo": 1448,
+    "erro_medio": 0.0039,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2025,
     "area": "CH",
     "aplicacao": "Regular",
     "descricao": "Branca",
-    "codigo": 1449
+    "codigo": 1449,
+    "erro_medio": 0.0036,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2025,
     "area": "CH",
     "aplicacao": "Regular",
     "descricao": "Verde",
-    "codigo": 1450
+    "codigo": 1450,
+    "erro_medio": 0.0036,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2025,
     "area": "CH",
     "aplicacao": "Regular",
     "descricao": "Laranja - Ampliada",
-    "codigo": 1451
+    "codigo": 1451,
+    "erro_medio": 0.0042,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2025,
     "area": "CH",
     "aplicacao": "Regular",
     "descricao": "Laranja - Superampliada",
-    "codigo": 1452
+    "codigo": 1452,
+    "erro_medio": 0.0021,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2025,
     "area": "CH",
     "aplicacao": "Regular",
     "descricao": "Laranja - Adaptada Ledor",
-    "codigo": 1454
+    "codigo": 1454,
+    "erro_medio": 0.0035,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2025,
     "area": "CH",
     "aplicacao": "Regular",
     "descricao": "Roxo - Videoprova - Libras",
-    "codigo": 1455
+    "codigo": 1455,
+    "erro_medio": 0.0052,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2025,
     "area": "CH",
     "aplicacao": "Regular",
     "descricao": "Laranja - Atendimento Especializado",
-    "codigo": 1495
+    "codigo": 1495,
+    "erro_medio": 0.0042,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2025,
     "area": "CH",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Azul",
-    "codigo": 1539
+    "codigo": 1539,
+    "erro_medio": 0.0027,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2025,
     "area": "CH",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Branca",
-    "codigo": 1541
+    "codigo": 1541,
+    "erro_medio": 0.005,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2025,
     "area": "CH",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Verde",
-    "codigo": 1542
+    "codigo": 1542,
+    "erro_medio": 0.005,
+    "erro_maximo": 0.3
   },
   {
     "ano": 2025,
     "area": "CH",
     "aplicacao": "Regular",
     "descricao": "Azul - BAM2",
-    "codigo": 1583
+    "codigo": 1583,
+    "erro_medio": null,
+    "erro_maximo": null
   },
   {
     "ano": 2025,
     "area": "CH",
     "aplicacao": "Regular",
     "descricao": "Amarela - BAM2",
-    "codigo": 1584
+    "codigo": 1584,
+    "erro_medio": null,
+    "erro_maximo": null
   },
   {
     "ano": 2025,
     "area": "CH",
     "aplicacao": "Regular",
     "descricao": "Branca - BAM2",
-    "codigo": 1585
+    "codigo": 1585,
+    "erro_medio": null,
+    "erro_maximo": null
   },
   {
     "ano": 2025,
     "area": "CH",
     "aplicacao": "Regular",
     "descricao": "Verde - BAM2",
-    "codigo": 1586
+    "codigo": 1586,
+    "erro_medio": null,
+    "erro_maximo": null
   },
   {
     "ano": 2025,
     "area": "CH",
     "aplicacao": "Regular",
     "descricao": "Laranja - Ampliada - BAM2",
-    "codigo": 1587
+    "codigo": 1587,
+    "erro_medio": null,
+    "erro_maximo": null
   },
   {
     "ano": 2025,
     "area": "CH",
     "aplicacao": "Regular",
     "descricao": "Laranja - Atendimento Especializado - BAM2",
-    "codigo": 1631
+    "codigo": 1631,
+    "erro_medio": null,
+    "erro_maximo": null
   },
   {
     "ano": 2025,
     "area": "LC",
     "aplicacao": "Regular",
     "descricao": "Azul",
-    "codigo": 1459
+    "codigo": 1459,
+    "erro_medio": 0.0033,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2025,
     "area": "LC",
     "aplicacao": "Regular",
     "descricao": "Amarela",
-    "codigo": 1460
+    "codigo": 1460,
+    "erro_medio": 0.0039,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2025,
     "area": "LC",
     "aplicacao": "Regular",
     "descricao": "Verde",
-    "codigo": 1461
+    "codigo": 1461,
+    "erro_medio": 0.0036,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2025,
     "area": "LC",
     "aplicacao": "Regular",
     "descricao": "Branca",
-    "codigo": 1462
+    "codigo": 1462,
+    "erro_medio": 0.003,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2025,
     "area": "LC",
     "aplicacao": "Regular",
     "descricao": "Laranja - Ampliada",
-    "codigo": 1463
+    "codigo": 1463,
+    "erro_medio": 0.0051,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2025,
     "area": "LC",
     "aplicacao": "Regular",
     "descricao": "Laranja - Superampliada",
-    "codigo": 1464
+    "codigo": 1464,
+    "erro_medio": 0.003,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2025,
     "area": "LC",
     "aplicacao": "Regular",
     "descricao": "Laranja - Adaptada Ledor",
-    "codigo": 1466
+    "codigo": 1466,
+    "erro_medio": 0.0024,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2025,
     "area": "LC",
     "aplicacao": "Regular",
     "descricao": "Roxo - Videoprova - Libras",
-    "codigo": 1467
+    "codigo": 1467,
+    "erro_medio": 0.0056,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2025,
     "area": "LC",
     "aplicacao": "Regular",
     "descricao": "Laranja - Atendimento Especializado",
-    "codigo": 1496
+    "codigo": 1496,
+    "erro_medio": 0.0051,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2025,
     "area": "LC",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Azul",
-    "codigo": 1549
+    "codigo": 1549,
+    "erro_medio": 12.8984,
+    "erro_maximo": 32.9
   },
   {
     "ano": 2025,
     "area": "LC",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Verde",
-    "codigo": 1551
+    "codigo": 1551,
+    "erro_medio": 13.9228,
+    "erro_maximo": 38.6
   },
   {
     "ano": 2025,
     "area": "LC",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Branca",
-    "codigo": 1552
+    "codigo": 1552,
+    "erro_medio": 13.4052,
+    "erro_maximo": 34.1
   },
   {
     "ano": 2025,
     "area": "LC",
     "aplicacao": "Regular",
     "descricao": "Azul - BAM2",
-    "codigo": 1595
+    "codigo": 1595,
+    "erro_medio": null,
+    "erro_maximo": null
   },
   {
     "ano": 2025,
     "area": "LC",
     "aplicacao": "Regular",
     "descricao": "Amarela - BAM2",
-    "codigo": 1596
+    "codigo": 1596,
+    "erro_medio": null,
+    "erro_maximo": null
   },
   {
     "ano": 2025,
     "area": "LC",
     "aplicacao": "Regular",
     "descricao": "Verde - BAM2",
-    "codigo": 1597
+    "codigo": 1597,
+    "erro_medio": null,
+    "erro_maximo": null
   },
   {
     "ano": 2025,
     "area": "LC",
     "aplicacao": "Regular",
     "descricao": "Branca - BAM2",
-    "codigo": 1598
+    "codigo": 1598,
+    "erro_medio": null,
+    "erro_maximo": null
   },
   {
     "ano": 2025,
     "area": "LC",
     "aplicacao": "Regular",
     "descricao": "Laranja - Ampliada - BAM2",
-    "codigo": 1599
+    "codigo": 1599,
+    "erro_medio": null,
+    "erro_maximo": null
   },
   {
     "ano": 2025,
     "area": "LC",
     "aplicacao": "Regular",
     "descricao": "Laranja - Atendimento Especializado - BAM2",
-    "codigo": 1632
+    "codigo": 1632,
+    "erro_medio": null,
+    "erro_maximo": null
   },
   {
     "ano": 2025,
     "area": "MT",
     "aplicacao": "Regular",
     "descricao": "Azul",
-    "codigo": 1471
+    "codigo": 1471,
+    "erro_medio": 0.0065,
+    "erro_maximo": 0.7
   },
   {
     "ano": 2025,
     "area": "MT",
     "aplicacao": "Regular",
     "descricao": "Amarela",
-    "codigo": 1472
+    "codigo": 1472,
+    "erro_medio": 0.0054,
+    "erro_maximo": 0.6
   },
   {
     "ano": 2025,
     "area": "MT",
     "aplicacao": "Regular",
     "descricao": "Verde",
-    "codigo": 1473
+    "codigo": 1473,
+    "erro_medio": 0.005,
+    "erro_maximo": 0.5
   },
   {
     "ano": 2025,
     "area": "MT",
     "aplicacao": "Regular",
     "descricao": "Cinza",
-    "codigo": 1474
+    "codigo": 1474,
+    "erro_medio": 0.0118,
+    "erro_maximo": 1.2
   },
   {
     "ano": 2025,
     "area": "MT",
     "aplicacao": "Regular",
     "descricao": "Laranja - Ampliada",
-    "codigo": 1475
+    "codigo": 1475,
+    "erro_medio": 0.0073,
+    "erro_maximo": 0.4
   },
   {
     "ano": 2025,
     "area": "MT",
     "aplicacao": "Regular",
     "descricao": "Laranja - Superampliada",
-    "codigo": 1476
+    "codigo": 1476,
+    "erro_medio": 0.0076,
+    "erro_maximo": 1.9
   },
   {
     "ano": 2025,
     "area": "MT",
     "aplicacao": "Regular",
     "descricao": "Laranja - Adaptada Ledor",
-    "codigo": 1478
+    "codigo": 1478,
+    "erro_medio": 0.0036,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2025,
     "area": "MT",
     "aplicacao": "Regular",
     "descricao": "Roxo - Videoprova - Libras",
-    "codigo": 1479
+    "codigo": 1479,
+    "erro_medio": 0.006,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2025,
     "area": "MT",
     "aplicacao": "Regular",
     "descricao": "Laranja - Atendimento Especializado",
-    "codigo": 1497
+    "codigo": 1497,
+    "erro_medio": 0.0059,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2025,
     "area": "MT",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Azul",
-    "codigo": 1559
+    "codigo": 1559,
+    "erro_medio": 0.0102,
+    "erro_maximo": 0.5
   },
   {
     "ano": 2025,
     "area": "MT",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Amarela",
-    "codigo": 1560
+    "codigo": 1560,
+    "erro_medio": 0.0042,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2025,
     "area": "MT",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Verde",
-    "codigo": 1561
+    "codigo": 1561,
+    "erro_medio": 0.0069,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2025,
     "area": "MT",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Cinza",
-    "codigo": 1562
+    "codigo": 1562,
+    "erro_medio": 0.0184,
+    "erro_maximo": 2.2
   },
   {
     "ano": 2025,
     "area": "MT",
     "aplicacao": "Regular",
     "descricao": "Azul - BAM2",
-    "codigo": 1607
+    "codigo": 1607,
+    "erro_medio": null,
+    "erro_maximo": null
   },
   {
     "ano": 2025,
     "area": "MT",
     "aplicacao": "Regular",
     "descricao": "Amarela - BAM2",
-    "codigo": 1608
+    "codigo": 1608,
+    "erro_medio": null,
+    "erro_maximo": null
   },
   {
     "ano": 2025,
     "area": "MT",
     "aplicacao": "Regular",
     "descricao": "Verde - BAM2",
-    "codigo": 1609
+    "codigo": 1609,
+    "erro_medio": null,
+    "erro_maximo": null
   },
   {
     "ano": 2025,
     "area": "MT",
     "aplicacao": "Regular",
     "descricao": "Cinza - BAM2",
-    "codigo": 1610
+    "codigo": 1610,
+    "erro_medio": null,
+    "erro_maximo": null
   },
   {
     "ano": 2025,
     "area": "MT",
     "aplicacao": "Regular",
     "descricao": "Laranja - Ampliada - BAM2",
-    "codigo": 1611
+    "codigo": 1611,
+    "erro_medio": null,
+    "erro_maximo": null
   },
   {
     "ano": 2025,
     "area": "MT",
     "aplicacao": "Regular",
     "descricao": "Laranja - Atendimento Especializado - BAM2",
-    "codigo": 1633
+    "codigo": 1633,
+    "erro_medio": null,
+    "erro_maximo": null
   },
   {
     "ano": 2024,
     "area": "CN",
     "aplicacao": "Regular",
     "descricao": "Azul",
-    "codigo": 1419
+    "codigo": 1419,
+    "erro_medio": 0.0053,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2024,
     "area": "CN",
     "aplicacao": "Regular",
     "descricao": "Amarela",
-    "codigo": 1420
+    "codigo": 1420,
+    "erro_medio": 0.0043,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2024,
     "area": "CN",
     "aplicacao": "Regular",
     "descricao": "Verde",
-    "codigo": 1421
+    "codigo": 1421,
+    "erro_medio": 0.0041,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2024,
     "area": "CN",
     "aplicacao": "Regular",
     "descricao": "Cinza",
-    "codigo": 1422
+    "codigo": 1422,
+    "erro_medio": 0.0037,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2024,
     "area": "CN",
     "aplicacao": "Regular",
     "descricao": "Verde - Ampliada",
-    "codigo": 1423
+    "codigo": 1423,
+    "erro_medio": 0.0044,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2024,
     "area": "CN",
     "aplicacao": "Regular",
     "descricao": "Verde - Superampliada",
-    "codigo": 1424
+    "codigo": 1424,
+    "erro_medio": 0.0043,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2024,
     "area": "CN",
     "aplicacao": "Regular",
     "descricao": "Laranja - Adaptada Ledor",
-    "codigo": 1426
+    "codigo": 1426,
+    "erro_medio": 0.0054,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2024,
     "area": "CN",
     "aplicacao": "Regular",
     "descricao": "Roxa - Videoprova - Libras",
-    "codigo": 1427
+    "codigo": 1427,
+    "erro_medio": 0.0047,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2024,
     "area": "CN",
     "aplicacao": "Regular",
     "descricao": "Roxa - Videoprova - Libras - Ampliada",
-    "codigo": 1428
+    "codigo": 1428,
+    "erro_medio": null,
+    "erro_maximo": null
   },
   {
     "ano": 2024,
     "area": "CN",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Azul",
-    "codigo": 1373
+    "codigo": 1373,
+    "erro_medio": 0.0017,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2024,
     "area": "CN",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Amarela",
-    "codigo": 1374
+    "codigo": 1374,
+    "erro_medio": 0.0034,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2024,
     "area": "CN",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Cinza",
-    "codigo": 1375
+    "codigo": 1375,
+    "erro_medio": 0.0063,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2024,
     "area": "CN",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Verde",
-    "codigo": 1376
+    "codigo": 1376,
+    "erro_medio": 0.0075,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2024,
     "area": "CN",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Verde - Ampliada",
-    "codigo": 1377
+    "codigo": 1377,
+    "erro_medio": null,
+    "erro_maximo": null
   },
   {
     "ano": 2024,
     "area": "CN",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Verde - Superampliada",
-    "codigo": 1378
+    "codigo": 1378,
+    "erro_medio": null,
+    "erro_maximo": null
   },
   {
     "ano": 2024,
     "area": "CN",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Laranja - Adaptada Ledor",
-    "codigo": 1380
+    "codigo": 1380,
+    "erro_medio": null,
+    "erro_maximo": null
   },
   {
     "ano": 2024,
     "area": "CH",
     "aplicacao": "Regular",
     "descricao": "Azul",
-    "codigo": 1383
+    "codigo": 1383,
+    "erro_medio": 0.0042,
+    "erro_maximo": 0.4
   },
   {
     "ano": 2024,
     "area": "CH",
     "aplicacao": "Regular",
     "descricao": "Amarela",
-    "codigo": 1384
+    "codigo": 1384,
+    "erro_medio": 0.0066,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2024,
     "area": "CH",
     "aplicacao": "Regular",
     "descricao": "Branca",
-    "codigo": 1385
+    "codigo": 1385,
+    "erro_medio": 0.0052,
+    "erro_maximo": 0.5
   },
   {
     "ano": 2024,
     "area": "CH",
     "aplicacao": "Regular",
     "descricao": "Verde",
-    "codigo": 1386
+    "codigo": 1386,
+    "erro_medio": 0.0046,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2024,
     "area": "CH",
     "aplicacao": "Regular",
     "descricao": "Verde - Ampliada",
-    "codigo": 1387
+    "codigo": 1387,
+    "erro_medio": 0.0056,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2024,
     "area": "CH",
     "aplicacao": "Regular",
     "descricao": "Verde - Superampliada",
-    "codigo": 1388
+    "codigo": 1388,
+    "erro_medio": 0.0055,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2024,
     "area": "CH",
     "aplicacao": "Regular",
     "descricao": "Laranja - Adaptada Ledor",
-    "codigo": 1390
+    "codigo": 1390,
+    "erro_medio": 0.0064,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2024,
     "area": "CH",
     "aplicacao": "Regular",
     "descricao": "Roxa - Videoprova - Libras",
-    "codigo": 1391
+    "codigo": 1391,
+    "erro_medio": 0.0072,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2024,
     "area": "CH",
     "aplicacao": "Regular",
     "descricao": "Roxa - Videoprova - Libras - Ampliada",
-    "codigo": 1392
+    "codigo": 1392,
+    "erro_medio": null,
+    "erro_maximo": null
   },
   {
     "ano": 2024,
     "area": "CH",
     "aplicacao": "Regular",
     "descricao": "Roxa - Videoprova - Libras - Superampliada",
-    "codigo": 1393
+    "codigo": 1393,
+    "erro_medio": null,
+    "erro_maximo": null
   },
   {
     "ano": 2024,
     "area": "CH",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Azul",
-    "codigo": 1343
+    "codigo": 1343,
+    "erro_medio": null,
+    "erro_maximo": null
   },
   {
     "ano": 2024,
     "area": "CH",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Amarela",
-    "codigo": 1344
+    "codigo": 1344,
+    "erro_medio": null,
+    "erro_maximo": null
   },
   {
     "ano": 2024,
     "area": "CH",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Branca",
-    "codigo": 1345
+    "codigo": 1345,
+    "erro_medio": null,
+    "erro_maximo": null
   },
   {
     "ano": 2024,
     "area": "CH",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Verde",
-    "codigo": 1346
+    "codigo": 1346,
+    "erro_medio": null,
+    "erro_maximo": null
   },
   {
     "ano": 2024,
     "area": "CH",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Verde - Ampliada",
-    "codigo": 1347
+    "codigo": 1347,
+    "erro_medio": null,
+    "erro_maximo": null
   },
   {
     "ano": 2024,
     "area": "CH",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Verde - Superampliada",
-    "codigo": 1348
+    "codigo": 1348,
+    "erro_medio": null,
+    "erro_maximo": null
   },
   {
     "ano": 2024,
     "area": "CH",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Laranja - Adaptada Ledor",
-    "codigo": 1350
+    "codigo": 1350,
+    "erro_medio": null,
+    "erro_maximo": null
   },
   {
     "ano": 2024,
     "area": "LC",
     "aplicacao": "Regular",
     "descricao": "Azul",
-    "codigo": 1395
+    "codigo": 1395,
+    "erro_medio": 0.0024,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2024,
     "area": "LC",
     "aplicacao": "Regular",
     "descricao": "Amarela",
-    "codigo": 1396
+    "codigo": 1396,
+    "erro_medio": 0.0029,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2024,
     "area": "LC",
     "aplicacao": "Regular",
     "descricao": "Verde",
-    "codigo": 1397
+    "codigo": 1397,
+    "erro_medio": 0.0038,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2024,
     "area": "LC",
     "aplicacao": "Regular",
     "descricao": "Branca",
-    "codigo": 1398
+    "codigo": 1398,
+    "erro_medio": 0.0045,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2024,
     "area": "LC",
     "aplicacao": "Regular",
     "descricao": "Verde - Ampliada",
-    "codigo": 1399
+    "codigo": 1399,
+    "erro_medio": 0.0035,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2024,
     "area": "LC",
     "aplicacao": "Regular",
     "descricao": "Verde - Superampliada",
-    "codigo": 1400
+    "codigo": 1400,
+    "erro_medio": 0.0026,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2024,
     "area": "LC",
     "aplicacao": "Regular",
     "descricao": "Laranja - Adaptada Ledor",
-    "codigo": 1402
+    "codigo": 1402,
+    "erro_medio": 0.0039,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2024,
     "area": "LC",
     "aplicacao": "Regular",
     "descricao": "Roxa - Videoprova - Libras",
-    "codigo": 1403
+    "codigo": 1403,
+    "erro_medio": 0.0063,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2024,
     "area": "LC",
     "aplicacao": "Regular",
     "descricao": "Roxa - Videoprova - Libras - Ampliada",
-    "codigo": 1404
+    "codigo": 1404,
+    "erro_medio": null,
+    "erro_maximo": null
   },
   {
     "ano": 2024,
     "area": "LC",
     "aplicacao": "Regular",
     "descricao": "Roxa - Videoprova - Libras - Superampliada",
-    "codigo": 1405
+    "codigo": 1405,
+    "erro_medio": null,
+    "erro_maximo": null
   },
   {
     "ano": 2024,
     "area": "LC",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Azul",
-    "codigo": 1353
+    "codigo": 1353,
+    "erro_medio": null,
+    "erro_maximo": null
   },
   {
     "ano": 2024,
     "area": "LC",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Amarela",
-    "codigo": 1354
+    "codigo": 1354,
+    "erro_medio": null,
+    "erro_maximo": null
   },
   {
     "ano": 2024,
     "area": "LC",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Verde",
-    "codigo": 1355
+    "codigo": 1355,
+    "erro_medio": null,
+    "erro_maximo": null
   },
   {
     "ano": 2024,
     "area": "LC",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Branca",
-    "codigo": 1356
+    "codigo": 1356,
+    "erro_medio": null,
+    "erro_maximo": null
   },
   {
     "ano": 2024,
     "area": "LC",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Verde - Ampliada",
-    "codigo": 1357
+    "codigo": 1357,
+    "erro_medio": null,
+    "erro_maximo": null
   },
   {
     "ano": 2024,
     "area": "LC",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Verde - Superampliada",
-    "codigo": 1358
+    "codigo": 1358,
+    "erro_medio": null,
+    "erro_maximo": null
   },
   {
     "ano": 2024,
     "area": "LC",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Laranja - Adaptada Ledor",
-    "codigo": 1360
+    "codigo": 1360,
+    "erro_medio": null,
+    "erro_maximo": null
   },
   {
     "ano": 2024,
     "area": "MT",
     "aplicacao": "Regular",
     "descricao": "Azul",
-    "codigo": 1407
+    "codigo": 1407,
+    "erro_medio": 0.0043,
+    "erro_maximo": 1.2
   },
   {
     "ano": 2024,
     "area": "MT",
     "aplicacao": "Regular",
     "descricao": "Amarela",
-    "codigo": 1408
+    "codigo": 1408,
+    "erro_medio": 0.0031,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2024,
     "area": "MT",
     "aplicacao": "Regular",
     "descricao": "Verde",
-    "codigo": 1409
+    "codigo": 1409,
+    "erro_medio": 0.0063,
+    "erro_maximo": 2.1
   },
   {
     "ano": 2024,
     "area": "MT",
     "aplicacao": "Regular",
     "descricao": "Cinza",
-    "codigo": 1410
+    "codigo": 1410,
+    "erro_medio": 0.0027,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2024,
     "area": "MT",
     "aplicacao": "Regular",
     "descricao": "Verde - Ampliada",
-    "codigo": 1411
+    "codigo": 1411,
+    "erro_medio": 0.0065,
+    "erro_maximo": 1.8
   },
   {
     "ano": 2024,
     "area": "MT",
     "aplicacao": "Regular",
     "descricao": "Verde - Superampliada",
-    "codigo": 1412
+    "codigo": 1412,
+    "erro_medio": 0.0027,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2024,
     "area": "MT",
     "aplicacao": "Regular",
     "descricao": "Laranja - Adaptada Ledor",
-    "codigo": 1414
+    "codigo": 1414,
+    "erro_medio": 0.0014,
+    "erro_maximo": 0.2
   },
   {
     "ano": 2024,
     "area": "MT",
     "aplicacao": "Regular",
     "descricao": "Roxa - Videoprova - Libras",
-    "codigo": 1415
+    "codigo": 1415,
+    "erro_medio": 0.0016,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2024,
     "area": "MT",
     "aplicacao": "Regular",
     "descricao": "Roxa - Videoprova - Libras - Ampliada",
-    "codigo": 1416
+    "codigo": 1416,
+    "erro_medio": null,
+    "erro_maximo": null
   },
   {
     "ano": 2024,
     "area": "MT",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Azul",
-    "codigo": 1363
+    "codigo": 1363,
+    "erro_medio": 0.0034,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2024,
     "area": "MT",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Amarela",
-    "codigo": 1364
+    "codigo": 1364,
+    "erro_medio": 0.0034,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2024,
     "area": "MT",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Verde",
-    "codigo": 1365
+    "codigo": 1365,
+    "erro_medio": 0.0038,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2024,
     "area": "MT",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Cinza",
-    "codigo": 1366
+    "codigo": 1366,
+    "erro_medio": 0.0062,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2024,
     "area": "MT",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Verde - Ampliada",
-    "codigo": 1367
+    "codigo": 1367,
+    "erro_medio": null,
+    "erro_maximo": null
   },
   {
     "ano": 2024,
     "area": "MT",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Verde - Superampliada",
-    "codigo": 1368
+    "codigo": 1368,
+    "erro_medio": null,
+    "erro_maximo": null
   },
   {
     "ano": 2024,
     "area": "MT",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Laranja - Adaptada Ledor",
-    "codigo": 1370
+    "codigo": 1370,
+    "erro_medio": null,
+    "erro_maximo": null
   },
   {
     "ano": 2023,
     "area": "CN",
     "aplicacao": "Regular",
     "descricao": "Azul",
-    "codigo": 1221
+    "codigo": 1221,
+    "erro_medio": 0.0032,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2023,
     "area": "CN",
     "aplicacao": "Regular",
     "descricao": "Amarela",
-    "codigo": 1222
+    "codigo": 1222,
+    "erro_medio": 0.0045,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2023,
     "area": "CN",
     "aplicacao": "Regular",
     "descricao": "Rosa",
-    "codigo": 1223
+    "codigo": 1223,
+    "erro_medio": 0.0039,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2023,
     "area": "CN",
     "aplicacao": "Regular",
     "descricao": "Cinza",
-    "codigo": 1224
+    "codigo": 1224,
+    "erro_medio": 0.0048,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2023,
     "area": "CN",
     "aplicacao": "Regular",
     "descricao": "Rosa - Ampliada",
-    "codigo": 1225
+    "codigo": 1225,
+    "erro_medio": 0.0034,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2023,
     "area": "CN",
     "aplicacao": "Regular",
     "descricao": "Rosa - Superampliada",
-    "codigo": 1226
+    "codigo": 1226,
+    "erro_medio": 0.005,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2023,
     "area": "CN",
     "aplicacao": "Regular",
     "descricao": "Laranja - Braile",
-    "codigo": 1227
+    "codigo": 1227,
+    "erro_medio": 0.0033,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2023,
     "area": "CN",
     "aplicacao": "Regular",
     "descricao": "Laranja - Adaptada Ledor",
-    "codigo": 1228
+    "codigo": 1228,
+    "erro_medio": 0.0048,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2023,
     "area": "CN",
     "aplicacao": "Regular",
     "descricao": "Verde - Videoprova - Libras",
-    "codigo": 1229
+    "codigo": 1229,
+    "erro_medio": 0.009,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2023,
     "area": "CN",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Azul",
-    "codigo": 1301
+    "codigo": 1301,
+    "erro_medio": 0.0031,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2023,
     "area": "CN",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Amarela",
-    "codigo": 1302
+    "codigo": 1302,
+    "erro_medio": 0.0044,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2023,
     "area": "CN",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Cinza",
-    "codigo": 1303
+    "codigo": 1303,
+    "erro_medio": 0.0045,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2023,
     "area": "CN",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Rosa",
-    "codigo": 1304
+    "codigo": 1304,
+    "erro_medio": 0.004,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2023,
     "area": "CH",
     "aplicacao": "Regular",
     "descricao": "Azul",
-    "codigo": 1191
+    "codigo": 1191,
+    "erro_medio": 0.0032,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2023,
     "area": "CH",
     "aplicacao": "Regular",
     "descricao": "Amarela",
-    "codigo": 1192
+    "codigo": 1192,
+    "erro_medio": 0.0041,
+    "erro_maximo": 1.1
   },
   {
     "ano": 2023,
     "area": "CH",
     "aplicacao": "Regular",
     "descricao": "Branca",
-    "codigo": 1193
+    "codigo": 1193,
+    "erro_medio": 0.0025,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2023,
     "area": "CH",
     "aplicacao": "Regular",
     "descricao": "Rosa",
-    "codigo": 1194
+    "codigo": 1194,
+    "erro_medio": 0.0045,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2023,
     "area": "CH",
     "aplicacao": "Regular",
     "descricao": "Rosa - Ampliada",
-    "codigo": 1195
+    "codigo": 1195,
+    "erro_medio": 0.003,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2023,
     "area": "CH",
     "aplicacao": "Regular",
     "descricao": "Rosa - Superampliada",
-    "codigo": 1196
+    "codigo": 1196,
+    "erro_medio": 0.0044,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2023,
     "area": "CH",
     "aplicacao": "Regular",
     "descricao": "Laranja - Braile",
-    "codigo": 1197
+    "codigo": 1197,
+    "erro_medio": 0.0048,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2023,
     "area": "CH",
     "aplicacao": "Regular",
     "descricao": "Laranja - Adaptada Ledor",
-    "codigo": 1198
+    "codigo": 1198,
+    "erro_medio": 0.0033,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2023,
     "area": "CH",
     "aplicacao": "Regular",
     "descricao": "Verde - Videoprova - Libras",
-    "codigo": 1199
+    "codigo": 1199,
+    "erro_medio": 0.0066,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2023,
     "area": "CH",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Azul",
-    "codigo": 1271
+    "codigo": 1271,
+    "erro_medio": 0.003,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2023,
     "area": "CH",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Amarela",
-    "codigo": 1272
+    "codigo": 1272,
+    "erro_medio": 0.0037,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2023,
     "area": "CH",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Branca",
-    "codigo": 1273
+    "codigo": 1273,
+    "erro_medio": 0.0037,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2023,
     "area": "CH",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Rosa",
-    "codigo": 1274
+    "codigo": 1274,
+    "erro_medio": 0.0033,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2023,
     "area": "LC",
     "aplicacao": "Regular",
     "descricao": "Azul",
-    "codigo": 1201
+    "codigo": 1201,
+    "erro_medio": 0.0024,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2023,
     "area": "LC",
     "aplicacao": "Regular",
     "descricao": "Amarela",
-    "codigo": 1202
+    "codigo": 1202,
+    "erro_medio": 0.0013,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2023,
     "area": "LC",
     "aplicacao": "Regular",
     "descricao": "Rosa",
-    "codigo": 1203
+    "codigo": 1203,
+    "erro_medio": 0.0027,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2023,
     "area": "LC",
     "aplicacao": "Regular",
     "descricao": "Branca",
-    "codigo": 1204
+    "codigo": 1204,
+    "erro_medio": 0.0029,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2023,
     "area": "LC",
     "aplicacao": "Regular",
     "descricao": "Rosa - Ampliada",
-    "codigo": 1205
+    "codigo": 1205,
+    "erro_medio": 0.0035,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2023,
     "area": "LC",
     "aplicacao": "Regular",
     "descricao": "Rosa - Superampliada",
-    "codigo": 1206
+    "codigo": 1206,
+    "erro_medio": 0.0027,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2023,
     "area": "LC",
     "aplicacao": "Regular",
     "descricao": "Laranja - Braile",
-    "codigo": 1207
+    "codigo": 1207,
+    "erro_medio": 0.007,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2023,
     "area": "LC",
     "aplicacao": "Regular",
     "descricao": "Laranja - Adaptada Ledor",
-    "codigo": 1208
+    "codigo": 1208,
+    "erro_medio": 0.0045,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2023,
     "area": "LC",
     "aplicacao": "Regular",
     "descricao": "Verde - Videoprova - Libras",
-    "codigo": 1209
+    "codigo": 1209,
+    "erro_medio": 0.0085,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2023,
     "area": "LC",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Azul",
-    "codigo": 1281
+    "codigo": 1281,
+    "erro_medio": 0.0021,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2023,
     "area": "LC",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Amarela",
-    "codigo": 1282
+    "codigo": 1282,
+    "erro_medio": 0.0311,
+    "erro_maximo": 22.1
   },
   {
     "ano": 2023,
     "area": "LC",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Rosa",
-    "codigo": 1283
+    "codigo": 1283,
+    "erro_medio": 0.003,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2023,
     "area": "LC",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Branca",
-    "codigo": 1284
+    "codigo": 1284,
+    "erro_medio": 0.0303,
+    "erro_maximo": 22.1
   },
   {
     "ano": 2023,
     "area": "MT",
     "aplicacao": "Regular",
     "descricao": "Azul",
-    "codigo": 1211
+    "codigo": 1211,
+    "erro_medio": 0.0048,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2023,
     "area": "MT",
     "aplicacao": "Regular",
     "descricao": "Amarela",
-    "codigo": 1212
+    "codigo": 1212,
+    "erro_medio": 0.0077,
+    "erro_maximo": 2.2
   },
   {
     "ano": 2023,
     "area": "MT",
     "aplicacao": "Regular",
     "descricao": "Rosa",
-    "codigo": 1213
+    "codigo": 1213,
+    "erro_medio": 0.0068,
+    "erro_maximo": 2.4
   },
   {
     "ano": 2023,
     "area": "MT",
     "aplicacao": "Regular",
     "descricao": "Cinza",
-    "codigo": 1214
+    "codigo": 1214,
+    "erro_medio": 0.0045,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2023,
     "area": "MT",
     "aplicacao": "Regular",
     "descricao": "Rosa - Ampliada",
-    "codigo": 1215
+    "codigo": 1215,
+    "erro_medio": 0.004,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2023,
     "area": "MT",
     "aplicacao": "Regular",
     "descricao": "Rosa - Superampliada",
-    "codigo": 1216
+    "codigo": 1216,
+    "erro_medio": 0.005,
+    "erro_maximo": 0.2
   },
   {
     "ano": 2023,
     "area": "MT",
     "aplicacao": "Regular",
     "descricao": "Laranja - Braile",
-    "codigo": 1217
+    "codigo": 1217,
+    "erro_medio": 0.0033,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2023,
     "area": "MT",
     "aplicacao": "Regular",
     "descricao": "Laranja - Adaptada Ledor",
-    "codigo": 1218
+    "codigo": 1218,
+    "erro_medio": 0.0045,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2023,
     "area": "MT",
     "aplicacao": "Regular",
     "descricao": "Verde - Videoprova - Libras",
-    "codigo": 1219
+    "codigo": 1219,
+    "erro_medio": 0.0045,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2023,
     "area": "MT",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Azul",
-    "codigo": 1291
+    "codigo": 1291,
+    "erro_medio": 0.004,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2023,
     "area": "MT",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Amarela",
-    "codigo": 1292
+    "codigo": 1292,
+    "erro_medio": 0.0041,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2023,
     "area": "MT",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Rosa",
-    "codigo": 1293
+    "codigo": 1293,
+    "erro_medio": 0.005,
+    "erro_maximo": 0.8
   },
   {
     "ano": 2023,
     "area": "MT",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Cinza",
-    "codigo": 1294
+    "codigo": 1294,
+    "erro_medio": 0.0034,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2022,
     "area": "CN",
     "aplicacao": "Regular",
     "descricao": "Azul",
-    "codigo": 1085
+    "codigo": 1085,
+    "erro_medio": 0.004,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2022,
     "area": "CN",
     "aplicacao": "Regular",
     "descricao": "Amarela",
-    "codigo": 1086
+    "codigo": 1086,
+    "erro_medio": 0.0044,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2022,
     "area": "CN",
     "aplicacao": "Regular",
     "descricao": "Cinza",
-    "codigo": 1087
+    "codigo": 1087,
+    "erro_medio": 0.0037,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2022,
     "area": "CN",
     "aplicacao": "Regular",
     "descricao": "Rosa",
-    "codigo": 1088
+    "codigo": 1088,
+    "erro_medio": 0.0038,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2022,
     "area": "CN",
     "aplicacao": "Regular",
     "descricao": "Laranja - Adaptada Ledor",
-    "codigo": 1092
+    "codigo": 1092,
+    "erro_medio": 0.0027,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2022,
     "area": "CN",
     "aplicacao": "Regular",
     "descricao": "Verde - Videoprova - Libras",
-    "codigo": 1093
+    "codigo": 1093,
+    "erro_medio": 0.0037,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2022,
     "area": "CN",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Azul",
-    "codigo": 1165
+    "codigo": 1165,
+    "erro_medio": 0.0039,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2022,
     "area": "CN",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Amarela",
-    "codigo": 1166
+    "codigo": 1166,
+    "erro_medio": 0.0034,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2022,
     "area": "CN",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Cinza",
-    "codigo": 1167
+    "codigo": 1167,
+    "erro_medio": 0.0035,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2022,
     "area": "CN",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Rosa",
-    "codigo": 1168
+    "codigo": 1168,
+    "erro_medio": 0.0054,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2022,
     "area": "CN",
     "aplicacao": "Digital",
     "descricao": "Azul",
-    "codigo": 1187
+    "codigo": 1187,
+    "erro_medio": 0.0036,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2022,
     "area": "CN",
     "aplicacao": "Digital",
     "descricao": "Amarela",
-    "codigo": 1188
+    "codigo": 1188,
+    "erro_medio": 0.0036,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2022,
     "area": "CN",
     "aplicacao": "Digital",
     "descricao": "Rosa",
-    "codigo": 1189
+    "codigo": 1189,
+    "erro_medio": 0.0032,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2022,
     "area": "CN",
     "aplicacao": "Digital",
     "descricao": "Cinza",
-    "codigo": 1190
+    "codigo": 1190,
+    "erro_medio": 0.0026,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2022,
     "area": "CH",
     "aplicacao": "Regular",
     "descricao": "Azul",
-    "codigo": 1055
+    "codigo": 1055,
+    "erro_medio": 0.002,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2022,
     "area": "CH",
     "aplicacao": "Regular",
     "descricao": "Amarela",
-    "codigo": 1056
+    "codigo": 1056,
+    "erro_medio": 0.003,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2022,
     "area": "CH",
     "aplicacao": "Regular",
     "descricao": "Branca",
-    "codigo": 1057
+    "codigo": 1057,
+    "erro_medio": 0.0045,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2022,
     "area": "CH",
     "aplicacao": "Regular",
     "descricao": "Rosa",
-    "codigo": 1058
+    "codigo": 1058,
+    "erro_medio": 0.0037,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2022,
     "area": "CH",
     "aplicacao": "Regular",
     "descricao": "Laranja - Adaptada Ledor",
-    "codigo": 1062
+    "codigo": 1062,
+    "erro_medio": 0.0034,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2022,
     "area": "CH",
     "aplicacao": "Regular",
     "descricao": "Verde - Videoprova - Libras",
-    "codigo": 1063
+    "codigo": 1063,
+    "erro_medio": 0.0059,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2022,
     "area": "CH",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Azul",
-    "codigo": 1135
+    "codigo": 1135,
+    "erro_medio": 0.0045,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2022,
     "area": "CH",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Amarela",
-    "codigo": 1136
+    "codigo": 1136,
+    "erro_medio": 0.0025,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2022,
     "area": "CH",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Branca",
-    "codigo": 1137
+    "codigo": 1137,
+    "erro_medio": 0.008,
+    "erro_maximo": 0.6
   },
   {
     "ano": 2022,
     "area": "CH",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Rosa",
-    "codigo": 1138
+    "codigo": 1138,
+    "erro_medio": 0.0028,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2022,
     "area": "CH",
     "aplicacao": "Digital",
     "descricao": "Azul",
-    "codigo": 1175
+    "codigo": 1175,
+    "erro_medio": 0.0027,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2022,
     "area": "CH",
     "aplicacao": "Digital",
     "descricao": "Amarela",
-    "codigo": 1176
+    "codigo": 1176,
+    "erro_medio": 0.0019,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2022,
     "area": "CH",
     "aplicacao": "Digital",
     "descricao": "Branca",
-    "codigo": 1177
+    "codigo": 1177,
+    "erro_medio": 0.0032,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2022,
     "area": "CH",
     "aplicacao": "Digital",
     "descricao": "Rosa",
-    "codigo": 1178
+    "codigo": 1178,
+    "erro_medio": 0.0027,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2022,
     "area": "LC",
     "aplicacao": "Regular",
     "descricao": "Azul",
-    "codigo": 1065
+    "codigo": 1065,
+    "erro_medio": 0.0037,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2022,
     "area": "LC",
     "aplicacao": "Regular",
     "descricao": "Amarela",
-    "codigo": 1066
+    "codigo": 1066,
+    "erro_medio": 0.0023,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2022,
     "area": "LC",
     "aplicacao": "Regular",
     "descricao": "Rosa",
-    "codigo": 1067
+    "codigo": 1067,
+    "erro_medio": 0.002,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2022,
     "area": "LC",
     "aplicacao": "Regular",
     "descricao": "Branca",
-    "codigo": 1068
+    "codigo": 1068,
+    "erro_medio": 0.0025,
+    "erro_maximo": 0.2
   },
   {
     "ano": 2022,
     "area": "LC",
     "aplicacao": "Regular",
     "descricao": "Laranja - Adaptada Ledor",
-    "codigo": 1072
+    "codigo": 1072,
+    "erro_medio": 0.0043,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2022,
     "area": "LC",
     "aplicacao": "Regular",
     "descricao": "Verde - Videoprova - Libras",
-    "codigo": 1073
+    "codigo": 1073,
+    "erro_medio": 0.0073,
+    "erro_maximo": 0.2
   },
   {
     "ano": 2022,
     "area": "LC",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Azul",
-    "codigo": 1145
+    "codigo": 1145,
+    "erro_medio": 0.005,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2022,
     "area": "LC",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Amarela",
-    "codigo": 1146
+    "codigo": 1146,
+    "erro_medio": 0.0013,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2022,
     "area": "LC",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Rosa",
-    "codigo": 1147
+    "codigo": 1147,
+    "erro_medio": 0.0057,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2022,
     "area": "LC",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Branca",
-    "codigo": 1148
+    "codigo": 1148,
+    "erro_medio": 0.0019,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2022,
     "area": "LC",
     "aplicacao": "Digital",
     "descricao": "Azul",
-    "codigo": 1179
+    "codigo": 1179,
+    "erro_medio": 0.0019,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2022,
     "area": "LC",
     "aplicacao": "Digital",
     "descricao": "Amarela",
-    "codigo": 1180
+    "codigo": 1180,
+    "erro_medio": 0.0024,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2022,
     "area": "LC",
     "aplicacao": "Digital",
     "descricao": "Branca",
-    "codigo": 1181
+    "codigo": 1181,
+    "erro_medio": 0.0011,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2022,
     "area": "LC",
     "aplicacao": "Digital",
     "descricao": "Rosa",
-    "codigo": 1182
+    "codigo": 1182,
+    "erro_medio": 0.0015,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2022,
     "area": "MT",
     "aplicacao": "Regular",
     "descricao": "Azul",
-    "codigo": 1075
+    "codigo": 1075,
+    "erro_medio": 0.0042,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2022,
     "area": "MT",
     "aplicacao": "Regular",
     "descricao": "Amarela",
-    "codigo": 1076
+    "codigo": 1076,
+    "erro_medio": 0.0044,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2022,
     "area": "MT",
     "aplicacao": "Regular",
     "descricao": "Rosa",
-    "codigo": 1077
+    "codigo": 1077,
+    "erro_medio": 0.0033,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2022,
     "area": "MT",
     "aplicacao": "Regular",
     "descricao": "Cinza",
-    "codigo": 1078
+    "codigo": 1078,
+    "erro_medio": 0.0041,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2022,
     "area": "MT",
     "aplicacao": "Regular",
     "descricao": "Laranja - Adaptada Ledor",
-    "codigo": 1082
+    "codigo": 1082,
+    "erro_medio": 0.0041,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2022,
     "area": "MT",
     "aplicacao": "Regular",
     "descricao": "Verde - Videoprova - Libras",
-    "codigo": 1083
+    "codigo": 1083,
+    "erro_medio": 0.0035,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2022,
     "area": "MT",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Azul",
-    "codigo": 1155
+    "codigo": 1155,
+    "erro_medio": 0.0127,
+    "erro_maximo": 2.5
   },
   {
     "ano": 2022,
     "area": "MT",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Amarela",
-    "codigo": 1156
+    "codigo": 1156,
+    "erro_medio": 0.0069,
+    "erro_maximo": 0.6
   },
   {
     "ano": 2022,
     "area": "MT",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Rosa",
-    "codigo": 1157
+    "codigo": 1157,
+    "erro_medio": 0.008,
+    "erro_maximo": 1.8
   },
   {
     "ano": 2022,
     "area": "MT",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Cinza",
-    "codigo": 1158
+    "codigo": 1158,
+    "erro_medio": 0.0115,
+    "erro_maximo": 3.3
   },
   {
     "ano": 2022,
     "area": "MT",
     "aplicacao": "Digital",
     "descricao": "Azul",
-    "codigo": 1183
+    "codigo": 1183,
+    "erro_medio": 0.0056,
+    "erro_maximo": 0.7
   },
   {
     "ano": 2022,
     "area": "MT",
     "aplicacao": "Digital",
     "descricao": "Amarela",
-    "codigo": 1184
+    "codigo": 1184,
+    "erro_medio": 0.0081,
+    "erro_maximo": 3.1
   },
   {
     "ano": 2022,
     "area": "MT",
     "aplicacao": "Digital",
     "descricao": "Rosa",
-    "codigo": 1185
+    "codigo": 1185,
+    "erro_medio": 0.0207,
+    "erro_maximo": 7.1
   },
   {
     "ano": 2022,
     "area": "MT",
     "aplicacao": "Digital",
     "descricao": "Cinza",
-    "codigo": 1186
+    "codigo": 1186,
+    "erro_medio": 0.0035,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2021,
     "area": "CN",
     "aplicacao": "Regular",
     "descricao": "Azul",
-    "codigo": 909
+    "codigo": 909,
+    "erro_medio": 0.0036,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2021,
     "area": "CN",
     "aplicacao": "Regular",
     "descricao": "Amarela",
-    "codigo": 910
+    "codigo": 910,
+    "erro_medio": 0.0043,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2021,
     "area": "CN",
     "aplicacao": "Regular",
     "descricao": "Cinza",
-    "codigo": 911
+    "codigo": 911,
+    "erro_medio": 0.0042,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2021,
     "area": "CN",
     "aplicacao": "Regular",
     "descricao": "Rosa",
-    "codigo": 912
+    "codigo": 912,
+    "erro_medio": 0.0056,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2021,
     "area": "CN",
     "aplicacao": "Regular",
     "descricao": "Laranja - Braille",
-    "codigo": 915
+    "codigo": 915,
+    "erro_medio": null,
+    "erro_maximo": null
   },
   {
     "ano": 2021,
     "area": "CN",
     "aplicacao": "Regular",
     "descricao": "Laranja - Adaptada Ledor",
-    "codigo": 916
+    "codigo": 916,
+    "erro_medio": 0.0055,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2021,
     "area": "CN",
     "aplicacao": "Regular",
     "descricao": "Verde - Videoprova - Libras",
-    "codigo": 917
+    "codigo": 917,
+    "erro_medio": 0.0069,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2021,
     "area": "CN",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Azul",
-    "codigo": 989
+    "codigo": 989,
+    "erro_medio": 0.0053,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2021,
     "area": "CN",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Amarela",
-    "codigo": 990
+    "codigo": 990,
+    "erro_medio": 0.0042,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2021,
     "area": "CN",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Cinza",
-    "codigo": 991
+    "codigo": 991,
+    "erro_medio": 0.0043,
+    "erro_maximo": 0.3
   },
   {
     "ano": 2021,
     "area": "CN",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Rosa",
-    "codigo": 992
+    "codigo": 992,
+    "erro_medio": 0.0037,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2021,
     "area": "CN",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Laranja - Adaptada Ledor",
-    "codigo": 996
+    "codigo": 996,
+    "erro_medio": null,
+    "erro_maximo": null
   },
   {
     "ano": 2021,
     "area": "CN",
     "aplicacao": "Digital",
     "descricao": "Azul",
-    "codigo": 1011
+    "codigo": 1011,
+    "erro_medio": 0.0059,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2021,
     "area": "CN",
     "aplicacao": "Digital",
     "descricao": "Amarela",
-    "codigo": 1012
+    "codigo": 1012,
+    "erro_medio": 0.0041,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2021,
     "area": "CN",
     "aplicacao": "Digital",
     "descricao": "Rosa",
-    "codigo": 1013
+    "codigo": 1013,
+    "erro_medio": 0.0047,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2021,
     "area": "CN",
     "aplicacao": "Digital",
     "descricao": "Cinza",
-    "codigo": 1014
+    "codigo": 1014,
+    "erro_medio": 0.0051,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2021,
     "area": "CN",
     "aplicacao": "2ª Oportunidade",
     "descricao": "Azul",
-    "codigo": 1045
+    "codigo": 1045,
+    "erro_medio": 0.0047,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2021,
     "area": "CN",
     "aplicacao": "2ª Oportunidade",
     "descricao": "Amarela",
-    "codigo": 1046
+    "codigo": 1046,
+    "erro_medio": 0.0035,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2021,
     "area": "CN",
     "aplicacao": "2ª Oportunidade",
     "descricao": "Cinza",
-    "codigo": 1047
+    "codigo": 1047,
+    "erro_medio": 0.004,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2021,
     "area": "CN",
     "aplicacao": "2ª Oportunidade",
     "descricao": "Rosa",
-    "codigo": 1048
+    "codigo": 1048,
+    "erro_medio": 0.0034,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2021,
     "area": "CN",
     "aplicacao": "2ª Oportunidade",
     "descricao": "Laranja - Adaptada Ledor",
-    "codigo": 1052
+    "codigo": 1052,
+    "erro_medio": null,
+    "erro_maximo": null
   },
   {
     "ano": 2021,
     "area": "CH",
     "aplicacao": "Regular",
     "descricao": "Azul",
-    "codigo": 879
+    "codigo": 879,
+    "erro_medio": 0.0027,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2021,
     "area": "CH",
     "aplicacao": "Regular",
     "descricao": "Amarela",
-    "codigo": 880
+    "codigo": 880,
+    "erro_medio": 0.0032,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2021,
     "area": "CH",
     "aplicacao": "Regular",
     "descricao": "Branca",
-    "codigo": 881
+    "codigo": 881,
+    "erro_medio": 0.0025,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2021,
     "area": "CH",
     "aplicacao": "Regular",
     "descricao": "Rosa",
-    "codigo": 882
+    "codigo": 882,
+    "erro_medio": 0.0031,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2021,
     "area": "CH",
     "aplicacao": "Regular",
     "descricao": "Laranja - Braille",
-    "codigo": 885
+    "codigo": 885,
+    "erro_medio": null,
+    "erro_maximo": null
   },
   {
     "ano": 2021,
     "area": "CH",
     "aplicacao": "Regular",
     "descricao": "Laranja - Adaptada Ledor",
-    "codigo": 886
+    "codigo": 886,
+    "erro_medio": 0.0025,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2021,
     "area": "CH",
     "aplicacao": "Regular",
     "descricao": "Verde - Videoprova - Libras",
-    "codigo": 887
+    "codigo": 887,
+    "erro_medio": 0.0047,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2021,
     "area": "CH",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Azul",
-    "codigo": 959
+    "codigo": 959,
+    "erro_medio": 0.004,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2021,
     "area": "CH",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Amarela",
-    "codigo": 960
+    "codigo": 960,
+    "erro_medio": 0.0034,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2021,
     "area": "CH",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Branca",
-    "codigo": 961
+    "codigo": 961,
+    "erro_medio": 0.0033,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2021,
     "area": "CH",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Rosa",
-    "codigo": 962
+    "codigo": 962,
+    "erro_medio": 0.0028,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2021,
     "area": "CH",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Laranja - Adaptada Ledor",
-    "codigo": 966
+    "codigo": 966,
+    "erro_medio": null,
+    "erro_maximo": null
   },
   {
     "ano": 2021,
     "area": "CH",
     "aplicacao": "Digital",
     "descricao": "Azul",
-    "codigo": 999
+    "codigo": 999,
+    "erro_medio": 0.0039,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2021,
     "area": "CH",
     "aplicacao": "Digital",
     "descricao": "Amarela",
-    "codigo": 1000
+    "codigo": 1000,
+    "erro_medio": 0.0035,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2021,
     "area": "CH",
     "aplicacao": "Digital",
     "descricao": "Branca",
-    "codigo": 1001
+    "codigo": 1001,
+    "erro_medio": 0.0041,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2021,
     "area": "CH",
     "aplicacao": "Digital",
     "descricao": "Rosa",
-    "codigo": 1002
+    "codigo": 1002,
+    "erro_medio": 0.0034,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2021,
     "area": "CH",
     "aplicacao": "2ª Oportunidade",
     "descricao": "Azul",
-    "codigo": 1015
+    "codigo": 1015,
+    "erro_medio": 0.0038,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2021,
     "area": "CH",
     "aplicacao": "2ª Oportunidade",
     "descricao": "Amarela",
-    "codigo": 1016
+    "codigo": 1016,
+    "erro_medio": 0.0028,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2021,
     "area": "CH",
     "aplicacao": "2ª Oportunidade",
     "descricao": "Branca",
-    "codigo": 1017
+    "codigo": 1017,
+    "erro_medio": 0.0032,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2021,
     "area": "CH",
     "aplicacao": "2ª Oportunidade",
     "descricao": "Rosa",
-    "codigo": 1018
+    "codigo": 1018,
+    "erro_medio": 0.0042,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2021,
     "area": "CH",
     "aplicacao": "2ª Oportunidade",
     "descricao": "Laranja - Adaptada Ledor",
-    "codigo": 1022
+    "codigo": 1022,
+    "erro_medio": null,
+    "erro_maximo": null
   },
   {
     "ano": 2021,
     "area": "LC",
     "aplicacao": "Regular",
     "descricao": "Azul",
-    "codigo": 889
+    "codigo": 889,
+    "erro_medio": 0.0025,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2021,
     "area": "LC",
     "aplicacao": "Regular",
     "descricao": "Amarela",
-    "codigo": 890
+    "codigo": 890,
+    "erro_medio": 0.0029,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2021,
     "area": "LC",
     "aplicacao": "Regular",
     "descricao": "Rosa",
-    "codigo": 891
+    "codigo": 891,
+    "erro_medio": 0.0019,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2021,
     "area": "LC",
     "aplicacao": "Regular",
     "descricao": "Branca",
-    "codigo": 892
+    "codigo": 892,
+    "erro_medio": 0.0023,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2021,
     "area": "LC",
     "aplicacao": "Regular",
     "descricao": "Laranja - Braille",
-    "codigo": 895
+    "codigo": 895,
+    "erro_medio": null,
+    "erro_maximo": null
   },
   {
     "ano": 2021,
     "area": "LC",
     "aplicacao": "Regular",
     "descricao": "Laranja - Adaptada Ledor",
-    "codigo": 896
+    "codigo": 896,
+    "erro_medio": 11.528,
+    "erro_maximo": 22.4
   },
   {
     "ano": 2021,
     "area": "LC",
     "aplicacao": "Regular",
     "descricao": "Verde - Videoprova - Libras",
-    "codigo": 897
+    "codigo": 897,
+    "erro_medio": 10.7903,
+    "erro_maximo": 35.6
   },
   {
     "ano": 2021,
     "area": "LC",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Azul",
-    "codigo": 969
+    "codigo": 969,
+    "erro_medio": 0.0041,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2021,
     "area": "LC",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Amarela",
-    "codigo": 970
+    "codigo": 970,
+    "erro_medio": 0.0033,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2021,
     "area": "LC",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Rosa",
-    "codigo": 971
+    "codigo": 971,
+    "erro_medio": 0.0019,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2021,
     "area": "LC",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Branca",
-    "codigo": 972
+    "codigo": 972,
+    "erro_medio": 0.0037,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2021,
     "area": "LC",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Laranja - Adaptada Ledor",
-    "codigo": 976
+    "codigo": 976,
+    "erro_medio": null,
+    "erro_maximo": null
   },
   {
     "ano": 2021,
     "area": "LC",
     "aplicacao": "Digital",
     "descricao": "Azul",
-    "codigo": 1003
+    "codigo": 1003,
+    "erro_medio": 0.0024,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2021,
     "area": "LC",
     "aplicacao": "Digital",
     "descricao": "Amarela",
-    "codigo": 1004
+    "codigo": 1004,
+    "erro_medio": 0.0031,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2021,
     "area": "LC",
     "aplicacao": "Digital",
     "descricao": "Branca",
-    "codigo": 1005
+    "codigo": 1005,
+    "erro_medio": 0.0021,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2021,
     "area": "LC",
     "aplicacao": "Digital",
     "descricao": "Rosa",
-    "codigo": 1006
+    "codigo": 1006,
+    "erro_medio": 0.0022,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2021,
     "area": "LC",
     "aplicacao": "2ª Oportunidade",
     "descricao": "Azul",
-    "codigo": 1025
+    "codigo": 1025,
+    "erro_medio": 0.0029,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2021,
     "area": "LC",
     "aplicacao": "2ª Oportunidade",
     "descricao": "Amarela",
-    "codigo": 1026
+    "codigo": 1026,
+    "erro_medio": 0.0025,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2021,
     "area": "LC",
     "aplicacao": "2ª Oportunidade",
     "descricao": "Rosa",
-    "codigo": 1027
+    "codigo": 1027,
+    "erro_medio": 0.0031,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2021,
     "area": "LC",
     "aplicacao": "2ª Oportunidade",
     "descricao": "Branca",
-    "codigo": 1028
+    "codigo": 1028,
+    "erro_medio": 0.0027,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2021,
     "area": "LC",
     "aplicacao": "2ª Oportunidade",
     "descricao": "Laranja - Adaptada Ledor",
-    "codigo": 1032
+    "codigo": 1032,
+    "erro_medio": null,
+    "erro_maximo": null
   },
   {
     "ano": 2021,
     "area": "MT",
     "aplicacao": "Regular",
     "descricao": "Azul",
-    "codigo": 899
+    "codigo": 899,
+    "erro_medio": 0.0047,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2021,
     "area": "MT",
     "aplicacao": "Regular",
     "descricao": "Amarela",
-    "codigo": 900
+    "codigo": 900,
+    "erro_medio": 0.0037,
+    "erro_maximo": 0.2
   },
   {
     "ano": 2021,
     "area": "MT",
     "aplicacao": "Regular",
     "descricao": "Rosa",
-    "codigo": 901
+    "codigo": 901,
+    "erro_medio": 0.0039,
+    "erro_maximo": 0.3
   },
   {
     "ano": 2021,
     "area": "MT",
     "aplicacao": "Regular",
     "descricao": "Cinza",
-    "codigo": 902
+    "codigo": 902,
+    "erro_medio": 0.003,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2021,
     "area": "MT",
     "aplicacao": "Regular",
     "descricao": "Laranja - Braille",
-    "codigo": 905
+    "codigo": 905,
+    "erro_medio": null,
+    "erro_maximo": null
   },
   {
     "ano": 2021,
     "area": "MT",
     "aplicacao": "Regular",
     "descricao": "Laranja - Adaptada Ledor",
-    "codigo": 906
+    "codigo": 906,
+    "erro_medio": 0.0049,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2021,
     "area": "MT",
     "aplicacao": "Regular",
     "descricao": "Verde - Videoprova - Libras",
-    "codigo": 907
+    "codigo": 907,
+    "erro_medio": 0.003,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2021,
     "area": "MT",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Azul",
-    "codigo": 979
+    "codigo": 979,
+    "erro_medio": 0.0074,
+    "erro_maximo": 0.5
   },
   {
     "ano": 2021,
     "area": "MT",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Amarela",
-    "codigo": 980
+    "codigo": 980,
+    "erro_medio": 0.0089,
+    "erro_maximo": 0.8
   },
   {
     "ano": 2021,
     "area": "MT",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Rosa",
-    "codigo": 981
+    "codigo": 981,
+    "erro_medio": 0.0077,
+    "erro_maximo": 1.3
   },
   {
     "ano": 2021,
     "area": "MT",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Cinza",
-    "codigo": 982
+    "codigo": 982,
+    "erro_medio": 0.0067,
+    "erro_maximo": 0.8
   },
   {
     "ano": 2021,
     "area": "MT",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Laranja - Adaptada Ledor",
-    "codigo": 986
+    "codigo": 986,
+    "erro_medio": null,
+    "erro_maximo": null
   },
   {
     "ano": 2021,
     "area": "MT",
     "aplicacao": "Digital",
     "descricao": "Azul",
-    "codigo": 1007
+    "codigo": 1007,
+    "erro_medio": 0.0057,
+    "erro_maximo": 1.1
   },
   {
     "ano": 2021,
     "area": "MT",
     "aplicacao": "Digital",
     "descricao": "Amarela",
-    "codigo": 1008
+    "codigo": 1008,
+    "erro_medio": 0.0087,
+    "erro_maximo": 3.9
   },
   {
     "ano": 2021,
     "area": "MT",
     "aplicacao": "Digital",
     "descricao": "Rosa",
-    "codigo": 1009
+    "codigo": 1009,
+    "erro_medio": 0.0082,
+    "erro_maximo": 2.9
   },
   {
     "ano": 2021,
     "area": "MT",
     "aplicacao": "Digital",
     "descricao": "Cinza",
-    "codigo": 1010
+    "codigo": 1010,
+    "erro_medio": 0.0066,
+    "erro_maximo": 2.1
   },
   {
     "ano": 2021,
     "area": "MT",
     "aplicacao": "2ª Oportunidade",
     "descricao": "Azul",
-    "codigo": 1035
+    "codigo": 1035,
+    "erro_medio": 0.0026,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2021,
     "area": "MT",
     "aplicacao": "2ª Oportunidade",
     "descricao": "Amarela",
-    "codigo": 1036
+    "codigo": 1036,
+    "erro_medio": 0.0036,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2021,
     "area": "MT",
     "aplicacao": "2ª Oportunidade",
     "descricao": "Cinza",
-    "codigo": 1037
+    "codigo": 1037,
+    "erro_medio": 0.004,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2021,
     "area": "MT",
     "aplicacao": "2ª Oportunidade",
     "descricao": "Rosa",
-    "codigo": 1038
+    "codigo": 1038,
+    "erro_medio": 0.0028,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2021,
     "area": "MT",
     "aplicacao": "2ª Oportunidade",
     "descricao": "Laranja - Adaptada Ledor",
-    "codigo": 1042
+    "codigo": 1042,
+    "erro_medio": null,
+    "erro_maximo": null
   },
   {
     "ano": 2020,
     "area": "CN",
     "aplicacao": "Regular",
     "descricao": "Azul",
-    "codigo": 597
+    "codigo": 597,
+    "erro_medio": 0.0042,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2020,
     "area": "CN",
     "aplicacao": "Regular",
     "descricao": "Amarela",
-    "codigo": 598
+    "codigo": 598,
+    "erro_medio": 0.0044,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2020,
     "area": "CN",
     "aplicacao": "Regular",
     "descricao": "Cinza",
-    "codigo": 599
+    "codigo": 599,
+    "erro_medio": 0.0034,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2020,
     "area": "CN",
     "aplicacao": "Regular",
     "descricao": "Rosa",
-    "codigo": 600
+    "codigo": 600,
+    "erro_medio": 0.004,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2020,
     "area": "CN",
     "aplicacao": "Regular",
     "descricao": "Rosa - Ampliada",
-    "codigo": 601
+    "codigo": 601,
+    "erro_medio": null,
+    "erro_maximo": null
   },
   {
     "ano": 2020,
     "area": "CN",
     "aplicacao": "Regular",
     "descricao": "Rosa - Superampliada",
-    "codigo": 602
+    "codigo": 602,
+    "erro_medio": null,
+    "erro_maximo": null
   },
   {
     "ano": 2020,
     "area": "CN",
     "aplicacao": "Regular",
     "descricao": "Laranja - Adaptada Ledor",
-    "codigo": 604
+    "codigo": 604,
+    "erro_medio": 0.0028,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2020,
     "area": "CN",
     "aplicacao": "Regular",
     "descricao": "Verde - Videoprova - Libras",
-    "codigo": 605
+    "codigo": 605,
+    "erro_medio": 0.0054,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2020,
     "area": "CN",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Azul",
-    "codigo": 677
+    "codigo": 677,
+    "erro_medio": 0.0052,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2020,
     "area": "CN",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Amarela",
-    "codigo": 678
+    "codigo": 678,
+    "erro_medio": 0.0037,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2020,
     "area": "CN",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Cinza",
-    "codigo": 679
+    "codigo": 679,
+    "erro_medio": 0.0037,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2020,
     "area": "CN",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Rosa",
-    "codigo": 680
+    "codigo": 680,
+    "erro_medio": 0.0056,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2020,
     "area": "CN",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Laranja - Adaptada Ledor",
-    "codigo": 684
+    "codigo": 684,
+    "erro_medio": null,
+    "erro_maximo": null
   },
   {
     "ano": 2020,
     "area": "CN",
     "aplicacao": "Digital",
     "descricao": "Azul",
-    "codigo": 699
+    "codigo": 699,
+    "erro_medio": 0.0033,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2020,
     "area": "CN",
     "aplicacao": "Digital",
     "descricao": "Amarela",
-    "codigo": 700
+    "codigo": 700,
+    "erro_medio": 0.0031,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2020,
     "area": "CN",
     "aplicacao": "Digital",
     "descricao": "Rosa",
-    "codigo": 701
+    "codigo": 701,
+    "erro_medio": 0.002,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2020,
     "area": "CN",
     "aplicacao": "Digital",
     "descricao": "Cinza",
-    "codigo": 702
+    "codigo": 702,
+    "erro_medio": 0.0037,
+    "erro_maximo": 0.2
   },
   {
     "ano": 2020,
     "area": "CH",
     "aplicacao": "Regular",
     "descricao": "Azul",
-    "codigo": 567
+    "codigo": 567,
+    "erro_medio": 0.0028,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2020,
     "area": "CH",
     "aplicacao": "Regular",
     "descricao": "Amarela",
-    "codigo": 568
+    "codigo": 568,
+    "erro_medio": 0.0036,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2020,
     "area": "CH",
     "aplicacao": "Regular",
     "descricao": "Branca",
-    "codigo": 569
+    "codigo": 569,
+    "erro_medio": 0.0035,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2020,
     "area": "CH",
     "aplicacao": "Regular",
     "descricao": "Rosa",
-    "codigo": 570
+    "codigo": 570,
+    "erro_medio": 0.0032,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2020,
     "area": "CH",
     "aplicacao": "Regular",
     "descricao": "Rosa - Ampliada",
-    "codigo": 571
+    "codigo": 571,
+    "erro_medio": null,
+    "erro_maximo": null
   },
   {
     "ano": 2020,
     "area": "CH",
     "aplicacao": "Regular",
     "descricao": "Rosa - Superampliada",
-    "codigo": 572
+    "codigo": 572,
+    "erro_medio": null,
+    "erro_maximo": null
   },
   {
     "ano": 2020,
     "area": "CH",
     "aplicacao": "Regular",
     "descricao": "Laranja - Adaptada Ledor",
-    "codigo": 574
+    "codigo": 574,
+    "erro_medio": 0.0043,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2020,
     "area": "CH",
     "aplicacao": "Regular",
     "descricao": "Verde - Videoprova - Libras",
-    "codigo": 575
+    "codigo": 575,
+    "erro_medio": 0.0067,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2020,
     "area": "CH",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Azul",
-    "codigo": 647
+    "codigo": 647,
+    "erro_medio": 0.003,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2020,
     "area": "CH",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Amarela",
-    "codigo": 648
+    "codigo": 648,
+    "erro_medio": 0.0031,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2020,
     "area": "CH",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Branca",
-    "codigo": 649
+    "codigo": 649,
+    "erro_medio": 0.0032,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2020,
     "area": "CH",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Rosa",
-    "codigo": 650
+    "codigo": 650,
+    "erro_medio": 0.0029,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2020,
     "area": "CH",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Laranja - Adaptada Ledor",
-    "codigo": 654
+    "codigo": 654,
+    "erro_medio": null,
+    "erro_maximo": null
   },
   {
     "ano": 2020,
     "area": "CH",
     "aplicacao": "Digital",
     "descricao": "Azul",
-    "codigo": 687
+    "codigo": 687,
+    "erro_medio": 0.0026,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2020,
     "area": "CH",
     "aplicacao": "Digital",
     "descricao": "Amarela",
-    "codigo": 688
+    "codigo": 688,
+    "erro_medio": 0.0031,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2020,
     "area": "CH",
     "aplicacao": "Digital",
     "descricao": "Branca",
-    "codigo": 689
+    "codigo": 689,
+    "erro_medio": 0.0022,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2020,
     "area": "CH",
     "aplicacao": "Digital",
     "descricao": "Rosa",
-    "codigo": 690
+    "codigo": 690,
+    "erro_medio": 0.0026,
+    "erro_maximo": 0.2
   },
   {
     "ano": 2020,
     "area": "LC",
     "aplicacao": "Regular",
     "descricao": "Azul",
-    "codigo": 577
+    "codigo": 577,
+    "erro_medio": 0.002,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2020,
     "area": "LC",
     "aplicacao": "Regular",
     "descricao": "Amarela",
-    "codigo": 578
+    "codigo": 578,
+    "erro_medio": 0.0026,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2020,
     "area": "LC",
     "aplicacao": "Regular",
     "descricao": "Rosa",
-    "codigo": 579
+    "codigo": 579,
+    "erro_medio": 0.0024,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2020,
     "area": "LC",
     "aplicacao": "Regular",
     "descricao": "Branca",
-    "codigo": 580
+    "codigo": 580,
+    "erro_medio": 0.0023,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2020,
     "area": "LC",
     "aplicacao": "Regular",
     "descricao": "Rosa - Ampliada",
-    "codigo": 581
+    "codigo": 581,
+    "erro_medio": null,
+    "erro_maximo": null
   },
   {
     "ano": 2020,
     "area": "LC",
     "aplicacao": "Regular",
     "descricao": "Rosa - Superampliada",
-    "codigo": 582
+    "codigo": 582,
+    "erro_medio": null,
+    "erro_maximo": null
   },
   {
     "ano": 2020,
     "area": "LC",
     "aplicacao": "Regular",
     "descricao": "Laranja - Adaptada Ledor",
-    "codigo": 584
+    "codigo": 584,
+    "erro_medio": 0.0031,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2020,
     "area": "LC",
     "aplicacao": "Regular",
     "descricao": "Verde - Videoprova - Libras",
-    "codigo": 585
+    "codigo": 585,
+    "erro_medio": 0.0071,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2020,
     "area": "LC",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Azul",
-    "codigo": 657
+    "codigo": 657,
+    "erro_medio": 0.0017,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2020,
     "area": "LC",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Amarela",
-    "codigo": 658
+    "codigo": 658,
+    "erro_medio": 0.0027,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2020,
     "area": "LC",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Rosa",
-    "codigo": 659
+    "codigo": 659,
+    "erro_medio": 0.0032,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2020,
     "area": "LC",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Branca",
-    "codigo": 660
+    "codigo": 660,
+    "erro_medio": 0.0026,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2020,
     "area": "LC",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Laranja - Adaptada Ledor",
-    "codigo": 664
+    "codigo": 664,
+    "erro_medio": null,
+    "erro_maximo": null
   },
   {
     "ano": 2020,
     "area": "LC",
     "aplicacao": "Digital",
     "descricao": "Azul",
-    "codigo": 691
+    "codigo": 691,
+    "erro_medio": 60.2382,
+    "erro_maximo": 131.1
   },
   {
     "ano": 2020,
     "area": "LC",
     "aplicacao": "Digital",
     "descricao": "Amarela",
-    "codigo": 692
+    "codigo": 692,
+    "erro_medio": 47.9625,
+    "erro_maximo": 130.9
   },
   {
     "ano": 2020,
     "area": "LC",
     "aplicacao": "Digital",
     "descricao": "Branca",
-    "codigo": 693
+    "codigo": 693,
+    "erro_medio": 51.8596,
+    "erro_maximo": 123.6
   },
   {
     "ano": 2020,
     "area": "LC",
     "aplicacao": "Digital",
     "descricao": "Rosa",
-    "codigo": 694
+    "codigo": 694,
+    "erro_medio": 49.0221,
+    "erro_maximo": 163.2
   },
   {
     "ano": 2020,
     "area": "MT",
     "aplicacao": "Regular",
     "descricao": "Azul",
-    "codigo": 587
+    "codigo": 587,
+    "erro_medio": 0.0051,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2020,
     "area": "MT",
     "aplicacao": "Regular",
     "descricao": "Amarela",
-    "codigo": 588
+    "codigo": 588,
+    "erro_medio": 0.0041,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2020,
     "area": "MT",
     "aplicacao": "Regular",
     "descricao": "Rosa",
-    "codigo": 589
+    "codigo": 589,
+    "erro_medio": 0.0068,
+    "erro_maximo": 1.4
   },
   {
     "ano": 2020,
     "area": "MT",
     "aplicacao": "Regular",
     "descricao": "Cinza",
-    "codigo": 590
+    "codigo": 590,
+    "erro_medio": 0.0055,
+    "erro_maximo": 0.8
   },
   {
     "ano": 2020,
     "area": "MT",
     "aplicacao": "Regular",
     "descricao": "Rosa - Ampliada",
-    "codigo": 591
+    "codigo": 591,
+    "erro_medio": null,
+    "erro_maximo": null
   },
   {
     "ano": 2020,
     "area": "MT",
     "aplicacao": "Regular",
     "descricao": "Rosa - Superampliada",
-    "codigo": 592
+    "codigo": 592,
+    "erro_medio": null,
+    "erro_maximo": null
   },
   {
     "ano": 2020,
     "area": "MT",
     "aplicacao": "Regular",
     "descricao": "Laranja - Adaptada Ledor",
-    "codigo": 594
+    "codigo": 594,
+    "erro_medio": 0.0033,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2020,
     "area": "MT",
     "aplicacao": "Regular",
     "descricao": "Verde - Videoprova - Libras",
-    "codigo": 595
+    "codigo": 595,
+    "erro_medio": 0.0051,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2020,
     "area": "MT",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Azul",
-    "codigo": 667
+    "codigo": 667,
+    "erro_medio": 0.004,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2020,
     "area": "MT",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Amarela",
-    "codigo": 668
+    "codigo": 668,
+    "erro_medio": 0.0041,
+    "erro_maximo": 0.7
   },
   {
     "ano": 2020,
     "area": "MT",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Rosa",
-    "codigo": 669
+    "codigo": 669,
+    "erro_medio": 0.0052,
+    "erro_maximo": 1.7
   },
   {
     "ano": 2020,
     "area": "MT",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Cinza",
-    "codigo": 670
+    "codigo": 670,
+    "erro_medio": 0.0044,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2020,
     "area": "MT",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Laranja - Adaptada Ledor",
-    "codigo": 674
-  },
-  {
-    "ano": 2020,
-    "area": "MT",
-    "aplicacao": "Digital",
-    "descricao": "Azul",
-    "codigo": 695
-  },
-  {
-    "ano": 2020,
-    "area": "MT",
-    "aplicacao": "Digital",
-    "descricao": "Amarela",
-    "codigo": 696
-  },
-  {
-    "ano": 2020,
-    "area": "MT",
-    "aplicacao": "Digital",
-    "descricao": "Rosa",
-    "codigo": 697
+    "codigo": 674,
+    "erro_medio": null,
+    "erro_maximo": null
   },
   {
     "ano": 2020,
     "area": "MT",
     "aplicacao": "Digital",
+    "descricao": "Azul",
+    "codigo": 695,
+    "erro_medio": 0.0062,
+    "erro_maximo": 1.4
+  },
+  {
+    "ano": 2020,
+    "area": "MT",
+    "aplicacao": "Digital",
+    "descricao": "Amarela",
+    "codigo": 696,
+    "erro_medio": 0.0089,
+    "erro_maximo": 3.2
+  },
+  {
+    "ano": 2020,
+    "area": "MT",
+    "aplicacao": "Digital",
+    "descricao": "Rosa",
+    "codigo": 697,
+    "erro_medio": 0.0038,
+    "erro_maximo": 0.7
+  },
+  {
+    "ano": 2020,
+    "area": "MT",
+    "aplicacao": "Digital",
     "descricao": "Cinza",
-    "codigo": 698
+    "codigo": 698,
+    "erro_medio": 0.0051,
+    "erro_maximo": 1.0
   },
   {
     "ano": 2019,
     "area": "CN",
     "aplicacao": "Regular",
     "descricao": "Azul",
-    "codigo": 503
+    "codigo": 503,
+    "erro_medio": 0.0052,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2019,
     "area": "CN",
     "aplicacao": "Regular",
     "descricao": "Amarela",
-    "codigo": 504
+    "codigo": 504,
+    "erro_medio": 0.0044,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2019,
     "area": "CN",
     "aplicacao": "Regular",
     "descricao": "Cinza",
-    "codigo": 505
+    "codigo": 505,
+    "erro_medio": 0.0047,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2019,
     "area": "CN",
     "aplicacao": "Regular",
     "descricao": "Rosa",
-    "codigo": 506
+    "codigo": 506,
+    "erro_medio": 0.0039,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2019,
     "area": "CN",
     "aplicacao": "Regular",
     "descricao": "Laranja - Adaptada Ledor",
-    "codigo": 519
+    "codigo": 519,
+    "erro_medio": 0.0044,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2019,
     "area": "CN",
     "aplicacao": "Regular",
     "descricao": "Verde - Videoprova - Libras",
-    "codigo": 523
+    "codigo": 523,
+    "erro_medio": 0.0049,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2019,
     "area": "CN",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Amarela",
-    "codigo": 543
+    "codigo": 543,
+    "erro_medio": null,
+    "erro_maximo": null
   },
   {
     "ano": 2019,
     "area": "CN",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Cinza",
-    "codigo": 544
+    "codigo": 544,
+    "erro_medio": null,
+    "erro_maximo": null
   },
   {
     "ano": 2019,
     "area": "CN",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Azul",
-    "codigo": 545
+    "codigo": 545,
+    "erro_medio": null,
+    "erro_maximo": null
   },
   {
     "ano": 2019,
     "area": "CN",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Rosa",
-    "codigo": 546
+    "codigo": 546,
+    "erro_medio": null,
+    "erro_maximo": null
   },
   {
     "ano": 2019,
     "area": "CH",
     "aplicacao": "Regular",
     "descricao": "Azul",
-    "codigo": 507
+    "codigo": 507,
+    "erro_medio": 0.0035,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2019,
     "area": "CH",
     "aplicacao": "Regular",
     "descricao": "Amarela",
-    "codigo": 508
+    "codigo": 508,
+    "erro_medio": 0.0023,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2019,
     "area": "CH",
     "aplicacao": "Regular",
     "descricao": "Branca",
-    "codigo": 509
+    "codigo": 509,
+    "erro_medio": 0.0036,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2019,
     "area": "CH",
     "aplicacao": "Regular",
     "descricao": "Rosa",
-    "codigo": 510
+    "codigo": 510,
+    "erro_medio": 0.0027,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2019,
     "area": "CH",
     "aplicacao": "Regular",
     "descricao": "Laranja - Adaptada Ledor",
-    "codigo": 520
+    "codigo": 520,
+    "erro_medio": 0.003,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2019,
     "area": "CH",
     "aplicacao": "Regular",
     "descricao": "Verde - Videoprova - Libras",
-    "codigo": 524
+    "codigo": 524,
+    "erro_medio": 0.0061,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2019,
     "area": "CH",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Azul",
-    "codigo": 547
+    "codigo": 547,
+    "erro_medio": null,
+    "erro_maximo": null
   },
   {
     "ano": 2019,
     "area": "CH",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Amarela",
-    "codigo": 548
+    "codigo": 548,
+    "erro_medio": null,
+    "erro_maximo": null
   },
   {
     "ano": 2019,
     "area": "CH",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Branca",
-    "codigo": 549
+    "codigo": 549,
+    "erro_medio": null,
+    "erro_maximo": null
   },
   {
     "ano": 2019,
     "area": "CH",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Rosa",
-    "codigo": 550
+    "codigo": 550,
+    "erro_medio": null,
+    "erro_maximo": null
   },
   {
     "ano": 2019,
     "area": "CH",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Laranja - Adaptada Ledor",
-    "codigo": 564
+    "codigo": 564,
+    "erro_medio": null,
+    "erro_maximo": null
   },
   {
     "ano": 2019,
     "area": "LC",
     "aplicacao": "Regular",
     "descricao": "Azul",
-    "codigo": 511
+    "codigo": 511,
+    "erro_medio": 0.0059,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2019,
     "area": "LC",
     "aplicacao": "Regular",
     "descricao": "Amarela",
-    "codigo": 512
+    "codigo": 512,
+    "erro_medio": 0.0065,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2019,
     "area": "LC",
     "aplicacao": "Regular",
     "descricao": "Rosa",
-    "codigo": 513
+    "codigo": 513,
+    "erro_medio": 0.006,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2019,
     "area": "LC",
     "aplicacao": "Regular",
     "descricao": "Branca",
-    "codigo": 514
+    "codigo": 514,
+    "erro_medio": 0.0055,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2019,
     "area": "LC",
     "aplicacao": "Regular",
     "descricao": "Laranja - Adaptada Ledor",
-    "codigo": 521
+    "codigo": 521,
+    "erro_medio": 0.0059,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2019,
     "area": "LC",
     "aplicacao": "Regular",
     "descricao": "Verde - Videoprova - Libras",
-    "codigo": 525
+    "codigo": 525,
+    "erro_medio": 0.0051,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2019,
     "area": "LC",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Azul",
-    "codigo": 551
+    "codigo": 551,
+    "erro_medio": null,
+    "erro_maximo": null
   },
   {
     "ano": 2019,
     "area": "LC",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Amarela",
-    "codigo": 552
+    "codigo": 552,
+    "erro_medio": null,
+    "erro_maximo": null
   },
   {
     "ano": 2019,
     "area": "LC",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Branca",
-    "codigo": 553
+    "codigo": 553,
+    "erro_medio": null,
+    "erro_maximo": null
   },
   {
     "ano": 2019,
     "area": "LC",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Rosa",
-    "codigo": 554
+    "codigo": 554,
+    "erro_medio": null,
+    "erro_maximo": null
   },
   {
     "ano": 2019,
     "area": "LC",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Laranja - Adaptada Ledor",
-    "codigo": 565
+    "codigo": 565,
+    "erro_medio": null,
+    "erro_maximo": null
   },
   {
     "ano": 2019,
     "area": "MT",
     "aplicacao": "Regular",
     "descricao": "Azul",
-    "codigo": 515
+    "codigo": 515,
+    "erro_medio": 30.4974,
+    "erro_maximo": 144.8
   },
   {
     "ano": 2019,
     "area": "MT",
     "aplicacao": "Regular",
     "descricao": "Amarela",
-    "codigo": 516
+    "codigo": 516,
+    "erro_medio": 29.0748,
+    "erro_maximo": 137.5
   },
   {
     "ano": 2019,
     "area": "MT",
     "aplicacao": "Regular",
     "descricao": "Rosa",
-    "codigo": 517
+    "codigo": 517,
+    "erro_medio": 29.1946,
+    "erro_maximo": 162.2
   },
   {
     "ano": 2019,
     "area": "MT",
     "aplicacao": "Regular",
     "descricao": "Cinza",
-    "codigo": 518
+    "codigo": 518,
+    "erro_medio": 28.6598,
+    "erro_maximo": 143.6
   },
   {
     "ano": 2019,
     "area": "MT",
     "aplicacao": "Regular",
     "descricao": "Laranja - Adaptada Ledor",
-    "codigo": 522
+    "codigo": 522,
+    "erro_medio": 27.044,
+    "erro_maximo": 140.0
   },
   {
     "ano": 2019,
     "area": "MT",
     "aplicacao": "Regular",
     "descricao": "Verde - Videoprova - Libras",
-    "codigo": 526
+    "codigo": 526,
+    "erro_medio": 21.3528,
+    "erro_maximo": 153.8
   },
   {
     "ano": 2019,
     "area": "MT",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Amarela",
-    "codigo": 555
+    "codigo": 555,
+    "erro_medio": null,
+    "erro_maximo": null
   },
   {
     "ano": 2019,
     "area": "MT",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Cinza",
-    "codigo": 556
+    "codigo": 556,
+    "erro_medio": null,
+    "erro_maximo": null
   },
   {
     "ano": 2019,
     "area": "MT",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Azul",
-    "codigo": 557
+    "codigo": 557,
+    "erro_medio": null,
+    "erro_maximo": null
   },
   {
     "ano": 2019,
     "area": "MT",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Rosa",
-    "codigo": 558
+    "codigo": 558,
+    "erro_medio": null,
+    "erro_maximo": null
   },
   {
     "ano": 2018,
     "area": "CN",
     "aplicacao": "Regular",
     "descricao": "Azul",
-    "codigo": 447
+    "codigo": 447,
+    "erro_medio": 11.7367,
+    "erro_maximo": 67.1
   },
   {
     "ano": 2018,
     "area": "CN",
     "aplicacao": "Regular",
     "descricao": "Amarela",
-    "codigo": 448
+    "codigo": 448,
+    "erro_medio": 11.4003,
+    "erro_maximo": 44.2
   },
   {
     "ano": 2018,
     "area": "CN",
     "aplicacao": "Regular",
     "descricao": "Cinza",
-    "codigo": 449
+    "codigo": 449,
+    "erro_medio": 11.7693,
+    "erro_maximo": 42.1
   },
   {
     "ano": 2018,
     "area": "CN",
     "aplicacao": "Regular",
     "descricao": "Rosa",
-    "codigo": 450
+    "codigo": 450,
+    "erro_medio": 12.0984,
+    "erro_maximo": 50.6
   },
   {
     "ano": 2018,
     "area": "CN",
     "aplicacao": "Regular",
     "descricao": "Laranja - Adaptada Ledor",
-    "codigo": 463
+    "codigo": 463,
+    "erro_medio": 6.2631,
+    "erro_maximo": 29.9
   },
   {
     "ano": 2018,
     "area": "CN",
     "aplicacao": "Regular",
     "descricao": "Verde - Videoprova - Libras",
-    "codigo": 467
+    "codigo": 467,
+    "erro_medio": 10.4084,
+    "erro_maximo": 48.8
   },
   {
     "ano": 2018,
     "area": "CN",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Amarela",
-    "codigo": 487
+    "codigo": 487,
+    "erro_medio": null,
+    "erro_maximo": null
   },
   {
     "ano": 2018,
     "area": "CN",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Cinza",
-    "codigo": 488
+    "codigo": 488,
+    "erro_medio": null,
+    "erro_maximo": null
   },
   {
     "ano": 2018,
     "area": "CN",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Azul",
-    "codigo": 489
+    "codigo": 489,
+    "erro_medio": null,
+    "erro_maximo": null
   },
   {
     "ano": 2018,
     "area": "CN",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Rosa",
-    "codigo": 490
+    "codigo": 490,
+    "erro_medio": null,
+    "erro_maximo": null
   },
   {
     "ano": 2018,
     "area": "CH",
     "aplicacao": "Regular",
     "descricao": "Azul",
-    "codigo": 451
+    "codigo": 451,
+    "erro_medio": 0.0403,
+    "erro_maximo": 0.3
   },
   {
     "ano": 2018,
     "area": "CH",
     "aplicacao": "Regular",
     "descricao": "Amarela",
-    "codigo": 452
+    "codigo": 452,
+    "erro_medio": 0.0403,
+    "erro_maximo": 0.3
   },
   {
     "ano": 2018,
     "area": "CH",
     "aplicacao": "Regular",
     "descricao": "Branca",
-    "codigo": 453
+    "codigo": 453,
+    "erro_medio": 0.0407,
+    "erro_maximo": 0.4
   },
   {
     "ano": 2018,
     "area": "CH",
     "aplicacao": "Regular",
     "descricao": "Rosa",
-    "codigo": 454
+    "codigo": 454,
+    "erro_medio": 0.0372,
+    "erro_maximo": 0.3
   },
   {
     "ano": 2018,
     "area": "CH",
     "aplicacao": "Regular",
     "descricao": "Laranja - Adaptada Ledor",
-    "codigo": 464
+    "codigo": 464,
+    "erro_medio": 0.0236,
+    "erro_maximo": 0.2
   },
   {
     "ano": 2018,
     "area": "CH",
     "aplicacao": "Regular",
     "descricao": "Verde - Videoprova - Libras",
-    "codigo": 468
+    "codigo": 468,
+    "erro_medio": 0.007,
+    "erro_maximo": 0.2
   },
   {
     "ano": 2018,
     "area": "CH",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Azul",
-    "codigo": 491
+    "codigo": 491,
+    "erro_medio": 0.0014,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2018,
     "area": "CH",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Amarela",
-    "codigo": 492
+    "codigo": 492,
+    "erro_medio": 0.005,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2018,
     "area": "CH",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Branca",
-    "codigo": 493
+    "codigo": 493,
+    "erro_medio": 0.0024,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2018,
     "area": "CH",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Rosa",
-    "codigo": 494
+    "codigo": 494,
+    "erro_medio": 0.0028,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2018,
     "area": "LC",
     "aplicacao": "Regular",
     "descricao": "Azul",
-    "codigo": 455
+    "codigo": 455,
+    "erro_medio": 0.0027,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2018,
     "area": "LC",
     "aplicacao": "Regular",
     "descricao": "Amarela",
-    "codigo": 456
+    "codigo": 456,
+    "erro_medio": 0.0022,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2018,
     "area": "LC",
     "aplicacao": "Regular",
     "descricao": "Rosa",
-    "codigo": 457
+    "codigo": 457,
+    "erro_medio": 0.0027,
+    "erro_maximo": 0.2
   },
   {
     "ano": 2018,
     "area": "LC",
     "aplicacao": "Regular",
     "descricao": "Branca",
-    "codigo": 458
+    "codigo": 458,
+    "erro_medio": 0.0022,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2018,
     "area": "LC",
     "aplicacao": "Regular",
     "descricao": "Laranja - Adaptada Ledor",
-    "codigo": 465
+    "codigo": 465,
+    "erro_medio": 0.004,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2018,
     "area": "LC",
     "aplicacao": "Regular",
     "descricao": "Verde - Videoprova - Libras",
-    "codigo": 469
+    "codigo": 469,
+    "erro_medio": 0.0035,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2018,
     "area": "LC",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Azul",
-    "codigo": 495
+    "codigo": 495,
+    "erro_medio": 0.0014,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2018,
     "area": "LC",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Amarela",
-    "codigo": 496
+    "codigo": 496,
+    "erro_medio": 0.0046,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2018,
     "area": "LC",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Branca",
-    "codigo": 497
+    "codigo": 497,
+    "erro_medio": 0.0024,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2018,
     "area": "LC",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Rosa",
-    "codigo": 498
+    "codigo": 498,
+    "erro_medio": 0.0037,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2018,
     "area": "MT",
     "aplicacao": "Regular",
     "descricao": "Azul",
-    "codigo": 459
+    "codigo": 459,
+    "erro_medio": 0.0034,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2018,
     "area": "MT",
     "aplicacao": "Regular",
     "descricao": "Amarela",
-    "codigo": 460
+    "codigo": 460,
+    "erro_medio": 0.0034,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2018,
     "area": "MT",
     "aplicacao": "Regular",
     "descricao": "Rosa",
-    "codigo": 461
+    "codigo": 461,
+    "erro_medio": 0.0027,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2018,
     "area": "MT",
     "aplicacao": "Regular",
     "descricao": "Cinza",
-    "codigo": 462
+    "codigo": 462,
+    "erro_medio": 0.0027,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2018,
     "area": "MT",
     "aplicacao": "Regular",
     "descricao": "Laranja - Adaptada Ledor",
-    "codigo": 466
+    "codigo": 466,
+    "erro_medio": 0.0031,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2018,
     "area": "MT",
     "aplicacao": "Regular",
     "descricao": "Verde - Videoprova - Libras",
-    "codigo": 470
+    "codigo": 470,
+    "erro_medio": 0.0039,
+    "erro_maximo": 1.4
   },
   {
     "ano": 2018,
     "area": "MT",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Amarela",
-    "codigo": 499
+    "codigo": 499,
+    "erro_medio": null,
+    "erro_maximo": null
   },
   {
     "ano": 2018,
     "area": "MT",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Cinza",
-    "codigo": 500
+    "codigo": 500,
+    "erro_medio": null,
+    "erro_maximo": null
   },
   {
     "ano": 2018,
     "area": "MT",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Azul",
-    "codigo": 501
+    "codigo": 501,
+    "erro_medio": null,
+    "erro_maximo": null
   },
   {
     "ano": 2018,
     "area": "MT",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Rosa",
-    "codigo": 502
+    "codigo": 502,
+    "erro_medio": null,
+    "erro_maximo": null
   },
   {
     "ano": 2017,
     "area": "CN",
     "aplicacao": "Regular",
     "descricao": "Azul",
-    "codigo": 391
+    "codigo": 391,
+    "erro_medio": 22.3122,
+    "erro_maximo": 109.4
   },
   {
     "ano": 2017,
     "area": "CN",
     "aplicacao": "Regular",
     "descricao": "Amarela",
-    "codigo": 392
+    "codigo": 392,
+    "erro_medio": 22.466,
+    "erro_maximo": 96.1
   },
   {
     "ano": 2017,
     "area": "CN",
     "aplicacao": "Regular",
     "descricao": "Cinza",
-    "codigo": 393
+    "codigo": 393,
+    "erro_medio": 22.2532,
+    "erro_maximo": 118.9
   },
   {
     "ano": 2017,
     "area": "CN",
     "aplicacao": "Regular",
     "descricao": "Rosa",
-    "codigo": 394
+    "codigo": 394,
+    "erro_medio": 23.1191,
+    "erro_maximo": 106.3
   },
   {
     "ano": 2017,
     "area": "CN",
     "aplicacao": "Regular",
     "descricao": "Laranja - Adaptada Ledor",
-    "codigo": 407
+    "codigo": 407,
+    "erro_medio": 15.8076,
+    "erro_maximo": 109.1
   },
   {
     "ano": 2017,
     "area": "CN",
     "aplicacao": "Regular",
     "descricao": "Verde - Videoprova - Libras",
-    "codigo": 411
+    "codigo": 411,
+    "erro_medio": 0.0095,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2017,
     "area": "CN",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Amarela",
-    "codigo": 431
+    "codigo": 431,
+    "erro_medio": null,
+    "erro_maximo": null
   },
   {
     "ano": 2017,
     "area": "CN",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Cinza",
-    "codigo": 432
+    "codigo": 432,
+    "erro_medio": null,
+    "erro_maximo": null
   },
   {
     "ano": 2017,
     "area": "CN",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Azul",
-    "codigo": 433
+    "codigo": 433,
+    "erro_medio": null,
+    "erro_maximo": null
   },
   {
     "ano": 2017,
     "area": "CN",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Rosa",
-    "codigo": 434
+    "codigo": 434,
+    "erro_medio": null,
+    "erro_maximo": null
   },
   {
     "ano": 2017,
     "area": "CH",
     "aplicacao": "Regular",
     "descricao": "Azul",
-    "codigo": 395
+    "codigo": 395,
+    "erro_medio": 23.7108,
+    "erro_maximo": 110.9
   },
   {
     "ano": 2017,
     "area": "CH",
     "aplicacao": "Regular",
     "descricao": "Amarela",
-    "codigo": 396
+    "codigo": 396,
+    "erro_medio": 24.4091,
+    "erro_maximo": 166.9
   },
   {
     "ano": 2017,
     "area": "CH",
     "aplicacao": "Regular",
     "descricao": "Branca",
-    "codigo": 397
+    "codigo": 397,
+    "erro_medio": 21.9222,
+    "erro_maximo": 104.4
   },
   {
     "ano": 2017,
     "area": "CH",
     "aplicacao": "Regular",
     "descricao": "Rosa",
-    "codigo": 398
+    "codigo": 398,
+    "erro_medio": 21.8671,
+    "erro_maximo": 115.2
   },
   {
     "ano": 2017,
     "area": "CH",
     "aplicacao": "Regular",
     "descricao": "Laranja - Adaptada Ledor",
-    "codigo": 408
+    "codigo": 408,
+    "erro_medio": 25.7333,
+    "erro_maximo": 124.9
   },
   {
     "ano": 2017,
     "area": "CH",
     "aplicacao": "Regular",
     "descricao": "Verde - Videoprova - Libras",
-    "codigo": 412
+    "codigo": 412,
+    "erro_medio": 3.1004,
+    "erro_maximo": 18.3
   },
   {
     "ano": 2017,
     "area": "CH",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Azul",
-    "codigo": 435
+    "codigo": 435,
+    "erro_medio": 0.0015,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2017,
     "area": "CH",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Amarela",
-    "codigo": 436
+    "codigo": 436,
+    "erro_medio": 0.0048,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2017,
     "area": "CH",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Branca",
-    "codigo": 437
+    "codigo": 437,
+    "erro_medio": 0.0033,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2017,
     "area": "CH",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Rosa",
-    "codigo": 438
+    "codigo": 438,
+    "erro_medio": 0.0019,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2017,
     "area": "LC",
     "aplicacao": "Regular",
     "descricao": "Azul",
-    "codigo": 399
+    "codigo": 399,
+    "erro_medio": null,
+    "erro_maximo": null
   },
   {
     "ano": 2017,
     "area": "LC",
     "aplicacao": "Regular",
     "descricao": "Amarela",
-    "codigo": 400
+    "codigo": 400,
+    "erro_medio": null,
+    "erro_maximo": null
   },
   {
     "ano": 2017,
     "area": "LC",
     "aplicacao": "Regular",
     "descricao": "Rosa",
-    "codigo": 401
+    "codigo": 401,
+    "erro_medio": null,
+    "erro_maximo": null
   },
   {
     "ano": 2017,
     "area": "LC",
     "aplicacao": "Regular",
     "descricao": "Branca",
-    "codigo": 402
+    "codigo": 402,
+    "erro_medio": null,
+    "erro_maximo": null
   },
   {
     "ano": 2017,
     "area": "LC",
     "aplicacao": "Regular",
     "descricao": "Laranja - Adaptada Ledor",
-    "codigo": 409
+    "codigo": 409,
+    "erro_medio": null,
+    "erro_maximo": null
   },
   {
     "ano": 2017,
     "area": "LC",
     "aplicacao": "Regular",
     "descricao": "Verde - Videoprova - Libras",
-    "codigo": 413
+    "codigo": 413,
+    "erro_medio": null,
+    "erro_maximo": null
   },
   {
     "ano": 2017,
     "area": "LC",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Azul",
-    "codigo": 439
+    "codigo": 439,
+    "erro_medio": null,
+    "erro_maximo": null
   },
   {
     "ano": 2017,
     "area": "LC",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Amarela",
-    "codigo": 440
+    "codigo": 440,
+    "erro_medio": null,
+    "erro_maximo": null
   },
   {
     "ano": 2017,
     "area": "LC",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Branca",
-    "codigo": 441
+    "codigo": 441,
+    "erro_medio": null,
+    "erro_maximo": null
   },
   {
     "ano": 2017,
     "area": "LC",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Rosa",
-    "codigo": 442
+    "codigo": 442,
+    "erro_medio": null,
+    "erro_maximo": null
   },
   {
     "ano": 2017,
     "area": "MT",
     "aplicacao": "Regular",
     "descricao": "Azul",
-    "codigo": 403
+    "codigo": 403,
+    "erro_medio": 65.942,
+    "erro_maximo": 227.3
   },
   {
     "ano": 2017,
     "area": "MT",
     "aplicacao": "Regular",
     "descricao": "Amarela",
-    "codigo": 404
+    "codigo": 404,
+    "erro_medio": 63.5601,
+    "erro_maximo": 207.9
   },
   {
     "ano": 2017,
     "area": "MT",
     "aplicacao": "Regular",
     "descricao": "Rosa",
-    "codigo": 405
+    "codigo": 405,
+    "erro_medio": 61.0779,
+    "erro_maximo": 207.4
   },
   {
     "ano": 2017,
     "area": "MT",
     "aplicacao": "Regular",
     "descricao": "Cinza",
-    "codigo": 406
+    "codigo": 406,
+    "erro_medio": 64.3487,
+    "erro_maximo": 203.7
   },
   {
     "ano": 2017,
     "area": "MT",
     "aplicacao": "Regular",
     "descricao": "Laranja - Adaptada Ledor",
-    "codigo": 410
+    "codigo": 410,
+    "erro_medio": 45.619,
+    "erro_maximo": 201.0
   },
   {
     "ano": 2017,
     "area": "MT",
     "aplicacao": "Regular",
     "descricao": "Verde - Videoprova - Libras",
-    "codigo": 414
+    "codigo": 414,
+    "erro_medio": 0.0051,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2017,
     "area": "MT",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Amarela",
-    "codigo": 443
+    "codigo": 443,
+    "erro_medio": null,
+    "erro_maximo": null
   },
   {
     "ano": 2017,
     "area": "MT",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Cinza",
-    "codigo": 444
+    "codigo": 444,
+    "erro_medio": null,
+    "erro_maximo": null
   },
   {
     "ano": 2017,
     "area": "MT",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Azul",
-    "codigo": 445
+    "codigo": 445,
+    "erro_medio": null,
+    "erro_maximo": null
   },
   {
     "ano": 2017,
     "area": "MT",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Rosa",
-    "codigo": 446
+    "codigo": 446,
+    "erro_medio": null,
+    "erro_maximo": null
   },
   {
     "ano": 2016,
     "area": "CN",
     "aplicacao": "Regular",
     "descricao": "Azul",
-    "codigo": 291
+    "codigo": 291,
+    "erro_medio": 0.0047,
+    "erro_maximo": 1.8
   },
   {
     "ano": 2016,
     "area": "CN",
     "aplicacao": "Regular",
     "descricao": "Amarela",
-    "codigo": 292
+    "codigo": 292,
+    "erro_medio": 0.0029,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2016,
     "area": "CN",
     "aplicacao": "Regular",
     "descricao": "Branca",
-    "codigo": 293
+    "codigo": 293,
+    "erro_medio": 0.0036,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2016,
     "area": "CN",
     "aplicacao": "Regular",
     "descricao": "Rosa",
-    "codigo": 294
+    "codigo": 294,
+    "erro_medio": 0.003,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2016,
     "area": "CN",
     "aplicacao": "Regular",
     "descricao": "Branca - Adaptada",
-    "codigo": 307
+    "codigo": 307,
+    "erro_medio": 0.0022,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2016,
     "area": "CN",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Azul",
-    "codigo": 331
+    "codigo": 331,
+    "erro_medio": 1.9156,
+    "erro_maximo": 10.2
   },
   {
     "ano": 2016,
     "area": "CN",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Amarela",
-    "codigo": 332
+    "codigo": 332,
+    "erro_medio": 1.75,
+    "erro_maximo": 10.3
   },
   {
     "ano": 2016,
     "area": "CN",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Branca",
-    "codigo": 333
+    "codigo": 333,
+    "erro_medio": 1.6333,
+    "erro_maximo": 9.5
   },
   {
     "ano": 2016,
     "area": "CN",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Rosa",
-    "codigo": 334
+    "codigo": 334,
+    "erro_medio": null,
+    "erro_maximo": null
   },
   {
     "ano": 2016,
     "area": "CN",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Azul",
-    "codigo": 351
+    "codigo": 351,
+    "erro_medio": 1.8288,
+    "erro_maximo": 14.0
   },
   {
     "ano": 2016,
     "area": "CN",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Amarela",
-    "codigo": 352
+    "codigo": 352,
+    "erro_medio": 1.8743,
+    "erro_maximo": 10.1
   },
   {
     "ano": 2016,
     "area": "CN",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Branca",
-    "codigo": 353
+    "codigo": 353,
+    "erro_medio": 1.9148,
+    "erro_maximo": 11.4
   },
   {
     "ano": 2016,
     "area": "CN",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Rosa",
-    "codigo": 354
+    "codigo": 354,
+    "erro_medio": 1.9642,
+    "erro_maximo": 16.0
   },
   {
     "ano": 2016,
     "area": "CN",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Branca - Adaptada",
-    "codigo": 355
+    "codigo": 355,
+    "erro_medio": null,
+    "erro_maximo": null
   },
   {
     "ano": 2016,
     "area": "CH",
     "aplicacao": "Regular",
     "descricao": "Azul",
-    "codigo": 295
+    "codigo": 295,
+    "erro_medio": 0.0058,
+    "erro_maximo": 2.0
   },
   {
     "ano": 2016,
     "area": "CH",
     "aplicacao": "Regular",
     "descricao": "Amarela",
-    "codigo": 296
+    "codigo": 296,
+    "erro_medio": 0.0034,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2016,
     "area": "CH",
     "aplicacao": "Regular",
     "descricao": "Branca",
-    "codigo": 297
+    "codigo": 297,
+    "erro_medio": 0.0039,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2016,
     "area": "CH",
     "aplicacao": "Regular",
     "descricao": "Rosa",
-    "codigo": 298
+    "codigo": 298,
+    "erro_medio": 0.003,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2016,
     "area": "CH",
     "aplicacao": "Regular",
     "descricao": "Branca - Adaptada",
-    "codigo": 308
+    "codigo": 308,
+    "erro_medio": 0.0037,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2016,
     "area": "CH",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Azul",
-    "codigo": 336
+    "codigo": 336,
+    "erro_medio": 0.0031,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2016,
     "area": "CH",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Amarela",
-    "codigo": 337
+    "codigo": 337,
+    "erro_medio": 0.0008,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2016,
     "area": "CH",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Branca",
-    "codigo": 338
+    "codigo": 338,
+    "erro_medio": 0.0009,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2016,
     "area": "CH",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Rosa",
-    "codigo": 339
+    "codigo": 339,
+    "erro_medio": null,
+    "erro_maximo": null
   },
   {
     "ano": 2016,
     "area": "CH",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Azul",
-    "codigo": 356
+    "codigo": 356,
+    "erro_medio": 0.0027,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2016,
     "area": "CH",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Amarela",
-    "codigo": 357
+    "codigo": 357,
+    "erro_medio": 0.0017,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2016,
     "area": "CH",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Branca",
-    "codigo": 358
+    "codigo": 358,
+    "erro_medio": 0.0016,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2016,
     "area": "CH",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Rosa",
-    "codigo": 359
+    "codigo": 359,
+    "erro_medio": 0.0027,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2016,
     "area": "CH",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Branca - Adaptada",
-    "codigo": 360
+    "codigo": 360,
+    "erro_medio": null,
+    "erro_maximo": null
   },
   {
     "ano": 2016,
     "area": "LC",
     "aplicacao": "Regular",
     "descricao": "Azul",
-    "codigo": 299
+    "codigo": 299,
+    "erro_medio": 0.0025,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2016,
     "area": "LC",
     "aplicacao": "Regular",
     "descricao": "Amarela",
-    "codigo": 300
+    "codigo": 300,
+    "erro_medio": 0.0025,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2016,
     "area": "LC",
     "aplicacao": "Regular",
     "descricao": "Rosa",
-    "codigo": 301
+    "codigo": 301,
+    "erro_medio": 0.0018,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2016,
     "area": "LC",
     "aplicacao": "Regular",
     "descricao": "Cinza",
-    "codigo": 302
+    "codigo": 302,
+    "erro_medio": 0.0028,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2016,
     "area": "LC",
     "aplicacao": "Regular",
     "descricao": "Cinza - Adaptada",
-    "codigo": 309
+    "codigo": 309,
+    "erro_medio": 0.0031,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2016,
     "area": "LC",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Azul",
-    "codigo": 341
+    "codigo": 341,
+    "erro_medio": null,
+    "erro_maximo": null
   },
   {
     "ano": 2016,
     "area": "LC",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Amarela",
-    "codigo": 342
+    "codigo": 342,
+    "erro_medio": null,
+    "erro_maximo": null
   },
   {
     "ano": 2016,
     "area": "LC",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Rosa",
-    "codigo": 343
+    "codigo": 343,
+    "erro_medio": null,
+    "erro_maximo": null
   },
   {
     "ano": 2016,
     "area": "LC",
     "aplicacao": "Regular",
     "descricao": "Cinza - Adaptada",
-    "codigo": 344
+    "codigo": 344,
+    "erro_medio": null,
+    "erro_maximo": null
   },
   {
     "ano": 2016,
     "area": "LC",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Azul",
-    "codigo": 361
+    "codigo": 361,
+    "erro_medio": 0.0026,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2016,
     "area": "LC",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Amarela",
-    "codigo": 362
+    "codigo": 362,
+    "erro_medio": 0.0019,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2016,
     "area": "LC",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Rosa",
-    "codigo": 363
+    "codigo": 363,
+    "erro_medio": 0.0022,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2016,
     "area": "LC",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Cinza",
-    "codigo": 364
+    "codigo": 364,
+    "erro_medio": 0.0025,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2016,
     "area": "LC",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Cinza - Adaptada",
-    "codigo": 365
+    "codigo": 365,
+    "erro_medio": null,
+    "erro_maximo": null
   },
   {
     "ano": 2016,
     "area": "MT",
     "aplicacao": "Regular",
     "descricao": "Azul",
-    "codigo": 303
+    "codigo": 303,
+    "erro_medio": 0.0039,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2016,
     "area": "MT",
     "aplicacao": "Regular",
     "descricao": "Amarela",
-    "codigo": 304
+    "codigo": 304,
+    "erro_medio": 0.0084,
+    "erro_maximo": 2.2
   },
   {
     "ano": 2016,
     "area": "MT",
     "aplicacao": "Regular",
     "descricao": "Rosa",
-    "codigo": 305
+    "codigo": 305,
+    "erro_medio": 0.0177,
+    "erro_maximo": 8.3
   },
   {
     "ano": 2016,
     "area": "MT",
     "aplicacao": "Regular",
     "descricao": "Cinza",
-    "codigo": 306
+    "codigo": 306,
+    "erro_medio": 0.0067,
+    "erro_maximo": 2.1
   },
   {
     "ano": 2016,
     "area": "MT",
     "aplicacao": "Regular",
     "descricao": "Cinza - Adaptada",
-    "codigo": 310
+    "codigo": 310,
+    "erro_medio": 0.0024,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2016,
     "area": "MT",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Azul",
-    "codigo": 346
+    "codigo": 346,
+    "erro_medio": null,
+    "erro_maximo": null
   },
   {
     "ano": 2016,
     "area": "MT",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Amarela",
-    "codigo": 347
+    "codigo": 347,
+    "erro_medio": null,
+    "erro_maximo": null
   },
   {
     "ano": 2016,
     "area": "MT",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Rosa",
-    "codigo": 348
+    "codigo": 348,
+    "erro_medio": null,
+    "erro_maximo": null
   },
   {
     "ano": 2016,
     "area": "MT",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Cinza",
-    "codigo": 349
+    "codigo": 349,
+    "erro_medio": null,
+    "erro_maximo": null
   },
   {
     "ano": 2016,
     "area": "MT",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Azul",
-    "codigo": 366
+    "codigo": 366,
+    "erro_medio": 0.0368,
+    "erro_maximo": 25.4
   },
   {
     "ano": 2016,
     "area": "MT",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Amarela",
-    "codigo": 367
+    "codigo": 367,
+    "erro_medio": 0.0075,
+    "erro_maximo": 1.1
   },
   {
     "ano": 2016,
     "area": "MT",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Rosa",
-    "codigo": 368
+    "codigo": 368,
+    "erro_medio": 0.0076,
+    "erro_maximo": 2.1
   },
   {
     "ano": 2016,
     "area": "MT",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Cinza",
-    "codigo": 369
+    "codigo": 369,
+    "erro_medio": 0.005,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2016,
     "area": "MT",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Cinza - Adaptada",
-    "codigo": 370
+    "codigo": 370,
+    "erro_medio": null,
+    "erro_maximo": null
   },
   {
     "ano": 2015,
     "area": "CN",
     "aplicacao": "Regular",
     "descricao": "Azul",
-    "codigo": 235
+    "codigo": 235,
+    "erro_medio": 0.0049,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2015,
     "area": "CN",
     "aplicacao": "Regular",
     "descricao": "Amarela",
-    "codigo": 236
+    "codigo": 236,
+    "erro_medio": 0.003,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2015,
     "area": "CN",
     "aplicacao": "Regular",
     "descricao": "Branca",
-    "codigo": 237
+    "codigo": 237,
+    "erro_medio": 0.0036,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2015,
     "area": "CN",
     "aplicacao": "Regular",
     "descricao": "Rosa",
-    "codigo": 238
+    "codigo": 238,
+    "erro_medio": 0.0031,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2015,
     "area": "CN",
     "aplicacao": "Regular",
     "descricao": "Branco - adaptada (braile e ledor)",
-    "codigo": 252
+    "codigo": 252,
+    "erro_medio": 12.4861,
+    "erro_maximo": 64.0
   },
   {
     "ano": 2015,
     "area": "CN",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Azul",
-    "codigo": 275
+    "codigo": 275,
+    "erro_medio": 0.0025,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2015,
     "area": "CN",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Amarela",
-    "codigo": 276
+    "codigo": 276,
+    "erro_medio": 0.0023,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2015,
     "area": "CN",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Branca",
-    "codigo": 277
+    "codigo": 277,
+    "erro_medio": 0.3346,
+    "erro_maximo": 138.0
   },
   {
     "ano": 2015,
     "area": "CN",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Rosa",
-    "codigo": 278
+    "codigo": 278,
+    "erro_medio": 0.0043,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2015,
     "area": "CH",
     "aplicacao": "Regular",
     "descricao": "Azul",
-    "codigo": 231
+    "codigo": 231,
+    "erro_medio": 0.0026,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2015,
     "area": "CH",
     "aplicacao": "Regular",
     "descricao": "Amarela",
-    "codigo": 232
+    "codigo": 232,
+    "erro_medio": 0.0036,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2015,
     "area": "CH",
     "aplicacao": "Regular",
     "descricao": "Branca",
-    "codigo": 233
+    "codigo": 233,
+    "erro_medio": 0.0034,
+    "erro_maximo": 0.7
   },
   {
     "ano": 2015,
     "area": "CH",
     "aplicacao": "Regular",
     "descricao": "Rosa",
-    "codigo": 234
+    "codigo": 234,
+    "erro_medio": 0.0031,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2015,
     "area": "CH",
     "aplicacao": "Regular",
     "descricao": "Branco - adaptada (braile e ledor)",
-    "codigo": 251
+    "codigo": 251,
+    "erro_medio": 0.0026,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2015,
     "area": "CH",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Azul",
-    "codigo": 271
+    "codigo": 271,
+    "erro_medio": 0.0011,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2015,
     "area": "CH",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Amarela",
-    "codigo": 272
+    "codigo": 272,
+    "erro_medio": 0.0015,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2015,
     "area": "CH",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Branca",
-    "codigo": 273
+    "codigo": 273,
+    "erro_medio": 0.1946,
+    "erro_maximo": 101.2
   },
   {
     "ano": 2015,
     "area": "CH",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Rosa",
-    "codigo": 274
+    "codigo": 274,
+    "erro_medio": 0.0026,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2015,
     "area": "LC",
     "aplicacao": "Regular",
     "descricao": "Amarela",
-    "codigo": 239
+    "codigo": 239,
+    "erro_medio": 0.0028,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2015,
     "area": "LC",
     "aplicacao": "Regular",
     "descricao": "Cinza",
-    "codigo": 240
+    "codigo": 240,
+    "erro_medio": 0.0018,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2015,
     "area": "LC",
     "aplicacao": "Regular",
     "descricao": "Azul",
-    "codigo": 241
+    "codigo": 241,
+    "erro_medio": 0.0021,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2015,
     "area": "LC",
     "aplicacao": "Regular",
     "descricao": "Rosa",
-    "codigo": 242
+    "codigo": 242,
+    "erro_medio": 0.0032,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2015,
     "area": "LC",
     "aplicacao": "Regular",
     "descricao": "Cinza - adaptada (braile e ledor)",
-    "codigo": 253
+    "codigo": 253,
+    "erro_medio": 0.003,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2015,
     "area": "LC",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Amarela",
-    "codigo": 279
+    "codigo": 279,
+    "erro_medio": 0.0017,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2015,
     "area": "LC",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Cinza",
-    "codigo": 280
+    "codigo": 280,
+    "erro_medio": 0.0009,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2015,
     "area": "LC",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Azul",
-    "codigo": 281
+    "codigo": 281,
+    "erro_medio": 0.0023,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2015,
     "area": "LC",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Rosa",
-    "codigo": 282
+    "codigo": 282,
+    "erro_medio": 0.0004,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2015,
     "area": "MT",
     "aplicacao": "Regular",
     "descricao": "Amarela",
-    "codigo": 243
+    "codigo": 243,
+    "erro_medio": 0.007,
+    "erro_maximo": 1.4
   },
   {
     "ano": 2015,
     "area": "MT",
     "aplicacao": "Regular",
     "descricao": "Cinza",
-    "codigo": 244
+    "codigo": 244,
+    "erro_medio": 0.006,
+    "erro_maximo": 0.2
   },
   {
     "ano": 2015,
     "area": "MT",
     "aplicacao": "Regular",
     "descricao": "Azul",
-    "codigo": 245
+    "codigo": 245,
+    "erro_medio": 0.0054,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2015,
     "area": "MT",
     "aplicacao": "Regular",
     "descricao": "Rosa",
-    "codigo": 246
+    "codigo": 246,
+    "erro_medio": 0.0095,
+    "erro_maximo": 4.4
   },
   {
     "ano": 2015,
     "area": "MT",
     "aplicacao": "Regular",
     "descricao": "Cinza - adaptada (braile e ledor)",
-    "codigo": 254
+    "codigo": 254,
+    "erro_medio": 0.0055,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2015,
     "area": "MT",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Amarela",
-    "codigo": 283
+    "codigo": 283,
+    "erro_medio": 0.0045,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2015,
     "area": "MT",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Cinza",
-    "codigo": 284
+    "codigo": 284,
+    "erro_medio": 0.0061,
+    "erro_maximo": 0.4
   },
   {
     "ano": 2015,
     "area": "MT",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Azul",
-    "codigo": 285
+    "codigo": 285,
+    "erro_medio": 0.0051,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2015,
     "area": "MT",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Rosa",
-    "codigo": 286
+    "codigo": 286,
+    "erro_medio": 0.088,
+    "erro_maximo": 65.8
   },
   {
     "ano": 2014,
     "area": "CN",
     "aplicacao": "Regular",
     "descricao": "Azul",
-    "codigo": 199
+    "codigo": 199,
+    "erro_medio": 0.0045,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2014,
     "area": "CN",
     "aplicacao": "Regular",
     "descricao": "Amarela",
-    "codigo": 200
+    "codigo": 200,
+    "erro_medio": 0.0034,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2014,
     "area": "CN",
     "aplicacao": "Regular",
     "descricao": "Branca",
-    "codigo": 201
+    "codigo": 201,
+    "erro_medio": 0.0031,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2014,
     "area": "CN",
     "aplicacao": "Regular",
     "descricao": "Rosa",
-    "codigo": 202
+    "codigo": 202,
+    "erro_medio": 0.003,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2014,
     "area": "CN",
     "aplicacao": "Regular",
     "descricao": "Branco - adaptada (braile e ledor)",
-    "codigo": 216
+    "codigo": 216,
+    "erro_medio": 0.0051,
+    "erro_maximo": 0.6
   },
   {
     "ano": 2014,
     "area": "CH",
     "aplicacao": "Regular",
     "descricao": "Azul",
-    "codigo": 195
+    "codigo": 195,
+    "erro_medio": 0.0019,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2014,
     "area": "CH",
     "aplicacao": "Regular",
     "descricao": "Amarela",
-    "codigo": 196
+    "codigo": 196,
+    "erro_medio": 0.0018,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2014,
     "area": "CH",
     "aplicacao": "Regular",
     "descricao": "Branca",
-    "codigo": 197
+    "codigo": 197,
+    "erro_medio": 0.002,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2014,
     "area": "CH",
     "aplicacao": "Regular",
     "descricao": "Rosa",
-    "codigo": 198
+    "codigo": 198,
+    "erro_medio": 0.0028,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2014,
     "area": "CH",
     "aplicacao": "Regular",
     "descricao": "Branco - adaptada (braile e ledor)",
-    "codigo": 215
+    "codigo": 215,
+    "erro_medio": 0.0019,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2014,
     "area": "LC",
     "aplicacao": "Regular",
     "descricao": "Amarela",
-    "codigo": 203
+    "codigo": 203,
+    "erro_medio": 0.0019,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2014,
     "area": "LC",
     "aplicacao": "Regular",
     "descricao": "Cinza",
-    "codigo": 204
+    "codigo": 204,
+    "erro_medio": 0.0023,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2014,
     "area": "LC",
     "aplicacao": "Regular",
     "descricao": "Azul",
-    "codigo": 205
+    "codigo": 205,
+    "erro_medio": 0.0018,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2014,
     "area": "LC",
     "aplicacao": "Regular",
     "descricao": "Rosa",
-    "codigo": 206
+    "codigo": 206,
+    "erro_medio": 0.0027,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2014,
     "area": "LC",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Cinza",
-    "codigo": 213
+    "codigo": 213,
+    "erro_medio": 126.1023,
+    "erro_maximo": 308.1
   },
   {
     "ano": 2014,
     "area": "LC",
     "aplicacao": "Regular",
     "descricao": "Cinza - adaptada (braile e ledor)",
-    "codigo": 217
+    "codigo": 217,
+    "erro_medio": 0.0026,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2014,
     "area": "MT",
     "aplicacao": "Regular",
     "descricao": "Amarela",
-    "codigo": 207
+    "codigo": 207,
+    "erro_medio": 0.0056,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2014,
     "area": "MT",
     "aplicacao": "Regular",
     "descricao": "Cinza",
-    "codigo": 208
+    "codigo": 208,
+    "erro_medio": 0.0064,
+    "erro_maximo": 0.3
   },
   {
     "ano": 2014,
     "area": "MT",
     "aplicacao": "Regular",
     "descricao": "Azul",
-    "codigo": 209
+    "codigo": 209,
+    "erro_medio": 0.0056,
+    "erro_maximo": 0.8
   },
   {
     "ano": 2014,
     "area": "MT",
     "aplicacao": "Regular",
     "descricao": "Rosa",
-    "codigo": 210
+    "codigo": 210,
+    "erro_medio": 0.012,
+    "erro_maximo": 6.0
   },
   {
     "ano": 2014,
     "area": "MT",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Cinza",
-    "codigo": 214
+    "codigo": 214,
+    "erro_medio": 0.003,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2014,
     "area": "MT",
     "aplicacao": "Regular",
     "descricao": "Cinza - adaptada (braile e ledor)",
-    "codigo": 218
+    "codigo": 218,
+    "erro_medio": 0.0047,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2013,
     "area": "CN",
     "aplicacao": "Regular",
     "descricao": "Azul",
-    "codigo": 171
+    "codigo": 171,
+    "erro_medio": 0.0065,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2013,
     "area": "CN",
     "aplicacao": "Regular",
     "descricao": "Amarela",
-    "codigo": 172
+    "codigo": 172,
+    "erro_medio": 0.0055,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2013,
     "area": "CN",
     "aplicacao": "Regular",
     "descricao": "Branca",
-    "codigo": 173
+    "codigo": 173,
+    "erro_medio": 0.0061,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2013,
     "area": "CN",
     "aplicacao": "Regular",
     "descricao": "Rosa",
-    "codigo": 174
+    "codigo": 174,
+    "erro_medio": 0.0069,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2013,
     "area": "CN",
     "aplicacao": "Regular",
     "descricao": "Branco - prova especial (ledor)",
-    "codigo": 188
+    "codigo": 188,
+    "erro_medio": 95.5438,
+    "erro_maximo": 313.6
   },
   {
     "ano": 2013,
     "area": "CH",
     "aplicacao": "Regular",
     "descricao": "Azul",
-    "codigo": 167
+    "codigo": 167,
+    "erro_medio": 0.0052,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2013,
     "area": "CH",
     "aplicacao": "Regular",
     "descricao": "Amarela",
-    "codigo": 168
+    "codigo": 168,
+    "erro_medio": 0.0039,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2013,
     "area": "CH",
     "aplicacao": "Regular",
     "descricao": "Branca",
-    "codigo": 169
+    "codigo": 169,
+    "erro_medio": 0.0044,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2013,
     "area": "CH",
     "aplicacao": "Regular",
     "descricao": "Rosa",
-    "codigo": 170
+    "codigo": 170,
+    "erro_medio": 0.0045,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2013,
     "area": "CH",
     "aplicacao": "Regular",
     "descricao": "Branco - prova especial (ledor)",
-    "codigo": 187
+    "codigo": 187,
+    "erro_medio": 130.5367,
+    "erro_maximo": 347.4
   },
   {
     "ano": 2013,
     "area": "LC",
     "aplicacao": "Regular",
     "descricao": "Amarela",
-    "codigo": 175
+    "codigo": 175,
+    "erro_medio": 0.0039,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2013,
     "area": "LC",
     "aplicacao": "Regular",
     "descricao": "Cinza",
-    "codigo": 176
+    "codigo": 176,
+    "erro_medio": 0.0046,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2013,
     "area": "LC",
     "aplicacao": "Regular",
     "descricao": "Azul",
-    "codigo": 177
+    "codigo": 177,
+    "erro_medio": 0.0043,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2013,
     "area": "LC",
     "aplicacao": "Regular",
     "descricao": "Rosa",
-    "codigo": 178
+    "codigo": 178,
+    "erro_medio": 0.0042,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2013,
     "area": "LC",
     "aplicacao": "Regular",
     "descricao": "Cinza - prova especial (ledor)",
-    "codigo": 189
+    "codigo": 189,
+    "erro_medio": 100.5788,
+    "erro_maximo": 248.8
   },
   {
     "ano": 2013,
     "area": "MT",
     "aplicacao": "Regular",
     "descricao": "Amarela",
-    "codigo": 179
+    "codigo": 179,
+    "erro_medio": 23.2445,
+    "erro_maximo": 100.2
   },
   {
     "ano": 2013,
     "area": "MT",
     "aplicacao": "Regular",
     "descricao": "Cinza",
-    "codigo": 180
+    "codigo": 180,
+    "erro_medio": 20.9809,
+    "erro_maximo": 93.1
   },
   {
     "ano": 2013,
     "area": "MT",
     "aplicacao": "Regular",
     "descricao": "Azul",
-    "codigo": 181
+    "codigo": 181,
+    "erro_medio": 22.6555,
+    "erro_maximo": 99.9
   },
   {
     "ano": 2013,
     "area": "MT",
     "aplicacao": "Regular",
     "descricao": "Rosa",
-    "codigo": 182
+    "codigo": 182,
+    "erro_medio": 23.1933,
+    "erro_maximo": 86.3
   },
   {
     "ano": 2013,
     "area": "MT",
     "aplicacao": "Regular",
     "descricao": "Cinza - prova especial (ledor)",
-    "codigo": 190
+    "codigo": 190,
+    "erro_medio": 90.4505,
+    "erro_maximo": 346.5
   },
   {
     "ano": 2012,
     "area": "MT",
     "aplicacao": "Regular",
     "descricao": "Azul",
-    "codigo": 141
+    "codigo": 141,
+    "erro_medio": null,
+    "erro_maximo": null
   },
   {
     "ano": 2012,
     "area": "MT",
     "aplicacao": "Regular",
     "descricao": "Amarela",
-    "codigo": 142
+    "codigo": 142,
+    "erro_medio": null,
+    "erro_maximo": null
   },
   {
     "ano": 2012,
     "area": "MT",
     "aplicacao": "Regular",
     "descricao": "Branca",
-    "codigo": 143
+    "codigo": 143,
+    "erro_medio": null,
+    "erro_maximo": null
   },
   {
     "ano": 2012,
     "area": "MT",
     "aplicacao": "Regular",
     "descricao": "Rosa",
-    "codigo": 144
+    "codigo": 144,
+    "erro_medio": null,
+    "erro_maximo": null
   },
   {
     "ano": 2012,
     "area": "MT",
     "aplicacao": "Regular",
     "descricao": "Branca (ledor)",
-    "codigo": 153
+    "codigo": 153,
+    "erro_medio": null,
+    "erro_maximo": null
   },
   {
     "ano": 2012,
     "area": "CH",
     "aplicacao": "Regular",
     "descricao": "Azul",
-    "codigo": 137
+    "codigo": 137,
+    "erro_medio": 0.0031,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2012,
     "area": "CH",
     "aplicacao": "Regular",
     "descricao": "Amarela",
-    "codigo": 138
+    "codigo": 138,
+    "erro_medio": 0.0025,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2012,
     "area": "CH",
     "aplicacao": "Regular",
     "descricao": "Branca",
-    "codigo": 139
+    "codigo": 139,
+    "erro_medio": 0.0031,
+    "erro_maximo": 0.3
   },
   {
     "ano": 2012,
     "area": "CH",
     "aplicacao": "Regular",
     "descricao": "Rosa",
-    "codigo": 140
+    "codigo": 140,
+    "erro_medio": 0.002,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2012,
     "area": "CH",
     "aplicacao": "Regular",
     "descricao": "Branca (ledor)",
-    "codigo": 154
+    "codigo": 154,
+    "erro_medio": 0.218,
+    "erro_maximo": 13.1
   },
   {
     "ano": 2012,
     "area": "LC",
     "aplicacao": "Regular",
     "descricao": "Amarela",
-    "codigo": 145
+    "codigo": 145,
+    "erro_medio": 0.0024,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2012,
     "area": "LC",
     "aplicacao": "Regular",
     "descricao": "Cinza",
-    "codigo": 146
+    "codigo": 146,
+    "erro_medio": 0.0026,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2012,
     "area": "LC",
     "aplicacao": "Regular",
     "descricao": "Azul",
-    "codigo": 147
+    "codigo": 147,
+    "erro_medio": 0.0014,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2012,
     "area": "LC",
     "aplicacao": "Regular",
     "descricao": "Rosa",
-    "codigo": 148
+    "codigo": 148,
+    "erro_medio": 0.0022,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2012,
     "area": "LC",
     "aplicacao": "Regular",
     "descricao": "Cinza (ledor)",
-    "codigo": 155
+    "codigo": 155,
+    "erro_medio": 0.0021,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2012,
     "area": "MT",
     "aplicacao": "Regular",
     "descricao": "Amarela",
-    "codigo": 149
+    "codigo": 149,
+    "erro_medio": 0.0044,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2012,
     "area": "MT",
     "aplicacao": "Regular",
     "descricao": "Cinza",
-    "codigo": 150
+    "codigo": 150,
+    "erro_medio": 0.0107,
+    "erro_maximo": 1.9
   },
   {
     "ano": 2012,
     "area": "MT",
     "aplicacao": "Regular",
     "descricao": "Azul",
-    "codigo": 151
+    "codigo": 151,
+    "erro_medio": 0.0115,
+    "erro_maximo": 4.5
   },
   {
     "ano": 2012,
     "area": "MT",
     "aplicacao": "Regular",
     "descricao": "Rosa",
-    "codigo": 152
+    "codigo": 152,
+    "erro_medio": 0.0073,
+    "erro_maximo": 0.9
   },
   {
     "ano": 2012,
     "area": "MT",
     "aplicacao": "Regular",
     "descricao": "Cinza (ledor)",
-    "codigo": 156
+    "codigo": 156,
+    "erro_medio": 0.0042,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2011,
     "area": "CN",
     "aplicacao": "Regular",
     "descricao": "Azul",
-    "codigo": 121
+    "codigo": 121,
+    "erro_medio": 42.3105,
+    "erro_maximo": 143.4
   },
   {
     "ano": 2011,
     "area": "CN",
     "aplicacao": "Regular",
     "descricao": "Amarela",
-    "codigo": 122
+    "codigo": 122,
+    "erro_medio": 42.5045,
+    "erro_maximo": 151.6
   },
   {
     "ano": 2011,
     "area": "CN",
     "aplicacao": "Regular",
     "descricao": "Branca",
-    "codigo": 123
+    "codigo": 123,
+    "erro_medio": 41.8562,
+    "erro_maximo": 146.6
   },
   {
     "ano": 2011,
     "area": "CN",
     "aplicacao": "Regular",
     "descricao": "Rosa",
-    "codigo": 124
+    "codigo": 124,
+    "erro_medio": 42.6991,
+    "erro_maximo": 146.5
   },
   {
     "ano": 2011,
     "area": "CH",
     "aplicacao": "Regular",
     "descricao": "Azul",
-    "codigo": 117
+    "codigo": 117,
+    "erro_medio": 0.0082,
+    "erro_maximo": 4.9
   },
   {
     "ano": 2011,
     "area": "CH",
     "aplicacao": "Regular",
     "descricao": "Amarela",
-    "codigo": 118
+    "codigo": 118,
+    "erro_medio": 0.0081,
+    "erro_maximo": 6.4
   },
   {
     "ano": 2011,
     "area": "CH",
     "aplicacao": "Regular",
     "descricao": "Branca",
-    "codigo": 119
+    "codigo": 119,
+    "erro_medio": 0.0053,
+    "erro_maximo": 0.9
   },
   {
     "ano": 2011,
     "area": "CH",
     "aplicacao": "Regular",
     "descricao": "Rosa",
-    "codigo": 120
+    "codigo": 120,
+    "erro_medio": 0.0136,
+    "erro_maximo": 8.2
   },
   {
     "ano": 2011,
     "area": "LC",
     "aplicacao": "Regular",
     "descricao": "Amarela",
-    "codigo": 125
+    "codigo": 125,
+    "erro_medio": 0.0054,
+    "erro_maximo": 2.2
   },
   {
     "ano": 2011,
     "area": "LC",
     "aplicacao": "Regular",
     "descricao": "Cinza",
-    "codigo": 126
+    "codigo": 126,
+    "erro_medio": 0.0031,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2011,
     "area": "LC",
     "aplicacao": "Regular",
     "descricao": "Azul",
-    "codigo": 127
+    "codigo": 127,
+    "erro_medio": 0.0035,
+    "erro_maximo": 0.5
   },
   {
     "ano": 2011,
     "area": "LC",
     "aplicacao": "Regular",
     "descricao": "Rosa",
-    "codigo": 128
+    "codigo": 128,
+    "erro_medio": 0.0079,
+    "erro_maximo": 4.0
   },
   {
     "ano": 2011,
     "area": "MT",
     "aplicacao": "Regular",
     "descricao": "Amarela",
-    "codigo": 129
+    "codigo": 129,
+    "erro_medio": 0.0204,
+    "erro_maximo": 10.6
   },
   {
     "ano": 2011,
     "area": "MT",
     "aplicacao": "Regular",
     "descricao": "Cinza",
-    "codigo": 130
+    "codigo": 130,
+    "erro_medio": 0.0034,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2011,
     "area": "MT",
     "aplicacao": "Regular",
     "descricao": "Azul",
-    "codigo": 131
+    "codigo": 131,
+    "erro_medio": 0.005,
+    "erro_maximo": 0.3
   },
   {
     "ano": 2011,
     "area": "MT",
     "aplicacao": "Regular",
     "descricao": "Rosa",
-    "codigo": 132
+    "codigo": 132,
+    "erro_medio": 0.0063,
+    "erro_maximo": 0.8
   },
   {
     "ano": 2010,
     "area": "CN",
     "aplicacao": "Regular",
     "descricao": "Azul",
-    "codigo": 89
+    "codigo": 89,
+    "erro_medio": 0.006,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2010,
     "area": "CN",
     "aplicacao": "Regular",
     "descricao": "Amarela",
-    "codigo": 90
+    "codigo": 90,
+    "erro_medio": 0.0065,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2010,
     "area": "CN",
     "aplicacao": "Regular",
     "descricao": "Branca",
-    "codigo": 91
+    "codigo": 91,
+    "erro_medio": 0.0044,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2010,
     "area": "CN",
     "aplicacao": "Regular",
     "descricao": "Rosa",
-    "codigo": 92
+    "codigo": 92,
+    "erro_medio": 0.0046,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2010,
     "area": "CN",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Azul",
-    "codigo": 105
+    "codigo": 105,
+    "erro_medio": 0.2194,
+    "erro_maximo": 171.2
   },
   {
     "ano": 2010,
     "area": "CN",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Amarela",
-    "codigo": 106
+    "codigo": 106,
+    "erro_medio": 0.0036,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2010,
     "area": "CN",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Branca",
-    "codigo": 107
+    "codigo": 107,
+    "erro_medio": 0.0046,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2010,
     "area": "CN",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Rosa",
-    "codigo": 108
+    "codigo": 108,
+    "erro_medio": 0.0047,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2010,
     "area": "CH",
     "aplicacao": "Regular",
     "descricao": "Azul",
-    "codigo": 85
+    "codigo": 85,
+    "erro_medio": 0.0045,
+    "erro_maximo": 0.3
   },
   {
     "ano": 2010,
     "area": "CH",
     "aplicacao": "Regular",
     "descricao": "Amarela",
-    "codigo": 86
+    "codigo": 86,
+    "erro_medio": 0.0053,
+    "erro_maximo": 0.5
   },
   {
     "ano": 2010,
     "area": "CH",
     "aplicacao": "Regular",
     "descricao": "Branca",
-    "codigo": 87
+    "codigo": 87,
+    "erro_medio": 0.0047,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2010,
     "area": "CH",
     "aplicacao": "Regular",
     "descricao": "Rosa",
-    "codigo": 88
+    "codigo": 88,
+    "erro_medio": 0.0036,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2010,
     "area": "CH",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Azul",
-    "codigo": 101
+    "codigo": 101,
+    "erro_medio": 0.3537,
+    "erro_maximo": 279.3
   },
   {
     "ano": 2010,
     "area": "CH",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Amarela",
-    "codigo": 102
+    "codigo": 102,
+    "erro_medio": 0.003,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2010,
     "area": "CH",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Branca",
-    "codigo": 103
+    "codigo": 103,
+    "erro_medio": 0.003,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2010,
     "area": "CH",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Rosa",
-    "codigo": 104
+    "codigo": 104,
+    "erro_medio": 0.0034,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2010,
     "area": "LC",
     "aplicacao": "Regular",
     "descricao": "Amarela",
-    "codigo": 93
+    "codigo": 93,
+    "erro_medio": 0.0025,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2010,
     "area": "LC",
     "aplicacao": "Regular",
     "descricao": "Cinza",
-    "codigo": 94
+    "codigo": 94,
+    "erro_medio": 0.0024,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2010,
     "area": "LC",
     "aplicacao": "Regular",
     "descricao": "Azul",
-    "codigo": 95
+    "codigo": 95,
+    "erro_medio": 0.0028,
+    "erro_maximo": 0.6
   },
   {
     "ano": 2010,
     "area": "LC",
     "aplicacao": "Regular",
     "descricao": "Rosa",
-    "codigo": 96
+    "codigo": 96,
+    "erro_medio": 0.0038,
+    "erro_maximo": 0.6
   },
   {
     "ano": 2010,
     "area": "LC",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Amarela",
-    "codigo": 109
+    "codigo": 109,
+    "erro_medio": null,
+    "erro_maximo": null
   },
   {
     "ano": 2010,
     "area": "LC",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Cinza",
-    "codigo": 110
+    "codigo": 110,
+    "erro_medio": null,
+    "erro_maximo": null
   },
   {
     "ano": 2010,
     "area": "LC",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Azul",
-    "codigo": 111
+    "codigo": 111,
+    "erro_medio": null,
+    "erro_maximo": null
   },
   {
     "ano": 2010,
     "area": "LC",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Rosa",
-    "codigo": 112
+    "codigo": 112,
+    "erro_medio": null,
+    "erro_maximo": null
   },
   {
     "ano": 2010,
     "area": "MT",
     "aplicacao": "Regular",
     "descricao": "Amarela",
-    "codigo": 97
+    "codigo": 97,
+    "erro_medio": 0.0163,
+    "erro_maximo": 11.7
   },
   {
     "ano": 2010,
     "area": "MT",
     "aplicacao": "Regular",
     "descricao": "Cinza",
-    "codigo": 98
+    "codigo": 98,
+    "erro_medio": 0.011,
+    "erro_maximo": 3.7
   },
   {
     "ano": 2010,
     "area": "MT",
     "aplicacao": "Regular",
     "descricao": "Azul",
-    "codigo": 99
+    "codigo": 99,
+    "erro_medio": 0.0051,
+    "erro_maximo": 0.3
   },
   {
     "ano": 2010,
     "area": "MT",
     "aplicacao": "Regular",
     "descricao": "Rosa",
-    "codigo": 100
+    "codigo": 100,
+    "erro_medio": 0.0095,
+    "erro_maximo": 2.6
   },
   {
     "ano": 2010,
     "area": "MT",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Amarela",
-    "codigo": 113
+    "codigo": 113,
+    "erro_medio": null,
+    "erro_maximo": null
   },
   {
     "ano": 2010,
     "area": "MT",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Cinza",
-    "codigo": 114
+    "codigo": 114,
+    "erro_medio": null,
+    "erro_maximo": null
   },
   {
     "ano": 2010,
     "area": "MT",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Azul",
-    "codigo": 115
+    "codigo": 115,
+    "erro_medio": null,
+    "erro_maximo": null
   },
   {
     "ano": 2010,
     "area": "MT",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Rosa",
-    "codigo": 116
+    "codigo": 116,
+    "erro_medio": null,
+    "erro_maximo": null
   },
   {
     "ano": 2009,
     "area": "CN",
     "aplicacao": "Regular",
     "descricao": "Azul",
-    "codigo": 49
+    "codigo": 49,
+    "erro_medio": 0.0069,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2009,
     "area": "CN",
     "aplicacao": "Regular",
     "descricao": "Amarela",
-    "codigo": 50
+    "codigo": 50,
+    "erro_medio": 0.0048,
+    "erro_maximo": 0.2
   },
   {
     "ano": 2009,
     "area": "CN",
     "aplicacao": "Regular",
     "descricao": "Branca",
-    "codigo": 51
+    "codigo": 51,
+    "erro_medio": 0.0059,
+    "erro_maximo": 0.2
   },
   {
     "ano": 2009,
     "area": "CN",
     "aplicacao": "Regular",
     "descricao": "Rosa",
-    "codigo": 52
+    "codigo": 52,
+    "erro_medio": 0.007,
+    "erro_maximo": 0.2
   },
   {
     "ano": 2009,
     "area": "CN",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Azul",
-    "codigo": 65
+    "codigo": 65,
+    "erro_medio": 0.0033,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2009,
     "area": "CN",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Amarela",
-    "codigo": 66
+    "codigo": 66,
+    "erro_medio": 0.0036,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2009,
     "area": "CN",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Branca",
-    "codigo": 67
+    "codigo": 67,
+    "erro_medio": 0.0028,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2009,
     "area": "CN",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Rosa",
-    "codigo": 68
+    "codigo": 68,
+    "erro_medio": 0.0041,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2009,
     "area": "CN",
     "aplicacao": "Regular",
     "descricao": "Branca - adaptada ledor 9",
-    "codigo": 81
+    "codigo": 81,
+    "erro_medio": null,
+    "erro_maximo": null
   },
   {
     "ano": 2009,
     "area": "CH",
     "aplicacao": "Regular",
     "descricao": "Azul",
-    "codigo": 53
+    "codigo": 53,
+    "erro_medio": 0.0054,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2009,
     "area": "CH",
     "aplicacao": "Regular",
     "descricao": "Amarela",
-    "codigo": 54
+    "codigo": 54,
+    "erro_medio": 0.0043,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2009,
     "area": "CH",
     "aplicacao": "Regular",
     "descricao": "Branca",
-    "codigo": 55
+    "codigo": 55,
+    "erro_medio": 0.0054,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2009,
     "area": "CH",
     "aplicacao": "Regular",
     "descricao": "Rosa",
-    "codigo": 56
+    "codigo": 56,
+    "erro_medio": 0.0045,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2009,
     "area": "CH",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Azul",
-    "codigo": 69
+    "codigo": 69,
+    "erro_medio": 0.006,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2009,
     "area": "CH",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Amarela",
-    "codigo": 70
+    "codigo": 70,
+    "erro_medio": 0.0052,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2009,
     "area": "CH",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Branca",
-    "codigo": 71
+    "codigo": 71,
+    "erro_medio": 0.0064,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2009,
     "area": "CH",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Rosa",
-    "codigo": 72
+    "codigo": 72,
+    "erro_medio": 2.7907,
+    "erro_maximo": 10.0
   },
   {
     "ano": 2009,
     "area": "CH",
     "aplicacao": "Regular",
     "descricao": "Branca - adaptada ledor 9",
-    "codigo": 82
+    "codigo": 82,
+    "erro_medio": null,
+    "erro_maximo": null
   },
   {
     "ano": 2009,
     "area": "LC",
     "aplicacao": "Regular",
     "descricao": "Amarela",
-    "codigo": 57
+    "codigo": 57,
+    "erro_medio": null,
+    "erro_maximo": null
   },
   {
     "ano": 2009,
     "area": "LC",
     "aplicacao": "Regular",
     "descricao": "Cinza",
-    "codigo": 58
+    "codigo": 58,
+    "erro_medio": null,
+    "erro_maximo": null
   },
   {
     "ano": 2009,
     "area": "LC",
     "aplicacao": "Regular",
     "descricao": "Azul",
-    "codigo": 59
+    "codigo": 59,
+    "erro_medio": null,
+    "erro_maximo": null
   },
   {
     "ano": 2009,
     "area": "LC",
     "aplicacao": "Regular",
     "descricao": "Rosa",
-    "codigo": 60
+    "codigo": 60,
+    "erro_medio": null,
+    "erro_maximo": null
   },
   {
     "ano": 2009,
     "area": "LC",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Amarela",
-    "codigo": 73
+    "codigo": 73,
+    "erro_medio": null,
+    "erro_maximo": null
   },
   {
     "ano": 2009,
     "area": "LC",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Cinza",
-    "codigo": 74
+    "codigo": 74,
+    "erro_medio": null,
+    "erro_maximo": null
   },
   {
     "ano": 2009,
     "area": "LC",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Azul",
-    "codigo": 75
+    "codigo": 75,
+    "erro_medio": null,
+    "erro_maximo": null
   },
   {
     "ano": 2009,
     "area": "LC",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Rosa",
-    "codigo": 76
+    "codigo": 76,
+    "erro_medio": null,
+    "erro_maximo": null
   },
   {
     "ano": 2009,
     "area": "LC",
     "aplicacao": "Regular",
     "descricao": "Cinza - adaptada ledor 9",
-    "codigo": 83
+    "codigo": 83,
+    "erro_medio": null,
+    "erro_maximo": null
   },
   {
     "ano": 2009,
     "area": "MT",
     "aplicacao": "Regular",
     "descricao": "Amarela",
-    "codigo": 61
+    "codigo": 61,
+    "erro_medio": 0.0074,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2009,
     "area": "MT",
     "aplicacao": "Regular",
     "descricao": "Cinza",
-    "codigo": 62
+    "codigo": 62,
+    "erro_medio": 0.0061,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2009,
     "area": "MT",
     "aplicacao": "Regular",
     "descricao": "Azul",
-    "codigo": 63
+    "codigo": 63,
+    "erro_medio": 0.0058,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2009,
     "area": "MT",
     "aplicacao": "Regular",
     "descricao": "Rosa",
-    "codigo": 64
+    "codigo": 64,
+    "erro_medio": 0.005,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2009,
     "area": "MT",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Amarela",
-    "codigo": 77
+    "codigo": 77,
+    "erro_medio": 0.0045,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2009,
     "area": "MT",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Cinza",
-    "codigo": 78
+    "codigo": 78,
+    "erro_medio": 0.0042,
+    "erro_maximo": 0.3
   },
   {
     "ano": 2009,
     "area": "MT",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Azul",
-    "codigo": 79
+    "codigo": 79,
+    "erro_medio": 0.0044,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2009,
     "area": "MT",
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Rosa",
-    "codigo": 80
+    "codigo": 80,
+    "erro_medio": 0.0039,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2009,
     "area": "MT",
     "aplicacao": "Regular",
     "descricao": "Cinza - adaptada ledor 9",
-    "codigo": 84
+    "codigo": 84,
+    "erro_medio": null,
+    "erro_maximo": null
   }
 ]

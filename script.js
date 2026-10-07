@@ -290,6 +290,69 @@ function setHint(elemento, mensagem, tipo) {
   if (tipo) elemento.classList.add(tipo);
 }
 
+const elPrecisao = {
+  container: document.getElementById("info-precisao-prova"),
+  erroMedio: document.getElementById("val-erro-medio"),
+  erroMaximo: document.getElementById("val-erro-maximo"),
+  obs: document.getElementById("precisao-obs")
+};
+
+function exibirConfiabilidadeProva(match) {
+  if (!match) {
+    elPrecisao.container.classList.add("hidden");
+    return;
+  }
+
+  const erroMedio = match.erro_medio;
+  const erroMaximo = match.erro_maximo;
+
+  if (erroMedio !== null && erroMedio !== undefined && erroMaximo !== null && erroMaximo !== undefined) {
+    elPrecisao.erroMedio.textContent = `${erroMedio.toFixed(3)} pts`;
+    elPrecisao.erroMaximo.textContent = `${erroMaximo.toFixed(1)} pts`;
+
+    if (erroMedio > 1.0) {
+      elPrecisao.obs.textContent = "⚠️ Esta prova apresenta um erro amostral elevado, os dados do ENEM podem estar fora do padrão ou incorretos.";
+      elPrecisao.obs.className = "precisao-obs alerta";
+    } else {
+      elPrecisao.obs.textContent = "✓ Esta prova possui alta precisão estimada, o erro médio é pequeno e está relacionado a possíveis simplificações nos cálculos.";
+      elPrecisao.obs.className = "precisao-obs ok";
+    }
+  } else {
+    elPrecisao.erroMedio.textContent = "Sem dados";
+    elPrecisao.erroMaximo.textContent = "Sem dados";
+    elPrecisao.obs.textContent = "Aviso: Não há dados de participantes suficientes publicados para validar esta aplicação específica.";
+    elPrecisao.obs.className = "precisao-obs alerta";
+  }
+
+  elPrecisao.container.classList.remove("hidden");
+}
+
+// Atualiza na seleção por cascata
+el.selCor.addEventListener('change', () => {
+  const codNum = parseInt(el.selCor.value, 10);
+  const match = catalogoProvas.find(p => p.codigo === codNum);
+  if (!radioCodigo.checked) {
+    el.inputProva.value = el.selCor.value || "";
+  }
+  exibirConfiabilidadeProva(match);
+});
+
+// Atualiza na digitação do código direto
+el.inputProva.addEventListener('input', () => {
+  if (radioCascata.checked) return;
+
+  const codNum = parseInt(el.inputProva.value.trim(), 10);
+  const match = catalogoProvas.find(p => p.codigo === codNum);
+
+  if (match) {
+    /* ... popular selects em cascata ... */
+    exibirConfiabilidadeProva(match);
+  } else {
+    /* ... reset selects ... */
+    exibirConfiabilidadeProva(null);
+  }
+});
+
 /* =========================================================
    Alternância de Modo de Seleção (Cascata vs Código)
    ========================================================= */

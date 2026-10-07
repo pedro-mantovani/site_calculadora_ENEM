@@ -60,7 +60,7 @@ O erro médio é inferior a presisão mostrada no ENEM (um décimo)
       </label>
     </div>
 
-    <!-- Novos filtros em cascata -->
+    <!-- Filtros em cascata -->
     <div id="bloco-cascata">
       <div class="field-grid" id="filtros-cascata">
         <div class="field-row">
@@ -89,7 +89,25 @@ O erro médio é inferior a presisão mostrada no ENEM (um décimo)
         <input type="text" id="input-prova" placeholder="Ex: 1201" inputmode="numeric">
       </div>
     </div>
-  
+
+    <!-- Bloco com informações sobre Erro Médio e Erro Máximo -->
+    <div id="info-precisao-prova" class="info-precisao hidden">
+      <div class="precisao-header">
+        <span class="precisao-badge">Confiabilidade do Modelo (amostra de ~800 participantes)</span>
+      </div>
+      <div class="precisao-grid">
+        <div class="precisao-item">
+          <span class="precisao-label">Erro Médio da Amostra</span>
+          <span class="precisao-valor" id="val-erro-medio">—</span>
+        </div>
+        <div class="precisao-item">
+          <span class="precisao-label">Erro Máximo Observado</span>
+          <span class="precisao-valor" id="val-erro-maximo">—</span>
+        </div>
+      </div>
+      <p class="precisao-obs" id="precisao-obs"></p>
+    </div>
+
     <button id="btn-carregar" class="btn-primary">Carregar prova →</button>
     <p class="hint" id="hint-identificacao"></p>
   </section>
@@ -165,6 +183,9 @@ O erro médio é inferior a presisão mostrada no ENEM (um décimo)
 </main>
 
 <footer>
+  <p>Entre em contato, será um prazer conversar com você!<p>
+  </p>📩  <a href="mailto:pedro.mantovani6@usp.br">pedro.mantovani6@usp.br</a></p>
+  </p>👥  <a href="linkedin.com/in/pedro-mant">linkedin.com/in/pedro-mant</a></p>
   <p>Esse site foi feito pelo Claude e Gemini com base no repositório <a href = "https://github.com/pedro-mantovani/calculadora_ENEM">pedro-mantovani/calculadora_ENEM</a>, acesse-o para entender a fundo como a nota é calculada.</p>
 </footer>
 
