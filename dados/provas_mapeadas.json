@@ -419,8 +419,8 @@
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Azul",
     "codigo": 1549,
-    "erro_medio": 12.8984,
-    "erro_maximo": 32.9
+    "erro_medio": 0.003,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2025,
@@ -428,8 +428,8 @@
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Verde",
     "codigo": 1551,
-    "erro_medio": 13.9228,
-    "erro_maximo": 38.6
+    "erro_medio": 0.004,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2025,
@@ -437,8 +437,8 @@
     "aplicacao": "Reaplicação / PPL",
     "descricao": "Branca",
     "codigo": 1552,
-    "erro_medio": 13.4052,
-    "erro_maximo": 34.1
+    "erro_medio": 0.002,
+    "erro_maximo": 0.1
   },
   {
     "ano": 2025,

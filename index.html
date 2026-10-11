@@ -1,5 +1,5 @@
 <!--
-CÓDIGO GERADO COM CLAUDE AI COM BASE NOS CÓDIGOS ORIGINAIS EM PYTHON
+CÓDIGO GERADO COM CLAUDE AI, GEMINI E CHATGPT COM BASE NOS CÓDIGOS ORIGINAIS EM PYTHON
 Os códigos originais foram intensamente testados e estão disponíveis em:
 https://github.com/pedro-mantovani/calculadora_ENEM
 O erro médio é inferior a presisão mostrada no ENEM (um décimo)
@@ -10,14 +10,14 @@ O erro médio é inferior a presisão mostrada no ENEM (um décimo)
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Calculadora notas ENEM</title>
+<title>NotaViva — Calculadora de nota do ENEM com TRI</title>
 <meta name="description" content="Calcule sua nota do ENEM pela Teoria de Resposta ao Item e veja o impacto de cada questão, direto no navegador.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600;700&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
-</head>
-<body>
+<meta name="theme-color" content="#6547de"><link rel="icon" type="image/svg+xml" href="favicon.svg"></head>
+<body class="calculator-page">
 
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-W03G5R3L4E"></script>
@@ -30,33 +30,30 @@ O erro médio é inferior a presisão mostrada no ENEM (um décimo)
 </script>
 
 
-<div class="grid-backdrop" aria-hidden="true"></div>
 
-<header class="masthead">
-  <div class="masthead-inner">
-    <span class="stamp">TRI · CÁLCULO LOCAL · ENEM</span>
-    <h1>Calculadora ENEM</h1>
-    <p class="subtitle">Preencha seu cartão-resposta e veja quanto seria sua nota em qualquer prova antiga do ENEM. Tudo roda aqui no seu navegador, nenhuma resposta sai da sua máquina.</p>
-  </div>
-</header>
-
-<main>
-
+<a class="skip-link" href="#step-identificacao">Pular para a calculadora</a>
+<nav class="topbar" aria-label="Navegação principal"><a class="brand" href="index.html" aria-label="NotaViva — início"><span class="brand-icon" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none"><path d="M6 23V9l10 14V9M22 8l3 6 3-6" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg></span><span>nota<span class="brand-accent">viva</span><span class="brand-sub">SEU ENEM, MAIS CLARO</span></span></a><div class="nav-links"><a href="index.html" aria-current="page">Simular nota</a><a href="como-funciona.html" >Entenda a TRI</a><a href="sobre.html">Sobre o projeto</a><a href="contato.html" >Contato</a></div><span class="nav-note"><span class="live-dot"></span> Gratuito. Sem cadastro.</span></nav>
+<header class="page-intro calculator-intro"><div class="hero-copy"><span class="eyebrow"><span class="live-dot"></span> CALCULADORA DE NOTA DO ENEM</span><h1>Seu esforço merece<br>uma nota <em>mais clara.</em></h1><p>Transforme suas respostas em uma estimativa de nota. Entenda cada acerto e encontre seu próximo passo.</p><div class="hero-actions"><a class="btn-primary" href="#step-identificacao">Vamos simular <span aria-hidden="true">↗</span></a><a class="learn-link" href="como-funciona.html">Como funciona a TRI? <span aria-hidden="true">→</span></a></div><div class="hero-tags"><span>✓ Cálculo no navegador</span><span>✓ Progresso salvo</span><span>✓ Sem complicação</span></div></div><div class="hero-visual" aria-hidden="true"><div class="visual-orbit"></div><span class="visual-star">✳</span><div class="visual-card"><div class="visual-card-top"><span class="visual-badge">DA RESPOSTA À DESCOBERTA</span><span>↗</span></div><h2>Mais que acertos.<br><span>Possibilidades.</span></h2><div class="visual-bars"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div><div class="visual-card-bottom"><span>Sua próxima conquista</span><b>começa aqui.</b></div></div><div class="visual-sticker">Seu futuro<br><strong>em movimento ↗</strong></div><span class="visual-caption">Uma nova perspectiva para os seus estudos.</span></div></header>
+<main id="simulador"><div class="workspace-title"><div><span class="eyebrow">SUA PRÓXIMA DESCOBERTA</span><h2>Vamos encontrar a sua nota?</h2></div><span class="workspace-label">SIMULADOR TRI</span></div>
+<div class="session-bar"><span id="storage-status" role="status" aria-live="polite">Seu progresso será salvo neste navegador.</span><div><button id="btn-trocar" class="text-button" type="button" hidden>Trocar prova</button><button id="btn-limpar" class="text-button" type="button">Apagar progresso</button></div></div>
+<p class="exam-summary" id="exam-summary" hidden></p>
+<ol class="journey" aria-label="Etapas da simulação"><li class="active" data-stage="1"><button type="button" data-go-stage="1" aria-current="step"><span>1</span> Escolha a prova</button></li><li data-stage="2"><button type="button" data-go-stage="2"><span>2</span> Preencha as respostas</button></li><li data-stage="3"><button type="button" data-go-stage="3"><span>3</span> Explore seu resultado</button></li></ol><p id="journey-status" class="hint" role="status" aria-live="polite"></p>
+<div class="calculator-layout"><div class="calculator-panels" id="calculator-panels">
   <!-- STEP 1: Identificação -->
   <section id="step-identificacao" class="card step">
-    <div class="card-label"><span class="step-index">01</span> Identificação</div>
+    <div class="card-label"><span class="step-index">01</span> Sua prova</div>
     <h2>Qual prova você fez?</h2>
-    <p class="card-desc">Selecione o método de busca da sua prova para encontrar o código.</p>
+    <p class="card-desc">Selecione os dados do seu caderno. Se preferir, use o código da prova.</p>
 
     <!-- Alternador de Modos de Entrada -->
     <div class="input-mode-toggle" style="margin-bottom: 22px;">
       <label class="radio-label">
         <input type="radio" name="input_mode" value="cascata" checked>
-        Buscar por características
+        Buscar minha prova
       </label>
       <label class="radio-label">
         <input type="radio" name="input_mode" value="codigo">
-        Digitar código da prova
+        Usar código da prova
       </label>
     </div>
 
@@ -92,8 +89,8 @@ O erro médio é inferior a presisão mostrada no ENEM (um décimo)
 
     <!-- Bloco com informações sobre Erro Médio e Erro Máximo -->
     <div id="info-precisao-prova" class="info-precisao hidden">
-      <div class="precisao-header">
-        <span class="precisao-badge">Confiabilidade do Modelo (amostra de ~800 participantes)</span>
+      <details><summary>Ver precisão desta prova</summary><div class="precisao-header">
+        <span class="precisao-badge">Métricas de validação do modelo</span>
       </div>
       <div class="precisao-grid">
         <div class="precisao-item">
@@ -105,11 +102,11 @@ O erro médio é inferior a presisão mostrada no ENEM (um décimo)
           <span class="precisao-valor" id="val-erro-maximo">—</span>
         </div>
       </div>
-      <p class="precisao-obs" id="precisao-obs"></p>
+      <p class="precisao-obs" id="precisao-obs"></p></details>
     </div>
 
-    <button id="btn-carregar" class="btn-primary">Carregar prova →</button>
-    <p class="hint" id="hint-identificacao"></p>
+    <button id="btn-carregar" class="btn-primary">Continuar para as respostas →</button>
+    <p role="status" aria-live="polite" class="hint" id="hint-identificacao"></p>
   </section>
 
   <!-- STEP 2: Idioma (somente Linguagens) -->
@@ -123,72 +120,63 @@ O erro médio é inferior a presisão mostrada no ENEM (um décimo)
       <button class="choice-btn" data-lingua="1">Espanhol</button>
     </div>
 
-    <p class="hint" id="hint-idioma"></p>
+    <p role="status" aria-live="polite" class="hint" id="hint-idioma"></p>
   </section>
 
   <!-- STEP 3: Cartão resposta -->
   <section id="step-respostas" class="card step hidden">
     <div class="card-label"><span class="step-index" id="step-respostas-index">02</span> Cartão-resposta</div>
     <h2><span id="area-nome"></span></h2>
-    <p class="card-desc"><span id="num-questoes"></span> questões, posições <span id="pos-range"></span>. Marque cada bolha ou cole seu gabarito de uma vez.</p>
+    <p class="card-desc"><span id="num-questoes"></span> questões, posições <span id="pos-range"></span>. Selecione uma alternativa por questão ou cole suas respostas de uma vez.</p>
 
-    <div class="paste-row">
-      <input type="text" id="input-colar" placeholder="Colar respostas em sequência, ex: ABCDEABCDE...">
-      <button id="btn-colar" class="btn-secondary">Preencher cartão</button>
+    <details class="optional-panel"><summary>Colar uma sequência de respostas</summary><label class="paste-label" for="input-colar">Já tem suas respostas? Cole aqui para preencher mais rápido.</label><div class="paste-row">
+      <textarea id="input-colar" rows="3" placeholder="ABC-DE ou 1:A 2:B 3:- 4:D" spellcheck="false" aria-describedby="paste-help"></textarea>
+      </div><p id="paste-help" class="input-help">Cole letras, separadas ou juntas, ou respostas numeradas (1:A 2:B). Use -, _, X, ? ou 0 para branco. Espaços e quebras de linha separam respostas; vírgulas consecutivas preservam um branco.</p><div class="paste-options"><label for="paste-mode">Como preencher<select id="paste-mode"><option value="replace">Substituir o cartão</option><option value="merge">Mesclar, mantendo as demais respostas</option></select></label><label for="paste-start">Começar na posição<input id="paste-start" type="number" min="1" value="1"></label></div><div class="paste-row"><button id="btn-colar" class="btn-secondary">Preencher cartão</button><button id="btn-desfazer" class="btn-secondary" disabled>Desfazer preenchimento</button>
     </div>
     
-    <div class="correction-toggle" style="margin-bottom: 16px;">
+    </details><div class="correction-toggle" style="margin-bottom: 16px;">
       <label class="radio-label">
         <input type="checkbox" id="check-correcao">
         Mostrar correção (acertos, erros e gabarito)
       </label>
     </div>
 
-    <div id="bubble-sheet" class="bubble-sheet" role="group" aria-label="Cartão resposta"></div>
+    <div class="answer-progress"><span id="answer-count" role="status">0 respostas preenchidas</span><progress id="answer-progress" value="0" max="45" aria-label="Progresso do cartão"></progress></div><div class="correction-legend">Na correção: <span>✓ verde = gabarito</span><span>× vermelho = resposta incorreta</span></div><p class="input-help">Leia de cima para baixo em cada coluna. Clique novamente na alternativa marcada ou em “–” para deixar em branco. No cálculo, branco conta como erro; itens anulados são desconsiderados.</p><div id="bubble-sheet" class="bubble-sheet" role="group" aria-label="Cartão resposta"></div>
 
-    <button id="btn-calcular" class="btn-primary">Calcular nota →</button>
-    <p class="hint" id="hint-respostas"></p>
+    <button id="btn-calcular" class="btn-primary">Descobrir minha nota →</button>
+    <p role="status" aria-live="polite" class="hint" id="hint-respostas"></p>
   </section>
 
   <!-- STEP 4: Resultado -->
   <section id="step-resultado" class="card step hidden">
-    <div class="card-label"><span class="step-index">03</span> Resultado</div>
+    <div class="card-label"><span class="step-index">03</span> Seu próximo passo começa aqui</div>
 
-    <div class="score-block">
+    <p class="result-kicker">SEU RESULTADO ESTIMADO</p><div class="score-block">
       <div class="score-main">
         <span class="score-label" id="score-area-label"></span>
         <span class="score-number" id="score-nota">—</span>
         <span class="score-unit">pontos</span>
       </div>
-      <div class="score-theta">
-        θ (habilidade estimada) = <span id="score-theta">—</span>
-      </div>
+      <details class="technical-details"><summary>Ver habilidade estimada (θ)</summary><p>θ = <span id="score-theta">—</span>. <a href="como-funciona.html#estimativa">Entenda este valor.</a></p></details>
       <div class="score-theta">
         Acertos = <span id="score-acertos">—</span> / <span id="total-questoes-resultado">—</span>
       </div>
     </div>
 
-    <h3 class="impact-title">Impacto de cada questão</h3>
-    <p class="card-desc">Se essa questão tivesse ido diferente, sua nota mudaria assim. Ordenado da maior perda para o maior ganho.</p>
+    <p id="result-blanks" class="input-help"></p><section id="result-precision" class="info-precisao" aria-label="Precisão da prova"></section><details class="optional-panel" id="impact-details"><summary>Explorar o impacto de cada questão</summary>
+    <p class="card-desc">Veja a diferença entre sua nota atual e a nota com essa resposta invertida. Valor positivo: ganhos ao acertar a questão. Negativo: pontos perdidos. Os valores seguem em ordem crescente.</p>
 
     <div id="loading-deltas" class="loading hidden">
       <span class="spinner" aria-hidden="true"></span> Recalculando 1 questão de cada vez para medir o impacto...
     </div>
 
-    <div id="delta-table" class="delta-table"></div>
+    <div id="delta-table" class="delta-table"></div></details>
 
-    <button id="btn-refazer" class="btn-secondary">Refazer com outro cartão</button>
+    <div class="result-actions"><button id="btn-refazer" class="btn-primary">Revisar minhas respostas</button><button id="btn-exportar" class="btn-secondary" type="button">Baixar TXT ↓</button><button id="btn-imprimir" class="btn-secondary" type="button">Baixar PDF ↓</button></div><p id="export-status" class="hint" role="status" aria-live="polite"></p>
   </section>
 
+</div><aside class="workspace-aside" aria-label="Dicas para simular"><div class="aside-tip"><span class="aside-icon">✳</span><span class="eyebrow">UM PASSO DE CADA VEZ</span><h2>Você traz as respostas.<br>A gente faz as contas.</h2><ol><li><b>Encontre seu caderno</b><span>Confira o ano, a área e a cor da prova.</span></li><li><b>Marque ou cole</b><span>Preencha no seu ritmo. Pode deixar em branco.</span></li><li><b>Entenda seu resultado</b><span>Veja sua estimativa e o impacto de cada questão.</span></li></ol><a href="como-funciona.html">Conheça a lógica da TRI →</a></div><div class="aside-note"><span>↗</span><p><b>Uma estimativa, não um limite.</b>A nota oficial é divulgada pelo Inep. Use este resultado para orientar seus estudos.</p></div></aside></div><div class="bottom-links"><p>Quer entender o que está por trás da sua nota?</p><a href="como-funciona.html">Explore a TRI na prática →</a><a href="contato.html">Dúvidas ou sugestões? Fale comigo ↗</a></div>
+<details class="optional-panel privacy-note"><summary>Sobre o salvamento e a privacidade</summary><p>Sua seleção e suas respostas são salvas automaticamente no armazenamento local deste navegador. Elas não são enviadas para um servidor e não são sincronizadas entre dispositivos. Em navegação privada ou ao limpar os dados do navegador, o progresso pode ser perdido. O site monitora o tráfego a fim de medir o impacto do projeto.</p></details>
 </main>
 
-<footer>
-  <p>Entre em contato, será um prazer conversar com você!<p>
-  <p>📩 <a href="mailto:pedro.mantovani6@usp.br">pedro.mantovani6@usp.br</a></p>
-  <p>👥 <a href="https://linkedin.com/in/pedro-mant" target="_blank" rel="noopener noreferrer">linkedin.com/in/pedro-mant</a></p>
-  <p>Esse site foi feito pelo Claude e Gemini com base no repositório <a href = "https://github.com/pedro-mantovani/calculadora_ENEM">pedro-mantovani/calculadora_ENEM</a>, acesse-o para entender a fundo como a nota é calculada.</p>
-</footer>
-
-<script src="script.js"></script>
-</body>
-</html>
+<footer><div><a class="brand" href="index.html" aria-label="NotaViva — início"><span class="brand-icon" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none"><path d="M6 23V9l10 14V9M22 8l3 6 3-6" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg></span><span>nota<span class="brand-accent">viva</span><span class="brand-sub">SEU ENEM, MAIS CLARO</span></span></a><p>Menos mistério. Mais direção.</p></div><div class="footer-contact"><strong>Feito para quem quer ir além.</strong><a href="sobre.html">Sobre Pedro e o projeto →</a><a href="mailto:pedro.mantovani6@usp.br">Fale com Pedro Mantovani ↗</a><a href="https://github.com/pedro-mantovani/site_calculadora_ENEM" target="_blank" rel="noopener noreferrer">Conheça o projeto no GitHub ↗</a></div><small>Projeto independente, sem vínculo com o INEP. A nota exibida é uma estimativa educacional e, apesar de bem fundamentada, pode apresentar erros.</small></footer><script src="script.js"></script><noscript><div class="noscript-note">Ative o JavaScript para usar a calculadora e as experiências interativas.</div></noscript></body></html>
