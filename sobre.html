@@ -1,22 +1,253 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Sobre Pedro e o projeto • NotaViva</title>
-<meta name="description" content="Conheça Pedro Mantovani, a história do NotaViva, o apoio do CNPq e a proposta de tornar a nota do ENEM mais clara.">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css">
-<meta name="theme-color" content="#6547de"><link rel="icon" type="image/svg+xml" href="favicon.svg"></head>
-<body><a class="skip-link" href="#conteudo">Pular para o conteúdo</a><nav class="topbar" aria-label="Navegação principal"><a class="brand" href="index.html" aria-label="NotaViva — início"><span class="brand-icon" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none"><path d="M6 23V9l10 14V9M22 8l3 6 3-6" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg></span><span>nota<span class="brand-accent">viva</span><span class="brand-sub">SEU ENEM, MAIS CLARO</span></span></a><div class="nav-links"><a href="index.html" >Simular nota</a><a href="como-funciona.html" >Entenda a TRI</a><a href="sobre.html" aria-current="page">Sobre o projeto</a><a href="contato.html">Contato</a></div><span class="nav-note"><span class="live-dot"></span> Gratuito. Sem cadastro.</span></nav>
-<header class="page-intro"><span class="eyebrow">CIÊNCIA, EDUCAÇÃO E POSSIBILIDADES</span><h1>Por trás de cada nota,<br><em>existe uma história.</em></h1><p>O NotaViva aproxima a matemática do ENEM de quem mais precisa entendê-la: os estudantes.</p></header>
-<main id="conteudo" class="about-page">
-<div class="learning-grid"><section class="card"><span class="card-label">QUEM ESTÁ POR TRÁS</span><h2>Olá, eu sou Pedro Mantovani.</h2><p>Sou estudante de ciências de computação na USP-São Carlos, entrei em 2025 e no começo de 2026 iniciei uma iniciação científica que visava calcular a nota do ENEM com IA. Mas para isso eu precisei entender como funcionava a nota do ENEM e depois de perceber que desde 2022 o INEP já divulgava todos os dados necessários para que o aluno calculasse sua prórpia nota senti a necessidade de divulgar isso.</p><p>No segundo ano do ensino médio descobri os microdados do ENEM e comecei a explorar o que esses dados diziam sobre mim, minha escola, cidade e muito mais. Depois de entrar na universidade já com esse interesse e vendo o caso do vazamento de itens pelo Edcley em 2025, senti que poderia propor uma iniciação científica relacionada a isso. O professor André apoiou meu projeto e me deu toda liberdade para que eu pesquisasse sobre o assunto. Por isso, depois de entender como a nota funcionava decidi que precisava compartilhar esse conhecimento com os vestibulandos de alguma forma.</p><div class="contact-actions"><a class="btn-secondary" href="https://linkedin.com/in/pedro-mant" target="_blank" rel="noopener noreferrer">Meu LinkedIn ↗</a><a class="btn-secondary" href="contato.html">Vamos conversar →</a></div></section>
-<section class="card tinted"><span class="card-label">O QUE É O NOTAVIVA</span><h2>Calcular é só o começo.</h2><p>O NotaViva é uma ferramenta educacional gratuita e independente para estimar notas das áreas objetivas do ENEM. Você escolhe uma prova, informa suas respostas e explora o resultado com base nos parâmetros de seus itens.</p><p>Além da estimativa, o site mostra como cada questão influencia aquele conjunto de respostas e oferece um laboratório para experimentar a TRI. O objetivo é ajudar a compreender a nota, sem transformar uma estimativa em promessa de aprovação.</p><p>Os cálculos são feitos no navegador. A nota oficial continua sendo a divulgada pelo Inep.</p></section></div>
-<section class="card"><span class="card-label">COMO O PROJETO SURGIU</span><h2>Da investigação ao acesso aberto.</h2><div class="about-timeline"><article><span>01</span><h3>A pergunta inicial</h3><p>Antes de estimar a nota com IA eu precisava entender como a nota era calculada normalmente e do que eu precisava para estimá-la. Com isso, descobri que eram neccessários apenas os parâmetros dos itens e as respostas dos participantes para estimar as notas, duas coisas que o INEP divulga desde 2022. Agora, minha pesquisa tenta estimar os parâmetros com IA e já tem uma ferramenta para sair desses parâmetros e chegar na nota divulgada.</p></article><article><span>02</span><h3>O estudo e o código</h3><p>Após entender como a nota era calculada, implementei em Python um programa que assim o fazia e comparava as estimativas com as notas reais dos participantes. Deixei o código e a metodologia públicos para consulta e reprodução no <a href="https://github.com/pedro-mantovani/calculadora_ENEM" target="_blank" rel="noopener noreferrer">GitHub ↗</a>.</p><p>Porém, apesar de já ser suficiente para minha pesquisa um programa que calculava a nota, como eu mesmo gostaria de ter uma ferramenta como essa na minha época de vestibulando, decidi dar um passo além e, com a ajuda das IAs, criar um site acessível para que qualquer estudante pudesse calcular suas próprias notas.</p></article><article><span>03</span><h3>A pesquisa chega ao estudante</h3><p>A calculadora na web leva essa implementação a uma interface em que é possível preencher respostas, analisar os impactos e entender a metodologia sem precisar executar o código em Python.</p><p>Dessa forma, qualquer aluno pode verificar quantos pontos tiraria se fizesse determinada edição do exame, sem depender apenas do número bruto de acertos para guiar seus estudos, mas de uma estimativa bem fundamentada, mais informativa e fidedigna à forma de avaliação real do ENEM.</p></article></div></section>
-<section class="card support-card"><span class="card-label">APOIO À PESQUISA</span><h2>Com apoio do CNPq.</h2><p>Este trabalho foi desenvolvido no âmbito do Projeto (INCT) Instituto Nacional de Inteligência Artificial para o Bem Social (IAPROBEM), financiado pelo Conselho Nacional de Desenvolvimento Científico e Tecnológico – CNPq (processo 408589/2024-8), e com apoio da Fundação de Amparo à Pesquisa do Estado de São Paulo – FAPESP (processo 2026/04096-2).</p></section>
-<section class="card"><span class="card-label">POR QUE ISSO IMPORTA</span><h2>O ENEM abre caminhos. Entender a nota também.</h2><p>As notas do ENEM podem ser utilizadas no acesso à educação superior, incluindo processos como o Sisu e o ProUni. Para muitos estudantes, o exame está ligado a escolhas de curso, oportunidades e planos de futuro.</p><p>Entender a TRI ajuda a interpretar o resultado com mais clareza e a questionar mitos sobre acertos, erros e dificuldade. O NotaViva busca contribuir com esse entendimento, como apoio aos estudos e à leitura dos resultados.</p><a class="text-button" href="https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/" target="_blank" rel="noopener noreferrer">Fonte: conheça o ENEM no portal do Inep ↗</a></section>
-<section class="card"><span class="card-label">TRANSPARÊNCIA E CONTINUIDADE</span><h2>Um projeto aberto a perguntas e contribuições.</h2><p>A metodologia e o código podem ser consultados no repositório do projeto. As estimativas dependem dos dados disponíveis, dos parâmetros dos itens e das aproximações numéricas descritas na página sobre a TRI. Os indicadores de validação não garantem um erro individual para a sua nota.</p><div class="contact-actions"><a class="btn-secondary" href="https://github.com/pedro-mantovani/calculadora_ENEM" target="_blank" rel="noopener noreferrer">Código e metodologia ↗</a><a class="btn-secondary" href="https://github.com/pedro-mantovani/site_calculadora_ENEM" target="_blank" rel="noopener noreferrer">Repositório do site ↗</a><a class="btn-secondary" href="como-funciona.html">Entenda a TRI →</a><a class="btn-secondary" href="contato.html">Sugira uma melhoria →</a></div></section>
-<div class="page-cta"><div><h2>Conhecer a nota é um ponto de partida.</h2><p>Experimente a calculadora e explore o que está por trás do resultado.</p></div><a class="btn-primary" href="index.html">Simular minha nota →</a></div></main><footer><div><a class="brand" href="index.html" aria-label="NotaViva — início"><span class="brand-icon" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none"><path d="M6 23V9l10 14V9M22 8l3 6 3-6" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg></span><span>nota<span class="brand-accent">viva</span><span class="brand-sub">SEU ENEM, MAIS CLARO</span></span></a><p>Menos mistério. Mais direção.</p></div><div class="footer-contact"><strong>Feito para quem quer ir além.</strong><a href="sobre.html">Sobre Pedro e o projeto →</a><a href="mailto:pedro.mantovani6@usp.br">Fale com Pedro Mantovani ↗</a><a href="https://github.com/pedro-mantovani/site_calculadora_ENEM" target="_blank" rel="noopener noreferrer">Conheça o projeto no GitHub ↗</a></div><small>Projeto independente, sem vínculo com o INEP. A nota exibida é uma estimativa educacional e, apesar de bem fundamentada, pode apresentar erros.</small></footer><script src="script.js"></script><noscript><div class="noscript-note">Ative o JavaScript para usar a calculadora e as experiências interativas.</div></noscript></body></html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sobre Pedro e o projeto • Meu ENEM</title>
+    <meta
+      name="description"
+      content="Conheça Pedro Mantovani, a história do Meu ENEM, o apoio do CNPq e a proposta de tornar a nota do ENEM mais clara."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <script src="theme.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <meta name="theme-color" content="#6547de" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  </head>
+  <body>
+    <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+    <nav class="topbar" aria-label="Navegação principal">
+      <a class="brand" href="index.html" aria-label="Meu ENEM — início"
+        ><span class="brand-icon" aria-hidden="true"
+          ><img src="favicon.svg" alt="" width="43" height="43" /></span
+        ><span
+          >Meu <span class="brand-accent">ENEM</span
+          ><span class="brand-sub">SEU ENEM, MAIS CLARO</span></span
+        ></a
+      >
+      <div class="nav-links">
+        <a href="index.html">Simular nota</a><a href="como-funciona.html">Entenda a TRI</a
+        ><a href="sobre.html" aria-current="page">Sobre o projeto</a
+        ><a href="contato.html">Contato</a>
+      </div>
+      <button class="theme-toggle" type="button" aria-pressed="false">Modo escuro</button
+      ><span class="nav-note"><span class="live-dot"></span> Gratuito. Sem cadastro.</span>
+    </nav>
+    <header class="page-intro">
+      <span class="eyebrow">CIÊNCIA, EDUCAÇÃO E POSSIBILIDADES</span>
+      <h1>Por trás de cada nota,<br /><em>existe uma história.</em></h1>
+      <p>
+        O Meu ENEM aproxima a matemática do ENEM de quem mais precisa entendê-la: os estudantes.
+      </p>
+    </header>
+    <main id="conteudo" class="about-page">
+      <div class="learning-grid">
+        <section class="card">
+          <span class="card-label">QUEM ESTÁ POR TRÁS</span>
+          <h2>Olá, eu sou Pedro Mantovani.</h2>
+          <p>
+            Sou estudante de ciências de computação na USP-São Carlos, entrei em 2025 e no começo de
+            2026 iniciei uma iniciação científica que visava calcular a nota do ENEM com IA. Mas
+            para isso eu precisei entender como funcionava a nota do ENEM e depois de perceber que
+            desde 2022 o INEP já divulgava todos os dados necessários para que o aluno calculasse
+            sua prórpia nota senti a necessidade de divulgar isso.
+          </p>
+          <p>
+            No segundo ano do ensino médio descobri os microdados do ENEM e comecei a explorar o que
+            esses dados diziam sobre mim, minha escola, cidade e muito mais. Depois de entrar na
+            universidade já com esse interesse e vendo o caso do vazamento de itens pelo Edcley em
+            2025, senti que poderia propor uma iniciação científica relacionada a isso. O professor
+            André apoiou meu projeto e me deu toda liberdade para que eu pesquisasse sobre o
+            assunto. Por isso, depois de entender como a nota funcionava decidi que precisava
+            compartilhar esse conhecimento com os vestibulandos de alguma forma.
+          </p>
+          <div class="contact-actions">
+            <a
+              class="btn-secondary"
+              href="https://linkedin.com/in/pedro-mant"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Meu LinkedIn ↗</a
+            ><a class="btn-secondary" href="contato.html">Vamos conversar →</a>
+          </div>
+        </section>
+        <section class="card tinted">
+          <span class="card-label">O QUE É O MEU ENEM</span>
+          <h2>Calcular é só o começo.</h2>
+          <p>
+            O Meu ENEM é uma ferramenta educacional gratuita e independente para estimar notas das
+            áreas objetivas do ENEM. Você escolhe uma prova, informa suas respostas e explora o
+            resultado com base nos parâmetros de seus itens.
+          </p>
+          <p>
+            Além da estimativa, o site mostra como cada questão influencia aquele conjunto de
+            respostas e oferece um laboratório para experimentar a TRI. O objetivo é ajudar a
+            compreender a nota, sem transformar uma estimativa em promessa de aprovação.
+          </p>
+          <p>
+            Os cálculos são feitos no navegador. A nota oficial continua sendo a divulgada pelo
+            Inep.
+          </p>
+        </section>
+      </div>
+      <section class="card">
+        <span class="card-label">COMO O PROJETO SURGIU</span>
+        <h2>Da investigação ao acesso aberto.</h2>
+        <div class="about-timeline">
+          <article>
+            <span>01</span>
+            <h3>A pergunta inicial</h3>
+            <p>
+              Antes de estimar a nota com IA eu precisava entender como a nota era calculada
+              normalmente e do que eu precisava para estimá-la. Com isso, descobri que eram
+              neccessários apenas os parâmetros dos itens e as respostas dos participantes para
+              estimar as notas, duas coisas que o INEP divulga desde 2022. Agora, minha pesquisa
+              tenta estimar os parâmetros com IA e já tem uma ferramenta para sair desses parâmetros
+              e chegar na nota divulgada.
+            </p>
+          </article>
+          <article>
+            <span>02</span>
+            <h3>O estudo e o código</h3>
+            <p>
+              Após entender como a nota era calculada, implementei em Python um programa que assim o
+              fazia e comparava as estimativas com as notas reais dos participantes. Deixei o código
+              e a metodologia públicos para consulta e reprodução no
+              <a
+                href="https://github.com/pedro-mantovani/calculadora_ENEM"
+                target="_blank"
+                rel="noopener noreferrer"
+                >GitHub ↗</a
+              >.
+            </p>
+            <p>
+              Porém, apesar de já ser suficiente para minha pesquisa um programa que calculava a
+              nota, como eu mesmo gostaria de ter uma ferramenta como essa na minha época de
+              vestibulando, decidi dar um passo além e, com a ajuda das IAs, criar um site acessível
+              para que qualquer estudante pudesse calcular suas próprias notas.
+            </p>
+          </article>
+          <article>
+            <span>03</span>
+            <h3>A pesquisa chega ao estudante</h3>
+            <p>
+              A calculadora na web leva essa implementação a uma interface em que é possível
+              preencher respostas, analisar os impactos e entender a metodologia sem precisar
+              executar o código em Python.
+            </p>
+            <p>
+              Dessa forma, qualquer aluno pode verificar quantos pontos tiraria se fizesse
+              determinada edição do exame, sem depender apenas do número bruto de acertos para guiar
+              seus estudos, mas de uma estimativa bem fundamentada, mais informativa e fidedigna à
+              forma de avaliação real do ENEM.
+            </p>
+          </article>
+        </div>
+      </section>
+      <section class="card support-card">
+        <span class="card-label">APOIO À PESQUISA</span>
+        <h2>Com apoio do CNPq.</h2>
+        <p>
+          Este trabalho foi desenvolvido no âmbito do Projeto (INCT) Instituto Nacional de
+          Inteligência Artificial para o Bem Social (IAPROBEM), financiado pelo Conselho Nacional de
+          Desenvolvimento Científico e Tecnológico – CNPq (processo 408589/2024-8), e com apoio da
+          Fundação de Amparo à Pesquisa do Estado de São Paulo – FAPESP (processo 2026/04096-2).
+        </p>
+      </section>
+      <section class="card">
+        <span class="card-label">POR QUE ISSO IMPORTA</span>
+        <h2>O ENEM abre caminhos. Entender a nota também.</h2>
+        <p>
+          As notas do ENEM podem ser utilizadas no acesso à educação superior, incluindo processos
+          como o Sisu e o ProUni. Para muitos estudantes, o exame está ligado a escolhas de curso,
+          oportunidades e planos de futuro.
+        </p>
+        <p>
+          Entender a TRI ajuda a interpretar o resultado com mais clareza e a questionar mitos sobre
+          acertos, erros e dificuldade. O Meu ENEM busca contribuir com esse entendimento, como
+          apoio aos estudos e à leitura dos resultados.
+        </p>
+        <a
+          class="text-button"
+          href="https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Fonte: conheça o ENEM no portal do Inep ↗</a
+        >
+      </section>
+      <section class="card">
+        <span class="card-label">TRANSPARÊNCIA E CONTINUIDADE</span>
+        <h2>Um projeto aberto a perguntas e contribuições.</h2>
+        <p>
+          A metodologia e o código podem ser consultados no repositório do projeto. As estimativas
+          dependem dos dados disponíveis, dos parâmetros dos itens e das aproximações numéricas
+          descritas na página sobre a TRI. Os indicadores de validação não garantem um erro
+          individual para a sua nota.
+        </p>
+        <div class="contact-actions">
+          <a
+            class="btn-secondary"
+            href="https://github.com/pedro-mantovani/calculadora_ENEM"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Código e metodologia ↗</a
+          ><a
+            class="btn-secondary"
+            href="https://github.com/pedro-mantovani/site_calculadora_ENEM"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Repositório do site ↗</a
+          ><a class="btn-secondary" href="como-funciona.html">Entenda a TRI →</a
+          ><a class="btn-secondary" href="contato.html">Sugira uma melhoria →</a>
+        </div>
+      </section>
+      <div class="page-cta">
+        <div>
+          <h2>Conhecer a nota é um ponto de partida.</h2>
+          <p>Experimente a calculadora e explore o que está por trás do resultado.</p>
+        </div>
+        <a class="btn-primary" href="index.html">Simular minha nota →</a>
+      </div>
+    </main>
+    <footer>
+      <div>
+        <a class="brand" href="index.html" aria-label="Meu ENEM — início"
+          ><span class="brand-icon" aria-hidden="true"
+            ><img src="favicon.svg" alt="" width="43" height="43" /></span
+          ><span
+            >Meu <span class="brand-accent">ENEM</span
+            ><span class="brand-sub">SEU ENEM, MAIS CLARO</span></span
+          ></a
+        >
+        <p>Menos mistério. Mais direção.</p>
+      </div>
+      <div class="footer-contact">
+        <strong>Feito para quem quer ir além.</strong
+        ><a href="sobre.html">Sobre Pedro e o projeto →</a
+        ><a href="mailto:pedro.mantovani6@usp.br">Fale com Pedro Mantovani ↗</a
+        ><a
+          href="https://github.com/pedro-mantovani/site_calculadora_ENEM"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Conheça o projeto no GitHub ↗</a
+        >
+      </div>
+      <small
+        >Projeto independente, sem vínculo com o INEP. A nota exibida é uma estimativa educacional
+        e, apesar de bem fundamentada, pode apresentar erros.</small
+      >
+    </footer>
+    <script src="ui-helpers.js"></script>
+    <script src="script.js"></script>
+    <noscript
+      ><div class="noscript-note">
+        Ative o JavaScript para usar a calculadora e as experiências interativas.
+      </div></noscript
+    >
+  </body>
+</html>

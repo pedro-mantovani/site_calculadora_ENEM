@@ -1,162 +1,985 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Entenda a TRI • NotaViva</title>
-<meta name="description" content="Entenda a estimativa de nota do ENEM, explore a curva TRI e conheça o projeto.">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css">
-<meta name="theme-color" content="#6547de"><link rel="icon" type="image/svg+xml" href="favicon.svg"></head>
-<body><a class="skip-link" href="#conteudo">Pular para o conteúdo</a><nav class="topbar" aria-label="Navegação principal"><a class="brand" href="index.html" aria-label="NotaViva — início"><span class="brand-icon" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none"><path d="M6 23V9l10 14V9M22 8l3 6 3-6" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg></span><span>nota<span class="brand-accent">viva</span><span class="brand-sub">SEU ENEM, MAIS CLARO</span></span></a><div class="nav-links"><a href="index.html" >Simular nota</a><a href="como-funciona.html" aria-current="page">Entenda a TRI</a><a href="sobre.html">Sobre o projeto</a><a href="contato.html" >Contato</a></div><span class="nav-note"><span class="live-dot"></span> Gratuito. Sem cadastro.</span></nav>
-<header class="page-intro"><span class="eyebrow">ALÉM DO NÚMERO DE ACERTOS</span><h1>Sua nota tem uma lógica.<br><em>Vamos descobrir?</em></h1><p>A TRI transforma um conjunto de respostas em uma estimativa de habilidade. Entenda a lógica e experimente os parâmetros abaixo.</p><a class="text-button" href="index.html">← Voltar à minha simulação</a></header>
-<main id="conteudo" class="learning-page"><nav class="learning-nav" aria-label="Nesta página"><a href="#laboratorio">01 · Experimente a curva</a><a href="#estimativa">02 · Entenda o cálculo</a><a href="#mitos">03 · Tire suas dúvidas</a></nav>
-<div class="learning-grid"><section class="card"><span class="card-label">01 · O PADRÃO IMPORTA</span><h2>Não é só somar acertos.</h2><p>Ao invés de considerar o número bruto de acertos, a TRI busca entender o quanto você sabe sobre uma área, assim o modelo leva em consideração informações sobre o item e o perfil das suas respostas.</p><details><summary>A TRI descobre se eu chutei?</summary><p>Ela não identifica com certeza um chute individual. O modelo considera uma probabilidade de acerto ao acaso e usa o conjunto das respostas para estimar a habilidade. Não há uma quantidade fixa de pontos que uma questão “vale” para todas as pessoas.</p></details></section>
-<section class="card tinted"><span class="card-label">02 · TRÊS PARÂMETROS</span><h2>Cada questão tem uma curva.</h2><dl class="parameter-list"><div><dt>a · Discriminação</dt><dd>Representa quão bem a questão diferencia um aluno que sabe do que não sabe, mais formalmente, o quão bem uma questão diferencia em uma faixa de proficiência.<br>Controla a inclinação do gráfico: quanto maior, mais a probabilidade muda perto da dificuldade do item.</dd></div><div><dt>b · Dificuldade</dt><dd>Desloca a curva: valores maiores exigem mais habilidade para a mesma probabilidade de acerto.</dd></div><div><dt>c · Acerto ao acaso</dt><dd>Define o limite inferior da curva. É um parâmetro do item, não uma identificação de quem chutou.</dd></div></dl></section></div>
-<section class="card interactive-card" id="laboratorio"><div class="section-heading"><div><span class="card-label">EXPERIMENTE · CURVA CARACTERÍSTICA DO ITEM</span><h2>A matemática fica mais clara quando se move.</h2><p>Arraste a própria curva para mover ou ajustar sua forma. A bolinha roxa continua representando a proficiência. Os valores são ilustrativos, não pertencem a uma questão real.</p></div><button id="reset-curve" class="btn-secondary" type="button">Restaurar exemplo</button></div>
-<div class="chart-layout"><div class="chart-controls">
-<label for="param-a">Discriminação (a) <output id="value-a" for="param-a">1,20</output></label><input id="param-a" type="range" min="0.2" max="3" step="0.05" value="1.2"><p>Maior valor → curva mais inclinada.</p>
-<label for="param-b">Dificuldade (b) <output id="value-b" for="param-b">0,00</output></label><input id="param-b" type="range" min="-3" max="3" step="0.1" value="0"><p>Maior valor → curva à direita.</p>
-<label for="param-c">Acerto ao acaso (c) <output id="value-c" for="param-c">0,20</output></label><input id="param-c" type="range" min="0" max="0.4" step="0.01" value="0.2"><p>Maior valor → base mais alta.</p>
-<label for="param-theta">Habilidade (θ) <output id="value-theta" for="param-theta">0,00</output></label><input id="param-theta" type="range" min="-4" max="4" step="0.1" value="0"><p>Mova o ponto ao longo da curva.</p>
-</div><div class="chart-display"><svg id="tri-chart-direct" viewBox="0 0 680 380" role="group" aria-labelledby="chart-title chart-desc"><title id="chart-title">Probabilidade de acerto por habilidade</title><desc id="chart-desc">Curva do modelo logístico de três parâmetros, atualizada pelos controles. A probabilidade no ponto selecionado também aparece abaixo.</desc><g id="chart-grid"></g><path id="curve-area" fill="#ede8ff"></path><path id="curve-path" fill="none" stroke="#6547de" stroke-width="4" pointer-events="none"></path><path id="curve-hit" fill="none" stroke="transparent" stroke-width="30" tabindex="0" role="slider" aria-label="Curva TRI: use as setas para mover e Shift mais esquerda ou direita para ajustar a inclinação"></path><line id="theta-line" stroke="#8b52ce" stroke-width="2" stroke-dasharray="5 5"></line><circle id="theta-dot" class="drag-handle" data-param="theta" tabindex="0" role="slider" aria-label="Habilidade theta: arraste horizontalmente" r="10" fill="#8b52ce" stroke="white" stroke-width="3"></circle><text x="355" y="368" text-anchor="middle">Habilidade (θ)</text><text x="18" y="170" transform="rotate(-90 18 170)" text-anchor="middle">Probabilidade de acerto</text></svg><div class="curve-toolbar" role="group" aria-label="Como manipular a curva"><button type="button" class="curve-mode active" data-mode="move" aria-pressed="true">Mover curva</button><button type="button" class="curve-mode" data-mode="scale" aria-pressed="false">Ajustar inclinação</button></div><p id="drag-instructions" class="input-help">Arraste qualquer trecho da curva: para cima ou para baixo altera c; para os lados altera b. Em “Ajustar inclinação”, arraste para os lados para alterar a. Arraste a bolinha roxa para ajustar θ.</p><details class="gesture-help"><summary>Ver atalhos e como funciona o arraste</summary><p>No computador, segure Shift ao arrastar a curva para ajustar sua inclinação sem trocar de modo. No celular, use os botões acima e arraste com o dedo. A curva sempre continua seguindo a fórmula TRI: mover para cima altera c, então a mudança não é uma translação rígida de toda a imagem.</p><p>Ao selecionar a curva com Tab: esquerda/direita muda b, cima/baixo muda c, e Shift + esquerda/direita muda a. Na bolinha roxa, as setas ajustam θ. Os controles ao lado continuam disponíveis.</p></details><p class="chart-readout" id="curve-readout" role="status" aria-live="polite"></p></div></div>
-<details><summary>Ver a fórmula e como interpretar o ponto b</summary><div class="math-block"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block" aria-label="Probabilidade de acerto: c mais um menos c dividido por um mais e elevado a menos a vezes theta menos b"><mi>P</mi><mo>(</mo><mi>θ</mi><mo>)</mo><mo>=</mo><mi>c</mi><mo>+</mo><mfrac><mrow><mn>1</mn><mo>−</mo><mi>c</mi></mrow><mrow><mn>1</mn><mo>+</mo><msup><mi>e</mi><mrow><mo>−</mo><mi>a</mi><mo>(</mo><mi>θ</mi><mo>−</mo><mi>b</mi><mo>)</mo></mrow></msup></mrow></mfrac></math></div><p>Quando θ = b, a probabilidade é (1 + c) / 2. Com c = 0,20, isso corresponde a 60%, e não a 50%.</p></details></section>
-<section class="card" id="estimativa"><span class="card-label">03 · DAS RESPOSTAS À HABILIDADE</span><h2>Seus acertos contam uma história.</h2><p>Imagine testar vários valores de habilidade. Para cada um, perguntamos: “Se uma pessoa tivesse essa habilidade, quão provável seria ela acertar e errar exatamente estas questões?” Essa é a ideia de <strong>verossimilhança</strong>.</p><div class="worked-example"><h3>Um exemplo com duas questões</h3><p>Suponha que, para uma habilidade escolhida, a chance de acertar a questão 1 seja 80% e a da questão 2 seja 30%. Se você acertou a primeira e errou a segunda, combinamos 0,80 × (1 − 0,30) = <strong>0,56</strong>. Se tivesse acertado as duas, seria 0,80 × 0,30 = <strong>0,24</strong>.</p><p>Repetimos o cálculo para outras habilidades. Esses números comparam a chance do <em>padrão de respostas</em> em cada hipótese de habilidade; não são sua nota nem, sozinhos, a probabilidade de você ter aquele θ.</p></div><details><summary>Por que multiplicar? Veja a fórmula.</summary><p>Imagine que você quer medir a chance de em dois lançamentos consecutivos de uma moeda o resultado ser respectivamente cara e coroa. Para isso, basta multiplicar a probabilidade de cair cara pela probabilidade de cair coroa.<br>É a mesma coisa para os itens, supomos que eles são independentes entre si e multiplicamos cada probailidade indivudal de acerto ou erro.<br>Porém, como a probabilidade de acertar o item depende da proficiência, cada valor de θ tem uma probabilidade distinta de produzir determinado padrão de respostas. Por isso, fixamos θ, combinamos as probabilidades dos itens por multiplicação. Para um acerto usamos P; para um erro, 1 − P.</p><div class="math-block"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block" aria-label="Verossimilhança: produto das probabilidades dos acertos e dos erros"><mi>L</mi><mo>(</mo><mi>θ</mi><mo>)</mo><mo>=</mo><munderover><mo>∏</mo><mrow><mi>i</mi><mo>=</mo><mn>1</mn></mrow><mi>n</mi></munderover><msup><mrow><msub><mi>P</mi><mi>i</mi></msub><mo>(</mo><mi>θ</mi><mo>)</mo></mrow><msub><mi>u</mi><mi>i</mi></msub></msup><msup><mrow><mo>[</mo><mn>1</mn><mo>−</mo><msub><mi>P</mi><mi>i</mi></msub><mo>(</mo><mi>θ</mi><mo>)</mo><mo>]</mo></mrow><mrow><mn>1</mn><mo>−</mo><msub><mi>u</mi><mi>i</mi></msub></mrow></msup></math></div><p>uᵢ vale 1 para acerto e 0 para erro. n é o número de itens válidos. O símbolo ∏ significa “multiplique todos estes fatores”.</p></details></section>
-<div class="learning-grid"><section class="card"><span class="card-label">MLE · O PONTO MAIS ALTO</span><h2>Qual habilidade melhor explica esse padrão?</h2><p>O <strong>MLE</strong> (estimativa de máxima verossimilhança) escolhe o θ no ponto mais alto da curva de verossimilhança. É a hipótese de habilidade em que o seu padrão de respostas fica mais provável.</p><p>Pense assim, se eu tenho muitas opções de proficiência para um aluno é justo assumir que o aluno terá a proficiência mais provável de todas.</p><div class="math-block"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block" aria-label="Theta MLE é o valor de theta que maximiza a verossimilhança"><msub><mover><mi>θ</mi><mo>^</mo></mover><mtext>MLE</mtext></msub><mo>=</mo><munder><mtext>arg max</mtext><mi>θ</mi></munder><mi>L</mi><mo>(</mo><mi>θ</mi><mo>)</mo></math></div><details><summary>O que acontece se eu acertar tudo?</summary><p>Com parâmetros de discriminação positivos, acertar todos os itens faz a verossimilhança crescer quando θ aumenta. Sem restrições, gráfico não teria um pico e sua proficiência mais provável seria infinita, afinal se você acertou todas as questões como eu posso dizer se você sabe "3" ou "999999"?. Se errar tudo, ocorre um problema análogo no outro extremo. Esse é um dos motivos para o ENEM não usar esse método para escolher a proficiência.</p></details></section>
-<section class="card tinted"><span class="card-label">EAP · O PONTO DE EQUILÍBRIO</span><h2>Olhar a curva inteira faz diferença.</h2><p>Sabendo que sua nota não deve ser infinita, o <strong>EAP</strong> (média a posteriori) combina as respostas com uma distribuição inicial de habilidades, chamada <strong>priori</strong>. O ENEM, assume que as notas seguem uma destribuição normal de média 0 e desvio padrão 1.</p><p>A evidência das respostas atualiza essa referência e forma a <strong>posteriori</strong>. O EAP combina as duas informações (quais as chances de você ter uma nota e quais as chances dessa nota existir) com a seguinte fórmula:</p><div class="math-block"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block" aria-label="EAP: integral de theta vezes verossimilhança vezes priori dividida pela integral de verossimilhança vezes priori"><msub><mover><mi>θ</mi><mo>^</mo></mover><mtext>EAP</mtext></msub><mo>=</mo><mfrac><mrow><mo>∫</mo><mi>θ</mi><mi>L</mi><mo>(</mo><mi>θ</mi><mo>)</mo><mi>π</mi><mo>(</mo><mi>θ</mi><mo>)</mo><mi>d</mi><mi>θ</mi></mrow><mrow><mo>∫</mo><mi>L</mi><mo>(</mo><mi>θ</mi><mo>)</mo><mi>π</mi><mo>(</mo><mi>θ</mi><mo>)</mo><mi>d</mi><mi>θ</mi></mrow></mfrac></math></div><details><summary>Isso “puxa” todo mundo para a média?</summary><p>A priori dá menos peso a habilidades muito extremas antes de considerar as respostas. Ela regulariza a estimativa, especialmente quando a prova fornece pouca informação. Quanto mais informativas forem as respostas, maior tende a ser a influência delas. O EAP não é uma penalização por chute e não é necessariamente menor que o MLE.</p><p>O máximo da posteriori seria outro método, chamado MAP. EAP usa a <strong>média</strong>, não o máximo.</p></details></section></div>
-<section class="card"><h2>Do desenho ao cálculo no navegador</h2><p>A nota deste site, bem como o ENEM oficial, usa <strong>EAP</strong>. Porém, essas integrais não têm solução analítica simples, por isso é necessário aproximar numéricamente o seu resultado. Para isso, o ENEM utiliza o método da quadratura gaussiana, no site, usei um método um pouco mais simples, mas que não afetou significantemente a aproximação. </p><p> Para aproximar as integrais, avaliei 400 pontos de θ entre −4 e 4 e somei pequenas áreas usando a regra dos trapézios. Esse intervalo é uma escolha numérica da implementação, não uma escala oficial de notas.</p><details><summary>Mais detalhes: priori, normalização e logaritmos</summary><div class="math-block"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block" aria-label="Densidade normal padrão: e elevado a menos theta ao quadrado sobre dois, dividido pela raiz de dois pi"><mi>π</mi><mo>(</mo><mi>θ</mi><mo>)</mo><mo>=</mo><mfrac><msup><mi>e</mi><mrow><mo>−</mo><msup><mi>θ</mi><mn>2</mn></msup><mo>/</mo><mn>2</mn></mrow></msup><msqrt><mrow><mn>2</mn><mi>π</mi></mrow></msqrt></mfrac></math></div><p>Multiplicando L(θ) pela priori π(θ) e normalizando a curva para que sua área seja 1. A integral do numerador pondera cada θ pela altura dessa curva; dividir pela área total produz a média.</p><p>Multiplicar muitas probabilidades pequenas pode ultrapassar a precisão numérica do computador. Por isso, o código soma seus logaritmos e só depois reconstrói valores proporcionais à posteriori. Os itens marcados como anulados/abandonados nos dados são excluídos dessa conta.</p></details></section><div class="scale-section">
-<section class="card"><span class="card-label">04 · DA HABILIDADE AOS PONTOS</span><h2>Uma escala para cada área.</h2><p>Como ninguém gostaria de receber uma nota "de -4 a 4" e por questões práticas de dificuldades de guardar números com muitas casas decimasis, o ENEM decidiu fazer uma trabsformação linear com a proficiência para chegar na nota divulgada.</p><div class="math-block"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block" aria-label="Nota igual a mu mais sigma vezes theta"><mtext>Nota</mtext><mo>=</mo><mi>μ</mi><mo>+</mo><mi>σ</mi><mo>×</mo><mi>θ</mi></math></div></p><p>Além da simplificação do método para integração, esse é o único ponto que difere do ENEM, visto que esses  parâmetros não são divulgados oficialmente apenas é dito que seus valores são de aproximadamente 500 e 100. Contudo, por se tratar de uma transformação linear é muito fácil usando uma regressão linear estimar os valores reais, que é justamente o que eu fiz e deixei os valores encontrados por área do conhecimento na tabela.<details><summary>Ver os coeficientes usados nesta calculadora</summary><div class="table-scroll"><table><caption>Valores implementados no script do site</caption><thead><tr><th>Área</th><th>μ</th><th>σ</th></tr></thead><tbody><tr><td>Linguagens</td><td>499,977</td><td>108,090</td></tr><tr><td>Humanas</td><td>501,487</td><td>112,315</td></tr><tr><td>Natureza</td><td>501,142</td><td>113,110</td></tr><tr><td>Matemática</td><td>500,016</td><td>129,654</td></tr></tbody></table></div></details></section></div>
-<section class="card myths" id="mitos"><span class="card-label">DÚVIDAS E MITOS · SEM ACHISMO</span><h2>O que a TRI faz — e o que ela não faz.</h2><p>Por se tratar de um método muito complexo, diversos mitos e meias verdades aparecem quando o assunto é a TRI, por isso, separei as mais comuns e respondi com base noa forma com que a nota é realmente calculada e em alguns testes com participantes reais.</p><details class="question-collection"><summary>Mostrar dúvidas e mitos frequentes <span class="question-count">14 perguntas</span></summary><div class="question-list"><details><summary>“Acertar uma questão difícil pode diminuir minha nota.”</summary><p>Não, Todo acerto te dará um pouco de nota, o probema é que esse pouco na prática pode variar de 0,01 pontos até cerca de 60 pontos em casos extremos. Não deixe de tentar acertar por medo de “incoerência”.</p></details><details><summary>“Mais acertos sempre significam uma nota maior.”</summary><p>Depende da comparação. Na sua mesma prova, transformar um erro em acerto sem mudar o restante melhora a estimativa. Entre duas pessoas com padrões diferentes, quem acertou mais não necessariamente tem a maior nota. São situações distintas.</p></details><details><summary>“Cada questão vale uma quantidade fixa de pontos.”</summary><p>Não. A nota vem do conjunto das respostas e dos três parâmetros dos itens. Nem toda questão difícil tem impacto maior que uma fácil. O impacto exibido pela calculadora é uma simulação para o seu cartão, não um peso fixo somável.</p></details><details><summary>“É melhor deixar em branco do que errar.”</summary><p>Não, o ENEM só sabe se você acertou ou errou um item. Branco, dupla marcação, alternativa obviamente falsa e alternativa pegadinha entram todos como erro. Por isso, é sempre melhor errar tentando do que não tentar, SEMPRE marque uma e apenas uma alternativa para que tenha chance de acertar e ganhar nota.</p></details><details><summary>“Uma alternativa quase certa perde menos pontos.”</summary><p>Não. Para o cálculo TRI de itens dicotômicos, importa se a resposta coincide com o gabarito. As alternativas erradas têm o mesmo tratamento; não há crédito parcial por um bom distrator.</p></details><details><summary>“Questão anulada dá pontos para todo mundo.”</summary><p>Não é um bônus fixo. Um item desconsiderado fica fora da estimação. Nesta calculadora, itens com IN_ITEM_ABAN = 1 não entram na verossimilhança e têm impacto zero ao inverter a resposta. Para o ENEM é como se essa questão nunca tivesse existido.</p></details><details><summary>“A nota das áreas objetivas vai obrigatoriamente de 0 a 1000.”</summary><p>Não é uma porcentagem de acertos nem uma escala com esses limites fixos. A transformação de habilidade em nota e os itens da prova determinam os extremos possíveis. Não confunda a escala das áreas objetivas com a avaliação da redação.</p></details><details><summary>“Errar uma questão fácil arruína toda a prova.”</summary><p>Um erro afeta a evidência sobre habilidade, mas não existe uma punição automática que anule os demais acertos. O efeito depende do item e do padrão completo. Vale estudar os fundamentos, sem tentar adivinhar a classificação de cada questão durante a prova.</p></details><details><summary>“O sistema sabe exatamente quais respostas eu chutei.”</summary><p>Não. O parâmetro c representa o limite inferior da probabilidade de acerto no modelo; ele não é um detector individual de chute. A estimativa considera o conjunto de respostas.</p></details><details><summary>“A dificuldade é só a porcentagem de pessoas que errou naquele ano.”</summary><p>Não. A calibração relaciona respostas de participantes e habilidade, estimando os parâmetros psicométricos dos itens. O percentual bruto de acertos depende também do grupo avaliado e não é a mesma coisa que o parâmetro b.</p></details><details><summary>“A TRI é secreta e só o ENEM usa.”</summary><p>A TRI é uma família pública de modelos estatísticos utilizada em diferentes avaliações ao redor do mundo todo (especialmente em exames de larga escala, ex: PISA, SAT, TOEFL, entre outros). O Inep publica documentos metodológicos e microdados. Apesar de ser um grande passo para transparência, eu ainda considero insuficiente dado a importância do exame, sendo esse um dos principais motivos de eu ter feito esse site.</p></details><details><summary>“Com o mesmo número de acertos, duas pessoas terão a mesma nota.”</summary><p>Não necessariamente. Elas podem ter acertado itens diferentes. A TRI usa o padrão de respostas, não apenas a contagem. Por outro lado, para os mesmos itens e o mesmo padrão de acerto/erro, este modelo gera a mesma estimativa.</p></details><details><summary>“EAP e MLE são duas formas de arredondar a nota.”</summary><p>Não. São métodos para estimar a habilidade antes da conversão para pontos. MLE busca o pico da verossimilhança; EAP usa a média da posteriori, incluindo uma priori. O arredondamento da nota vem depois.</p></details><details><summary>Como usar isso para estudar e fazer a prova?</summary><p>Busque acertar o máximo possível, consolide os conteúdos básicos e treine a gestão do tempo. Pular temporariamente uma questão demorada pode ajudar a avançar. Não use a TRI como motivo para deixar uma alternativa em branco ou evitar questões difíceis.</p></details></div></details></section>
-<section class="card research-card"><span class="card-label">TRANSPARÊNCIA DO PROJETO</span><h2>Uma estimativa bem fundamentada. Com limites.</h2><p>Como mostrado, o site replica o método utilizado pelo ENEM, apesar de algumas simplificações e aproximações. Todas as provas disponíveis de 2009 a 2025 foram testadas estimando a nota e comparando com a divulgada com cerca de 800 participantes em cada prova. No geral, o erro médio é inferior à precisão do ENEM, uma casa decimal, mas algumas provas apresentaram grandes inconsistências sistemáticas e ao analizar cuidadosamente alguns desses casos todos apresentaram alguma inconsistência nos dados divulgados pelo INEP.</p><details><summary>Ver limitações e inconsistências dos dados</summary><p>Das 603 provas analisadas 56 apresentaram resultados típicos de inconsistências sistemáticas, ou seja, uma combinação de erro alto, viés negativo e características similares entre si, ex: erro alto em todas as provas de Linguagens de determinado ano.</p><p>Dentre os casos analisados, foram identificadas nas provas de Linguagens de 2015 a 2021, uma sequência “99999” nos microdados representava a língua não escolhida, enquanto nos outros anos eram apresentados apenas os 45 itens feitos pelo participante. Essa inconsistencia impedia a correção correta da prova e provocava erros muito acima do esperado, ao remover essa representação dos dados o erro retornou ao patamar esperado.</p><p>Também foi identificado o caso de um participante com o código da prova incorreto nos microdados, isso produzia um erro elevado a um único participante e ao corrigir seu código de prova as estimativas também se normalizavam.</p><p>Em casos assim, apesar do erro amostral ser elevado como o problema está relacionado aos dados dos participantes a estimativa no site estaria correta. Contudo, também foram identificados casos como o de gabarito errado nos microdados, em casos assim, em que o problema reside nos itens, uma estimativa feita no site também estaria errada.</p><p>Assim, uma prova com erro elevado pode ter diversas causas e significar ou não uma estimativa incorreta. A melhor solução seria a análise individual de cada uma das provas inconsistentes, mas isso seria custoso e pouco benéfico, visto que no geral são provas muito específicas e pouco feitas. Por isso, sempre que quiser estimar uma prova com erro alto, verifique se alguma prova equivalente não possui um erro tão elevado, ou trate os resultados com muita cautela.</p><p>Já nos casos de erro normal, as estimativas tendem a ser extremamente precisas e úteis, mas não deixam de ser estimativas e apersar do resultado consistente com o de milhares de participantes é impossível garantir que a nota estimada realmente seria sua nota oficial no exame e deve e, por isso, também deve ser tratado com cuidado. Um bom parâmetro para entender se a estimativa faz sentido é comparar sua nota com a de outras provas da mesma área, visto que a escala é a mesma e se está medindo "quanto se sabe" de determinada área, o que faz as notas serem bem mais estáveis e comparáveis entre si.</p></details>
-<details><summary>Ver fontes e metodologia completa</summary><p>Todo procedimento para cálculo da nota é baseado nos documentos oficiais divulgados pelo INEP que explicam como a nota é calculada. Antes de se tornar um site, o projeto foi desenvolvido como uma ferramenta de código puro em Python. No repositório público desse projeto esses desafios, análises e explicações a respeito do funcionamento da nota estão mais detalhadas e podem ser acessadas por qualquer um, além dos códigos para testes em massa estarem disponíveis para assegurar a reprodutibilidade.</p><p>O site também tem o código aberto e pertence a outro repositório, sinta-se à vontade para explorá-lo, enviar sugestões, reportar bugs ou contribuir com o projeto.</p><ul><li><a href="https://github.com/pedro-mantovani/calculadora_ENEM" target="_blank" rel="noopener noreferrer">Repositório original: código, metodologia e resultados ↗</a></li><li><a href="https://github.com/pedro-mantovani/site_calculadora_ENEM" target="_blank" rel="noopener noreferrer">Repositório do site ↗</a></li><li><a href="https://download.inep.gov.br/publicacoes/institucionais/avaliacoes_e_exames_da_educacao_basica/entenda_a_sua_nota_no_enem_guia_do_participante.pdf" target="_blank" rel="noopener noreferrer">Inep: Entenda sua nota no ENEM ↗</a></li><li><a href="https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/microdados/enem" target="_blank" rel="noopener noreferrer">Inep: microdados do ENEM ↗</a></li></ul></details></section>
-<div class="page-cta"><div><h2>Agora, veja a TRI nas suas respostas.</h2><p>Seu progresso fica salvo no mesmo navegador.</p></div><a class="btn-primary" href="index.html">Voltar à calculadora →</a></div></main>
-<footer><div><a class="brand" href="index.html" aria-label="NotaViva — início"><span class="brand-icon" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none"><path d="M6 23V9l10 14V9M22 8l3 6 3-6" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg></span><span>nota<span class="brand-accent">viva</span><span class="brand-sub">SEU ENEM, MAIS CLARO</span></span></a><p>Menos mistério. Mais direção.</p></div><div class="footer-contact"><strong>Feito para quem quer ir além.</strong><a href="sobre.html">Sobre Pedro e o projeto →</a><a href="mailto:pedro.mantovani6@usp.br">Fale com Pedro Mantovani ↗</a><a href="https://github.com/pedro-mantovani/site_calculadora_ENEM" target="_blank" rel="noopener noreferrer">Conheça o projeto no GitHub ↗</a></div><small>Projeto independente, sem vínculo com o INEP. A nota exibida é uma estimativa educacional e, apesar de bem fundamentada, pode apresentar erros.</small></footer><script src="script.js"></script><script>
-(() => {
-  "use strict";
-  // Interação específica desta página, para atualizar apenas este HTML.
-  const chart = document.getElementById("tri-chart-direct");
-  if (!chart) return;
-  const grid = document.getElementById("chart-grid");
-  const sliders = Object.fromEntries(["a", "b", "c", "theta"].map(id => [id, document.getElementById("param-" + id)]));
-  const hit = document.getElementById("curve-hit");
-  const dot = document.getElementById("theta-dot");
-  const x = t => 70 + (t + 4) / 8 * 570;
-  const y = p => 310 - p * 270;
-  const val = id => Number(sliders[id].value);
-  let mode = "move";
-  let drag = null;
-  const svgNS = "http://www.w3.org/2000/svg";
-  const add = (tag, attrs, text) => {
-    const node = document.createElementNS(svgNS, tag);
-    Object.entries(attrs).forEach(([name, value]) => node.setAttribute(name, value));
-    if (text !== undefined) node.textContent = text;
-    grid.appendChild(node);
-  };
-  grid.replaceChildren();
-  for (let i = 0; i <= 4; i++) {
-    const p = i / 4;
-    add("line", { x1:70, x2:640, y1:y(p), y2:y(p), stroke:"#d9e2d3", "stroke-dasharray":"4 5" });
-    add("text", { x:59, y:y(p)+5, "text-anchor":"end" }, (p * 100) + "%");
-  }
-  for (let t = -4; t <= 4; t++) add("text", {x:x(t), y:336, "text-anchor":"middle"}, t);
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Entenda a TRI • Meu ENEM</title>
+    <meta
+      name="description"
+      content="Entenda a estimativa de nota do ENEM, explore a curva TRI e conheça o projeto."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <script src="theme.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <meta name="theme-color" content="#6547de" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  </head>
+  <body>
+    <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+    <nav class="topbar" aria-label="Navegação principal">
+      <a class="brand" href="index.html" aria-label="Meu ENEM — início"
+        ><span class="brand-icon" aria-hidden="true"
+          ><img src="favicon.svg" alt="" width="43" height="43" /></span
+        ><span
+          >Meu <span class="brand-accent">ENEM</span
+          ><span class="brand-sub">SEU ENEM, MAIS CLARO</span></span
+        ></a
+      >
+      <div class="nav-links">
+        <a href="index.html">Simular nota</a
+        ><a href="como-funciona.html" aria-current="page">Entenda a TRI</a
+        ><a href="sobre.html">Sobre o projeto</a><a href="contato.html">Contato</a>
+      </div>
+      <button class="theme-toggle" type="button" aria-pressed="false">Modo escuro</button
+      ><span class="nav-note"><span class="live-dot"></span> Gratuito. Sem cadastro.</span>
+    </nav>
+    <header class="page-intro">
+      <span class="eyebrow">ALÉM DO NÚMERO DE ACERTOS</span>
+      <h1>Sua nota tem uma lógica.<br /><em>Vamos descobrir?</em></h1>
+      <p>
+        A TRI transforma um conjunto de respostas em uma estimativa de habilidade. Entenda a lógica
+        e experimente os parâmetros abaixo.
+      </p>
+      <a class="text-button" href="index.html">← Voltar à minha simulação</a>
+    </header>
+    <main id="conteudo" class="learning-page">
+      <nav class="learning-nav" aria-label="Nesta página">
+        <a href="#laboratorio">01 · Experimente a curva</a
+        ><a href="#estimativa">02 · Entenda o cálculo</a><a href="#mitos">03 · Tire suas dúvidas</a>
+      </nav>
+      <div class="learning-grid">
+        <section class="card">
+          <span class="card-label">01 · O PADRÃO IMPORTA</span>
+          <h2>Não é só somar acertos.</h2>
+          <p>
+            Ao invés de considerar o número bruto de acertos, a TRI busca entender o quanto você
+            sabe sobre uma área, assim o modelo leva em consideração informações sobre o item e o
+            perfil das suas respostas.
+          </p>
+          <details>
+            <summary>A TRI descobre se eu chutei?</summary>
+            <p>
+              Ela não identifica com certeza um chute individual. O modelo considera uma
+              probabilidade de acerto ao acaso e usa o conjunto das respostas para estimar a
+              habilidade. Não há uma quantidade fixa de pontos que uma questão “vale” para todas as
+              pessoas.
+            </p>
+          </details>
+        </section>
+        <section class="card tinted">
+          <span class="card-label">02 · TRÊS PARÂMETROS</span>
+          <h2>Cada questão tem uma curva.</h2>
+          <dl class="parameter-list">
+            <div>
+              <dt>a · Discriminação</dt>
+              <dd>
+                Representa quão bem a questão diferencia um aluno que sabe do que não sabe, mais
+                formalmente, o quão bem uma questão diferencia em uma faixa de proficiência.<br />Controla
+                a inclinação do gráfico: quanto maior, mais a probabilidade muda perto da
+                dificuldade do item.
+              </dd>
+            </div>
+            <div>
+              <dt>b · Dificuldade</dt>
+              <dd>
+                Desloca a curva: valores maiores exigem mais habilidade para a mesma probabilidade
+                de acerto.
+              </dd>
+            </div>
+            <div>
+              <dt>c · Acerto ao acaso</dt>
+              <dd>
+                Define o limite inferior da curva. É um parâmetro do item, não uma identificação de
+                quem chutou.
+              </dd>
+            </div>
+          </dl>
+        </section>
+      </div>
+      <section class="card interactive-card" id="laboratorio">
+        <div class="section-heading">
+          <div>
+            <span class="card-label">EXPERIMENTE · CURVA CARACTERÍSTICA DO ITEM</span>
+            <h2>A matemática fica mais clara quando se move.</h2>
+            <p>
+              Arraste a própria curva para mover ou ajustar sua forma. A bolinha roxa continua
+              representando a proficiência. Os valores são ilustrativos, não pertencem a uma questão
+              real.
+            </p>
+          </div>
+          <button id="reset-curve" class="btn-secondary" type="button">Restaurar exemplo</button>
+        </div>
+        <div class="chart-layout">
+          <div class="chart-controls">
+            <label for="param-a"
+              >Discriminação (a) <output id="value-a" for="param-a">1,20</output></label
+            ><input id="param-a" type="range" min="0.2" max="3" step="0.05" value="1.2" />
+            <p>Maior valor → curva mais inclinada.</p>
+            <label for="param-b"
+              >Dificuldade (b) <output id="value-b" for="param-b">0,00</output></label
+            ><input id="param-b" type="range" min="-3" max="3" step="0.1" value="0" />
+            <p>Maior valor → curva à direita.</p>
+            <label for="param-c"
+              >Acerto ao acaso (c) <output id="value-c" for="param-c">0,20</output></label
+            ><input id="param-c" type="range" min="0" max="0.4" step="0.01" value="0.2" />
+            <p>Maior valor → base mais alta.</p>
+            <label for="param-theta"
+              >Habilidade (θ) <output id="value-theta" for="param-theta">0,00</output></label
+            ><input id="param-theta" type="range" min="-4" max="4" step="0.1" value="0" />
+            <p>Mova o ponto ao longo da curva.</p>
+          </div>
+          <div class="chart-display">
+            <svg
+              id="tri-chart-direct"
+              viewBox="0 0 680 380"
+              role="group"
+              aria-labelledby="chart-title chart-desc"
+            >
+              <title id="chart-title">Probabilidade de acerto por habilidade</title>
+              <desc id="chart-desc">
+                Curva do modelo logístico de três parâmetros, atualizada pelos controles. A
+                probabilidade no ponto selecionado também aparece abaixo.
+              </desc>
+              <g id="chart-grid"></g>
+              <path id="curve-area" fill="#efe9fc"></path>
+              <path
+                id="curve-path"
+                fill="none"
+                stroke="#6547de"
+                stroke-width="4"
+                pointer-events="none"
+              ></path>
+              <path
+                id="curve-hit"
+                fill="none"
+                stroke="transparent"
+                stroke-width="30"
+                tabindex="0"
+                role="slider"
+                aria-label="Curva TRI: use as setas para mover e Shift mais esquerda ou direita para ajustar a inclinação"
+              ></path>
+              <line id="theta-line" stroke="#8b52ce" stroke-width="2" stroke-dasharray="5 5"></line>
+              <circle
+                id="theta-dot"
+                class="drag-handle"
+                data-param="theta"
+                tabindex="0"
+                role="slider"
+                aria-label="Habilidade theta: arraste horizontalmente"
+                r="10"
+                fill="#8b52ce"
+                stroke="white"
+                stroke-width="3"
+              ></circle>
+              <text x="355" y="368" text-anchor="middle">Habilidade (θ)</text>
+              <text x="18" y="170" transform="rotate(-90 18 170)" text-anchor="middle">
+                Probabilidade de acerto
+              </text>
+            </svg>
+            <div class="curve-toolbar" role="group" aria-label="Como manipular a curva">
+              <button type="button" class="curve-mode active" data-mode="move" aria-pressed="true">
+                Mover curva</button
+              ><button type="button" class="curve-mode" data-mode="scale" aria-pressed="false">
+                Ajustar inclinação
+              </button>
+            </div>
+            <p id="drag-instructions" class="input-help">
+              Arraste qualquer trecho da curva: para cima ou para baixo altera c; para os lados
+              altera b. Em “Ajustar inclinação”, arraste para os lados para alterar a. Arraste a
+              bolinha roxa para ajustar θ.
+            </p>
+            <details class="gesture-help">
+              <summary>Ver atalhos e como funciona o arraste</summary>
+              <p>
+                No computador, segure Shift ao arrastar a curva para ajustar sua inclinação sem
+                trocar de modo. No celular, use os botões acima e arraste com o dedo. A curva sempre
+                continua seguindo a fórmula TRI: mover para cima altera c, então a mudança não é uma
+                translação rígida de toda a imagem.
+              </p>
+              <p>
+                Ao selecionar a curva com Tab: esquerda/direita muda b, cima/baixo muda c, e Shift +
+                esquerda/direita muda a. Na bolinha roxa, as setas ajustam θ. Os controles ao lado
+                continuam disponíveis.
+              </p>
+            </details>
+            <p class="chart-readout" id="curve-readout" role="status" aria-live="polite"></p>
+          </div>
+        </div>
+        <details>
+          <summary>Ver a fórmula e como interpretar o ponto b</summary>
+          <div class="math-block">
+            <math
+              xmlns="http://www.w3.org/1998/Math/MathML"
+              display="block"
+              aria-label="Probabilidade de acerto: c mais um menos c dividido por um mais e elevado a menos a vezes theta menos b"
+              ><mi>P</mi><mo>(</mo><mi>θ</mi><mo>)</mo><mo>=</mo><mi>c</mi><mo>+</mo
+              ><mfrac
+                ><mrow><mn>1</mn><mo>−</mo><mi>c</mi></mrow
+                ><mrow
+                  ><mn>1</mn><mo>+</mo
+                  ><msup
+                    ><mi>e</mi
+                    ><mrow
+                      ><mo>−</mo><mi>a</mi><mo>(</mo><mi>θ</mi><mo>−</mo><mi>b</mi><mo>)</mo></mrow
+                    ></msup
+                  ></mrow
+                ></mfrac
+              ></math
+            >
+          </div>
+          <p>
+            Quando θ = b, a probabilidade é (1 + c) / 2. Com c = 0,20, isso corresponde a 60%, e não
+            a 50%.
+          </p>
+        </details>
+      </section>
+      <section class="card" id="estimativa">
+        <span class="card-label">03 · DAS RESPOSTAS À HABILIDADE</span>
+        <h2>Seus acertos contam uma história.</h2>
+        <p>
+          Imagine testar vários valores de habilidade. Para cada um, perguntamos: “Se uma pessoa
+          tivesse essa habilidade, quão provável seria ela acertar e errar exatamente estas
+          questões?” Essa é a ideia de <strong>verossimilhança</strong>.
+        </p>
+        <div class="worked-example">
+          <h3>Um exemplo com duas questões</h3>
+          <p>
+            Suponha que, para uma habilidade escolhida, a chance de acertar a questão 1 seja 80% e a
+            da questão 2 seja 30%. Se você acertou a primeira e errou a segunda, combinamos 0,80 ×
+            (1 − 0,30) = <strong>0,56</strong>. Se tivesse acertado as duas, seria 0,80 × 0,30 =
+            <strong>0,24</strong>.
+          </p>
+          <p>
+            Repetimos o cálculo para outras habilidades. Esses números comparam a chance do
+            <em>padrão de respostas</em> em cada hipótese de habilidade; não são sua nota nem,
+            sozinhos, a probabilidade de você ter aquele θ.
+          </p>
+        </div>
+        <details>
+          <summary>Por que multiplicar? Veja a fórmula.</summary>
+          <p>
+            Imagine que você quer medir a chance de em dois lançamentos consecutivos de uma moeda o
+            resultado ser respectivamente cara e coroa. Para isso, basta multiplicar a probabilidade
+            de cair cara pela probabilidade de cair coroa.<br />É a mesma coisa para os itens,
+            supomos que eles são independentes entre si e multiplicamos cada probailidade indivudal
+            de acerto ou erro.<br />Porém, como a probabilidade de acertar o item depende da
+            proficiência, cada valor de θ tem uma probabilidade distinta de produzir determinado
+            padrão de respostas. Por isso, fixamos θ, combinamos as probabilidades dos itens por
+            multiplicação. Para um acerto usamos P; para um erro, 1 − P.
+          </p>
+          <div class="math-block">
+            <math
+              xmlns="http://www.w3.org/1998/Math/MathML"
+              display="block"
+              aria-label="Verossimilhança: produto das probabilidades dos acertos e dos erros"
+              ><mi>L</mi><mo>(</mo><mi>θ</mi><mo>)</mo><mo>=</mo
+              ><munderover
+                ><mo>∏</mo><mrow><mi>i</mi><mo>=</mo><mn>1</mn></mrow
+                ><mi>n</mi></munderover
+              ><msup
+                ><mrow
+                  ><msub><mi>P</mi><mi>i</mi></msub
+                  ><mo>(</mo><mi>θ</mi><mo>)</mo></mrow
+                ><msub><mi>u</mi><mi>i</mi></msub></msup
+              ><msup
+                ><mrow
+                  ><mo>[</mo><mn>1</mn><mo>−</mo><msub><mi>P</mi><mi>i</mi></msub
+                  ><mo>(</mo><mi>θ</mi><mo>)</mo><mo>]</mo></mrow
+                ><mrow
+                  ><mn>1</mn><mo>−</mo><msub><mi>u</mi><mi>i</mi></msub></mrow
+                ></msup
+              ></math
+            >
+          </div>
+          <p>
+            uᵢ vale 1 para acerto e 0 para erro. n é o número de itens válidos. O símbolo ∏
+            significa “multiplique todos estes fatores”.
+          </p>
+        </details>
+      </section>
+      <div class="learning-grid">
+        <section class="card">
+          <span class="card-label">MLE · O PONTO MAIS ALTO</span>
+          <h2>Qual habilidade melhor explica esse padrão?</h2>
+          <p>
+            O <strong>MLE</strong> (estimativa de máxima verossimilhança) escolhe o θ no ponto mais
+            alto da curva de verossimilhança. É a hipótese de habilidade em que o seu padrão de
+            respostas fica mais provável.
+          </p>
+          <p>
+            Pense assim, se eu tenho muitas opções de proficiência para um aluno é justo assumir que
+            o aluno terá a proficiência mais provável de todas.
+          </p>
+          <div class="math-block">
+            <math
+              xmlns="http://www.w3.org/1998/Math/MathML"
+              display="block"
+              aria-label="Theta MLE é o valor de theta que maximiza a verossimilhança"
+              ><msub
+                ><mover><mi>θ</mi><mo>^</mo></mover
+                ><mtext>MLE</mtext></msub
+              ><mo>=</mo><munder><mtext>arg max</mtext><mi>θ</mi></munder
+              ><mi>L</mi><mo>(</mo><mi>θ</mi><mo>)</mo></math
+            >
+          </div>
+          <details>
+            <summary>O que acontece se eu acertar tudo?</summary>
+            <p>
+              Com parâmetros de discriminação positivos, acertar todos os itens faz a
+              verossimilhança crescer quando θ aumenta. Sem restrições, gráfico não teria um pico e
+              sua proficiência mais provável seria infinita, afinal se você acertou todas as
+              questões como eu posso dizer se você sabe "3" ou "999999"?. Se errar tudo, ocorre um
+              problema análogo no outro extremo. Esse é um dos motivos para o ENEM não usar esse
+              método para escolher a proficiência.
+            </p>
+          </details>
+        </section>
+        <section class="card tinted">
+          <span class="card-label">EAP · O PONTO DE EQUILÍBRIO</span>
+          <h2>Olhar a curva inteira faz diferença.</h2>
+          <p>
+            Sabendo que sua nota não deve ser infinita, o <strong>EAP</strong> (média a posteriori)
+            combina as respostas com uma distribuição inicial de habilidades, chamada
+            <strong>priori</strong>. O ENEM, assume que as notas seguem uma destribuição normal de
+            média 0 e desvio padrão 1.
+          </p>
+          <p>
+            A evidência das respostas atualiza essa referência e forma a
+            <strong>posteriori</strong>. O EAP combina as duas informações (quais as chances de você
+            ter uma nota e quais as chances dessa nota existir) com a seguinte fórmula:
+          </p>
+          <div class="math-block">
+            <math
+              xmlns="http://www.w3.org/1998/Math/MathML"
+              display="block"
+              aria-label="EAP: integral de theta vezes verossimilhança vezes priori dividida pela integral de verossimilhança vezes priori"
+              ><msub
+                ><mover><mi>θ</mi><mo>^</mo></mover
+                ><mtext>EAP</mtext></msub
+              ><mo>=</mo
+              ><mfrac
+                ><mrow
+                  ><mo>∫</mo><mi>θ</mi><mi>L</mi><mo>(</mo><mi>θ</mi><mo>)</mo><mi>π</mi><mo>(</mo
+                  ><mi>θ</mi><mo>)</mo><mi>d</mi><mi>θ</mi></mrow
+                ><mrow
+                  ><mo>∫</mo><mi>L</mi><mo>(</mo><mi>θ</mi><mo>)</mo><mi>π</mi><mo>(</mo><mi>θ</mi
+                  ><mo>)</mo><mi>d</mi><mi>θ</mi></mrow
+                ></mfrac
+              ></math
+            >
+          </div>
+          <details>
+            <summary>Isso “puxa” todo mundo para a média?</summary>
+            <p>
+              A priori dá menos peso a habilidades muito extremas antes de considerar as respostas.
+              Ela regulariza a estimativa, especialmente quando a prova fornece pouca informação.
+              Quanto mais informativas forem as respostas, maior tende a ser a influência delas. O
+              EAP não é uma penalização por chute e não é necessariamente menor que o MLE.
+            </p>
+            <p>
+              O máximo da posteriori seria outro método, chamado MAP. EAP usa a
+              <strong>média</strong>, não o máximo.
+            </p>
+          </details>
+        </section>
+      </div>
+      <section class="card">
+        <h2>Do desenho ao cálculo no navegador</h2>
+        <p>
+          A nota deste site, bem como o ENEM oficial, usa <strong>EAP</strong>. Porém, essas
+          integrais não têm solução analítica simples, por isso é necessário aproximar numéricamente
+          o seu resultado. Para isso, o ENEM utiliza o método da quadratura gaussiana, no site, usei
+          um método um pouco mais simples, mas que não afetou significantemente a aproximação.
+        </p>
+        <p>
+          Para aproximar as integrais, avaliei 400 pontos de θ entre −4 e 4 e somei pequenas áreas
+          usando a regra dos trapézios. Esse intervalo é uma escolha numérica da implementação, não
+          uma escala oficial de notas.
+        </p>
+        <details>
+          <summary>Mais detalhes: priori, normalização e logaritmos</summary>
+          <div class="math-block">
+            <math
+              xmlns="http://www.w3.org/1998/Math/MathML"
+              display="block"
+              aria-label="Densidade normal padrão: e elevado a menos theta ao quadrado sobre dois, dividido pela raiz de dois pi"
+              ><mi>π</mi><mo>(</mo><mi>θ</mi><mo>)</mo><mo>=</mo
+              ><mfrac
+                ><msup
+                  ><mi>e</mi
+                  ><mrow
+                    ><mo>−</mo><msup><mi>θ</mi><mn>2</mn></msup
+                    ><mo>/</mo><mn>2</mn></mrow
+                  ></msup
+                ><msqrt
+                  ><mrow><mn>2</mn><mi>π</mi></mrow></msqrt
+                ></mfrac
+              ></math
+            >
+          </div>
+          <p>
+            Multiplicando L(θ) pela priori π(θ) e normalizando a curva para que sua área seja 1. A
+            integral do numerador pondera cada θ pela altura dessa curva; dividir pela área total
+            produz a média.
+          </p>
+          <p>
+            Multiplicar muitas probabilidades pequenas pode ultrapassar a precisão numérica do
+            computador. Por isso, o código soma seus logaritmos e só depois reconstrói valores
+            proporcionais à posteriori. Os itens marcados como anulados/abandonados nos dados são
+            excluídos dessa conta.
+          </p>
+        </details>
+      </section>
+      <div class="scale-section">
+        <section class="card">
+          <span class="card-label">04 · DA HABILIDADE AOS PONTOS</span>
+          <h2>Uma escala para cada área.</h2>
+          <p>
+            Como ninguém gostaria de receber uma nota "de -4 a 4" e por questões práticas de
+            dificuldades de guardar números com muitas casas decimasis, o ENEM decidiu fazer uma
+            trabsformação linear com a proficiência para chegar na nota divulgada.
+          </p>
+          <div class="math-block">
+            <math
+              xmlns="http://www.w3.org/1998/Math/MathML"
+              display="block"
+              aria-label="Nota igual a mu mais sigma vezes theta"
+              ><mtext>Nota</mtext><mo>=</mo><mi>μ</mi><mo>+</mo><mi>σ</mi><mo>×</mo><mi>θ</mi></math
+            >
+          </div>
+          <p>
+            Além da simplificação do método para integração, esse é o único ponto que difere do
+            ENEM, visto que esses parâmetros não são divulgados oficialmente apenas é dito que seus
+            valores são de aproximadamente 500 e 100. Contudo, por se tratar de uma transformação
+            linear é muito fácil usando uma regressão linear estimar os valores reais, que é
+            justamente o que eu fiz e deixei os valores encontrados por área do conhecimento na
+            tabela.
+          </p>
+          <details>
+            <summary>Ver os coeficientes usados nesta calculadora</summary>
+            <div class="table-scroll">
+              <table>
+                <caption>
+                  Valores implementados no script do site
+                </caption>
+                <thead>
+                  <tr>
+                    <th>Área</th>
+                    <th>μ</th>
+                    <th>σ</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Linguagens</td>
+                    <td>499,977</td>
+                    <td>108,090</td>
+                  </tr>
+                  <tr>
+                    <td>Humanas</td>
+                    <td>501,487</td>
+                    <td>112,315</td>
+                  </tr>
+                  <tr>
+                    <td>Natureza</td>
+                    <td>501,142</td>
+                    <td>113,110</td>
+                  </tr>
+                  <tr>
+                    <td>Matemática</td>
+                    <td>500,016</td>
+                    <td>129,654</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </details>
+        </section>
+      </div>
+      <section class="card myths" id="mitos">
+        <span class="card-label">DÚVIDAS E MITOS · SEM ACHISMO</span>
+        <h2>O que a TRI faz — e o que ela não faz.</h2>
+        <p>
+          Por se tratar de um método muito complexo, diversos mitos e meias verdades aparecem quando
+          o assunto é a TRI, por isso, separei as mais comuns e respondi com base noa forma com que
+          a nota é realmente calculada e em alguns testes com participantes reais.
+        </p>
+        <details class="question-collection">
+          <summary>
+            Mostrar dúvidas e mitos frequentes <span class="question-count">14 perguntas</span>
+          </summary>
+          <div class="question-list">
+            <details>
+              <summary>“Acertar uma questão difícil pode diminuir minha nota.”</summary>
+              <p>
+                Não, Todo acerto te dará um pouco de nota, o probema é que esse pouco na prática
+                pode variar de 0,01 pontos até cerca de 60 pontos em casos extremos. Não deixe de
+                tentar acertar por medo de “incoerência”.
+              </p>
+            </details>
+            <details>
+              <summary>“Mais acertos sempre significam uma nota maior.”</summary>
+              <p>
+                Depende da comparação. Na sua mesma prova, transformar um erro em acerto sem mudar o
+                restante melhora a estimativa. Entre duas pessoas com padrões diferentes, quem
+                acertou mais não necessariamente tem a maior nota. São situações distintas.
+              </p>
+            </details>
+            <details>
+              <summary>“Cada questão vale uma quantidade fixa de pontos.”</summary>
+              <p>
+                Não. A nota vem do conjunto das respostas e dos três parâmetros dos itens. Nem toda
+                questão difícil tem impacto maior que uma fácil. O impacto exibido pela calculadora
+                é uma simulação para o seu cartão, não um peso fixo somável.
+              </p>
+            </details>
+            <details>
+              <summary>“É melhor deixar em branco do que errar.”</summary>
+              <p>
+                Não, o ENEM só sabe se você acertou ou errou um item. Branco, dupla marcação,
+                alternativa obviamente falsa e alternativa pegadinha entram todos como erro. Por
+                isso, é sempre melhor errar tentando do que não tentar, SEMPRE marque uma e apenas
+                uma alternativa para que tenha chance de acertar e ganhar nota.
+              </p>
+            </details>
+            <details>
+              <summary>“Uma alternativa quase certa perde menos pontos.”</summary>
+              <p>
+                Não. Para o cálculo TRI de itens dicotômicos, importa se a resposta coincide com o
+                gabarito. As alternativas erradas têm o mesmo tratamento; não há crédito parcial por
+                um bom distrator.
+              </p>
+            </details>
+            <details>
+              <summary>“Questão anulada dá pontos para todo mundo.”</summary>
+              <p>
+                Não é um bônus fixo. Um item desconsiderado fica fora da estimação. Nesta
+                calculadora, itens com IN_ITEM_ABAN = 1 não entram na verossimilhança e têm impacto
+                zero ao inverter a resposta. Para o ENEM é como se essa questão nunca tivesse
+                existido.
+              </p>
+            </details>
+            <details>
+              <summary>“A nota das áreas objetivas vai obrigatoriamente de 0 a 1000.”</summary>
+              <p>
+                Não é uma porcentagem de acertos nem uma escala com esses limites fixos. A
+                transformação de habilidade em nota e os itens da prova determinam os extremos
+                possíveis. Não confunda a escala das áreas objetivas com a avaliação da redação.
+              </p>
+            </details>
+            <details>
+              <summary>“Errar uma questão fácil arruína toda a prova.”</summary>
+              <p>
+                Um erro afeta a evidência sobre habilidade, mas não existe uma punição automática
+                que anule os demais acertos. O efeito depende do item e do padrão completo. Vale
+                estudar os fundamentos, sem tentar adivinhar a classificação de cada questão durante
+                a prova.
+              </p>
+            </details>
+            <details>
+              <summary>“O sistema sabe exatamente quais respostas eu chutei.”</summary>
+              <p>
+                Não. O parâmetro c representa o limite inferior da probabilidade de acerto no
+                modelo; ele não é um detector individual de chute. A estimativa considera o conjunto
+                de respostas.
+              </p>
+            </details>
+            <details>
+              <summary>
+                “A dificuldade é só a porcentagem de pessoas que errou naquele ano.”
+              </summary>
+              <p>
+                Não. A calibração relaciona respostas de participantes e habilidade, estimando os
+                parâmetros psicométricos dos itens. O percentual bruto de acertos depende também do
+                grupo avaliado e não é a mesma coisa que o parâmetro b.
+              </p>
+            </details>
+            <details>
+              <summary>“A TRI é secreta e só o ENEM usa.”</summary>
+              <p>
+                A TRI é uma família pública de modelos estatísticos utilizada em diferentes
+                avaliações ao redor do mundo todo (especialmente em exames de larga escala, ex:
+                PISA, SAT, TOEFL, entre outros). O Inep publica documentos metodológicos e
+                microdados. Apesar de ser um grande passo para transparência, eu ainda considero
+                insuficiente dado a importância do exame, sendo esse um dos principais motivos de eu
+                ter feito esse site.
+              </p>
+            </details>
+            <details>
+              <summary>“Com o mesmo número de acertos, duas pessoas terão a mesma nota.”</summary>
+              <p>
+                Não necessariamente. Elas podem ter acertado itens diferentes. A TRI usa o padrão de
+                respostas, não apenas a contagem. Por outro lado, para os mesmos itens e o mesmo
+                padrão de acerto/erro, este modelo gera a mesma estimativa.
+              </p>
+            </details>
+            <details>
+              <summary>“EAP e MLE são duas formas de arredondar a nota.”</summary>
+              <p>
+                Não. São métodos para estimar a habilidade antes da conversão para pontos. MLE busca
+                o pico da verossimilhança; EAP usa a média da posteriori, incluindo uma priori. O
+                arredondamento da nota vem depois.
+              </p>
+            </details>
+            <details>
+              <summary>Como usar isso para estudar e fazer a prova?</summary>
+              <p>
+                Busque acertar o máximo possível, consolide os conteúdos básicos e treine a gestão
+                do tempo. Pular temporariamente uma questão demorada pode ajudar a avançar. Não use
+                a TRI como motivo para deixar uma alternativa em branco ou evitar questões difíceis.
+              </p>
+            </details>
+          </div>
+        </details>
+      </section>
+      <section class="card research-card">
+        <span class="card-label">TRANSPARÊNCIA DO PROJETO</span>
+        <h2>Uma estimativa bem fundamentada. Com limites.</h2>
+        <p>
+          Como mostrado, o site replica o método utilizado pelo ENEM, apesar de algumas
+          simplificações e aproximações. Todas as provas disponíveis de 2009 a 2025 foram testadas
+          estimando a nota e comparando com a divulgada com cerca de 800 participantes em cada
+          prova. No geral, o erro médio é inferior à precisão do ENEM, uma casa decimal, mas algumas
+          provas apresentaram grandes inconsistências sistemáticas e ao analizar cuidadosamente
+          alguns desses casos todos apresentaram alguma inconsistência nos dados divulgados pelo
+          INEP.
+        </p>
+        <details>
+          <summary>Ver limitações e inconsistências dos dados</summary>
+          <p>
+            Das 603 provas analisadas 56 apresentaram resultados típicos de inconsistências
+            sistemáticas, ou seja, uma combinação de erro alto, viés negativo e características
+            similares entre si, ex: erro alto em todas as provas de Linguagens de determinado ano.
+          </p>
+          <p>
+            Dentre os casos analisados, foram identificadas nas provas de Linguagens de 2015 a 2021,
+            uma sequência “99999” nos microdados representava a língua não escolhida, enquanto nos
+            outros anos eram apresentados apenas os 45 itens feitos pelo participante. Essa
+            inconsistencia impedia a correção correta da prova e provocava erros muito acima do
+            esperado, ao remover essa representação dos dados o erro retornou ao patamar esperado.
+          </p>
+          <p>
+            Também foi identificado o caso de um participante com o código da prova incorreto nos
+            microdados, isso produzia um erro elevado a um único participante e ao corrigir seu
+            código de prova as estimativas também se normalizavam.
+          </p>
+          <p>
+            Em casos assim, apesar do erro amostral ser elevado como o problema está relacionado aos
+            dados dos participantes a estimativa no site estaria correta. Contudo, também foram
+            identificados casos como o de gabarito errado nos microdados, em casos assim, em que o
+            problema reside nos itens, uma estimativa feita no site também estaria errada.
+          </p>
+          <p>
+            Assim, uma prova com erro elevado pode ter diversas causas e significar ou não uma
+            estimativa incorreta. A melhor solução seria a análise individual de cada uma das provas
+            inconsistentes, mas isso seria custoso e pouco benéfico, visto que no geral são provas
+            muito específicas e pouco feitas. Por isso, sempre que quiser estimar uma prova com erro
+            alto, verifique se alguma prova equivalente não possui um erro tão elevado, ou trate os
+            resultados com muita cautela.
+          </p>
+          <p>
+            Já nos casos de erro normal, as estimativas tendem a ser extremamente precisas e úteis,
+            mas não deixam de ser estimativas e apersar do resultado consistente com o de milhares
+            de participantes é impossível garantir que a nota estimada realmente seria sua nota
+            oficial no exame e deve e, por isso, também deve ser tratado com cuidado. Um bom
+            parâmetro para entender se a estimativa faz sentido é comparar sua nota com a de outras
+            provas da mesma área, visto que a escala é a mesma e se está medindo "quanto se sabe" de
+            determinada área, o que faz as notas serem bem mais estáveis e comparáveis entre si.
+          </p>
+        </details>
+        <details>
+          <summary>Ver fontes e metodologia completa</summary>
+          <p>
+            Todo procedimento para cálculo da nota é baseado nos documentos oficiais divulgados pelo
+            INEP que explicam como a nota é calculada. Antes de se tornar um site, o projeto foi
+            desenvolvido como uma ferramenta de código puro em Python. No repositório público desse
+            projeto esses desafios, análises e explicações a respeito do funcionamento da nota estão
+            mais detalhadas e podem ser acessadas por qualquer um, além dos códigos para testes em
+            massa estarem disponíveis para assegurar a reprodutibilidade.
+          </p>
+          <p>
+            O site também tem o código aberto e pertence a outro repositório, sinta-se à vontade
+            para explorá-lo, enviar sugestões, reportar bugs ou contribuir com o projeto.
+          </p>
+          <ul>
+            <li>
+              <a
+                href="https://github.com/pedro-mantovani/calculadora_ENEM"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Repositório original: código, metodologia e resultados ↗</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://github.com/pedro-mantovani/site_calculadora_ENEM"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Repositório do site ↗</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://download.inep.gov.br/publicacoes/institucionais/avaliacoes_e_exames_da_educacao_basica/entenda_a_sua_nota_no_enem_guia_do_participante.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Inep: Entenda sua nota no ENEM ↗</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/microdados/enem"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Inep: microdados do ENEM ↗</a
+              >
+            </li>
+          </ul>
+        </details>
+      </section>
+      <div class="page-cta">
+        <div>
+          <h2>Agora, veja a TRI nas suas respostas.</h2>
+          <p>Seu progresso fica salvo no mesmo navegador.</p>
+        </div>
+        <a class="btn-primary" href="index.html">Voltar à calculadora →</a>
+      </div>
+    </main>
+    <footer>
+      <div>
+        <a class="brand" href="index.html" aria-label="Meu ENEM — início"
+          ><span class="brand-icon" aria-hidden="true"
+            ><img src="favicon.svg" alt="" width="43" height="43" /></span
+          ><span
+            >Meu <span class="brand-accent">ENEM</span
+            ><span class="brand-sub">SEU ENEM, MAIS CLARO</span></span
+          ></a
+        >
+        <p>Menos mistério. Mais direção.</p>
+      </div>
+      <div class="footer-contact">
+        <strong>Feito para quem quer ir além.</strong
+        ><a href="sobre.html">Sobre Pedro e o projeto →</a
+        ><a href="mailto:pedro.mantovani6@usp.br">Fale com Pedro Mantovani ↗</a
+        ><a
+          href="https://github.com/pedro-mantovani/site_calculadora_ENEM"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Conheça o projeto no GitHub ↗</a
+        >
+      </div>
+      <small
+        >Projeto independente, sem vínculo com o INEP. A nota exibida é uma estimativa educacional
+        e, apesar de bem fundamentada, pode apresentar erros.</small
+      >
+    </footer>
+    <script src="ui-helpers.js"></script>
+    <script src="script.js"></script>
+    <script>
+      (() => {
+        "use strict";
+        // Interação específica desta página, para atualizar apenas este HTML.
+        const chart = document.getElementById("tri-chart-direct");
+        if (!chart) return;
+        const grid = document.getElementById("chart-grid");
+        const sliders = Object.fromEntries(
+          ["a", "b", "c", "theta"].map((id) => [id, document.getElementById("param-" + id)]),
+        );
+        const hit = document.getElementById("curve-hit");
+        const dot = document.getElementById("theta-dot");
+        const x = (t) => 70 + ((t + 4) / 8) * 570;
+        const y = (p) => 310 - p * 270;
+        const val = (id) => Number(sliders[id].value);
+        let mode = "move";
+        let drag = null;
+        const svgNS = "http://www.w3.org/2000/svg";
+        const add = (tag, attrs, text) => {
+          const node = document.createElementNS(svgNS, tag);
+          Object.entries(attrs).forEach(([name, value]) => node.setAttribute(name, value));
+          if (text !== undefined) node.textContent = text;
+          grid.appendChild(node);
+        };
+        grid.replaceChildren();
+        for (let i = 0; i <= 4; i++) {
+          const p = i / 4;
+          add("line", {
+            x1: 70,
+            x2: 640,
+            y1: y(p),
+            y2: y(p),
+            stroke: "#d9e2d3",
+            "stroke-dasharray": "4 5",
+          });
+          add("text", { x: 59, y: y(p) + 5, "text-anchor": "end" }, p * 100 + "%");
+        }
+        for (let t = -4; t <= 4; t++) add("text", { x: x(t), y: 336, "text-anchor": "middle" }, t);
 
-  function assign(id, value) {
-    const input = sliders[id];
-    const min = Number(input.min), max = Number(input.max), step = Number(input.step);
-    input.value = String(Math.max(min, Math.min(max, min + Math.round((value - min) / step) * step)));
-  }
-  function render() {
-    const a = val("a"), b = val("b"), c = val("c"), theta = val("theta");
-    const probability = t => c + (1 - c) / (1 + Math.exp(-a * (t - b)));
-    let d = "";
-    for (let i = 0; i <= 240; i++) {
-      const t = -4 + i / 240 * 8;
-      d += (i ? " L" : "M") + x(t).toFixed(2) + "," + y(probability(t)).toFixed(2);
-    }
-    document.getElementById("curve-path").setAttribute("d", d);
-    hit.setAttribute("d", d);
-    document.getElementById("curve-area").setAttribute("d", d + " L640,310 L70,310 Z");
-    dot.setAttribute("cx", x(theta)); dot.setAttribute("cy", y(probability(theta)));
-    const line = document.getElementById("theta-line");
-    Object.entries({x1:x(theta), x2:x(theta), y1:310, y2:y(probability(theta))}).forEach(([key, value]) => line.setAttribute(key, value));
-    Object.entries(sliders).forEach(([id, input]) => {
-      const formatted = val(id).toLocaleString("pt-BR", {minimumFractionDigits:2, maximumFractionDigits:2});
-      document.getElementById("value-" + id).textContent = formatted;
-      input.setAttribute("aria-valuetext", formatted);
-    });
-    dot.setAttribute("aria-valuemin", "-4"); dot.setAttribute("aria-valuemax", "4");
-    dot.setAttribute("aria-valuenow", theta);
-    dot.setAttribute("aria-valuetext", sliders.theta.getAttribute("aria-valuetext"));
-    const activeParam = mode === "scale" ? "a" : "b";
-    hit.setAttribute("aria-valuemin", sliders[activeParam].min);
-    hit.setAttribute("aria-valuemax", sliders[activeParam].max);
-    hit.setAttribute("aria-valuenow", val(activeParam));
-    hit.setAttribute("aria-valuetext", "a " + a.toLocaleString("pt-BR") + ", b " + b.toLocaleString("pt-BR") + ", c " + c.toLocaleString("pt-BR"));
-    document.getElementById("curve-readout").textContent = "Com θ = " + theta.toLocaleString("pt-BR") + ", a probabilidade de acerto deste item ilustrativo é " + (probability(theta) * 100).toLocaleString("pt-BR", {maximumFractionDigits:1}) + "%.";
-  }
-  function coordinate(event) {
-    const matrix = chart.getScreenCTM();
-    return matrix ? new DOMPoint(event.clientX, event.clientY).matrixTransform(matrix.inverse()) : null;
-  }
-  chart.addEventListener("pointerdown", event => {
-    if (event.target !== hit && event.target !== dot) return;
-    if (event.button !== 0) return;
-    const point = coordinate(event);
-    if (!point) return;
-    event.preventDefault();
-    event.target.focus({preventScroll:true});
-    drag = {pointer:event.pointerId, kind:event.target === dot ? "theta" : event.shiftKey || mode === "scale" ? "scale" : "move",
-      point, a:val("a"), b:val("b"), c:val("c"), theta:val("theta")};
-    chart.setPointerCapture(event.pointerId);
-    chart.classList.add("dragging");
-  });
-  chart.addEventListener("pointermove", event => {
-    if (!drag || event.pointerId !== drag.pointer) return;
-    const point = coordinate(event);
-    if (!point) return;
-    const dx = point.x - drag.point.x, dy = point.y - drag.point.y;
-    if (drag.kind === "theta") assign("theta", drag.theta + dx / 570 * 8);
-    else if (drag.kind === "scale") assign("a", drag.a * Math.exp(dx / 180));
-    else {
-      assign("b", drag.b + dx / 570 * 8);
-      assign("c", drag.c - dy / 270);
-    }
-    render();
-  });
-  const stop = () => {drag = null; chart.classList.remove("dragging");};
-  chart.addEventListener("pointerup", stop);
-  chart.addEventListener("pointercancel", stop);
-  chart.addEventListener("lostpointercapture", stop);
-  chart.addEventListener("keydown", event => {
-    if (event.target !== hit && event.target !== dot) return;
-    if (!["ArrowLeft", "ArrowRight", "ArrowUp", "ArrowDown", "Home", "End"].includes(event.key)) return;
-    event.preventDefault();
-    let id;
-    if (event.target === dot) id = "theta";
-    else if (event.shiftKey || mode === "scale") id = "a";
-    else id = ["ArrowUp", "ArrowDown"].includes(event.key) ? "c" : "b";
-    if (event.key === "Home") assign(id, Number(sliders[id].min));
-    else if (event.key === "End") assign(id, Number(sliders[id].max));
-    else assign(id, val(id) + (["ArrowRight", "ArrowUp"].includes(event.key) ? 1 : -1) * Number(sliders[id].step));
-    render();
-  });
-  document.querySelectorAll(".curve-mode").forEach(button => button.addEventListener("click", () => {
-    mode = button.dataset.mode;
-    chart.classList.toggle("scaling", mode === "scale");
-    document.querySelectorAll(".curve-mode").forEach(other => {
-      other.classList.toggle("active", other === button);
-      other.setAttribute("aria-pressed", String(other === button));
-    });
-    render();
-  }));
-  Object.values(sliders).forEach(input => input.addEventListener("input", render));
-  document.getElementById("reset-curve").addEventListener("click", () => {
-    Object.entries({a:1.2, b:0, c:0.2, theta:0}).forEach(([id, value]) => assign(id, value));
-    render();
-  });
-  render();
-})();
-
-</script><noscript><div class="noscript-note">Ative o JavaScript para usar a calculadora e as experiências interativas.</div></noscript></body></html>
+        function assign(id, value) {
+          const input = sliders[id];
+          const min = Number(input.min),
+            max = Number(input.max),
+            step = Number(input.step);
+          input.value = String(
+            Math.max(min, Math.min(max, min + Math.round((value - min) / step) * step)),
+          );
+        }
+        function render() {
+          const a = val("a"),
+            b = val("b"),
+            c = val("c"),
+            theta = val("theta");
+          const probability = (t) => c + (1 - c) / (1 + Math.exp(-a * (t - b)));
+          let d = "";
+          for (let i = 0; i <= 240; i++) {
+            const t = -4 + (i / 240) * 8;
+            d += (i ? " L" : "M") + x(t).toFixed(2) + "," + y(probability(t)).toFixed(2);
+          }
+          document.getElementById("curve-path").setAttribute("d", d);
+          hit.setAttribute("d", d);
+          document.getElementById("curve-area").setAttribute("d", d + " L640,310 L70,310 Z");
+          dot.setAttribute("cx", x(theta));
+          dot.setAttribute("cy", y(probability(theta)));
+          const line = document.getElementById("theta-line");
+          Object.entries({
+            x1: x(theta),
+            x2: x(theta),
+            y1: 310,
+            y2: y(probability(theta)),
+          }).forEach(([key, value]) => line.setAttribute(key, value));
+          Object.entries(sliders).forEach(([id, input]) => {
+            const formatted = val(id).toLocaleString("pt-BR", {
+              minimumFractionDigits: 2,
+              maximumFractionDigits: 2,
+            });
+            document.getElementById("value-" + id).textContent = formatted;
+            input.setAttribute("aria-valuetext", formatted);
+          });
+          dot.setAttribute("aria-valuemin", "-4");
+          dot.setAttribute("aria-valuemax", "4");
+          dot.setAttribute("aria-valuenow", theta);
+          dot.setAttribute("aria-valuetext", sliders.theta.getAttribute("aria-valuetext"));
+          const activeParam = mode === "scale" ? "a" : "b";
+          hit.setAttribute("aria-valuemin", sliders[activeParam].min);
+          hit.setAttribute("aria-valuemax", sliders[activeParam].max);
+          hit.setAttribute("aria-valuenow", val(activeParam));
+          hit.setAttribute(
+            "aria-valuetext",
+            "a " +
+              a.toLocaleString("pt-BR") +
+              ", b " +
+              b.toLocaleString("pt-BR") +
+              ", c " +
+              c.toLocaleString("pt-BR"),
+          );
+          document.getElementById("curve-readout").textContent =
+            "Com θ = " +
+            theta.toLocaleString("pt-BR") +
+            ", a probabilidade de acerto deste item ilustrativo é " +
+            (probability(theta) * 100).toLocaleString("pt-BR", { maximumFractionDigits: 1 }) +
+            "%.";
+        }
+        function coordinate(event) {
+          const matrix = chart.getScreenCTM();
+          return matrix
+            ? new DOMPoint(event.clientX, event.clientY).matrixTransform(matrix.inverse())
+            : null;
+        }
+        chart.addEventListener("pointerdown", (event) => {
+          if (event.target !== hit && event.target !== dot) return;
+          if (event.button !== 0) return;
+          const point = coordinate(event);
+          if (!point) return;
+          event.preventDefault();
+          event.target.focus({ preventScroll: true });
+          drag = {
+            pointer: event.pointerId,
+            kind:
+              event.target === dot
+                ? "theta"
+                : event.shiftKey || mode === "scale"
+                  ? "scale"
+                  : "move",
+            point,
+            a: val("a"),
+            b: val("b"),
+            c: val("c"),
+            theta: val("theta"),
+          };
+          chart.setPointerCapture(event.pointerId);
+          chart.classList.add("dragging");
+        });
+        chart.addEventListener("pointermove", (event) => {
+          if (!drag || event.pointerId !== drag.pointer) return;
+          const point = coordinate(event);
+          if (!point) return;
+          const dx = point.x - drag.point.x,
+            dy = point.y - drag.point.y;
+          if (drag.kind === "theta") assign("theta", drag.theta + (dx / 570) * 8);
+          else if (drag.kind === "scale") assign("a", drag.a * Math.exp(dx / 180));
+          else {
+            assign("b", drag.b + (dx / 570) * 8);
+            assign("c", drag.c - dy / 270);
+          }
+          render();
+        });
+        const stop = () => {
+          drag = null;
+          chart.classList.remove("dragging");
+        };
+        chart.addEventListener("pointerup", stop);
+        chart.addEventListener("pointercancel", stop);
+        chart.addEventListener("lostpointercapture", stop);
+        chart.addEventListener("keydown", (event) => {
+          if (event.target !== hit && event.target !== dot) return;
+          if (
+            !["ArrowLeft", "ArrowRight", "ArrowUp", "ArrowDown", "Home", "End"].includes(event.key)
+          )
+            return;
+          event.preventDefault();
+          let id;
+          if (event.target === dot) id = "theta";
+          else if (event.shiftKey || mode === "scale") id = "a";
+          else id = ["ArrowUp", "ArrowDown"].includes(event.key) ? "c" : "b";
+          if (event.key === "Home") assign(id, Number(sliders[id].min));
+          else if (event.key === "End") assign(id, Number(sliders[id].max));
+          else
+            assign(
+              id,
+              val(id) +
+                (["ArrowRight", "ArrowUp"].includes(event.key) ? 1 : -1) * Number(sliders[id].step),
+            );
+          render();
+        });
+        document.querySelectorAll(".curve-mode").forEach((button) =>
+          button.addEventListener("click", () => {
+            mode = button.dataset.mode;
+            chart.classList.toggle("scaling", mode === "scale");
+            document.querySelectorAll(".curve-mode").forEach((other) => {
+              other.classList.toggle("active", other === button);
+              other.setAttribute("aria-pressed", String(other === button));
+            });
+            render();
+          }),
+        );
+        Object.values(sliders).forEach((input) => input.addEventListener("input", render));
+        document.getElementById("reset-curve").addEventListener("click", () => {
+          Object.entries({ a: 1.2, b: 0, c: 0.2, theta: 0 }).forEach(([id, value]) =>
+            assign(id, value),
+          );
+          render();
+        });
+        render();
+      })();
+    </script>
+    <noscript
+      ><div class="noscript-note">
+        Ative o JavaScript para usar a calculadora e as experiências interativas.
+      </div></noscript
+    >
+  </body>
+</html>
